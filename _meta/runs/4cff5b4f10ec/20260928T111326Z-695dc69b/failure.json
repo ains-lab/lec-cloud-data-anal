@@ -1,0 +1,7 @@
+{
+  "run_id": "20260928T111326Z-695dc69b",
+  "status": "failed",
+  "failed_at": "2026-09-28T11:17:27.013369+00:00",
+  "error": "Title identity mismatch: 2609.30830v1",
+  "error_type": "AssertionError"
+}

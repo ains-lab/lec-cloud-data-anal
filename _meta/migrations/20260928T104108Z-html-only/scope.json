@@ -1,0 +1,239 @@
+{
+  "schema": "html-original-migration/v1",
+  "run_id": "20260928T104108Z-html-only",
+  "root": "/home/ainsdev/wiki/pkm-articles",
+  "cron_id": "4cff5b4f10ec",
+  "approval": {
+    "permanent_delete_without_new_backup": true,
+    "resume_html_only_cron_after_verification": true,
+    "compile_wiki_now": false,
+    "delete_pdf_even_when_html_unavailable": true
+  },
+  "sources": [
+    {
+      "source": "arxiv",
+      "base_id": "2609.30217",
+      "version_id": "2609.30217v1",
+      "title": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
+      "authors": [
+        "David Schmotz",
+        "Derck Prinzhorn",
+        "Luca Beurer-Kellner",
+        "Anselm Paulus",
+        "Ameya Prabhu",
+        "Maksym Andriushchenko"
+      ],
+      "abstract": "A central concern in AI safety is that agents may treat oversight as an obstacle when it conflicts with completing their goals. We study instrumental evasion, the propensity of LLM agents to circumvent runtime monitoring as a means of completing ordinary tasks. We introduce EvasionBench, a benchmark of 50 diverse task-policy pairs in which completing the task requires an operation prohibited by a runtime monitor. Agents know that their tool calls are monitored and are prompted to continue working when they pause. Across our evaluations, best-of-3 evasion attempt rates reach up to 98% and success rates up to 88%, with substantial variance across models. Claude Fable 5.1 succeeds less often, but frequently makes creative attempts to circumvent the monitor. Evasion generally increases with test-time compute, with higher evasion rates at greater reasoning effort and token use. Traces show that agents encode prohibited commands, decompose operations across tool calls, and retry until relevant context leaves the monitor's history. We also find that GPT-6 Astra's low evasion rate comes with overrefusal, as it frequently abandons otherwise solvable tasks under a denial-of-service prompt injection. Our findings show that ordinary task pressure can lead to adaptive attempts to evade runtime monitors without an explicit adversarial objective. Effective oversight must therefore remain robust against repeated attempts, as the persistence that helps agents solve difficult tasks can also drive them to circumvent their guardrails.",
+      "published": "2026-09-24T17:46:27Z",
+      "updated": "2026-09-24T17:46:27Z",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "owning_cron_id": "4cff5b4f10ec"
+    },
+    {
+      "source": "arxiv",
+      "base_id": "2609.30266",
+      "version_id": "2609.30266v1",
+      "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+      "authors": [
+        "Jeremy Qin",
+        "David Schmotz",
+        "Derck Prinzhorn",
+        "Luca Beurer-Kellner",
+        "Ameya Prabhu",
+        "Maksym Andriushchenko"
+      ],
+      "abstract": "Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own execution traces. We show that local LLM agents such as Claude Code, Codex, Antigravity, Open Code and Grok Build fail to enforce this boundary. All tested harnesses, except Muse Code, allowed agents to delete their traces when asked, without triggering monitor guardrails. We also validate that external attackers can exploit this gap to induce trace deletion. Finally, we show that trace tampering behavior emerges naturally in frontier models, when agents try to improve their rewards. We advise practitioners to ensure trace logging happens through an independent interception mechanism outside of the agent's control, preserving trace integrity even in cases of full host compromise. Overall, our findings identify a concrete failure of trace integrity in agent infrastructure which can be used to conceal misaligned behaviors like scheming or sabotage.",
+      "published": "2026-09-24T17:59:54Z",
+      "updated": "2026-09-24T17:59:54Z",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "owning_cron_id": "4cff5b4f10ec"
+    },
+    {
+      "source": "arxiv",
+      "base_id": "2609.30614",
+      "version_id": "2609.30614v1",
+      "title": "Subjects, Not Authors: The Authorship Hazard in Agentic Dataspaces",
+      "authors": [
+        "Seungho Lee",
+        "Changbin Lee"
+      ],
+      "abstract": "Dataspace connectors decide whether a transfer may occur, not what the transferred value contains, tolerable for contracted applications, not for LLM agents that compose tool calls and spawn sub-agents. Research on agents that generate governance artifacts evaluates output quality; who may authorize an artifact for use falls between that literature and the governance literature, and neither owns it. A published policy is what a dataspace's decision point enforces, so publication is a governance event, and an agent that is both policy subject and policy author writes the norms that bind it. We name this the authorship hazard and state one principle: an agent is a subject of the governance plane, never an author of it. Its authorization channel to publication is closed by construction; its influence channel, drafting what humans approve, is treated as an enforcement problem. On a frozen corpus of agent drafts, publishing without approval reverses 80 authorization decisions, most through drafts that change only a field's sensitivity classification and no policy text; a classifier that reads the policy diff misses every such draft, necessarily. Treating classification as authorship routes them all to review; the registry-held classification this requires is designed and modelled here, not yet implemented in the prototype. At the execution boundary, protected fields reach the model in 105 of 105 cases under prompt-stated duties and in 0 of 105 when the ODRL duty is compiled into an invocation-time tool-call constraint, but where the value is not confined to a named field the compiled condition exposes it in 7 of 7. A centrally provisioned approval pool does not scale to the participant volume that motivates the problem.",
+      "published": "2026-09-24T22:58:16Z",
+      "updated": "2026-09-24T22:58:16Z",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.DB",
+        "cs.MA"
+      ],
+      "owning_cron_id": "4cff5b4f10ec"
+    },
+    {
+      "source": "arxiv",
+      "base_id": "2609.30824",
+      "version_id": "2609.30824v1",
+      "title": "Crypto-bound identity-verified capability tokens for coordinating distributed AI agents: A proposal",
+      "authors": [
+        "Srikumar Subramanian",
+        "Shubhashis Sengupta"
+      ],
+      "abstract": "The prospect of fully autonomous transactional agents did not appear on the horizon until the advent of high capability language models. With such models, the operational benefits of adaptive task orchestration and independent (but constrained) decision making are tantalizing for enterprises and individuals alike. However, each such agent carries with it a serious attack surface in the form of prompt injection which can compromise any soft \"guard rails\" that may have been placed in context. The consequences of these attacks include credential ex-filtration which, if left unmitigated, renders the whole category of such agents unusable due to breach of trust. Furthermore, expecting a growth of autonomous agents, a security framework for them would require a form of decentralization to scale. Drawing on the proposed OAuth Agent Authorization Profile and the W3C DID and VC standards, we propose a framework based on the principles of capability based security with decentralized agent identity whereby agents access services based on tokens that are cryptographically bound to the agent's and issuer's identities and specify their scope. Services can validate that the delegation chain only involves scope attenuation before acting on any given token. We show that such a layer that lives outside the language model's context window in a secure module can enable agents to act within enforceable security boundaries.",
+      "published": "2026-09-25T05:07:28Z",
+      "updated": "2026-09-25T05:07:28Z",
+      "categories": [
+        "cs.CR"
+      ],
+      "owning_cron_id": "4cff5b4f10ec"
+    },
+    {
+      "source": "arxiv",
+      "base_id": "2609.30830",
+      "version_id": "2609.30830v1",
+      "title": "AGATE: Provenance-Based Runtime Defense Against Compositional Attacks on LLM Agents",
+      "authors": [
+        "Xiaorui Zhang",
+        "Zhuoran Cheng",
+        "Kailin Liu",
+        "Zhaoxi Sun",
+        "Shiyu Fan",
+        "Tongyu Yuan",
+        "Bin Yuan",
+        "Weizhong Qiang",
+        "Deqing Zou"
+      ],
+      "abstract": "LLM agents can produce harmful effects through sequences of ordinary operations. Judging such actions requires establishing both the authority that permits them and the origin of the data they carry. We present AGATE, an authorization and data-provenance gate at instrumented agent-harness boundaries. Operator declarations and host approval events ground authorization; delegated actions are constrained by grants that bind to exact parameters, expire, and permit a limited number of uses. Source registration connects observed inputs to subsequent transfers, while an effect ledger tracks repeated requests. Deterministic checks make decisions without an LLM in the decision path and retain their grounds with execution evidence for forensic replay. Adapters integrate three production harnesses -- DeepSeek Harness, OpenCode, and OpenClaw -- without modifying host code, translating each host's native observation and veto points into a single shared gate interface; the judgment core is identical in all three, and only enforcement depth differs. Our evaluation combines 153 exercised attack-chain records with deployment, utility, and reconstruction experiments. The deployment observations expose how tool declarations and data checks govern business actions, including a bypass through parameter rewriting. Six of eleven benign file-processing scenarios contain denial events, revealing the utility cost of content-based provenance policies. Across 252 runs on 63 sanitized scenarios, replay agrees with live graph projections for all 63 scenarios on each of two platforms. These results establish the feasibility of provenance-based runtime judgment and identify content transformation, legitimate reuse, and observation coverage as concrete limits.",
+      "published": "2026-09-25T05:18:02Z",
+      "updated": "2026-09-25T05:18:02Z",
+      "categories": [
+        "cs.CR",
+        "cs.SE"
+      ],
+      "owning_cron_id": "4cff5b4f10ec"
+    },
+    {
+      "source": "arxiv",
+      "base_id": "2609.30940",
+      "version_id": "2609.30940v1",
+      "title": "Financial Fragility in Societies of LLM Agents: Coordination Failures and Stabilizing Mechanisms",
+      "authors": [
+        "Zhenhao Fu",
+        "Ruipeng Xu",
+        "Qibing Ren"
+      ],
+      "abstract": "Individually protective decisions can produce avoidable collective failures. As large language model (LLM) agents take on greater roles in financial decision-making, financial AI safety must therefore be considered not only at the level of individual agents, but also at the level of the systems they jointly create. We study this problem with FRAIL, a controlled experimental framework that places LLM agents in three dynamic financial environments---bank runs, debt rollover, and reward crowdfunding---where agents' decisions reshape the financial conditions faced by others. Across seven leading LLMs, we find widespread collective fragility even when no agent is instructed to destabilize the system: 77\\% of baseline bank-run episodes and 83\\% of debt-rollover episodes end in failure. We then compare three interaction mechanisms based on compensated commitments, centralized commitment agreements, and participant-led coalitions. All three improve aggregate outcomes, but no single mechanism performs best across all financial structures. Across mechanisms, successful stabilization shares a common temporal pattern: broad commitment forms early, before defensive behavior becomes self-reinforcing. Our findings show that individually capable agents do not automatically form safe financial systems, highlighting system-level evaluation and interaction design as central problems for financial AI safety. Code is available at https://anonymous.4open.science/r/FinFrail-CF26.",
+      "published": "2026-09-25T07:55:14Z",
+      "updated": "2026-09-25T07:55:14Z",
+      "categories": [
+        "cs.AI",
+        "q-fin.GN"
+      ],
+      "owning_cron_id": "4cff5b4f10ec"
+    },
+    {
+      "source": "arxiv",
+      "base_id": "2609.31039",
+      "version_id": "2609.31039v1",
+      "title": "MetaPermit: Scalable and Auditable Access Control for AI Agents via LLM-Inferred Meta-Attributes",
+      "authors": [
+        "Hanzhang Ma",
+        "Ali Hariri",
+        "Tianxiang Shen",
+        "Bohua Zou",
+        "Qianjun Zheng",
+        "Ji Wang",
+        "Li Yi",
+        "Ning Jia",
+        "Yutao Liu",
+        "Haibo Chen",
+        "Lin Wang",
+        "Debayan Roy"
+      ],
+      "abstract": "The rise of autonomous AI agents equipped with tools has introduced significant security risks, ranging from unintended tool misuse to adversarial manipulation through Indirect Prompt Injection (IPI) attacks. In practice, deployed agent systems such as OpenAI Codex and Claude Code protect tool invocations through a combination of coarse-grained permission rules and LLM-based judgments about individual proposed actions. Both components, however, have important limitations: static policies must anticipate possible user intents and therefore do not scale to open-ended tasks, while LLM-driven authorization supports dynamic decisions but produces inconsistent outcomes and remains vulnerable to targeted IPI attacks. To provide scalable and more consistent authorization, we propose MetaPermit, a policy-based tool access-control framework that decouples semantic inference from security enforcement. By analyzing agent-user interactions, we derive a compact, task-independent set of meta-attributes that capture the relationships among the user's intent, the execution context, and the proposed tool call. These meta-attributes allow MetaPermit to authorize tool use without enumerating user intents. At runtime, an LLM infers the meta-attribute values for each proposed tool call, while a fixed policy evaluates these values to allow or deny the call, making each decision auditable through the inferred values and the applied policy rule. We evaluate MetaPermit on the AgentDojo and AgentDyn benchmarks, across seven task suites and five attack methods, using two widely deployed open-weight LLMs. The results show that MetaPermit produces 31% more consistent authorization decisions than LLM-driven authorization and outperforms the state-of-the-art defenses CaMeL and IPIGuard in both task completion, with improvements of up to 109%, and robustness to IPI attacks, with no malicious tool calls executed.",
+      "published": "2026-09-25T09:32:31Z",
+      "updated": "2026-09-25T09:32:31Z",
+      "categories": [
+        "cs.CR",
+        "cs.SE"
+      ],
+      "owning_cron_id": "4cff5b4f10ec"
+    },
+    {
+      "source": "arxiv",
+      "base_id": "2609.31318",
+      "version_id": "2609.31318v1",
+      "title": "AgentXploit: Autonomous Repository-to-Runtime Red-Teaming for AI Agents",
+      "authors": [
+        "Weida Liang",
+        "Shi Qiu",
+        "Zhun Wang",
+        "Simon Sure",
+        "Xiaoyuan Liu",
+        "Tianneng Shi",
+        "Zhaorun Chen",
+        "Wenbo Guo",
+        "Dawn Song"
+      ],
+      "abstract": "AI agents combine language models with external data and tools that can modify files, call APIs, or execute code. Security failures can arise when adversarial content changes an agent's tool use or when the surrounding software contains vulnerabilities such as path traversal or command injection. We study authorized white-box pre-deployment auditing, where the auditor has access to the target repository and a controlled runtime, but successful attacks must still act through the task-defined attacker interface and be confirmed by an external verifier. We present AgentXploit, a two-role auditing system that separates repository-level attack-path discovery from runtime exploitation. The Analyzer Agent traces attacker-controlled inputs to sensitive operations and records code-supported candidate attack paths; the Exploiter Agent turns these paths into concrete attacks and revises them using runtime feedback. We also introduce AgentXploit-Bench, containing 72 reproducible vulnerabilities across 12 open-source AI-agent systems and frameworks. Across three runs, AgentXploit reaches 59.3% end-to-end success, compared with 38.4% for Codex. Under a token-budget-matched comparison, Codex reaches 46.3%. On AgentDojo, where injection points are provided, the Exploiter Agent reaches 79.2% attack success versus 52.7% for AgentVigil. These results highlight repository discovery and runtime exploitation as distinct challenges in end-to-end agent security auditing.",
+      "published": "2026-09-25T14:26:04Z",
+      "updated": "2026-09-25T14:26:04Z",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "owning_cron_id": "4cff5b4f10ec"
+    },
+    {
+      "source": "arxiv",
+      "base_id": "2609.31358",
+      "version_id": "2609.31358v1",
+      "title": "A Safety-Bounded SDC-to-MCP Gateway for Medical AI Agents",
+      "authors": [
+        "Bennet Gerlach",
+        "Stefan Fischer"
+      ],
+      "abstract": "The Model Context Protocol (MCP) provides a common interface through which AI applications discover and use external resources and tools. It allows language-model agents to ground their reasoning in current system state and interact with heterogeneous services. In medical environments, however, exposing device state and action affordances requires deterministic constraints on possible effects. We present an IEEE 11073 Service-Oriented Device Connectivity (SDC)-to-MCP gateway that exposes metrics, alarms, context references, and semantic metadata as read-only resources, while representing selected action affordances as policy-validated dry-run tools. The term safety-bounded denotes a narrow no-execution property: agent-facing requests dispatch no SDC device operation. A Python prototype supports simulated fault and lifecycle experiments, a software-reference protocol path spanning independent Java and Python implementations, deterministic baselines, representation ablations, and multi-model agent evaluation. The results show semantically explicit resource exposure, visible rejection of invalid or outdated state, and preservation of the no-execution boundary across resource, proposal, and authorization paths. Explicit semantic metadata improved conformity to required metric identifiers in structured alarm outputs relative to a generic representation, while retained structured-output failures reveal a distinction between plausible narrative answers and task-compliant machine-readable results.",
+      "published": "2026-09-25T14:54:21Z",
+      "updated": "2026-09-25T14:54:21Z",
+      "categories": [
+        "cs.DC",
+        "cs.AI"
+      ],
+      "owning_cron_id": "4cff5b4f10ec"
+    },
+    {
+      "source": "arxiv",
+      "base_id": "2609.31562",
+      "version_id": "2609.31562v1",
+      "title": "Agentic Economies for Autonomous Scientific Discovery",
+      "authors": [
+        "Nenad Tomasev",
+        "Matija Franklin",
+        "Atoosa Kasirzadeh",
+        "Vivek Natarajan",
+        "Alan Karthikesalingam",
+        "Sebastien Krier",
+        "Simon Osindero"
+      ],
+      "abstract": "Recent advances in agentic Artificial Intelligence (AI) systems have marked a shift in AI for Science: moving away from the use of individual AI systems for narrow task execution, toward multi-agent systems capable of orchestrating complex, end-to-end research workflows and performing (semi-)autonomous scientific discovery. The development of multi-agent AI-for-science systems has primarily focused on improving the cognitive capabilities of AI systems, specifically by making advanced reasoning and hypothesis generation more reliable. However, focusing only on cognitive capability improvement could ignore appropriate management of resources, a key bottleneck in scientific discovery. Testing and validating scientific hypotheses and experiments is, physically and economically, resource-intensive and resources are limited. This means that to make significant advancements in autonomous scientific discovery, such as improving human-AI co-scientist complementarity or reaching a truly closed-loop automated process, we must pair ongoing improvements in reasoning capabilities with robust resource management. In this paper, we outline an infrastructure for AI resource management by developing the necessary foundations of scientific agent economies, markets, and institutions. The aim of this infrastructure is to empower AI agents and human scientists to effectively (i) collaborate and establish research priorities, (ii) assign credit, (iii) track accountability and liability, and (iv) safeguard against malicious use and information security risks. Finally, we engage with the macro-level societal implications. of (semi-)autonomous scientific discovery to inform the development of governance policies ensuring an equitable distribution of AI-driven discoveries and derivative future technologies.",
+      "published": "2026-09-25T17:28:53Z",
+      "updated": "2026-09-25T17:28:53Z",
+      "categories": [
+        "cs.CY"
+      ],
+      "owning_cron_id": "4cff5b4f10ec"
+    }
+  ],
+  "status": "completed_with_2_official_html_unavailable",
+  "expected_papers": 10,
+  "notes": [
+    "No old backups will be opened or removed.",
+    "Keep original returned HTML unchanged; no extraction, rewriting, figure/table assets, OCR or LLM parsing."
+  ],
+  "completed_at": "2026-09-28T10:55:48.928660+00:00"
+}

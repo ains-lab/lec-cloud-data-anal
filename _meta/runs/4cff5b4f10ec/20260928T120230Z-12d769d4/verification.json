@@ -1,0 +1,73 @@
+{
+  "schema": "observed_check_results/v1",
+  "checked_at": "2026-09-28T12:07:33.873416+00:00",
+  "verdict": "PASS",
+  "source": "native terminal python3 read-back, XML and local byte/hash checks",
+  "exit_status": 0,
+  "stale_output": false,
+  "state_readback_exact": true,
+  "report_readback_exact": true,
+  "index_links_verified": 36,
+  "index_target_ids_count": 10,
+  "protected_files_unchanged": 20,
+  "log_append_only_verified": true,
+  "counts": {
+    "search_pages": 1,
+    "search_records_validated": 100,
+    "candidates_in_window": 0,
+    "new_html_saved": 0,
+    "duplicates_processed": 0,
+    "new_html_unavailable": 0,
+    "source_failures": 0,
+    "unrecovered_core_failures": 0,
+    "recovered_api_transport_failures": 0,
+    "existing_html_verified": 8,
+    "existing_html_unavailable_not_due": 2,
+    "html_files": 8,
+    "source_json_files": 8,
+    "reference_json_files": 0,
+    "knowledge_pages": 0,
+    "new_daily_attempts": 0,
+    "existing_daily_attempts_preserved": 10,
+    "pending": 0,
+    "total_targets": 10
+  },
+  "not_applicable": [
+    "build",
+    "lint",
+    "typecheck",
+    "unit/integration/e2e tests",
+    "CI",
+    "merge"
+  ],
+  "evidence_sha256": {
+    "_meta/runs/4cff5b4f10ec/20260928T120230Z-12d769d4/report.json": {
+      "bytes": 3161,
+      "sha256": "6f7f9bafee9fd606d30784b33518214a3d2303aae4ab2519f2740b4ea19c41e3"
+    },
+    "_meta/runs/4cff5b4f10ec/20260928T120230Z-12d769d4/run-start.json": {
+      "bytes": 14358,
+      "sha256": "2a893d232c6c59fa3b722b301e0d6d8aedb7f25cba27a216d4f817e5f7c0c6b5"
+    },
+    "_meta/runs/4cff5b4f10ec/20260928T120230Z-12d769d4/search-commit.json": {
+      "bytes": 703,
+      "sha256": "f61a713de0ab90a144d03c1f9b7b47770f33c89d6f17c4d9635016644f59c892"
+    },
+    "_meta/runs/4cff5b4f10ec/20260928T120230Z-12d769d4/search-page-000-http.json": {
+      "bytes": 1852,
+      "sha256": "81a242e15053ea9cb629bcf7f9f0fc1d56325049f5a8111ed44d5bbf3b00cb4f"
+    },
+    "_meta/runs/4cff5b4f10ec/20260928T120230Z-12d769d4/search-page-000-http.xml": {
+      "bytes": 263335,
+      "sha256": "a97cd526662891ef4303709d37604afb485eb76c83dfcce46e1607e6c2269122"
+    },
+    "_meta/runs/4cff5b4f10ec/20260928T120230Z-12d769d4/search-validation.json": {
+      "bytes": 212250,
+      "sha256": "e97400982ef6d042e9eeda71086807fc845969b21ce2f9044fa38bd71e8f578b"
+    },
+    "_meta/runs/4cff5b4f10ec/20260928T120230Z-12d769d4/source-validation.json": {
+      "bytes": 6412,
+      "sha256": "57f9afe81b2d7679bb428497bf593c0e3a4300a45149e9a4eb593ec490bda7cf"
+    }
+  }
+}

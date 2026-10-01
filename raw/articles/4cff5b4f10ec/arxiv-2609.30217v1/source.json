@@ -1,0 +1,41 @@
+{
+  "schema": "arxiv-html-source/v1",
+  "source": "arxiv",
+  "base_id": "2609.30217",
+  "version_id": "2609.30217v1",
+  "title": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
+  "authors": [
+    "David Schmotz",
+    "Derck Prinzhorn",
+    "Luca Beurer-Kellner",
+    "Anselm Paulus",
+    "Ameya Prabhu",
+    "Maksym Andriushchenko"
+  ],
+  "abstract": "A central concern in AI safety is that agents may treat oversight as an obstacle when it conflicts with completing their goals. We study instrumental evasion, the propensity of LLM agents to circumvent runtime monitoring as a means of completing ordinary tasks. We introduce EvasionBench, a benchmark of 50 diverse task-policy pairs in which completing the task requires an operation prohibited by a runtime monitor. Agents know that their tool calls are monitored and are prompted to continue working when they pause. Across our evaluations, best-of-3 evasion attempt rates reach up to 98% and success rates up to 88%, with substantial variance across models. Claude Fable 5.1 succeeds less often, but frequently makes creative attempts to circumvent the monitor. Evasion generally increases with test-time compute, with higher evasion rates at greater reasoning effort and token use. Traces show that agents encode prohibited commands, decompose operations across tool calls, and retry until relevant context leaves the monitor's history. We also find that GPT-6 Astra's low evasion rate comes with overrefusal, as it frequently abandons otherwise solvable tasks under a denial-of-service prompt injection. Our findings show that ordinary task pressure can lead to adaptive attempts to evade runtime monitors without an explicit adversarial objective. Effective oversight must therefore remain robust against repeated attempts, as the persistence that helps agents solve difficult tasks can also drive them to circumvent their guardrails.",
+  "published": "2026-09-24T17:46:27Z",
+  "updated": "2026-09-24T17:46:27Z",
+  "categories": [
+    "cs.CR",
+    "cs.AI"
+  ],
+  "owning_cron_id": "4cff5b4f10ec",
+  "source_url": "https://arxiv.org/html/2609.30217v1",
+  "abs_url": "https://arxiv.org/abs/2609.30217v1",
+  "collected_at": "2026-09-28T10:42:11.138705+00:00",
+  "html_file": "source.html",
+  "html_sha256": "7f74fee3e1200324747b62e25a142016b839871f5117bf2b772586bad851f743",
+  "html_bytes": 926811,
+  "http_status": 200,
+  "final_url": "https://arxiv.org/html/2609.30217v1",
+  "content_type": "text/html; charset=utf-8",
+  "charset": "utf-8",
+  "capture_method": "http_response_body_no_rewrite",
+  "content_scope": "html_fulltext_as_served",
+  "preprocessing": false,
+  "wiki_compiled": false,
+  "offline_assets_bundled": false,
+  "pipeline_id": "arxiv-html-original/v1",
+  "collection_status": "captured",
+  "migration_run": "20260928T104108Z-html-only"
+}

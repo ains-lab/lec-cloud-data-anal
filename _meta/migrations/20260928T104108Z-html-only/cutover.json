@@ -1,0 +1,72 @@
+{
+  "run_id": "20260928T104108Z-html-only",
+  "backup_created": false,
+  "status": "published_html_only",
+  "deleted": [
+    "raw/articles/4cff5b4f10ec/arxiv-2609.30217v1",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.30266v1",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.30614v1",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.30824v1",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.30830v1",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.30940v1",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.31039v1",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.31318v1",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.31358v1",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.31562v1",
+    "_meta/staging/4cff5b4f10ec",
+    "_meta/validation",
+    "_meta/runs/4cff5b4f10ec",
+    "_meta/pdf-env",
+    "_meta/pdf-requirements.txt",
+    "_meta/page-parsing-prompt.txt",
+    "_meta/text-structuring-prompt.txt",
+    "_meta/PARSING-STRATEGY-PROPOSAL.md"
+  ],
+  "published": [
+    {
+      "version_id": "2609.30217v1",
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.30217v1",
+      "html_sha256": "7f74fee3e1200324747b62e25a142016b839871f5117bf2b772586bad851f743"
+    },
+    {
+      "version_id": "2609.30266v1",
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.30266v1",
+      "html_sha256": "2a52cc8f9cf410edc1de0fb1a192c313fdfcff0d31f5e37f2d32138a92c6376c"
+    },
+    {
+      "version_id": "2609.30830v1",
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.30830v1",
+      "html_sha256": "89d515e6c33de5717ff141a6d9726830a01798e6dfead198c9f0525f0261d074"
+    },
+    {
+      "version_id": "2609.30940v1",
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.30940v1",
+      "html_sha256": "c8acc008c08916f78cd678d295f7f49bb2a0997fe6d32dfa800069afb1a4c933"
+    },
+    {
+      "version_id": "2609.31039v1",
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.31039v1",
+      "html_sha256": "8690d6fe68a38faf5189ab1ba1eab739b60c769444edef101727f2e0327e0f41"
+    },
+    {
+      "version_id": "2609.31318v1",
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.31318v1",
+      "html_sha256": "c80b1c5c4eb17ebb5cf851d488225e50ab588e17dd44647d584e99a163307ade"
+    },
+    {
+      "version_id": "2609.31358v1",
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.31358v1",
+      "html_sha256": "cfee938c27d5b30fb053d251d2bd1b1a6ac259b775582fe05558a370ddac566e"
+    },
+    {
+      "version_id": "2609.31562v1",
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.31562v1",
+      "html_sha256": "5e77c259ae49f74d6919ab38ebe79061ec24d0d8a61b71e1f7f448d3b5ebb8ac"
+    }
+  ],
+  "finished_at": "2026-09-28T10:50:35.271212+00:00",
+  "html_available": 8,
+  "html_unavailable": 2,
+  "deleted_files": 1805,
+  "deleted_bytes": 310455953
+}

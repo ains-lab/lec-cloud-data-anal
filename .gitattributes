@@ -1,0 +1,2 @@
+# Preserve downloaded arXiv HTML bytes across Git checkouts.
+raw/**/source.html -text

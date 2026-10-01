@@ -1,0 +1,71 @@
+{
+  "schema": "arxiv-html-collection-run/v1",
+  "run_id": "20260928T111326Z-695dc69b",
+  "cron_id": "4cff5b4f10ec",
+  "pipeline_id": "arxiv-html-original/v1",
+  "started_at": "2026-09-28T11:13:26.978196+00:00",
+  "finished_at": "2026-09-28T11:19:53.553364+00:00",
+  "kst_date": "2026-09-28",
+  "status": "completed_zero_results",
+  "counts": {
+    "search_pages": 1,
+    "search_records_validated": 100,
+    "candidates_in_window": 0,
+    "new_html_saved": 0,
+    "duplicates_processed": 0,
+    "new_html_unavailable": 0,
+    "source_failures": 0,
+    "unrecovered_core_failures": 0,
+    "recovered_api_transport_failures": 1,
+    "recovered_local_title_check_failures": 1,
+    "existing_html_verified": 8,
+    "existing_html_unavailable_not_due": 2,
+    "html_files": 8,
+    "source_json_files": 8,
+    "knowledge_pages": 0,
+    "new_daily_attempts": 0,
+    "existing_daily_attempts_preserved": 10,
+    "pending": 0
+  },
+  "search_window": {
+    "lower": "2026-09-27T07:07:13.632288+00:00",
+    "upper": "2026-09-28T11:13:26.978196+00:00"
+  },
+  "search_complete": true,
+  "checkpoint_before": "2026-09-28T07:07:13.632288+00:00",
+  "checkpoint_after": "2026-09-28T11:13:26.978196+00:00",
+  "transport_recovery": {
+    "direct_http_status": 406,
+    "same_request_browser_atom_validated": true,
+    "browser_evidence_is_dom_text_not_http_bytes": true
+  },
+  "captured_ids_verified": [
+    "2609.30217v1",
+    "2609.30266v1",
+    "2609.30830v1",
+    "2609.30940v1",
+    "2609.31039v1",
+    "2609.31318v1",
+    "2609.31358v1",
+    "2609.31562v1"
+  ],
+  "unavailable_ids_not_due": [
+    "2609.30614v1",
+    "2609.30824v1"
+  ],
+  "download_results": [],
+  "safety_block": false,
+  "preprocessing": false,
+  "wiki_compiled": false,
+  "figure_review_performed": false,
+  "offline_assets_bundled": false,
+  "evidence": [
+    "search-000-http.json",
+    "search-000-browser-dom.json",
+    "discovery-pending.json",
+    "inventory-before.json",
+    "failure.json",
+    "verification-recovery.json",
+    "verification.json"
+  ]
+}

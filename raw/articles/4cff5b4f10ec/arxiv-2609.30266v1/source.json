@@ -1,0 +1,41 @@
+{
+  "schema": "arxiv-html-source/v1",
+  "source": "arxiv",
+  "base_id": "2609.30266",
+  "version_id": "2609.30266v1",
+  "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+  "authors": [
+    "Jeremy Qin",
+    "David Schmotz",
+    "Derck Prinzhorn",
+    "Luca Beurer-Kellner",
+    "Ameya Prabhu",
+    "Maksym Andriushchenko"
+  ],
+  "abstract": "Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own execution traces. We show that local LLM agents such as Claude Code, Codex, Antigravity, Open Code and Grok Build fail to enforce this boundary. All tested harnesses, except Muse Code, allowed agents to delete their traces when asked, without triggering monitor guardrails. We also validate that external attackers can exploit this gap to induce trace deletion. Finally, we show that trace tampering behavior emerges naturally in frontier models, when agents try to improve their rewards. We advise practitioners to ensure trace logging happens through an independent interception mechanism outside of the agent's control, preserving trace integrity even in cases of full host compromise. Overall, our findings identify a concrete failure of trace integrity in agent infrastructure which can be used to conceal misaligned behaviors like scheming or sabotage.",
+  "published": "2026-09-24T17:59:54Z",
+  "updated": "2026-09-24T17:59:54Z",
+  "categories": [
+    "cs.CR",
+    "cs.AI"
+  ],
+  "owning_cron_id": "4cff5b4f10ec",
+  "source_url": "https://arxiv.org/html/2609.30266v1",
+  "abs_url": "https://arxiv.org/abs/2609.30266v1",
+  "collected_at": "2026-09-28T10:42:14.317240+00:00",
+  "html_file": "source.html",
+  "html_sha256": "2a52cc8f9cf410edc1de0fb1a192c313fdfcff0d31f5e37f2d32138a92c6376c",
+  "html_bytes": 738941,
+  "http_status": 200,
+  "final_url": "https://arxiv.org/html/2609.30266v1",
+  "content_type": "text/html; charset=utf-8",
+  "charset": "utf-8",
+  "capture_method": "http_response_body_no_rewrite",
+  "content_scope": "html_fulltext_as_served",
+  "preprocessing": false,
+  "wiki_compiled": false,
+  "offline_assets_bundled": false,
+  "pipeline_id": "arxiv-html-original/v1",
+  "collection_status": "captured",
+  "migration_run": "20260928T104108Z-html-only"
+}

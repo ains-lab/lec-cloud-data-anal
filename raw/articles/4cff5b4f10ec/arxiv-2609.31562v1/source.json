@@ -1,0 +1,41 @@
+{
+  "schema": "arxiv-html-source/v1",
+  "source": "arxiv",
+  "base_id": "2609.31562",
+  "version_id": "2609.31562v1",
+  "title": "Agentic Economies for Autonomous Scientific Discovery",
+  "authors": [
+    "Nenad Tomasev",
+    "Matija Franklin",
+    "Atoosa Kasirzadeh",
+    "Vivek Natarajan",
+    "Alan Karthikesalingam",
+    "Sebastien Krier",
+    "Simon Osindero"
+  ],
+  "abstract": "Recent advances in agentic Artificial Intelligence (AI) systems have marked a shift in AI for Science: moving away from the use of individual AI systems for narrow task execution, toward multi-agent systems capable of orchestrating complex, end-to-end research workflows and performing (semi-)autonomous scientific discovery. The development of multi-agent AI-for-science systems has primarily focused on improving the cognitive capabilities of AI systems, specifically by making advanced reasoning and hypothesis generation more reliable. However, focusing only on cognitive capability improvement could ignore appropriate management of resources, a key bottleneck in scientific discovery. Testing and validating scientific hypotheses and experiments is, physically and economically, resource-intensive and resources are limited. This means that to make significant advancements in autonomous scientific discovery, such as improving human-AI co-scientist complementarity or reaching a truly closed-loop automated process, we must pair ongoing improvements in reasoning capabilities with robust resource management. In this paper, we outline an infrastructure for AI resource management by developing the necessary foundations of scientific agent economies, markets, and institutions. The aim of this infrastructure is to empower AI agents and human scientists to effectively (i) collaborate and establish research priorities, (ii) assign credit, (iii) track accountability and liability, and (iv) safeguard against malicious use and information security risks. Finally, we engage with the macro-level societal implications. of (semi-)autonomous scientific discovery to inform the development of governance policies ensuring an equitable distribution of AI-driven discoveries and derivative future technologies.",
+  "published": "2026-09-25T17:28:53Z",
+  "updated": "2026-09-25T17:28:53Z",
+  "categories": [
+    "cs.CY"
+  ],
+  "owning_cron_id": "4cff5b4f10ec",
+  "source_url": "https://arxiv.org/html/2609.31562v1",
+  "abs_url": "https://arxiv.org/abs/2609.31562v1",
+  "collected_at": "2026-09-28T10:43:02.651083+00:00",
+  "html_file": "source.html",
+  "html_sha256": "5e77c259ae49f74d6919ab38ebe79061ec24d0d8a61b71e1f7f448d3b5ebb8ac",
+  "html_bytes": 683196,
+  "http_status": 200,
+  "final_url": "https://arxiv.org/html/2609.31562v1",
+  "content_type": "text/html; charset=utf-8",
+  "charset": "utf-8",
+  "capture_method": "http_response_body_no_rewrite",
+  "content_scope": "html_fulltext_as_served",
+  "preprocessing": false,
+  "wiki_compiled": false,
+  "offline_assets_bundled": false,
+  "pipeline_id": "arxiv-html-original/v1",
+  "collection_status": "captured",
+  "migration_run": "20260928T104108Z-html-only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "4cff5b4f10ec",
+  "name": "논문 HTML 원본 수집 · AI Agent Security · 매일 00:00 KST",
+  "enabled": true,
+  "skills": [
+    "arxiv"
+  ],
+  "model": "gpt-6-astra",
+  "provider": "codex-lb",
+  "reasoning_effort": "xhigh",
+  "schedule": {
+    "kind": "cron",
+    "expr": "0 15 * * *",
+    "display": "0 15 * * *"
+  },
+  "script": null,
+  "monitor": null,
+  "continuity": null,
+  "context_from": null,
+  "workdir": "/home/ainsdev/wiki/pkm-articles",
+  "next_run_at": "2026-09-28T15:00:00+00:00",
+  "last_status": "interrupted_policy_change",
+  "last_run_at": "2026-09-28T08:31:05.425110+00:00",
+  "checked_at": "2026-09-28T10:54:13.618045+00:00",
+  "prompt_sha256": "b8a9c347175c73f7dd2bf706f2d63e3cbcaaee67082b845dcc04ea1a862fdbdd",
+  "full_prompt_verified_unchanged_since_policy_update": true,
+  "live_scheduled_run_executed_during_migration": false,
+  "next_run_kst": "2026-09-29T00:00:00+09:00"
+}

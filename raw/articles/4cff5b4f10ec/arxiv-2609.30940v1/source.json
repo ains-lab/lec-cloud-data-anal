@@ -1,0 +1,38 @@
+{
+  "schema": "arxiv-html-source/v1",
+  "source": "arxiv",
+  "base_id": "2609.30940",
+  "version_id": "2609.30940v1",
+  "title": "Financial Fragility in Societies of LLM Agents: Coordination Failures and Stabilizing Mechanisms",
+  "authors": [
+    "Zhenhao Fu",
+    "Ruipeng Xu",
+    "Qibing Ren"
+  ],
+  "abstract": "Individually protective decisions can produce avoidable collective failures. As large language model (LLM) agents take on greater roles in financial decision-making, financial AI safety must therefore be considered not only at the level of individual agents, but also at the level of the systems they jointly create. We study this problem with FRAIL, a controlled experimental framework that places LLM agents in three dynamic financial environments---bank runs, debt rollover, and reward crowdfunding---where agents' decisions reshape the financial conditions faced by others. Across seven leading LLMs, we find widespread collective fragility even when no agent is instructed to destabilize the system: 77\\% of baseline bank-run episodes and 83\\% of debt-rollover episodes end in failure. We then compare three interaction mechanisms based on compensated commitments, centralized commitment agreements, and participant-led coalitions. All three improve aggregate outcomes, but no single mechanism performs best across all financial structures. Across mechanisms, successful stabilization shares a common temporal pattern: broad commitment forms early, before defensive behavior becomes self-reinforcing. Our findings show that individually capable agents do not automatically form safe financial systems, highlighting system-level evaluation and interaction design as central problems for financial AI safety. Code is available at https://anonymous.4open.science/r/FinFrail-CF26.",
+  "published": "2026-09-25T07:55:14Z",
+  "updated": "2026-09-25T07:55:14Z",
+  "categories": [
+    "cs.AI",
+    "q-fin.GN"
+  ],
+  "owning_cron_id": "4cff5b4f10ec",
+  "source_url": "https://arxiv.org/html/2609.30940v1",
+  "abs_url": "https://arxiv.org/abs/2609.30940v1",
+  "collected_at": "2026-09-28T10:42:39.734613+00:00",
+  "html_file": "source.html",
+  "html_sha256": "c8acc008c08916f78cd678d295f7f49bb2a0997fe6d32dfa800069afb1a4c933",
+  "html_bytes": 397917,
+  "http_status": 200,
+  "final_url": "https://arxiv.org/html/2609.30940v1",
+  "content_type": "text/html; charset=utf-8",
+  "charset": "utf-8",
+  "capture_method": "http_response_body_no_rewrite",
+  "content_scope": "html_fulltext_as_served",
+  "preprocessing": false,
+  "wiki_compiled": false,
+  "offline_assets_bundled": false,
+  "pipeline_id": "arxiv-html-original/v1",
+  "collection_status": "captured",
+  "migration_run": "20260928T104108Z-html-only"
+}

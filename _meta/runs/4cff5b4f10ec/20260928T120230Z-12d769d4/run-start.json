@@ -1,0 +1,343 @@
+{
+  "run_id": "20260928T120230Z-12d769d4",
+  "cron_id": "4cff5b4f10ec",
+  "policy": "arxiv-html-original/v1",
+  "started_at": "2026-09-28T12:02:30.148155+00:00",
+  "kst_date": "2026-09-28",
+  "window_lower": "2026-09-27T07:07:13.632288+00:00",
+  "window_upper": "2026-09-28T12:02:30.148155+00:00",
+  "query": "(all:\"AI agent\" OR all:\"autonomous agent\" OR all:\"LLM agent\" OR all:\"intelligent agent\") AND (all:security OR all:safety OR all:vulnerability OR all:attack OR all:defense OR all:robustness OR all:adversarial)",
+  "request_url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22AI+agent%22+OR+all%3A%22autonomous+agent%22+OR+all%3A%22LLM+agent%22+OR+all%3A%22intelligent+agent%22%29+AND+%28all%3Asecurity+OR+all%3Asafety+OR+all%3Avulnerability+OR+all%3Aattack+OR+all%3Adefense+OR+all%3Arobustness+OR+all%3Aadversarial%29&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=100",
+  "state_before": {
+    "schema": "paper-collection-state/v2",
+    "cron_id": "4cff5b4f10ec",
+    "first_window_floor": "2026-09-27T07:07:13.632288+00:00",
+    "discovered_through": "2026-09-28T11:13:26.978196+00:00",
+    "last_complete_at": "2026-09-28T11:19:53.553364+00:00",
+    "pending": [],
+    "daily_attempts": {
+      "2026-09-28": [
+        "2609.31562v1",
+        "2609.31358v1",
+        "2609.31318v1",
+        "2609.31039v1",
+        "2609.30940v1",
+        "2609.30830v1",
+        "2609.30824v1",
+        "2609.30614v1",
+        "2609.30266v1",
+        "2609.30217v1"
+      ]
+    },
+    "consecutive_failed_runs": 0,
+    "safety_block": false,
+    "safety_block_reason": null,
+    "last_run": {
+      "run_id": "20260928T111326Z-695dc69b",
+      "type": "scheduled_html_original_collection",
+      "started_at": "2026-09-28T11:13:26.978196+00:00",
+      "finished_at": "2026-09-28T11:19:53.553364+00:00",
+      "status": "completed_zero_results",
+      "counts": {
+        "search_pages": 1,
+        "search_records_validated": 100,
+        "candidates_in_window": 0,
+        "new_html_saved": 0,
+        "duplicates_processed": 0,
+        "new_html_unavailable": 0,
+        "source_failures": 0,
+        "unrecovered_core_failures": 0,
+        "recovered_api_transport_failures": 1,
+        "recovered_local_title_check_failures": 1,
+        "existing_html_verified": 8,
+        "existing_html_unavailable_not_due": 2,
+        "html_files": 8,
+        "source_json_files": 8,
+        "knowledge_pages": 0,
+        "new_daily_attempts": 0,
+        "existing_daily_attempts_preserved": 10,
+        "pending": 0
+      },
+      "report_path": "_meta/runs/4cff5b4f10ec/20260928T111326Z-695dc69b/report.json"
+    },
+    "pipeline_id": "arxiv-html-original/v1",
+    "one_off_authorizations": [
+      {
+        "kst_date": "2026-09-28",
+        "authorized_papers": 10,
+        "version_ids": [
+          "2609.30217v1",
+          "2609.30266v1",
+          "2609.30614v1",
+          "2609.30824v1",
+          "2609.30830v1",
+          "2609.30940v1",
+          "2609.31039v1",
+          "2609.31318v1",
+          "2609.31358v1",
+          "2609.31562v1"
+        ],
+        "original_run_id": "20260928T075808Z-58958f18",
+        "completion_run_id": "20260928T083759Z-textv2-a3e894c1",
+        "status": "prior_source_collection_retired_by_user_approved_html_only_migration"
+      }
+    ],
+    "html_unavailable": [
+      {
+        "source": "arxiv",
+        "base_id": "2609.30614",
+        "version_id": "2609.30614v1",
+        "title": "Subjects, Not Authors: The Authorship Hazard in Agentic Dataspaces",
+        "source_url": "https://arxiv.org/html/2609.30614v1",
+        "abs_url": "https://arxiv.org/abs/2609.30614v1",
+        "status": "html_unavailable",
+        "http_status": 404,
+        "checked_at": "2026-09-28T10:49:18.370788+00:00",
+        "next_retry_at": "2026-10-05T10:49:18.370788+00:00",
+        "evidence_path": "_meta/migrations/20260928T104108Z-html-only/html-unavailable-evidence.json",
+        "local_fulltext_preserved": false,
+        "pdf_deleted_per_user_approval": true
+      },
+      {
+        "source": "arxiv",
+        "base_id": "2609.30824",
+        "version_id": "2609.30824v1",
+        "title": "Crypto-bound identity-verified capability tokens for coordinating distributed AI agents: A proposal",
+        "source_url": "https://arxiv.org/html/2609.30824v1",
+        "abs_url": "https://arxiv.org/abs/2609.30824v1",
+        "status": "html_unavailable",
+        "http_status": 404,
+        "checked_at": "2026-09-28T10:49:21.632536+00:00",
+        "next_retry_at": "2026-10-05T10:49:21.632536+00:00",
+        "evidence_path": "_meta/migrations/20260928T104108Z-html-only/html-unavailable-evidence.json",
+        "local_fulltext_preserved": false,
+        "pdf_deleted_per_user_approval": true
+      }
+    ],
+    "html_original_migration": {
+      "run_id": "20260928T104108Z-html-only",
+      "approved_existing_ids": [
+        "2609.30217v1",
+        "2609.30266v1",
+        "2609.30614v1",
+        "2609.30824v1",
+        "2609.30830v1",
+        "2609.30940v1",
+        "2609.31039v1",
+        "2609.31318v1",
+        "2609.31358v1",
+        "2609.31562v1"
+      ],
+      "html_captured_ids": [
+        "2609.30217v1",
+        "2609.30266v1",
+        "2609.30830v1",
+        "2609.30940v1",
+        "2609.31039v1",
+        "2609.31318v1",
+        "2609.31358v1",
+        "2609.31562v1"
+      ],
+      "html_unavailable_ids": [
+        "2609.30614v1",
+        "2609.30824v1"
+      ],
+      "backup_created": false,
+      "preprocessing_removed": true
+    }
+  },
+  "source_paths": [
+    "raw/articles/4cff5b4f10ec/arxiv-2609.31318v1/source.json",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.31358v1/source.json",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.30217v1/source.json",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.30830v1/source.json",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.31562v1/source.json",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.30940v1/source.json",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.31039v1/source.json",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.30266v1/source.json"
+  ],
+  "reference_paths": [],
+  "all_topic_states": [
+    {
+      "path": "_meta/state/4cff5b4f10ec.json",
+      "state": {
+        "schema": "paper-collection-state/v2",
+        "cron_id": "4cff5b4f10ec",
+        "first_window_floor": "2026-09-27T07:07:13.632288+00:00",
+        "discovered_through": "2026-09-28T11:13:26.978196+00:00",
+        "last_complete_at": "2026-09-28T11:19:53.553364+00:00",
+        "pending": [],
+        "daily_attempts": {
+          "2026-09-28": [
+            "2609.31562v1",
+            "2609.31358v1",
+            "2609.31318v1",
+            "2609.31039v1",
+            "2609.30940v1",
+            "2609.30830v1",
+            "2609.30824v1",
+            "2609.30614v1",
+            "2609.30266v1",
+            "2609.30217v1"
+          ]
+        },
+        "consecutive_failed_runs": 0,
+        "safety_block": false,
+        "safety_block_reason": null,
+        "last_run": {
+          "run_id": "20260928T111326Z-695dc69b",
+          "type": "scheduled_html_original_collection",
+          "started_at": "2026-09-28T11:13:26.978196+00:00",
+          "finished_at": "2026-09-28T11:19:53.553364+00:00",
+          "status": "completed_zero_results",
+          "counts": {
+            "search_pages": 1,
+            "search_records_validated": 100,
+            "candidates_in_window": 0,
+            "new_html_saved": 0,
+            "duplicates_processed": 0,
+            "new_html_unavailable": 0,
+            "source_failures": 0,
+            "unrecovered_core_failures": 0,
+            "recovered_api_transport_failures": 1,
+            "recovered_local_title_check_failures": 1,
+            "existing_html_verified": 8,
+            "existing_html_unavailable_not_due": 2,
+            "html_files": 8,
+            "source_json_files": 8,
+            "knowledge_pages": 0,
+            "new_daily_attempts": 0,
+            "existing_daily_attempts_preserved": 10,
+            "pending": 0
+          },
+          "report_path": "_meta/runs/4cff5b4f10ec/20260928T111326Z-695dc69b/report.json"
+        },
+        "pipeline_id": "arxiv-html-original/v1",
+        "one_off_authorizations": [
+          {
+            "kst_date": "2026-09-28",
+            "authorized_papers": 10,
+            "version_ids": [
+              "2609.30217v1",
+              "2609.30266v1",
+              "2609.30614v1",
+              "2609.30824v1",
+              "2609.30830v1",
+              "2609.30940v1",
+              "2609.31039v1",
+              "2609.31318v1",
+              "2609.31358v1",
+              "2609.31562v1"
+            ],
+            "original_run_id": "20260928T075808Z-58958f18",
+            "completion_run_id": "20260928T083759Z-textv2-a3e894c1",
+            "status": "prior_source_collection_retired_by_user_approved_html_only_migration"
+          }
+        ],
+        "html_unavailable": [
+          {
+            "source": "arxiv",
+            "base_id": "2609.30614",
+            "version_id": "2609.30614v1",
+            "title": "Subjects, Not Authors: The Authorship Hazard in Agentic Dataspaces",
+            "source_url": "https://arxiv.org/html/2609.30614v1",
+            "abs_url": "https://arxiv.org/abs/2609.30614v1",
+            "status": "html_unavailable",
+            "http_status": 404,
+            "checked_at": "2026-09-28T10:49:18.370788+00:00",
+            "next_retry_at": "2026-10-05T10:49:18.370788+00:00",
+            "evidence_path": "_meta/migrations/20260928T104108Z-html-only/html-unavailable-evidence.json",
+            "local_fulltext_preserved": false,
+            "pdf_deleted_per_user_approval": true
+          },
+          {
+            "source": "arxiv",
+            "base_id": "2609.30824",
+            "version_id": "2609.30824v1",
+            "title": "Crypto-bound identity-verified capability tokens for coordinating distributed AI agents: A proposal",
+            "source_url": "https://arxiv.org/html/2609.30824v1",
+            "abs_url": "https://arxiv.org/abs/2609.30824v1",
+            "status": "html_unavailable",
+            "http_status": 404,
+            "checked_at": "2026-09-28T10:49:21.632536+00:00",
+            "next_retry_at": "2026-10-05T10:49:21.632536+00:00",
+            "evidence_path": "_meta/migrations/20260928T104108Z-html-only/html-unavailable-evidence.json",
+            "local_fulltext_preserved": false,
+            "pdf_deleted_per_user_approval": true
+          }
+        ],
+        "html_original_migration": {
+          "run_id": "20260928T104108Z-html-only",
+          "approved_existing_ids": [
+            "2609.30217v1",
+            "2609.30266v1",
+            "2609.30614v1",
+            "2609.30824v1",
+            "2609.30830v1",
+            "2609.30940v1",
+            "2609.31039v1",
+            "2609.31318v1",
+            "2609.31358v1",
+            "2609.31562v1"
+          ],
+          "html_captured_ids": [
+            "2609.30217v1",
+            "2609.30266v1",
+            "2609.30830v1",
+            "2609.30940v1",
+            "2609.31039v1",
+            "2609.31318v1",
+            "2609.31358v1",
+            "2609.31562v1"
+          ],
+          "html_unavailable_ids": [
+            "2609.30614v1",
+            "2609.30824v1"
+          ],
+          "backup_created": false,
+          "preprocessing_removed": true
+        }
+      }
+    }
+  ],
+  "protected_sha256_before": {
+    "raw/articles/4cff5b4f10ec/arxiv-2609.31318v1/source.html": "c80b1c5c4eb17ebb5cf851d488225e50ab588e17dd44647d584e99a163307ade",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.31318v1/source.json": "5e6402e7f02c8d58f2e26b3f19b1e894ef7b27b6aa2ce4c291d0a56d9fdcb519",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.31358v1/source.html": "cfee938c27d5b30fb053d251d2bd1b1a6ac259b775582fe05558a370ddac566e",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.31358v1/source.json": "47ee6c40d07afaa7b05317ce0f9df051e9b6c098851d03920862ea25f12309fb",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.30217v1/source.html": "7f74fee3e1200324747b62e25a142016b839871f5117bf2b772586bad851f743",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.30217v1/source.json": "2b58051c1504c4ca41a579e96938d967392db5e71b0a47e46d724fd0e715d82f",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.30830v1/source.html": "89d515e6c33de5717ff141a6d9726830a01798e6dfead198c9f0525f0261d074",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.30830v1/source.json": "3916139355325f7cd47fe155fd60f2c8ab7c2ca80fc831ef2e4350ad0f758c72",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.31562v1/source.html": "5e77c259ae49f74d6919ab38ebe79061ec24d0d8a61b71e1f7f448d3b5ebb8ac",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.31562v1/source.json": "94c61c8fad3b736b8d57d6ca014c8f99c89862807e4106b401953c5ae7ebc01e",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.30940v1/source.html": "c8acc008c08916f78cd678d295f7f49bb2a0997fe6d32dfa800069afb1a4c933",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.30940v1/source.json": "adcf1c3af2a11f411bdfdf95cf37730aea740adcf7283c4188b927934666b7c7",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.31039v1/source.html": "8690d6fe68a38faf5189ab1ba1eab739b60c769444edef101727f2e0327e0f41",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.31039v1/source.json": "3b14b35bd80f3bd8f7aba64fec30abaf2e86b5fb88694d42a95fc6306b1716ad",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.30266v1/source.html": "2a52cc8f9cf410edc1de0fb1a192c313fdfcff0d31f5e37f2d32138a92c6376c",
+    "raw/articles/4cff5b4f10ec/arxiv-2609.30266v1/source.json": "55c467f720b0068d1bf3fb97bc8d0bb41272eed0cc5c7b7740579567a382dfa7",
+    "SCHEMA.md": "e109e5b3ba9dea8dfa84bb9cf1d7885eaf47e7fedd7c52de09d294bafe9e4e42",
+    "AGENTS.md": "1b539992ba71448e33a2e30e4b3ed26ecef092832ec18ec103e5a36ebff8a3c5",
+    "_meta/COLLECTION.md": "fe9d0d19e4301fc48c267d49e601b421ccc49e800bf9d2353af7ee0a0bebd06d",
+    "_meta/topics.json": "546d3cebf06bcd3eb20d1aae4d39e7e9df950f1faec8e7868ff19517b32faeab"
+  },
+  "log_prefix_bytes": 25795,
+  "log_prefix_sha256": "f3756038915d23cb2ca6eb6aa981df624f233de2095bccf8d20b3edd9a75aeba",
+  "owner": {
+    "run_id": "20260928T120230Z-12d769d4",
+    "cron_id": "4cff5b4f10ec",
+    "started_at": "2026-09-28T12:02:30.148155+00:00",
+    "pid": 1377154,
+    "token": "476cb43d69d941c69d07e58d850291d5"
+  },
+  "not_performed": [
+    "PDF download",
+    "LaTeX download",
+    "assets download",
+    "preprocessing",
+    "external model call",
+    "Wiki compilation",
+    "figure review"
+  ]
+}

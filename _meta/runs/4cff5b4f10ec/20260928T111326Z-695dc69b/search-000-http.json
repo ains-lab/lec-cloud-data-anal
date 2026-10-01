@@ -1,0 +1,25 @@
+{
+  "requested_url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22AI+agent%22+OR+all%3A%22autonomous+agent%22+OR+all%3A%22LLM+agent%22+OR+all%3A%22intelligent+agent%22%29+AND+%28all%3Asecurity+OR+all%3Asafety+OR+all%3Avulnerability+OR+all%3Aattack+OR+all%3Adefense+OR+all%3Arobustness+OR+all%3Aadversarial%29&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=100",
+  "request_at": "2026-09-28T11:13:27.028856+00:00",
+  "finished_at": "2026-09-28T11:13:27.359307+00:00",
+  "http_status": 406,
+  "headers": {
+    "Connection": "close",
+    "cache-control": "private, no-store",
+    "Accept-Ranges": "bytes",
+    "Via": "1.1 varnish, 1.1 varnish",
+    "Date": "Mon, 28 Sep 2026 11:03:21 GMT",
+    "X-Served-By": "cache-lga-kjfk8660021-LGA, cache-lga-kjfk8660021-LGA, cache-icn1450024-ICN",
+    "X-Cache": "MISS, MISS",
+    "X-Cache-Hits": "0, 0",
+    "X-Timer": "S1790593402.508639,VS0,VE187",
+    "Strict-Transport-Security": "max-age=300",
+    "transfer-encoding": "chunked"
+  },
+  "final_url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22AI+agent%22+OR+all%3A%22autonomous+agent%22+OR+all%3A%22LLM+agent%22+OR+all%3A%22intelligent+agent%22%29+AND+%28all%3Asecurity+OR+all%3Asafety+OR+all%3Avulnerability+OR+all%3Aattack+OR+all%3Adefense+OR+all%3Arobustness+OR+all%3Aadversarial%29&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=100",
+  "capture_method": "direct_http_response_body",
+  "body_path": "_meta/runs/4cff5b4f10ec/20260928T111326Z-695dc69b/search-000-http.body",
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "error": "HTTP Error 406: Not Acceptable"
+}

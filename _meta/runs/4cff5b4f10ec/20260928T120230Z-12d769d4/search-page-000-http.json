@@ -1,0 +1,30 @@
+{
+  "requested_url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22AI+agent%22+OR+all%3A%22autonomous+agent%22+OR+all%3A%22LLM+agent%22+OR+all%3A%22intelligent+agent%22%29+AND+%28all%3Asecurity+OR+all%3Asafety+OR+all%3Avulnerability+OR+all%3Aattack+OR+all%3Adefense+OR+all%3Arobustness+OR+all%3Aadversarial%29&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=100",
+  "requested_at": "2026-09-28T12:02:50.916985+00:00",
+  "capture_method": "direct_http_response_body",
+  "request_headers": {
+    "Accept-Encoding": "identity"
+  },
+  "http_status": 200,
+  "final_url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22AI+agent%22+OR+all%3A%22autonomous+agent%22+OR+all%3A%22LLM+agent%22+OR+all%3A%22intelligent+agent%22%29+AND+%28all%3Asecurity+OR+all%3Asafety+OR+all%3Avulnerability+OR+all%3Aattack+OR+all%3Adefense+OR+all%3Arobustness+OR+all%3Aadversarial%29&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=100",
+  "headers": {
+    "Connection": "close",
+    "Content-Length": "263335",
+    "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+    "x-cloud-trace-context": "c96088a6c0617b1d1f1b88c9a02fa20b",
+    "server": "Google Frontend",
+    "content-type": "application/atom+xml; charset=utf-8",
+    "Accept-Ranges": "bytes",
+    "Age": "2941",
+    "Date": "Mon, 28 Sep 2026 11:52:45 GMT",
+    "X-Served-By": "cache-lga-kjfk8660021-LGA, cache-lga-kjfk8660021-LGA, cache-lga-kjfk8660021-LGA, cache-icn1450036-ICN",
+    "X-Cache": "MISS, MISS, HIT",
+    "X-Cache-Hits": "0, 0, 0",
+    "X-Timer": "S1790596365.295235,VS0,VE0",
+    "Strict-Transport-Security": "max-age=300"
+  },
+  "body_bytes": 263335,
+  "body_sha256": "a97cd526662891ef4303709d37604afb485eb76c83dfcce46e1607e6c2269122",
+  "body_file": "search-page-000-http.xml",
+  "finished_at": "2026-09-28T12:02:51.082632+00:00"
+}

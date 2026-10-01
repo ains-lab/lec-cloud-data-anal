@@ -1,0 +1,37 @@
+{
+  "schema": "arxiv-html-source/v1",
+  "source": "arxiv",
+  "base_id": "2609.31358",
+  "version_id": "2609.31358v1",
+  "title": "A Safety-Bounded SDC-to-MCP Gateway for Medical AI Agents",
+  "authors": [
+    "Bennet Gerlach",
+    "Stefan Fischer"
+  ],
+  "abstract": "The Model Context Protocol (MCP) provides a common interface through which AI applications discover and use external resources and tools. It allows language-model agents to ground their reasoning in current system state and interact with heterogeneous services. In medical environments, however, exposing device state and action affordances requires deterministic constraints on possible effects. We present an IEEE 11073 Service-Oriented Device Connectivity (SDC)-to-MCP gateway that exposes metrics, alarms, context references, and semantic metadata as read-only resources, while representing selected action affordances as policy-validated dry-run tools. The term safety-bounded denotes a narrow no-execution property: agent-facing requests dispatch no SDC device operation. A Python prototype supports simulated fault and lifecycle experiments, a software-reference protocol path spanning independent Java and Python implementations, deterministic baselines, representation ablations, and multi-model agent evaluation. The results show semantically explicit resource exposure, visible rejection of invalid or outdated state, and preservation of the no-execution boundary across resource, proposal, and authorization paths. Explicit semantic metadata improved conformity to required metric identifiers in structured alarm outputs relative to a generic representation, while retained structured-output failures reveal a distinction between plausible narrative answers and task-compliant machine-readable results.",
+  "published": "2026-09-25T14:54:21Z",
+  "updated": "2026-09-25T14:54:21Z",
+  "categories": [
+    "cs.DC",
+    "cs.AI"
+  ],
+  "owning_cron_id": "4cff5b4f10ec",
+  "source_url": "https://arxiv.org/html/2609.31358v1",
+  "abs_url": "https://arxiv.org/abs/2609.31358v1",
+  "collected_at": "2026-09-28T10:42:59.463183+00:00",
+  "html_file": "source.html",
+  "html_sha256": "cfee938c27d5b30fb053d251d2bd1b1a6ac259b775582fe05558a370ddac566e",
+  "html_bytes": 212956,
+  "http_status": 200,
+  "final_url": "https://arxiv.org/html/2609.31358v1",
+  "content_type": "text/html; charset=utf-8",
+  "charset": "utf-8",
+  "capture_method": "http_response_body_no_rewrite",
+  "content_scope": "html_fulltext_as_served",
+  "preprocessing": false,
+  "wiki_compiled": false,
+  "offline_assets_bundled": false,
+  "pipeline_id": "arxiv-html-original/v1",
+  "collection_status": "captured",
+  "migration_run": "20260928T104108Z-html-only"
+}

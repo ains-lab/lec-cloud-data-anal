@@ -1,0 +1,49 @@
+{
+  "schema": "html-original-migration-report/v1",
+  "run_id": "20260928T104108Z-html-only",
+  "completed_at": "2026-09-28T10:55:48.928660+00:00",
+  "status": "completed_with_2_official_html_unavailable",
+  "expected_papers": 10,
+  "original_html_saved": 8,
+  "html_unavailable": 2,
+  "source_ids": [
+    "2609.30217v1",
+    "2609.30266v1",
+    "2609.30830v1",
+    "2609.30940v1",
+    "2609.31039v1",
+    "2609.31318v1",
+    "2609.31358v1",
+    "2609.31562v1"
+  ],
+  "unavailable_ids": [
+    "2609.30614v1",
+    "2609.30824v1"
+  ],
+  "deleted_original_pdf_papers": 10,
+  "deleted_files": 1805,
+  "deleted_bytes": 310455953,
+  "new_backup_created": false,
+  "previous_backups_accessed": false,
+  "preprocessing_enabled": false,
+  "preprocessing_artifacts_remaining": 0,
+  "wiki_compiled": false,
+  "knowledge_pages": 0,
+  "checkpoint_preserved": true,
+  "source_root": "raw/articles/4cff5b4f10ec",
+  "compilation_strategy": "manual_direct_original_html",
+  "cron_enabled": true,
+  "next_run_kst": "2026-09-29T00:00:00+09:00",
+  "scheduled_run_executed_during_migration": false,
+  "evidence": [
+    "scope.json",
+    "downloads.json",
+    "html-unavailable-evidence.json",
+    "deletion-scope.json",
+    "cutover.json",
+    "validation.json",
+    "checkpoint-verification.json",
+    "cron-before-resume.json",
+    "cron-after-resume.json"
+  ]
+}

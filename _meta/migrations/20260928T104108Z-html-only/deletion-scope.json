@@ -1,0 +1,134 @@
+{
+  "approved": true,
+  "backup_requested": false,
+  "targets": [
+    {
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.30217v1",
+      "files": 288,
+      "bytes_regular_files": 17344099,
+      "symlinks": 0,
+      "action": "permanent_delete_no_backup"
+    },
+    {
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.30266v1",
+      "files": 111,
+      "bytes_regular_files": 11358461,
+      "symlinks": 0,
+      "action": "permanent_delete_no_backup"
+    },
+    {
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.30614v1",
+      "files": 48,
+      "bytes_regular_files": 12307038,
+      "symlinks": 0,
+      "action": "permanent_delete_no_backup"
+    },
+    {
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.30824v1",
+      "files": 51,
+      "bytes_regular_files": 5297950,
+      "symlinks": 0,
+      "action": "permanent_delete_no_backup"
+    },
+    {
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.30830v1",
+      "files": 35,
+      "bytes_regular_files": 7307386,
+      "symlinks": 0,
+      "action": "permanent_delete_no_backup"
+    },
+    {
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.30940v1",
+      "files": 85,
+      "bytes_regular_files": 17577607,
+      "symlinks": 0,
+      "action": "permanent_delete_no_backup"
+    },
+    {
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.31039v1",
+      "files": 111,
+      "bytes_regular_files": 8151236,
+      "symlinks": 0,
+      "action": "permanent_delete_no_backup"
+    },
+    {
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.31318v1",
+      "files": 34,
+      "bytes_regular_files": 9620951,
+      "symlinks": 0,
+      "action": "permanent_delete_no_backup"
+    },
+    {
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.31358v1",
+      "files": 32,
+      "bytes_regular_files": 9504978,
+      "symlinks": 0,
+      "action": "permanent_delete_no_backup"
+    },
+    {
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.31562v1",
+      "files": 69,
+      "bytes_regular_files": 26345242,
+      "symlinks": 0,
+      "action": "permanent_delete_no_backup"
+    },
+    {
+      "path": "_meta/staging/4cff5b4f10ec",
+      "files": 670,
+      "bytes_regular_files": 116827037,
+      "symlinks": 0,
+      "action": "permanent_delete_no_backup"
+    },
+    {
+      "path": "_meta/validation",
+      "files": 63,
+      "bytes_regular_files": 574236,
+      "symlinks": 0,
+      "action": "permanent_delete_no_backup"
+    },
+    {
+      "path": "_meta/runs/4cff5b4f10ec",
+      "files": 50,
+      "bytes_regular_files": 1192673,
+      "symlinks": 0,
+      "action": "permanent_delete_no_backup"
+    },
+    {
+      "path": "_meta/pdf-env",
+      "files": 154,
+      "bytes_regular_files": 67031996,
+      "symlinks": 4,
+      "action": "permanent_delete_no_backup"
+    },
+    {
+      "path": "_meta/pdf-requirements.txt",
+      "files": 1,
+      "bytes_regular_files": 82,
+      "symlinks": 0,
+      "action": "permanent_delete_no_backup"
+    },
+    {
+      "path": "_meta/page-parsing-prompt.txt",
+      "files": 1,
+      "bytes_regular_files": 1903,
+      "symlinks": 0,
+      "action": "permanent_delete_no_backup"
+    },
+    {
+      "path": "_meta/text-structuring-prompt.txt",
+      "files": 1,
+      "bytes_regular_files": 1827,
+      "symlinks": 0,
+      "action": "permanent_delete_no_backup"
+    },
+    {
+      "path": "_meta/PARSING-STRATEGY-PROPOSAL.md",
+      "files": 1,
+      "bytes_regular_files": 11251,
+      "symlinks": 0,
+      "action": "permanent_delete_no_backup"
+    }
+  ],
+  "total_files": 1805,
+  "total_bytes_regular_files": 310455953
+}

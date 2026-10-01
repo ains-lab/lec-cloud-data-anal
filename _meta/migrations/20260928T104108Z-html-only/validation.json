@@ -1,0 +1,86 @@
+{
+  "schema": "html-original-migration-validation/v1",
+  "checked_at": "2026-09-28T10:53:31.111228+00:00",
+  "expected_papers": 10,
+  "html_originals": 8,
+  "html_unavailable": 2,
+  "results": [
+    {
+      "version_id": "2609.30217v1",
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.30217v1/source.html",
+      "bytes": 926811,
+      "sha256": "7f74fee3e1200324747b62e25a142016b839871f5117bf2b772586bad851f743",
+      "verified": true
+    },
+    {
+      "version_id": "2609.30266v1",
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.30266v1/source.html",
+      "bytes": 738941,
+      "sha256": "2a52cc8f9cf410edc1de0fb1a192c313fdfcff0d31f5e37f2d32138a92c6376c",
+      "verified": true
+    },
+    {
+      "version_id": "2609.30830v1",
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.30830v1/source.html",
+      "bytes": 267373,
+      "sha256": "89d515e6c33de5717ff141a6d9726830a01798e6dfead198c9f0525f0261d074",
+      "verified": true
+    },
+    {
+      "version_id": "2609.30940v1",
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.30940v1/source.html",
+      "bytes": 397917,
+      "sha256": "c8acc008c08916f78cd678d295f7f49bb2a0997fe6d32dfa800069afb1a4c933",
+      "verified": true
+    },
+    {
+      "version_id": "2609.31039v1",
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.31039v1/source.html",
+      "bytes": 558801,
+      "sha256": "8690d6fe68a38faf5189ab1ba1eab739b60c769444edef101727f2e0327e0f41",
+      "verified": true
+    },
+    {
+      "version_id": "2609.31318v1",
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.31318v1/source.html",
+      "bytes": 536360,
+      "sha256": "c80b1c5c4eb17ebb5cf851d488225e50ab588e17dd44647d584e99a163307ade",
+      "verified": true
+    },
+    {
+      "version_id": "2609.31358v1",
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.31358v1/source.html",
+      "bytes": 212956,
+      "sha256": "cfee938c27d5b30fb053d251d2bd1b1a6ac259b775582fe05558a370ddac566e",
+      "verified": true
+    },
+    {
+      "version_id": "2609.31562v1",
+      "path": "raw/articles/4cff5b4f10ec/arxiv-2609.31562v1/source.html",
+      "bytes": 683196,
+      "sha256": "5e77c259ae49f74d6919ab38ebe79061ec24d0d8a61b71e1f7f448d3b5ebb8ac",
+      "verified": true
+    }
+  ],
+  "negative_checks": [
+    {
+      "case": "corrupt_bytes",
+      "result": "rejected_as_expected"
+    },
+    {
+      "case": "wrong_version",
+      "result": "rejected_as_expected"
+    },
+    {
+      "case": "error_response",
+      "result": "rejected_as_expected"
+    }
+  ],
+  "preprocessing_artifacts_remaining": 0,
+  "old_pdf_files_remaining": 0,
+  "new_backup_created": false,
+  "knowledge_pages": 0,
+  "checkpoint_unchanged": true,
+  "html_bytes_total": 4322355,
+  "status": "passed_for_8_originals_and_2_explicit_unavailable_records"
+}

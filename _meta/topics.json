@@ -1,0 +1,61 @@
+{
+  "schema": "paper-collection-topics/v1",
+  "wiki_root": "/home/ainsdev/wiki/pkm-articles",
+  "storage": "markdown-json-files-only",
+  "compile_wiki": false,
+  "topics": [
+    {
+      "cron_id": "4cff5b4f10ec",
+      "name": "AI Agent Security",
+      "source": "arxiv",
+      "original_query": "(\"AI agent\" OR \"autonomous agent\" OR \"LLM agent\" OR \"intelligent agent\") AND (security OR safety OR vulnerability OR attack OR defense OR robustness OR adversarial)",
+      "api_query": "(all:\"AI agent\" OR all:\"autonomous agent\" OR all:\"LLM agent\" OR all:\"intelligent agent\") AND (all:security OR all:safety OR all:vulnerability OR all:attack OR all:defense OR all:robustness OR all:adversarial)",
+      "schedule": {
+        "timezone": "Asia/Seoul",
+        "local_time": "00:00",
+        "scheduler_timezone_at_registration": "UTC",
+        "cron_expression": "0 15 * * *"
+      },
+      "raw_root": "raw/articles/4cff5b4f10ec",
+      "state_path": "_meta/state/4cff5b4f10ec.json",
+      "run_root": "_meta/runs/4cff5b4f10ec",
+      "first_lookback_hours": 24,
+      "overlap_hours": 48,
+      "max_paper_attempts_per_kst_day": 5,
+      "max_run_minutes": 90,
+      "max_search_pages_per_run": 50,
+      "api_page_size": 100,
+      "api_min_interval_seconds": 3,
+      "date_filter": "client-side Atom updated timestamps; never lastUpdatedDate search field",
+      "pipeline": {
+        "id": "arxiv-html-original/v1",
+        "source_format": "html",
+        "preprocessing_enabled": false,
+        "download_pdf": false,
+        "download_assets": false,
+        "rewrite_html": false,
+        "auxiliary_model_calls_enabled": false,
+        "publication_gate": "version_pinned_original_html_http_identity_and_hash_verified",
+        "schema_version": "arxiv-html-source/v1",
+        "missing_html_policy": "record_html_unavailable_no_pdf_or_conversion_fallback",
+        "unavailable_retry_days": 7
+      },
+      "activation_approval": "User explicitly approved original arXiv HTML only, removal of all preprocessing, permanent deletion without backup including PDFs for the 2 HTML-unavailable papers, and resumption of the existing HTML-only daily Cron after verification.",
+      "delivery": "local",
+      "failure_delivery": "local",
+      "no_change_policy": "record successful zero-result run; no external notification",
+      "overlap_policy": "one global atomic directory lock; skip if busy; never automatically steal a stale lock",
+      "missed_run_policy": "next actual run discovers from persisted successful-search checkpoint, clamped to first-run floor; no one-run-per-missed-day replay",
+      "backfill_policy": "no captures earlier than first-run 24-hour floor; oldest pending first; cap is per KST date",
+      "failure_policy": "preserve failed HTML staging and pending on search/download/identity/hash failure; after 3 consecutive core failures set local safety_block; confirmed HTML unavailable is separate, warned and rechecked after 7 days, never counted as captured",
+      "safety_pause_scope": "local execution gate, not an automatic Hermes cron pause",
+      "forbidden_outputs": [
+        "entities/",
+        "concepts/",
+        "comparisons/",
+        "queries/"
+      ]
+    }
+  ],
+  "compilation_strategy": "manual_llm_wiki_direct_original_html_no_preprocessing"
+}

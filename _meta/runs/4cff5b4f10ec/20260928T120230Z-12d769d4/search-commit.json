@@ -1,0 +1,14 @@
+{
+  "pending_durable_at": "2026-09-28T12:05:02.659222+00:00",
+  "pending_state_sha256": "e17d3ad4c005043fe5772d3bc081c771958bddfc484854406a28f9f12e25de2a",
+  "pending_count": 0,
+  "checkpoint_committed_at": "2026-09-28T12:05:02.680760+00:00",
+  "checkpoint_before": "2026-09-28T11:13:26.978196+00:00",
+  "checkpoint_after": "2026-09-28T12:02:30.148155+00:00",
+  "first_window_floor_unchanged": true,
+  "daily_attempts_unchanged": true,
+  "new_daily_attempts": 0,
+  "existing_kst_day_attempts": 10,
+  "run_mode": "zero_candidates_no_pending_no_due_rechecks",
+  "orchestration_note": "execute_code unavailable under cron approval policy; native terminal tools used without policy/configuration changes"
+}

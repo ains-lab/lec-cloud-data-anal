@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-09-28T10:56:35.738085+00:00",
+  "html_files": 8,
+  "paper_package_files": 16,
+  "unavailable_records": 2,
+  "local_operational_links_checked": 48,
+  "original_log_prefix_preserved": true,
+  "preprocessing_files_or_environment_present": false,
+  "collection_lock_present": false,
+  "knowledge_pages": 0,
+  "cron_enabled_readback": true,
+  "next_run_kst": "2026-09-29T00:00:00+09:00",
+  "new_backup_created": false
+}

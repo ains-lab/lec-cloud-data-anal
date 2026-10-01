@@ -1,0 +1,28 @@
+[
+  {
+    "version_id": "2609.30614v1",
+    "checked_at": "2026-09-28T10:49:18.370788+00:00",
+    "abstract_url": "https://arxiv.org/abs/2609.30614v1",
+    "abstract_http_status": 200,
+    "html_fulltext_links": [],
+    "pdf_fulltext_links": [
+      "/pdf/2609.30614v1"
+    ],
+    "html_download_status": 404,
+    "conclusion": "official_html_unavailable",
+    "action": "metadata_only_no_pdf_per_explicit_user_approval"
+  },
+  {
+    "version_id": "2609.30824v1",
+    "checked_at": "2026-09-28T10:49:21.632536+00:00",
+    "abstract_url": "https://arxiv.org/abs/2609.30824v1",
+    "abstract_http_status": 200,
+    "html_fulltext_links": [],
+    "pdf_fulltext_links": [
+      "/pdf/2609.30824v1"
+    ],
+    "html_download_status": 404,
+    "conclusion": "official_html_unavailable",
+    "action": "metadata_only_no_pdf_per_explicit_user_approval"
+  }
+]
