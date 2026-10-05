@@ -18,6 +18,11 @@
   - 설치·로그인 점검과 키워드·계정 기반 수집 명령
   - X 팔로워 2단계 조리법, Reddit 서브레디·사용자 활동 수집
   - 설명서이며 이 저장소에 소셜 수집 자동화를 만들지는 않음
+- [6주차 — Agent Reach와 Hermes Cron으로 SNS 수집 자동화하기](lectures/6w/README.md)
+  - X·Reddit·YouTube의 키워드·계정·채널별 명령과 인증 경계
+  - followers/following/subscriptions 구분, 저장·중복 제거·부분 실패 처리
+  - Hermes Cron 도구 인자, 정지 상태 등록·일회 검증·반복 운영 절차
+  - 기술문서이며 실제 수집·설치·인증·Cron 등록은 수행하지 않음
 
 ## 정확한 운영 기준
 

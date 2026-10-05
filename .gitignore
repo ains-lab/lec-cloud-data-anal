@@ -1,3 +1,5 @@
+exams/
+
 # Local credentials and environment files
 .env
 .env.*
