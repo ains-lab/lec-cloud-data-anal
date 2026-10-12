@@ -1,0 +1,314 @@
+{
+  "schema_version": "lecture-verification/v1",
+  "checked_at": "2026-10-12T23:19:57.115388+00:00",
+  "html_file": "llm-wiki-chapter-02-slides.html",
+  "html_sha256": "bd2f183bfd6ac032e28e4d63b7f39a73e9498c86db860b64eb4f316c1243ee92",
+  "status": "functional_and_structural_checks_passed; visual_semantic_review_incomplete",
+  "slide_count": 38,
+  "main_slide_count": 32,
+  "appendix_slide_count": 6,
+  "original_image_count": 4,
+  "original_table_count": 19,
+  "original_table_cells_checked": 314,
+  "source_integrity": {
+    "unit_test": "test_deck_preserves_original_guide_assets",
+    "exit_code": 0,
+    "headers_rows_cells": "exact displayed wording comparison",
+    "images": "original and embedded bytes checked against recorded SHA-256"
+  },
+  "javascript_syntax": {
+    "command": "node --check - on the HTML script",
+    "observed_exit_code": 0
+  },
+  "browser_geometry": [
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "slideCount": 38,
+      "problems": [],
+      "answersIncluded": true,
+      "pageHasHorizontalOverflow": false,
+      "canvas": {
+        "x": 69.3333740234375,
+        "y": 0,
+        "width": 1781.333251953125,
+        "height": 1002,
+        "top": 0,
+        "right": 1850.6666259765625,
+        "bottom": 1002,
+        "left": 69.3333740234375
+      }
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "slideCount": 38,
+      "problems": [],
+      "answersIncluded": true,
+      "pageHasHorizontalOverflow": false,
+      "canvas": {
+        "x": 69.66668701171875,
+        "y": 0,
+        "width": 1226.66650390625,
+        "height": 690,
+        "top": 0,
+        "right": 1296.3331909179688,
+        "bottom": 690,
+        "left": 69.66668701171875
+      }
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "slideCount": 38,
+      "problems": [],
+      "answersIncluded": true,
+      "pageHasHorizontalOverflow": false,
+      "canvas": {
+        "x": 69.33331298828125,
+        "y": 0,
+        "width": 1141.33349609375,
+        "height": 642,
+        "top": 0,
+        "right": 1210.6668090820312,
+        "bottom": 642,
+        "left": 69.33331298828125
+      }
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 577
+      },
+      "slideCount": 38,
+      "problems": [],
+      "answersIncluded": true,
+      "pageHasHorizontalOverflow": false,
+      "canvas": {
+        "x": 196.4444580078125,
+        "y": 0,
+        "width": 887.111083984375,
+        "height": 499,
+        "top": 0,
+        "right": 1083.5555419921875,
+        "bottom": 499,
+        "left": 196.4444580078125
+      }
+    }
+  ],
+  "browser_interactions": {
+    "arrow_with_button_focus": 2,
+    "next_click": 3,
+    "previous_click": 2,
+    "jump_change": 32,
+    "help_open": true,
+    "help_escape": {
+      "open": false,
+      "focus": "help-button"
+    },
+    "hash_navigation": 17,
+    "reading_button": {
+      "state": {
+        "slide": 17,
+        "total": 38,
+        "reading": true,
+        "storageAvailable": true
+      },
+      "visible": 38
+    },
+    "reload_persistence": 8,
+    "fullscreen_entered": true
+  },
+  "mobile_reading": {
+    "viewport": [
+      390,
+      844
+    ],
+    "reading": true,
+    "visible": 38,
+    "width": 390,
+    "tableScrollContainers": [
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      },
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      },
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      },
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      },
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      },
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      },
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      },
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      },
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      },
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      },
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      },
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      },
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      },
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      },
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      },
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      },
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      },
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      },
+      {
+        "width": 346,
+        "scrollWidth": 680,
+        "overflow": "auto"
+      }
+    ],
+    "errors": []
+  },
+  "offline_load": {
+    "state": {
+      "slide": 4,
+      "total": 38,
+      "reading": false,
+      "storageAvailable": true
+    },
+    "images": [
+      {
+        "complete": true,
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "complete": true,
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "complete": true,
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "complete": true,
+        "width": 1448,
+        "height": 1086
+      }
+    ],
+    "fonts": [
+      {
+        "status": "loaded",
+        "weight": "400"
+      },
+      {
+        "status": "loaded",
+        "weight": "700"
+      }
+    ],
+    "errors": []
+  },
+  "print_exports": [
+    {
+      "reading_mode": false,
+      "pdf": "/home/ainsdev/.hermes/profiles/sysmoon/cache/7w-slides/print-final-presentation.pdf",
+      "pages": 38,
+      "nonempty_pages": 38,
+      "table_cells_checked": 314,
+      "issues": [],
+      "pdf_sha256": "2b4fa5a86b1baa4039554b0fd9d3c7103f22f7c0d1943393d1afde3727815725"
+    },
+    {
+      "reading_mode": true,
+      "pdf": "/home/ainsdev/.hermes/profiles/sysmoon/cache/7w-slides/print-final-reading.pdf",
+      "pages": 38,
+      "nonempty_pages": 38,
+      "table_cells_checked": 314,
+      "issues": [],
+      "pdf_sha256": "c8352cb78ac8e901a986cef5cd6846c7f60ec18155002e431f955e18a85a9a37"
+    }
+  ],
+  "visual_semantic_review": {
+    "status": "incomplete",
+    "reason": "vision_analyze returned Gemini HTTP 403 (PERMISSION_DENIED): project denied access",
+    "image_contents_not_interpreted": true,
+    "screenshots_are_not_visual_approval": true
+  },
+  "evidence_files": {
+    "browser": "/home/ainsdev/.hermes/profiles/sysmoon/cache/7w-slides/browser-final.json",
+    "printing": "/home/ainsdev/.hermes/profiles/sysmoon/cache/7w-slides/print-final.json",
+    "unit_test": "/home/ainsdev/.hermes/profiles/sysmoon/cache/7w-slides/unit-final.txt",
+    "known_initial_keyboard_regression": "/home/ainsdev/.hermes/profiles/sysmoon/cache/7w-slides/keyboard-button-focus-red.json"
+  },
+  "limits": [
+    "DOM geometry and PDF text checks do not prove aesthetic quality or correctness of image meanings.",
+    "Counts and example outcomes copied from the guide are teaching examples, not measurements from this task.",
+    "Print includes initially collapsed teaching answers.",
+    "The artifact is a lecture deck, not a created operating Wiki or an activated collection schedule."
+  ]
+}

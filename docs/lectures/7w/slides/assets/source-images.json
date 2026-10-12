@@ -1,0 +1,58 @@
+[
+  {
+    "page_url": "https://wikidocs.net/353381",
+    "original_url": "https://static.wikidocs.net/images/page/353381/chapter-02.png",
+    "local_path": "assets/353381-chapter.png",
+    "alt": "원본 자료와 위키와 작업 규칙의 세 층 삽화",
+    "http_status": 200,
+    "content_type": "image/png",
+    "bytes": 2936855,
+    "sha256": "8c743e4e4ee7220c912cec1d2a90647f331a0136eb98a1dd6ad7ec4250c9a723",
+    "width": 1448,
+    "height": 1086,
+    "format": "PNG",
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353382",
+    "original_url": "https://static.wikidocs.net/images/page/353382/2.1-%EC%A7%80%EC%8B%9D%EC%9D%B4-%EC%8C%93%EC%9D%B4%EB%8A%94-%EC%84%B8-%EC%B8%B5.jpg",
+    "local_path": "assets/353382-illustration.jpg",
+    "alt": "2.1 지식이 쌓이는 세 층 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 389909,
+    "sha256": "7e85b5b7d26a2f30fd1c23d79a68122dacba7fb1198e95ce6af3d52e6405b3de",
+    "width": 1448,
+    "height": 1086,
+    "format": "JPEG",
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353383",
+    "original_url": "https://static.wikidocs.net/images/page/353383/2.2-%EC%A2%8B%EC%9D%80-%ED%8F%B4%EB%8D%94-%EA%B5%AC%EC%A1%B0-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0.jpg",
+    "local_path": "assets/353383-illustration.jpg",
+    "alt": "2.2 좋은 폴더 구조 이해하기 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 371412,
+    "sha256": "37204458dc0c3255375571bed62138d6497d6d1c350a308802afc71297e8bb28",
+    "width": 1448,
+    "height": 1086,
+    "format": "JPEG",
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353384",
+    "original_url": "https://static.wikidocs.net/images/page/353384/2.3-%EC%A2%8B%EC%9D%80-%EC%9C%84%ED%82%A4-%EB%AC%B8%EC%84%9C%EC%9D%98-%EC%A1%B0%EA%B1%B4.jpg",
+    "local_path": "assets/353384-illustration.jpg",
+    "alt": "2.3 좋은 위키 문서의 조건 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 316044,
+    "sha256": "7d1588869e70bd0b17f836e7549ca872558458ec5d75b988d3ae35cf300d7bf1",
+    "width": 1448,
+    "height": 1086,
+    "format": "JPEG",
+    "modified": false
+  }
+]

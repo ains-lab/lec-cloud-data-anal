@@ -1,0 +1,201 @@
+{
+  "schema_version": "lecture-relocation/v1",
+  "checked_at": "2026-10-12T23:29:24.134015+00:00",
+  "source_directory": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w",
+  "destination_directory": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides",
+  "moved_file_count": 18,
+  "unchanged_file_count": 17,
+  "files": [
+    {
+      "old_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html",
+      "new_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/llm-wiki-chapter-02-slides.html",
+      "sha256_before": "bd2f183bfd6ac032e28e4d63b7f39a73e9498c86db860b64eb4f316c1243ee92",
+      "sha256_after": "bd2f183bfd6ac032e28e4d63b7f39a73e9498c86db860b64eb4f316c1243ee92",
+      "content_unchanged": true,
+      "intentional_change": null
+    },
+    {
+      "old_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides-guide.md",
+      "new_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/slides-guide.md",
+      "sha256_before": "8b2c2be3c795455b5dd7c0d8fb4cf617b921e521e310937d0d5b4036d0f6a9e7",
+      "sha256_after": "1b7df87650db01f99227f280b613b521850a1f2ea3773b7c344960acb90c40d9",
+      "content_unchanged": false,
+      "intentional_change": "guide navigation and test-command paths updated"
+    },
+    {
+      "old_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides-content.json",
+      "new_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/slides-content.json",
+      "sha256_before": "2d96a8cc746c9f3aee7f3196ad2ad73477adf6b6342990d016485039f1593a21",
+      "sha256_after": "2d96a8cc746c9f3aee7f3196ad2ad73477adf6b6342990d016485039f1593a21",
+      "content_unchanged": true,
+      "intentional_change": null
+    },
+    {
+      "old_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides-template.html",
+      "new_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/slides-template.html",
+      "sha256_before": "15a0e2be433ca8fa120478ba2b3a3864dd001fd287a3fac47226e8103856f5ce",
+      "sha256_after": "15a0e2be433ca8fa120478ba2b3a3864dd001fd287a3fac47226e8103856f5ce",
+      "content_unchanged": true,
+      "intentional_change": null
+    },
+    {
+      "old_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/build_slides.py",
+      "new_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/build_slides.py",
+      "sha256_before": "101f1711ba98fbad5ef968edd63a091570e6a17a317e921d901dd92e78cb7814",
+      "sha256_after": "101f1711ba98fbad5ef968edd63a091570e6a17a317e921d901dd92e78cb7814",
+      "content_unchanged": true,
+      "intentional_change": null
+    },
+    {
+      "old_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/test_slides.py",
+      "new_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/test_slides.py",
+      "sha256_before": "c88f5a4f765e8b59f70593c02efc6a6fc1dfc3d6f81252b050bbf4240138a227",
+      "sha256_after": "c88f5a4f765e8b59f70593c02efc6a6fc1dfc3d6f81252b050bbf4240138a227",
+      "content_unchanged": true,
+      "intentional_change": null
+    },
+    {
+      "old_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides-provenance.json",
+      "new_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/slides-provenance.json",
+      "sha256_before": "d25c177c4ef1e0b4b751090186babcec6d6c9c645b9f071987c676a235942601",
+      "sha256_after": "d25c177c4ef1e0b4b751090186babcec6d6c9c645b9f071987c676a235942601",
+      "content_unchanged": true,
+      "intentional_change": null
+    },
+    {
+      "old_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides-verification.json",
+      "new_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/slides-verification.json",
+      "sha256_before": "a83361ed8501ec5af746a3a24be827d305601f33fd2601ecc65ad0cb73992e94",
+      "sha256_after": "a83361ed8501ec5af746a3a24be827d305601f33fd2601ecc65ad0cb73992e94",
+      "content_unchanged": true,
+      "intentional_change": null
+    },
+    {
+      "old_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/served-surface-verification.json",
+      "new_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/served-surface-verification.json",
+      "sha256_before": "437c91e8556d1ab81b093cc0328697d318da848cbe20e5ea1d45fb6f9e0717f7",
+      "sha256_after": "437c91e8556d1ab81b093cc0328697d318da848cbe20e5ea1d45fb6f9e0717f7",
+      "content_unchanged": true,
+      "intentional_change": null
+    },
+    {
+      "old_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/assets/353381-chapter.png",
+      "new_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/assets/353381-chapter.png",
+      "sha256_before": "8c743e4e4ee7220c912cec1d2a90647f331a0136eb98a1dd6ad7ec4250c9a723",
+      "sha256_after": "8c743e4e4ee7220c912cec1d2a90647f331a0136eb98a1dd6ad7ec4250c9a723",
+      "content_unchanged": true,
+      "intentional_change": null
+    },
+    {
+      "old_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/assets/353382-illustration.jpg",
+      "new_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/assets/353382-illustration.jpg",
+      "sha256_before": "7e85b5b7d26a2f30fd1c23d79a68122dacba7fb1198e95ce6af3d52e6405b3de",
+      "sha256_after": "7e85b5b7d26a2f30fd1c23d79a68122dacba7fb1198e95ce6af3d52e6405b3de",
+      "content_unchanged": true,
+      "intentional_change": null
+    },
+    {
+      "old_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/assets/353383-illustration.jpg",
+      "new_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/assets/353383-illustration.jpg",
+      "sha256_before": "37204458dc0c3255375571bed62138d6497d6d1c350a308802afc71297e8bb28",
+      "sha256_after": "37204458dc0c3255375571bed62138d6497d6d1c350a308802afc71297e8bb28",
+      "content_unchanged": true,
+      "intentional_change": null
+    },
+    {
+      "old_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/assets/353384-illustration.jpg",
+      "new_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/assets/353384-illustration.jpg",
+      "sha256_before": "7d1588869e70bd0b17f836e7549ca872558458ec5d75b988d3ae35cf300d7bf1",
+      "sha256_after": "7d1588869e70bd0b17f836e7549ca872558458ec5d75b988d3ae35cf300d7bf1",
+      "content_unchanged": true,
+      "intentional_change": null
+    },
+    {
+      "old_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/assets/fonts/OFL.txt",
+      "new_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/assets/fonts/OFL.txt",
+      "sha256_before": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "sha256_after": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "content_unchanged": true,
+      "intentional_change": null
+    },
+    {
+      "old_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/assets/fonts/fonts.json",
+      "new_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/assets/fonts/fonts.json",
+      "sha256_before": "574d0f2eed46d6d5845d971551dde568027b197c5a11b34fe29fd54713ed5988",
+      "sha256_after": "574d0f2eed46d6d5845d971551dde568027b197c5a11b34fe29fd54713ed5988",
+      "content_unchanged": true,
+      "intentional_change": null
+    },
+    {
+      "old_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/assets/fonts/noto-sans-kr-400.woff2",
+      "new_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/assets/fonts/noto-sans-kr-400.woff2",
+      "sha256_before": "bd48c9bddb67b86586364e2e1a30b3be355abfa1650ba9e35e3511ae622555ea",
+      "sha256_after": "bd48c9bddb67b86586364e2e1a30b3be355abfa1650ba9e35e3511ae622555ea",
+      "content_unchanged": true,
+      "intentional_change": null
+    },
+    {
+      "old_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/assets/source-images.json",
+      "new_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/assets/source-images.json",
+      "sha256_before": "ddd69782f0c0a965fcbb5d07594512df8928c171c51fb9b03f15a0fa151ef1f0",
+      "sha256_after": "ddd69782f0c0a965fcbb5d07594512df8928c171c51fb9b03f15a0fa151ef1f0",
+      "content_unchanged": true,
+      "intentional_change": null
+    },
+    {
+      "old_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/assets/source-tables.json",
+      "new_path": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/assets/source-tables.json",
+      "sha256_before": "367b08ca6a8ca19659112de30c36ce102f5620368eb4ebf93c9ec263c9b819f4",
+      "sha256_after": "367b08ca6a8ca19659112de30c36ce102f5620368eb4ebf93c9ec263c9b819f4",
+      "content_unchanged": true,
+      "intentional_change": null
+    }
+  ],
+  "unit_test": {
+    "command": "python3 docs/lectures/7w/slides/test_slides.py",
+    "observed_exit_code": 0,
+    "result": "original table cell and embedded image preservation test passed"
+  },
+  "browser_check": {
+    "url": "file:///home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/slides/llm-wiki-chapter-02-slides.html#slide-02",
+    "total": 38,
+    "previousSlide": 1,
+    "nextSlide": 2,
+    "images": [
+      {
+        "complete": true,
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "complete": true,
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "complete": true,
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "complete": true,
+        "width": 1448,
+        "height": 1086
+      }
+    ],
+    "fonts": [
+      {
+        "status": "loaded",
+        "weight": "400"
+      },
+      {
+        "status": "loaded",
+        "weight": "700"
+      }
+    ]
+  },
+  "lecture_notes_retained_in_parent": true,
+  "parent_readme": "slide package links updated",
+  "historical_qa_records": "original absolute paths retained as historical observations; same HTML SHA-256 maps to the new path",
+  "qa_scope": "relocation integrity, source-asset unit test, loading and navigation at new URI; not a new full visual or semantic review"
+}

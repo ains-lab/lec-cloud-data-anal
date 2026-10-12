@@ -1,0 +1,340 @@
+{
+  "schema_version": "served_surface_verification/v1",
+  "checked_at": "2026-10-12T23:25:27.519400+00:00",
+  "target_lineage": {
+    "repository": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal",
+    "git_head": "4bdf054e9814e521bca25a1cbd576c89201ffcbe",
+    "workspace_status": "uncommitted lecture artifacts",
+    "artifact": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html",
+    "artifact_sha256": "bd2f183bfd6ac032e28e4d63b7f39a73e9498c86db860b64eb4f316c1243ee92",
+    "render_target": "file:///home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html"
+  },
+  "render_surface": "actual local HTML browser rendering; no HTTP deployment claimed",
+  "observed_result": "functional and DOM text-layout checks passed",
+  "full_visual_qa_verdict": "BLOCK",
+  "visual_score": "not_assessed; no visual quality score fabricated",
+  "blocking_reason": "Screenshot review attempted with vision_analyze and failed with Gemini HTTP 403 PERMISSION_DENIED. Captures and DOM checks are not a visual approval.",
+  "desktop_checks": [
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "slideCount": 38,
+      "problems": [],
+      "answersIncluded": true,
+      "pageHasHorizontalOverflow": false,
+      "canvas": {
+        "x": 69.3333740234375,
+        "y": 0,
+        "width": 1781.333251953125,
+        "height": 1002,
+        "top": 0,
+        "right": 1850.6666259765625,
+        "bottom": 1002,
+        "left": 69.3333740234375
+      }
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "slideCount": 38,
+      "problems": [],
+      "answersIncluded": true,
+      "pageHasHorizontalOverflow": false,
+      "canvas": {
+        "x": 69.66668701171875,
+        "y": 0,
+        "width": 1226.66650390625,
+        "height": 690,
+        "top": 0,
+        "right": 1296.3331909179688,
+        "bottom": 690,
+        "left": 69.66668701171875
+      }
+    }
+  ],
+  "mobile_checks": {
+    "viewport": [
+      390,
+      844
+    ],
+    "visibleSlides": 38,
+    "reading": true,
+    "documentWidth": 390,
+    "textLayoutIssues": [],
+    "tableCount": 19,
+    "tableScrolling": true,
+    "imageLoading": true,
+    "fonts": [
+      {
+        "family": "Lecture Noto",
+        "weight": "400",
+        "status": "loaded"
+      },
+      {
+        "family": "Lecture Noto",
+        "weight": "700",
+        "status": "loaded"
+      }
+    ],
+    "errors": []
+  },
+  "interaction_checks": {
+    "mobile_table_scroll": true,
+    "mobile_answer_expanded": true,
+    "mobile_dialog_fits": true,
+    "mobile_escape_focus_return": true,
+    "arrow_with_button_focus": true,
+    "next_previous": true,
+    "slide_selector": true,
+    "hash_navigation": true,
+    "reading_mode": true,
+    "answer_text_inside": true,
+    "no_observed_runtime_errors": true
+  },
+  "interaction_trace": {
+    "mobile_table_scroll": {
+      "before": 0,
+      "after": 120,
+      "max": 334
+    },
+    "mobile_answer_expanded": {
+      "open": true,
+      "text": "① raw/ · ② wiki/ · ③ output/\n④ index.md · ⑤ log.md · ⑥ 작업 규칙"
+    },
+    "mobile_dialog": {
+      "open": true,
+      "left": 0,
+      "right": 390,
+      "width": 390,
+      "viewportWidth": 390
+    },
+    "mobile_dialog_closed": {
+      "open": false,
+      "focus": "help-button"
+    },
+    "desktop_arrow_with_button_focus": 2,
+    "desktop_next": 3,
+    "desktop_previous": 2,
+    "desktop_jump": 32,
+    "hash_navigation": 17,
+    "reading_toggle": {
+      "reading": true,
+      "visible": 38
+    },
+    "expanded_answer_geometry": {
+      "bottomInside": true,
+      "leftInside": true,
+      "rightInside": false
+    },
+    "runtime_errors": []
+  },
+  "subpixel_diagnostic": {
+    "rightDifferencePixels": 3.0517578125e-05,
+    "elementInsideWithOnePixelTolerance": true,
+    "textInside": true,
+    "runtimeErrors": []
+  },
+  "capture_manifest": [
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "slide": 1,
+      "path": "/home/ainsdev/.hermes/profiles/sysmoon/cache/7w-slides/served-surface/desktop-1366-slide-01.png",
+      "sha256": "942939491e238666daef55c8f7fa1d5be8fc99d5b1063fac8550d7481e25151e",
+      "image_dimensions": [
+        1366,
+        768
+      ],
+      "source_lineage": {
+        "repository": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal",
+        "git_head": "4bdf054e9814e521bca25a1cbd576c89201ffcbe",
+        "workspace_status": "uncommitted lecture artifacts",
+        "artifact": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html",
+        "artifact_sha256": "bd2f183bfd6ac032e28e4d63b7f39a73e9498c86db860b64eb4f316c1243ee92",
+        "render_target": "file:///home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html"
+      }
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "slide": 4,
+      "path": "/home/ainsdev/.hermes/profiles/sysmoon/cache/7w-slides/served-surface/desktop-1366-slide-04.png",
+      "sha256": "b530f43f667863155c48629a802e42b06025f888e3410b73cb119e9916b3946f",
+      "image_dimensions": [
+        1366,
+        768
+      ],
+      "source_lineage": {
+        "repository": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal",
+        "git_head": "4bdf054e9814e521bca25a1cbd576c89201ffcbe",
+        "workspace_status": "uncommitted lecture artifacts",
+        "artifact": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html",
+        "artifact_sha256": "bd2f183bfd6ac032e28e4d63b7f39a73e9498c86db860b64eb4f316c1243ee92",
+        "render_target": "file:///home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html"
+      }
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "slide": 16,
+      "path": "/home/ainsdev/.hermes/profiles/sysmoon/cache/7w-slides/served-surface/desktop-1366-slide-16.png",
+      "sha256": "beee4b3317181c62b3feb343718f4890618efb069b366fe5d86528c86cc1741f",
+      "image_dimensions": [
+        1366,
+        768
+      ],
+      "source_lineage": {
+        "repository": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal",
+        "git_head": "4bdf054e9814e521bca25a1cbd576c89201ffcbe",
+        "workspace_status": "uncommitted lecture artifacts",
+        "artifact": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html",
+        "artifact_sha256": "bd2f183bfd6ac032e28e4d63b7f39a73e9498c86db860b64eb4f316c1243ee92",
+        "render_target": "file:///home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html"
+      }
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "slide": 29,
+      "path": "/home/ainsdev/.hermes/profiles/sysmoon/cache/7w-slides/served-surface/desktop-1366-slide-29.png",
+      "sha256": "21aa737af4b8f2fcc72db0dd75010d4c723ec1756158a60aef2cab385620b2ed",
+      "image_dimensions": [
+        1366,
+        768
+      ],
+      "source_lineage": {
+        "repository": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal",
+        "git_head": "4bdf054e9814e521bca25a1cbd576c89201ffcbe",
+        "workspace_status": "uncommitted lecture artifacts",
+        "artifact": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html",
+        "artifact_sha256": "bd2f183bfd6ac032e28e4d63b7f39a73e9498c86db860b64eb4f316c1243ee92",
+        "render_target": "file:///home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html"
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "slide": 1,
+      "path": "/home/ainsdev/.hermes/profiles/sysmoon/cache/7w-slides/served-surface/mobile-390-slide-01.png",
+      "sha256": "29f1dae84a393ee66f935474fde4600400844c957ac64e0be709630205d33aef",
+      "image_dimensions": [
+        390,
+        844
+      ],
+      "source_lineage": {
+        "repository": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal",
+        "git_head": "4bdf054e9814e521bca25a1cbd576c89201ffcbe",
+        "workspace_status": "uncommitted lecture artifacts",
+        "artifact": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html",
+        "artifact_sha256": "bd2f183bfd6ac032e28e4d63b7f39a73e9498c86db860b64eb4f316c1243ee92",
+        "render_target": "file:///home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html"
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "slide": 4,
+      "path": "/home/ainsdev/.hermes/profiles/sysmoon/cache/7w-slides/served-surface/mobile-390-slide-04.png",
+      "sha256": "e6a51dda6ae5aa2aca9536aa081c3342a2c5ca6db60d7693c04e025e5f0587ef",
+      "image_dimensions": [
+        390,
+        844
+      ],
+      "source_lineage": {
+        "repository": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal",
+        "git_head": "4bdf054e9814e521bca25a1cbd576c89201ffcbe",
+        "workspace_status": "uncommitted lecture artifacts",
+        "artifact": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html",
+        "artifact_sha256": "bd2f183bfd6ac032e28e4d63b7f39a73e9498c86db860b64eb4f316c1243ee92",
+        "render_target": "file:///home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html"
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "slide": 16,
+      "path": "/home/ainsdev/.hermes/profiles/sysmoon/cache/7w-slides/served-surface/mobile-390-slide-16.png",
+      "sha256": "f027b0e1291e665b86cc84764b320e6d191fe6086203c6ff0472438519b99c02",
+      "image_dimensions": [
+        390,
+        844
+      ],
+      "source_lineage": {
+        "repository": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal",
+        "git_head": "4bdf054e9814e521bca25a1cbd576c89201ffcbe",
+        "workspace_status": "uncommitted lecture artifacts",
+        "artifact": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html",
+        "artifact_sha256": "bd2f183bfd6ac032e28e4d63b7f39a73e9498c86db860b64eb4f316c1243ee92",
+        "render_target": "file:///home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html"
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "slide": 29,
+      "path": "/home/ainsdev/.hermes/profiles/sysmoon/cache/7w-slides/served-surface/mobile-390-slide-29.png",
+      "sha256": "4557bfbd4211847556d7239bbcfcf71331fc122fdd212cb32aa73c611166c458",
+      "image_dimensions": [
+        390,
+        844
+      ],
+      "source_lineage": {
+        "repository": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal",
+        "git_head": "4bdf054e9814e521bca25a1cbd576c89201ffcbe",
+        "workspace_status": "uncommitted lecture artifacts",
+        "artifact": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html",
+        "artifact_sha256": "bd2f183bfd6ac032e28e4d63b7f39a73e9498c86db860b64eb4f316c1243ee92",
+        "render_target": "file:///home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/7w/llm-wiki-chapter-02-slides.html"
+      }
+    }
+  ],
+  "capture_coverage": {
+    "representative_slides": [
+      1,
+      4,
+      16,
+      29
+    ],
+    "capture_viewports": [
+      [
+        1366,
+        768
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "capture_count": 8,
+    "desktop_text_layout_all_slides": 38,
+    "mobile_text_layout_all_slides": 38,
+    "all_slides_screenshot_review": "not performed"
+  },
+  "source_changes": "HTML unchanged; verification artifact added only",
+  "evidence_directory": "/home/ainsdev/.hermes/profiles/sysmoon/cache/7w-slides/served-surface",
+  "limits": [
+    "Text clipping conclusions use DOM text rectangles, not screenshot OCR or visual interpretation.",
+    "The image tool did not review illustration content or screenshot aesthetics.",
+    "Automated accessibility audit, visual diff and independent dual-oracle review were not performed."
+  ]
+}

@@ -1,0 +1,492 @@
+{
+  "schema_version": "material_artifact/v1",
+  "status": "generated",
+  "format": "offline HTML slide deck",
+  "audience": "LLM을 사용해 본 학부 수강생",
+  "source_author": "박승규",
+  "source_book": "LLM위키 완벽 가이드",
+  "output": "llm-wiki-chapter-02-slides.html",
+  "html_sha256": "bd2f183bfd6ac032e28e4d63b7f39a73e9498c86db860b64eb4f316c1243ee92",
+  "slide_count": 38,
+  "main_slide_count": 32,
+  "appendix_slide_count": 6,
+  "original_image_count": 4,
+  "original_table_count": 19,
+  "image_transformation": "none; original bytes embedded as base64",
+  "table_transformation": "HTML rendering only; header/row/cell wording and order preserved",
+  "font_license": "SIL Open Font License 1.1; license embedded and supplied in assets/fonts/OFL.txt",
+  "visual_review": "not_completed: image tool returned Gemini HTTP 403 PERMISSION_DENIED",
+  "runtime_qa": "see slides-verification.json",
+  "slides": [
+    {
+      "id": "slide-01",
+      "title": "LLM 위키의 기본 구조",
+      "section": "7주차 · 시작",
+      "kind": "cover",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353381",
+        "https://wikidocs.net/book/19830"
+      ],
+      "source_table": null,
+      "source_image": "assets/353381-chapter.png"
+    },
+    {
+      "id": "slide-02",
+      "title": "오늘 답할 질문은 세 가지",
+      "section": "학습 지도",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353381"
+      ],
+      "source_table": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-03",
+      "title": "보관함, 노트, 약속이 있는 책상",
+      "section": "전체 구조 · 강의용 재구성",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353382",
+        "https://wikidocs.net/353383"
+      ],
+      "source_table": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-04",
+      "title": "지식이 쌓이는 세 층",
+      "section": "2.1 · 원문 삽화",
+      "kind": "image",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353382"
+      ],
+      "source_table": null,
+      "source_image": "assets/353382-illustration.jpg"
+    },
+    {
+      "id": "slide-05",
+      "title": "섞인 구조와 세 층 구조의 차이",
+      "section": "2.1 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353382"
+      ],
+      "source_table": "353382-table-1",
+      "source_image": null
+    },
+    {
+      "id": "slide-06",
+      "title": "raw는 근거, wiki는 해석",
+      "section": "2.1 · 역할 구분",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353382"
+      ],
+      "source_table": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-07",
+      "title": "raw에 넣을 것과 조심할 것",
+      "section": "2.1 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353382"
+      ],
+      "source_table": "353382-table-2",
+      "source_image": null
+    },
+    {
+      "id": "slide-08",
+      "title": "raw와 wiki의 역할 비교",
+      "section": "2.1 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353382"
+      ],
+      "source_table": "353382-table-3",
+      "source_image": null
+    },
+    {
+      "id": "slide-09",
+      "title": "“검토하자”가 “결정했다”가 되면?",
+      "section": "2.1 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353382"
+      ],
+      "source_table": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-10",
+      "title": "작업 규칙은 구체적으로 쓴다",
+      "section": "2.1 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353382"
+      ],
+      "source_table": "353382-table-4",
+      "source_image": null
+    },
+    {
+      "id": "slide-11",
+      "title": "정리 노트만 있으면 충분할까?",
+      "section": "2.1 · 이해 확인",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353382",
+        "https://wikidocs.net/353383"
+      ],
+      "source_table": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-12",
+      "title": "좋은 폴더 구조 이해하기",
+      "section": "2.2 · 원문 삽화",
+      "kind": "image",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353383"
+      ],
+      "source_table": null,
+      "source_image": "assets/353383-illustration.jpg"
+    },
+    {
+      "id": "slide-13",
+      "title": "같은 질문에 함께 쓸 자료인가?",
+      "section": "2.2 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353383"
+      ],
+      "source_table": "353383-table-1",
+      "source_image": null
+    },
+    {
+      "id": "slide-14",
+      "title": "좋은 주제 폴더의 조건",
+      "section": "2.2 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353383"
+      ],
+      "source_table": "353383-table-2",
+      "source_image": null
+    },
+    {
+      "id": "slide-15",
+      "title": "작은 위키의 자리를 눈으로 보기",
+      "section": "2.2 · 강의용 가상 폴더 트리",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353382",
+        "https://wikidocs.net/353383"
+      ],
+      "source_table": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-16",
+      "title": "기본 파일과 폴더의 역할",
+      "section": "2.2 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353383"
+      ],
+      "source_table": "353383-table-3",
+      "source_image": null
+    },
+    {
+      "id": "slide-17",
+      "title": "안내판과 작업 일지는 다르다",
+      "section": "2.2 · 강의용 재구성",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353383"
+      ],
+      "source_table": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-18",
+      "title": "log에는 판단의 흔적을 남긴다",
+      "section": "2.2 · 원문 문서 예시의 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353383"
+      ],
+      "source_table": "353383-table-4",
+      "source_image": null
+    },
+    {
+      "id": "slide-19",
+      "title": "만들 때는 앞으로, 확인할 때는 뒤로",
+      "section": "2.2 · 강의용 재구성",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353383"
+      ],
+      "source_table": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-20",
+      "title": "좋은 위키 문서의 조건",
+      "section": "2.3 · 원문 삽화",
+      "kind": "image",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353384"
+      ],
+      "source_table": null,
+      "source_image": "assets/353384-illustration.jpg"
+    },
+    {
+      "id": "slide-21",
+      "title": "좋은 문서의 세 가지 질문",
+      "section": "2.3 · 강의용 재구성",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353384"
+      ],
+      "source_table": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-22",
+      "title": "나중에 곤란한 문서와 좋은 문서",
+      "section": "2.3 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353384"
+      ],
+      "source_table": "353384-table-1",
+      "source_image": null
+    },
+    {
+      "id": "slide-23",
+      "title": "출처 블록에 무엇을 남길까?",
+      "section": "2.3 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353384"
+      ],
+      "source_table": "353384-table-2",
+      "source_image": null
+    },
+    {
+      "id": "slide-24",
+      "title": "문서의 각 칸이 다음 질문을 만든다",
+      "section": "2.3 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353384"
+      ],
+      "source_table": "353384-table-3",
+      "source_image": null
+    },
+    {
+      "id": "slide-25",
+      "title": "제목만 봐도 다루는 질문을 알게",
+      "section": "2.3 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353384"
+      ],
+      "source_table": "353384-table-5",
+      "source_image": null
+    },
+    {
+      "id": "slide-26",
+      "title": "링크는 다음에 확인할 길이다",
+      "section": "2.3 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353384"
+      ],
+      "source_table": "353384-table-6",
+      "source_image": null
+    },
+    {
+      "id": "slide-27",
+      "title": "사실, 제안, 모르는 것을 나누자",
+      "section": "2.3 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353384"
+      ],
+      "source_table": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-28",
+      "title": "좋은 위키 문서 점검표",
+      "section": "2.3 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353384"
+      ],
+      "source_table": "353384-table-7",
+      "source_image": null
+    },
+    {
+      "id": "slide-29",
+      "title": "이 문서의 집은 어디일까?",
+      "section": "복습 · 종이 실습",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353382",
+        "https://wikidocs.net/353383"
+      ],
+      "source_table": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-30",
+      "title": "원문으로 뒷받침되는 문장은?",
+      "section": "복습 · 가상 사례 확인",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353382"
+      ],
+      "source_table": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-31",
+      "title": "원본을 지키고, 근거를 붙여 다시 쓴다",
+      "section": "마지막 복습",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353382",
+        "https://wikidocs.net/353383",
+        "https://wikidocs.net/353384"
+      ],
+      "source_table": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-32",
+      "title": "원문 이미지·표와 강의 설명을 구분하기",
+      "section": "원전과 사용 안내",
+      "kind": "sources",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353381",
+        "https://wikidocs.net/353382",
+        "https://wikidocs.net/353383",
+        "https://wikidocs.net/353384"
+      ],
+      "source_table": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-33",
+      "title": "세 층의 검증 포인트",
+      "section": "부록 · 2.1 원문 검증표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353382"
+      ],
+      "source_table": "353382-table-5",
+      "source_image": null
+    },
+    {
+      "id": "slide-34",
+      "title": "원본과 요약을 나누는 기준",
+      "section": "부록 · 2.2 원문 비교표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353383"
+      ],
+      "source_table": "353383-table-5",
+      "source_image": null
+    },
+    {
+      "id": "slide-35",
+      "title": "폴더 구조가 잡혔는지 확인하기",
+      "section": "부록 · 2.2 원문 점검표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353383"
+      ],
+      "source_table": "353383-table-6",
+      "source_image": null
+    },
+    {
+      "id": "slide-36",
+      "title": "문서 예시의 자동화 판단 기준",
+      "section": "부록 · 2.3 원문 문서 예시의 표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353384"
+      ],
+      "source_table": "353384-table-4",
+      "source_image": null
+    },
+    {
+      "id": "slide-37",
+      "title": "문서 예시의 자동화 후보 비교",
+      "section": "부록 · 2.3 원문 문서 예시의 표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353384"
+      ],
+      "source_table": "353384-table-8",
+      "source_image": null
+    },
+    {
+      "id": "slide-38",
+      "title": "원문 자료를 어떻게 보존했나?",
+      "section": "부록 · 출처 자산 목록",
+      "kind": "inventory",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/book/19830",
+        "https://wikidocs.net/353381",
+        "https://wikidocs.net/353382",
+        "https://wikidocs.net/353383",
+        "https://wikidocs.net/353384"
+      ],
+      "source_table": null,
+      "source_image": null
+    }
+  ]
+}

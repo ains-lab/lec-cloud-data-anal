@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>@@TITLE@@ — 7주차 강의 슬라이드</title>
+<style>
+@@FONTS@@
+:root{--paper:#fcfaf5;--ink:#172e33;--muted:#52636a;--accent:#006a64;--line:#c9d4ce;--soft:#eaf1eb;--canvas-width:1920;--canvas-height:1080;--scale:1}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:"Lecture Noto",sans-serif;color:var(--ink);background:#dfe5df}body{overflow:hidden}button,select{font:inherit}button,a,summary,select{touch-action:manipulation}a{color:var(--accent);text-underline-offset:.16em}button:focus-visible,a:focus-visible,summary:focus-visible,select:focus-visible{outline:4px solid #c06c10;outline-offset:4px}button{min-height:44px;min-width:44px;border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:8px 14px;cursor:pointer;border-radius:4px}button:hover{background:var(--soft)}button:disabled{opacity:.4;cursor:default}.stage{position:fixed;inset:0 0 78px;overflow:hidden}.canvas{width:1920px;height:1080px;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) scale(var(--scale));transform-origin:center}.slide{width:1920px;height:1080px;padding:58px 80px 36px;display:none;grid-template-rows:150px minmax(0,1fr) 54px;gap:22px;background:var(--paper);overflow:hidden}.slide.active{display:grid}.slide[data-kind="cover"]{grid-template-rows:228px minmax(0,1fr) 54px}.slide-header{min-width:0}.kicker{margin:0 0 10px;text-transform:uppercase;color:var(--accent);font-size:24px;font-weight:700;letter-spacing:.07em}h1,h2,h3,p{margin-top:0}h2{font-size:60px;line-height:1.12;letter-spacing:-.055em;margin:0 0 12px;font-weight:700}h3{font-size:40px;line-height:1.4;letter-spacing:-.04em;margin-bottom:24px}.subtitle{font-size:29px;color:var(--muted);line-height:1.45;margin:0}.slide-body{font-size:32px;line-height:1.65;min-width:0;min-height:0}.slide-body>p{margin-bottom:28px}.slide-footer{display:flex;align-items:end;justify-content:space-between;gap:24px;border-top:1px solid var(--line);padding-top:12px;font-size:22px;line-height:1.25;color:var(--muted)}.source-links{display:flex;gap:18px;flex-wrap:wrap;max-width:1500px}.source-links a{font-size:22px;text-decoration:none}.source-links a:hover{text-decoration:underline}.slide-number{white-space:nowrap;font-variant-numeric:tabular-nums}.two-up{display:grid;grid-template-columns:1fr 1fr;gap:66px;align-items:start}.three-up{display:grid;grid-template-columns:repeat(3,1fr);gap:50px;align-items:start;padding-top:26px}.three-up article{padding-top:28px;border-top:3px solid var(--accent)}.number{font-size:65px;font-weight:700;color:var(--accent);display:block;margin-bottom:24px;line-height:1.2}.label{display:block;color:var(--accent);font-size:25px;font-weight:700;margin-bottom:20px}.subtle{color:var(--muted);font-size:25px;line-height:1.65}.lead{font-size:46px;font-weight:700;line-height:1.48;letter-spacing:-.045em;margin-bottom:32px}.statement{font-size:32px;font-weight:700;border-top:1px solid var(--line);padding-top:25px;margin-top:38px;line-height:1.5}.rule-bar{display:flex;align-items:center;justify-content:space-between;background:var(--soft);padding:24px 34px;font-size:31px;margin-bottom:38px}.rule-bar strong{color:var(--accent)}.flow{display:grid;grid-template-columns:1fr 80px 1fr 80px 1fr;align-items:center;gap:14px}.flow article{padding:24px 20px;text-align:center}.flow h3{margin:18px 0}.flow p{margin:0}.flow .output-node{border:1px dashed var(--line)}.arrow{text-align:center;color:var(--accent);font-size:50px}.simple{margin:8px 0 32px}.reverse-flow{font-size:58px;color:var(--accent);font-weight:700;letter-spacing:-.02em;margin:12px 0 20px}code{font-family:"Lecture Noto",sans-serif;font-size:.93em;font-weight:700;overflow-wrap:anywhere;word-break:normal;color:var(--accent)}pre{font-family:"Lecture Noto",sans-serif;white-space:pre-wrap;line-height:1.62;margin:0;overflow-wrap:anywhere}.tree{font-size:29px;padding:26px 34px;background:var(--soft);line-height:1.65}ul,ol{padding-left:1.25em;margin:18px 0 24px}li{margin-bottom:12px}blockquote{margin:4px 0 38px;font-size:42px;font-weight:700;line-height:1.6;letter-spacing:-.04em;color:var(--accent)}.two-up blockquote{font-size:36px}.illustration-layout{display:grid;grid-template-columns:1040px minmax(0,1fr);gap:58px;align-items:center;height:100%;min-height:0}.original-image{margin:0;min-width:0;min-height:0;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px}.original-image img{display:block;max-width:100%;width:100%;height:calc(100% - 44px);min-height:0;object-fit:contain;object-position:center}.original-image figcaption{font-size:22px;line-height:1.4;color:var(--muted);text-align:center;flex:none}.cover-layout{display:grid;grid-template-columns:640px 1fr;gap:64px;height:100%;min-height:0}.cover-layout .original-image{height:100%}.table-panel{display:flex;flex-direction:column;align-items:stretch;gap:22px;min-height:0}.table-scroll{min-width:0}.source-table{width:100%;border-collapse:collapse;font-size:28px;line-height:1.5;table-layout:fixed}.source-table caption{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}.source-table th,.source-table td{padding:15px 20px;text-align:left;vertical-align:middle;overflow-wrap:anywhere;word-break:normal;border-bottom:1px solid var(--line)}.source-table th{background:var(--accent);color:white;font-weight:700;font-size:27px;line-height:1.5}.source-table th code{color:white}.source-table tr:nth-child(even) td{background:var(--soft)}.source-table td:first-child{font-weight:700}.source-table.dense{font-size:26px}.source-table.dense th{font-size:26px}.source-table.dense th,.source-table.dense td{padding:13px 16px}.takeaway{font-size:26px;line-height:1.5;color:var(--muted);margin:0}.answer{margin-top:24px;border-top:1px solid var(--line);padding-top:18px;font-size:29px;line-height:1.55}.answer summary{cursor:pointer;min-height:44px;color:var(--accent);font-weight:700}.answer p{margin:20px 0 0}.choices{display:grid;gap:15px}.choices p{margin:0;padding:18px 24px;background:var(--soft);font-size:31px;line-height:1.4}.choices strong{display:inline-block;margin-right:28px;color:var(--accent)}.compact h3{font-size:34px}.compact+.statement{margin-top:24px}.compact+blockquote{margin-top:40px;font-size:43px;line-height:1.5}.bibliography{list-style:none;padding:0;margin:0 0 28px;display:grid;gap:14px;font-size:25px;line-height:1.45}.bibliography a{font-weight:700}.bibliography .url{font-size:22px;display:block;color:var(--muted);overflow-wrap:anywhere}.sources-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px}.sources-grid p{font-size:28px;line-height:1.6;margin-bottom:24px}.sources-grid .subtle{font-size:24px}.inventory-stat{font-size:28px;color:var(--accent);font-weight:700;margin-bottom:24px}.toolbar{position:fixed;bottom:0;left:0;right:0;height:78px;background:var(--paper);border-top:1px solid var(--line);display:flex;align-items:center;justify-content:center;gap:12px;padding:12px 20px;z-index:3;font-size:16px}.toolbar select{height:46px;border:1px solid var(--line);background:white;color:var(--ink);max-width:440px;min-width:160px;padding:5px 10px}.toolbar output{min-width:105px;text-align:center;font-weight:700;font-variant-numeric:tabular-nums}.progress{position:fixed;bottom:76px;left:0;right:0;height:3px;background:var(--line);z-index:4}.progress span{display:block;height:100%;background:var(--accent);width:0}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}dialog{border:1px solid var(--line);border-radius:5px;padding:30px;background:var(--paper);max-width:620px;font-size:20px;line-height:1.7}dialog h2{font-size:30px;letter-spacing:normal}dialog::backdrop{background:rgba(15,30,30,.5)}body.reading{overflow:auto;background:var(--paper)}body.reading .stage{position:static;overflow:visible;padding-bottom:96px}body.reading .canvas{position:static;transform:none;width:auto;height:auto;max-width:1920px;margin:auto}body.reading .slide{display:grid;width:100%;height:auto;min-height:1080px;margin-bottom:40px;border-bottom:2px solid var(--line);overflow:visible}body.reading .slide-body{min-height:690px}body.reading .slide[data-kind="cover"] .slide-body{min-height:600px}body.reading .original-image{min-height:570px}body.reading .slide-footer{margin-top:30px}body.reading .toolbar{justify-content:center}noscript{position:relative;display:block;padding:20px;background:var(--soft);font-size:20px}
+@media screen and (max-width:760px){body{overflow:auto}.stage{position:static;overflow:visible;padding-bottom:165px}.canvas{position:static;transform:none;width:auto;height:auto}.slide,body.reading .slide{display:flex;flex-direction:column;width:100%;height:auto;min-height:0;padding:30px 22px;margin-bottom:24px;overflow:visible;border-bottom:2px solid var(--line)}.slide-header{margin-bottom:26px}h2{font-size:38px;line-height:1.3}h3{font-size:29px;line-height:1.45;margin-bottom:18px}.kicker{font-size:16px}.subtitle{font-size:20px}.slide-body,body.reading .slide-body,body.reading .slide[data-kind="cover"] .slide-body{font-size:24px;line-height:1.7;min-height:0}.two-up,.three-up,.illustration-layout,.cover-layout,.sources-grid{display:flex;flex-direction:column;gap:28px;height:auto}.three-up{padding-top:0}.three-up article{width:100%;padding-top:20px}.number{font-size:44px;margin-bottom:15px}.lead{font-size:32px}.label{font-size:19px}.subtle{font-size:20px}.statement{font-size:25px;padding-top:20px;margin-top:28px}.rule-bar{display:block;padding:22px;font-size:23px}.rule-bar strong{display:block;margin-bottom:12px}.flow{grid-template-columns:1fr;gap:0}.flow .arrow{transform:rotate(90deg);font-size:35px}.flow article{padding:15px}.reverse-flow{font-size:31px}.tree{font-size:21px;padding:18px}.original-image,body.reading .original-image{height:auto;min-height:0;width:100%}.original-image img{height:auto;width:100%;max-height:440px;object-fit:contain}.original-image figcaption{font-size:16px}.table-scroll{width:100%;overflow-x:auto}.source-table,.source-table.dense{font-size:19px;min-width:680px}.source-table th,.source-table.dense th{font-size:19px}.source-table th,.source-table td,.source-table.dense th,.source-table.dense td{padding:12px}.takeaway{font-size:20px}.answer{font-size:22px}.choices p{font-size:22px}.choices strong{margin-right:12px}blockquote,.two-up blockquote,.compact+blockquote{font-size:28px;line-height:1.65}.compact h3{font-size:27px}.slide-footer{margin-top:30px;align-items:start;font-size:16px}.source-links{gap:9px}.source-links a{font-size:15px}.slide-number{font-size:16px}.bibliography{font-size:19px}.bibliography .url{font-size:17px}.sources-grid p,.sources-grid .subtle,.inventory-stat{font-size:21px}.toolbar{height:auto;min-height:110px;flex-wrap:wrap;padding:9px 12px;gap:7px;font-size:14px}.toolbar select{order:9;max-width:100%;width:100%}.toolbar output{min-width:76px}.progress{bottom:110px}body.reading .stage{padding-bottom:160px}body.reading .slide{margin-bottom:24px}}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+@page{size:20in 11.25in;margin:0}
+@media print{html,body{width:1920px;margin:0;padding:0;background:white;overflow:visible!important}.toolbar,.progress,dialog,.sr-only,noscript{display:none!important}.stage,body.reading .stage{position:static!important;overflow:visible!important;padding:0!important}.canvas,body.reading .canvas{position:static!important;transform:none!important;width:1920px!important;height:auto!important;max-width:none!important;margin:0!important}.slide,body.reading .slide{display:grid!important;width:1920px!important;height:1080px!important;min-height:0!important;margin:0!important;padding:58px 80px 36px!important;border:0!important;overflow:hidden!important;break-inside:avoid;break-after:page;page-break-after:always;print-color-adjust:exact;-webkit-print-color-adjust:exact}.slide:last-child,body.reading .slide:last-child{break-after:auto;page-break-after:auto}.slide-body,body.reading .slide-body,body.reading .slide[data-kind="cover"] .slide-body{min-height:0!important}.original-image,body.reading .original-image{min-height:0!important}.slide-footer,body.reading .slide-footer{margin-top:0!important}.answer summary{list-style:none}.answer p{display:block!important}.source-table caption{display:none!important}a{text-decoration:none}}
+</style>
+<!-- Embedded font license: @@FONT_LICENSE@@ -->
+</head>
+<body>
+<noscript><style>.stage{position:static;overflow:visible}.canvas{position:static;transform:none;height:auto}.slide{display:grid}</style>JavaScript가 꺼져 있어 전체 슬라이드를 순서대로 표시합니다.</noscript>
+<main class="stage" aria-label="7주차 LLM 위키 강의 슬라이드">
+<div class="canvas" id="canvas">@@SLIDES@@</div>
+</main>
+<div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+<nav class="toolbar" aria-label="슬라이드 조작">
+<button id="previous" type="button" aria-label="이전 슬라이드">← 이전</button>
+<output id="counter" aria-label="현재 슬라이드"></output>
+<button id="next" type="button" aria-label="다음 슬라이드">다음 →</button>
+<label class="sr-only" for="jump">슬라이드 선택</label>
+<select id="jump">@@OPTIONS@@</select>
+<button id="reading" type="button" aria-pressed="false">전체 읽기</button>
+<button id="fullscreen" type="button">전체 화면</button>
+<button id="print" type="button">인쇄</button>
+<button id="help-button" type="button" aria-label="조작 도움말">?</button>
+</nav>
+<p id="announce" class="sr-only" aria-live="polite" aria-atomic="true"></p>
+<dialog id="help" aria-labelledby="help-title">
+<h2 id="help-title">슬라이드 조작</h2>
+<p>← / → 또는 PageUp / PageDown: 이동<br>Home / End: 처음 / 마지막<br>R: 전체 읽기 전환 · F: 전체 화면</p>
+<p>전체 읽기는 모든 슬라이드를 세로로 보여 줍니다.<br>인쇄에는 모든 슬라이드와 접힌 예시 답이 포함됩니다.</p>
+<form method="dialog"><button>닫기</button></form>
+</dialog>
+<script>
+'use strict';
+(() => {
+  const slides = [...document.querySelectorAll('.slide')];
+  const stage = document.querySelector('.stage');
+  const jump = document.getElementById('jump');
+  const counter = document.getElementById('counter');
+  const readingButton = document.getElementById('reading');
+  const help = document.getElementById('help');
+  const media = window.matchMedia('(max-width:760px)');
+  const key = 'hoseo-7w-llm-wiki-chapter-02';
+  let current = 0;
+  let manualReading = false;
+  let storageAvailable = true;
+  let saved = null;
+  try { saved = JSON.parse(localStorage.getItem(key) || 'null'); }
+  catch (error) { storageAvailable = false; document.body.dataset.storage = 'unavailable'; }
+  const isReading = () => manualReading || media.matches;
+  function save() {
+    if (!storageAvailable) return;
+    try { localStorage.setItem(key, JSON.stringify({slide:current+1,reading:manualReading})); }
+    catch (error) { storageAvailable = false; document.body.dataset.storage = 'unavailable'; }
+  }
+  function scale() {
+    if (!isReading()) {
+      const rect = stage.getBoundingClientRect();
+      document.documentElement.style.setProperty('--scale', String(Math.min(rect.width/1920,rect.height/1080)));
+    }
+  }
+  function hashSlide() {
+    const match = location.hash.match(/^#slide-(\d+)$/);
+    return match ? Number(match[1]) : null;
+  }
+  function render(updateHash = true) {
+    const reading = isReading();
+    document.body.classList.toggle('reading',reading);
+    slides.forEach((slide,index) => {
+      slide.classList.toggle('active',index===current);
+      slide.setAttribute('aria-hidden',String(!reading && index!==current));
+      slide.inert = !reading && index!==current;
+    });
+    jump.value = String(current+1);
+    counter.textContent = `${current+1} / ${slides.length}`;
+    document.getElementById('previous').disabled = current===0;
+    document.getElementById('next').disabled = current===slides.length-1;
+    readingButton.setAttribute('aria-pressed',String(reading));
+    readingButton.textContent = reading ? '발표 보기' : '전체 읽기';
+    readingButton.disabled = media.matches;
+    document.getElementById('progress-bar').style.width = `${((current+1)/slides.length)*100}%`;
+    document.getElementById('announce').textContent = `${current+1}번 슬라이드. ${slides[current].dataset.title}`;
+    document.title = `${current+1}/${slides.length} · ${slides[current].dataset.title} — LLM 위키`;
+    if (updateHash) history.replaceState(null,'',`#slide-${String(current+1).padStart(2,'0')}`);
+    save(); scale();
+  }
+  function go(number,scroll=true) {
+    const next = Math.max(0,Math.min(slides.length-1,Number(number)-1));
+    if (!Number.isFinite(next)) return;
+    current=next;render();
+    if (isReading() && scroll) slides[current].scrollIntoView({block:'start',behavior:'auto'});
+  }
+  function setReading(value) {
+    manualReading=Boolean(value);render();
+    if (isReading()) slides[current].scrollIntoView({block:'start',behavior:'auto'});
+  }
+  async function toggleFullscreen() {
+    if (document.fullscreenElement) await document.exitFullscreen();
+    else if (document.documentElement.requestFullscreen) await document.documentElement.requestFullscreen();
+  }
+  document.getElementById('previous').addEventListener('click',()=>go(current));
+  document.getElementById('next').addEventListener('click',()=>go(current+2));
+  jump.addEventListener('change',()=>go(jump.value));
+  readingButton.addEventListener('click',()=>setReading(!manualReading));
+  document.getElementById('fullscreen').addEventListener('click',()=>toggleFullscreen().catch(error=>{document.getElementById('announce').textContent='전체 화면을 열 수 없습니다. 브라우저 설정을 확인하세요.';}));
+  document.getElementById('print').addEventListener('click',()=>window.print());
+  document.getElementById('help-button').addEventListener('click',()=>help.showModal());
+  document.addEventListener('keydown',event=>{
+    const focusedTag=document.activeElement?.tagName||'';
+    if (help.open || /^(INPUT|SELECT|TEXTAREA)$/.test(focusedTag) || event.ctrlKey || event.metaKey || event.altKey) return;
+    if (event.key===' ' && /^(BUTTON|SUMMARY)$/.test(focusedTag)) return;
+    if (['ArrowRight','PageDown',' '].includes(event.key)) {event.preventDefault();go(current+2);}
+    else if (['ArrowLeft','PageUp'].includes(event.key)) {event.preventDefault();go(current);}
+    else if (event.key==='Home') {event.preventDefault();go(1);}
+    else if (event.key==='End') {event.preventDefault();go(slides.length);}
+    else if (event.key.toLowerCase()==='r') setReading(!manualReading);
+    else if (event.key.toLowerCase()==='f') toggleFullscreen().catch(error=>{document.getElementById('announce').textContent='전체 화면 요청이 허용되지 않았습니다.';});
+  });
+  window.addEventListener('hashchange',()=>{const n=hashSlide();if(n!==null)go(n);});
+  window.addEventListener('resize',()=>requestAnimationFrame(scale));
+  media.addEventListener('change',()=>render());
+  let openAnswers=[];
+  window.addEventListener('beforeprint',()=>{openAnswers=[...document.querySelectorAll('details.answer')].map(node=>[node,node.open]);openAnswers.forEach(([node])=>{node.open=true;});});
+  window.addEventListener('afterprint',()=>{openAnswers.forEach(([node,open])=>{node.open=open;});});
+  manualReading=Boolean(saved?.reading);
+  const initial=hashSlide() || saved?.slide || 1;
+  current=Math.max(0,Math.min(slides.length-1,Number(initial)-1));
+  if (!Number.isFinite(current)) current=0;
+  render();
+  document.fonts.ready.then(scale);
+  window.LectureDeck={go,setReading,getState:()=>({slide:current+1,total:slides.length,reading:isReading(),storageAvailable}),version:'1'};
+})();
+</script>
+</body>
+</html>
