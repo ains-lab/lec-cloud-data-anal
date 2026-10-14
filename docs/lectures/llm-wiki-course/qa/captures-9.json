@@ -1,0 +1,36 @@
+[
+  {
+    "path": "qa/captures/9w-desktop-cover.png",
+    "week": 9,
+    "viewport": [
+      1440,
+      900
+    ],
+    "state": {
+      "slide": 1,
+      "total": 49,
+      "reading": false,
+      "storageAvailable": true
+    },
+    "source_sha256": "d4e993dff26a5ad8ebb98a4dea75226f991c7438f590eac7345b8415cebcd293",
+    "capture_sha256": "1202a79c9390c1b2b845065286a0b3a98585a0ba5bdfc71c463c0338a81e64ff",
+    "served_url": "http://127.0.0.1:8879/9w/slides/llm-wiki-chapter-02-slides.html#slide-01"
+  },
+  {
+    "path": "qa/captures/9w-mobile-cover.png",
+    "week": 9,
+    "viewport": [
+      375,
+      812
+    ],
+    "state": {
+      "slide": 1,
+      "total": 49,
+      "reading": true,
+      "storageAvailable": true
+    },
+    "source_sha256": "d4e993dff26a5ad8ebb98a4dea75226f991c7438f590eac7345b8415cebcd293",
+    "capture_sha256": "eb06d5e2d7586e468c5ea7181884e3a5ea2dcd3ea0dbc900997ce1d20842b647",
+    "served_url": "http://127.0.0.1:8879/9w/slides/llm-wiki-chapter-02-slides.html#slide-01"
+  }
+]

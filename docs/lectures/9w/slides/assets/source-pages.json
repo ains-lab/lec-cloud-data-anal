@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://wikidocs.net/353381",
+    "title": "2장. LLM위키의 기본 구조",
+    "local_path": "assets/sources/353381.md",
+    "sha256": "fe2ae2ba3df08f920c6f90a6ddce4786ca25da287c3e16bd06d193021ec593d4"
+  },
+  {
+    "url": "https://wikidocs.net/353382",
+    "title": "2.1 지식이 쌓이는 세 층",
+    "local_path": "assets/sources/353382.md",
+    "sha256": "1449ce447b66a97f083efad83d95fa3e2c21daa4142e1e1ce38062d72bb6b6c9"
+  },
+  {
+    "url": "https://wikidocs.net/353383",
+    "title": "2.2 좋은 폴더 구조 이해하기",
+    "local_path": "assets/sources/353383.md",
+    "sha256": "26f889480d97f34756d9c3aaecd4c6c9e9009fdd67907bd77be955af216e6f69"
+  },
+  {
+    "url": "https://wikidocs.net/353384",
+    "title": "2.3 좋은 위키 문서의 조건",
+    "local_path": "assets/sources/353384.md",
+    "sha256": "c2c2b3af0539d81f629e922599d6b455caab316cd92ab6df07078129b8238165"
+  }
+]

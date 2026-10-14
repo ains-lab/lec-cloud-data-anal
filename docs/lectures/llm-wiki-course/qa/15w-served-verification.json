@@ -1,0 +1,2278 @@
+{
+  "week": 15,
+  "served_url": "http://127.0.0.1:8879/15w/slides/llm-wiki-chapter-08-slides.html",
+  "file": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/15w/slides/llm-wiki-chapter-08-slides.html",
+  "source_sha256": "a5e0962835e754808aa98e696f7b6897925758ab8a42985e12929a7cad0d417e",
+  "viewports": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "records": [
+        {
+          "slide": 1,
+          "title": "오래 믿고 쓰는 LLM위키 운영법",
+          "kind": "cover",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "title": "오래 쓸 위키의 운영 기준",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 3,
+          "title": "추가·질문·점검을 반복한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 4,
+          "title": "8.1 매끄러운 요약을 의심하기",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "title": "짧게 쓰다가 의미가 커진다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 6,
+          "title": "출처·날짜·범위를 함께 보기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 7,
+          "title": "신뢰 상태를 작게 표시하기",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 8,
+          "title": "마지막에만 확인하지 않는다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 9,
+          "title": "LLM의 탐지와 사람의 판단",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 10,
+          "title": "8.2 점검을 세 갈래로 나누기",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "title": "제목이 있다고 내용도 맞을까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 12,
+          "title": "주소를 넘어 의미를 대조한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 13,
+          "title": "원문 일치·근거 없음·충돌",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 14,
+          "title": "비슷한 제목은 중복 후보일 뿐",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 15,
+          "title": "구조 문제와 처리 후보 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 16,
+          "title": "구조 문제와 처리 후보 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 17,
+          "title": "7장 보고서를 다시 점검한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 18,
+          "title": "점검이 조용해도 오류는 남는다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 19,
+          "title": "발견·제안·승인을 분리한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 20,
+          "title": "8.3 주제보다 핵심 질문 보기",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "title": "회의록끼리 모두 묶을까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 22,
+          "title": "큰 위키와 주제 위키의 균형",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 23,
+          "title": "목록에 상태와 다음 행동을",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 24,
+          "title": "주제 운영 장부의 필수 정보 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 25,
+          "title": "주제 운영 장부의 필수 정보 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 26,
+          "title": "오래됐다는 이유로 지우지 않기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 27,
+          "title": "8.4 작은 루틴에 붙이기",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "title": "자료를 모으기 전 선별한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 29,
+          "title": "이번 주에 쓴 문서부터",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 30,
+          "title": "주간 30분 점검의 원전 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 31,
+          "title": "주간 30분 점검의 원전 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 32,
+          "title": "이미 쓰는 도구에 위치를 정한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 33,
+          "title": "아카이브는 사실 판정이 아니다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 34,
+          "title": "근거 칸이 있으면 충분할까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 35,
+          "title": "팀 위키 운영 상태를 진단한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 36,
+          "title": "진단부터 다음 점검까지",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 37,
+          "title": "진단·장부·루틴 세 장 제출",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 38,
+          "title": "다음 점검자가 이어갈 수 있게",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 39,
+          "title": "믿음은 점검 가능한 연결에서",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 40,
+          "title": "요약에서 빠진 조건 찾기",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 41,
+          "title": "요약 수정의 원전 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "요약 수정의 원전 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "주장 유형별 점검 방법 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "주장 유형별 점검 방법 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
+          "title": "오래된 주장 수정의 원전 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 46,
+          "title": "오래된 주장 수정의 원전 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 47,
+          "title": "15분 점검의 원전 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 48,
+          "title": "형식 항목이 필요한 이유",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 49,
+          "title": "근거 점검의 순서 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 50,
+          "title": "근거 점검의 순서 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 51,
+          "title": "구조 점검을 주기로 나누기",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 52,
+          "title": "형식 보완 후보 기록",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 53,
+          "title": "근거 보완 후보 기록",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 54,
+          "title": "구조 보완 후보 기록",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 55,
+          "title": "정리·감사 검증 질문 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 56,
+          "title": "정리·감사 검증 질문 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 57,
+          "title": "같은 회의록도 질문이 다르다",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 58,
+          "title": "주제 운영 장부의 원전 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 59,
+          "title": "주제 운영 장부의 원전 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 60,
+          "title": "수동·도구형 장부 비교",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 61,
+          "title": "아카이브 후보 선택 기준",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 62,
+          "title": "아카이브 전 확인할 것",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 63,
+          "title": "주제 운영 검증 질문 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 64,
+          "title": "주제 운영 검증 질문 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 65,
+          "title": "매일 넣을 자료의 조건 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 66,
+          "title": "매일 넣을 자료의 조건 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 67,
+          "title": "하루 입력 목록의 원전 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 68,
+          "title": "업무 도구를 연결하는 위치 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 69,
+          "title": "업무 도구를 연결하는 위치 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 70,
+          "title": "확장을 줄여야 할 신호 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 71,
+          "title": "확장을 줄여야 할 신호 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 72,
+          "title": "일상 운영 검증 질문 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 73,
+          "title": "일상 운영 검증 질문 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 74,
+          "title": "원전과 강의 설명 구분하기",
+          "kind": "sources",
+          "issues": [],
+          "images": []
+        }
+      ],
+      "fonts": "loaded",
+      "captionAbsent": true,
+      "documentHorizontalOverflow": false,
+      "served_url": "http://127.0.0.1:8879/15w/slides/llm-wiki-chapter-08-slides.html",
+      "source_sha256": "a5e0962835e754808aa98e696f7b6897925758ab8a42985e12929a7cad0d417e"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "records": [
+        {
+          "slide": 1,
+          "title": "오래 믿고 쓰는 LLM위키 운영법",
+          "kind": "cover",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "title": "오래 쓸 위키의 운영 기준",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 3,
+          "title": "추가·질문·점검을 반복한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 4,
+          "title": "8.1 매끄러운 요약을 의심하기",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "title": "짧게 쓰다가 의미가 커진다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 6,
+          "title": "출처·날짜·범위를 함께 보기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 7,
+          "title": "신뢰 상태를 작게 표시하기",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 8,
+          "title": "마지막에만 확인하지 않는다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 9,
+          "title": "LLM의 탐지와 사람의 판단",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 10,
+          "title": "8.2 점검을 세 갈래로 나누기",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "title": "제목이 있다고 내용도 맞을까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 12,
+          "title": "주소를 넘어 의미를 대조한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 13,
+          "title": "원문 일치·근거 없음·충돌",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 14,
+          "title": "비슷한 제목은 중복 후보일 뿐",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 15,
+          "title": "구조 문제와 처리 후보 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 16,
+          "title": "구조 문제와 처리 후보 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 17,
+          "title": "7장 보고서를 다시 점검한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 18,
+          "title": "점검이 조용해도 오류는 남는다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 19,
+          "title": "발견·제안·승인을 분리한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 20,
+          "title": "8.3 주제보다 핵심 질문 보기",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "title": "회의록끼리 모두 묶을까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 22,
+          "title": "큰 위키와 주제 위키의 균형",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 23,
+          "title": "목록에 상태와 다음 행동을",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 24,
+          "title": "주제 운영 장부의 필수 정보 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 25,
+          "title": "주제 운영 장부의 필수 정보 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 26,
+          "title": "오래됐다는 이유로 지우지 않기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 27,
+          "title": "8.4 작은 루틴에 붙이기",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "title": "자료를 모으기 전 선별한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 29,
+          "title": "이번 주에 쓴 문서부터",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 30,
+          "title": "주간 30분 점검의 원전 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 31,
+          "title": "주간 30분 점검의 원전 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 32,
+          "title": "이미 쓰는 도구에 위치를 정한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 33,
+          "title": "아카이브는 사실 판정이 아니다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 34,
+          "title": "근거 칸이 있으면 충분할까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 35,
+          "title": "팀 위키 운영 상태를 진단한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 36,
+          "title": "진단부터 다음 점검까지",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 37,
+          "title": "진단·장부·루틴 세 장 제출",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 38,
+          "title": "다음 점검자가 이어갈 수 있게",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 39,
+          "title": "믿음은 점검 가능한 연결에서",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 40,
+          "title": "요약에서 빠진 조건 찾기",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 41,
+          "title": "요약 수정의 원전 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "요약 수정의 원전 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "주장 유형별 점검 방법 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "주장 유형별 점검 방법 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
+          "title": "오래된 주장 수정의 원전 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 46,
+          "title": "오래된 주장 수정의 원전 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 47,
+          "title": "15분 점검의 원전 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 48,
+          "title": "형식 항목이 필요한 이유",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 49,
+          "title": "근거 점검의 순서 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 50,
+          "title": "근거 점검의 순서 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 51,
+          "title": "구조 점검을 주기로 나누기",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 52,
+          "title": "형식 보완 후보 기록",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 53,
+          "title": "근거 보완 후보 기록",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 54,
+          "title": "구조 보완 후보 기록",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 55,
+          "title": "정리·감사 검증 질문 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 56,
+          "title": "정리·감사 검증 질문 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 57,
+          "title": "같은 회의록도 질문이 다르다",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 58,
+          "title": "주제 운영 장부의 원전 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 59,
+          "title": "주제 운영 장부의 원전 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 60,
+          "title": "수동·도구형 장부 비교",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 61,
+          "title": "아카이브 후보 선택 기준",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 62,
+          "title": "아카이브 전 확인할 것",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 63,
+          "title": "주제 운영 검증 질문 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 64,
+          "title": "주제 운영 검증 질문 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 65,
+          "title": "매일 넣을 자료의 조건 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 66,
+          "title": "매일 넣을 자료의 조건 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 67,
+          "title": "하루 입력 목록의 원전 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 68,
+          "title": "업무 도구를 연결하는 위치 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 69,
+          "title": "업무 도구를 연결하는 위치 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 70,
+          "title": "확장을 줄여야 할 신호 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 71,
+          "title": "확장을 줄여야 할 신호 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 72,
+          "title": "일상 운영 검증 질문 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 73,
+          "title": "일상 운영 검증 질문 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 74,
+          "title": "원전과 강의 설명 구분하기",
+          "kind": "sources",
+          "issues": [],
+          "images": []
+        }
+      ],
+      "fonts": "loaded",
+      "captionAbsent": true,
+      "documentHorizontalOverflow": false,
+      "served_url": "http://127.0.0.1:8879/15w/slides/llm-wiki-chapter-08-slides.html",
+      "source_sha256": "a5e0962835e754808aa98e696f7b6897925758ab8a42985e12929a7cad0d417e"
+    },
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "records": [
+        {
+          "slide": 1,
+          "title": "오래 믿고 쓰는 LLM위키 운영법",
+          "kind": "cover",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "title": "오래 쓸 위키의 운영 기준",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 3,
+          "title": "추가·질문·점검을 반복한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 4,
+          "title": "8.1 매끄러운 요약을 의심하기",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "title": "짧게 쓰다가 의미가 커진다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 6,
+          "title": "출처·날짜·범위를 함께 보기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 7,
+          "title": "신뢰 상태를 작게 표시하기",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 8,
+          "title": "마지막에만 확인하지 않는다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 9,
+          "title": "LLM의 탐지와 사람의 판단",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 10,
+          "title": "8.2 점검을 세 갈래로 나누기",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "title": "제목이 있다고 내용도 맞을까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 12,
+          "title": "주소를 넘어 의미를 대조한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 13,
+          "title": "원문 일치·근거 없음·충돌",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 14,
+          "title": "비슷한 제목은 중복 후보일 뿐",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 15,
+          "title": "구조 문제와 처리 후보 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 16,
+          "title": "구조 문제와 처리 후보 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 17,
+          "title": "7장 보고서를 다시 점검한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 18,
+          "title": "점검이 조용해도 오류는 남는다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 19,
+          "title": "발견·제안·승인을 분리한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 20,
+          "title": "8.3 주제보다 핵심 질문 보기",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 21,
+          "title": "회의록끼리 모두 묶을까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 22,
+          "title": "큰 위키와 주제 위키의 균형",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 23,
+          "title": "목록에 상태와 다음 행동을",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 24,
+          "title": "주제 운영 장부의 필수 정보 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 25,
+          "title": "주제 운영 장부의 필수 정보 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 26,
+          "title": "오래됐다는 이유로 지우지 않기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 27,
+          "title": "8.4 작은 루틴에 붙이기",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 28,
+          "title": "자료를 모으기 전 선별한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 29,
+          "title": "이번 주에 쓴 문서부터",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 30,
+          "title": "주간 30분 점검의 원전 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 31,
+          "title": "주간 30분 점검의 원전 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 32,
+          "title": "이미 쓰는 도구에 위치를 정한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 33,
+          "title": "아카이브는 사실 판정이 아니다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 34,
+          "title": "근거 칸이 있으면 충분할까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 35,
+          "title": "팀 위키 운영 상태를 진단한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 36,
+          "title": "진단부터 다음 점검까지",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 37,
+          "title": "진단·장부·루틴 세 장 제출",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 38,
+          "title": "다음 점검자가 이어갈 수 있게",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 39,
+          "title": "믿음은 점검 가능한 연결에서",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 40,
+          "title": "요약에서 빠진 조건 찾기",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 41,
+          "title": "요약 수정의 원전 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "요약 수정의 원전 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "주장 유형별 점검 방법 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "주장 유형별 점검 방법 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
+          "title": "오래된 주장 수정의 원전 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 46,
+          "title": "오래된 주장 수정의 원전 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 47,
+          "title": "15분 점검의 원전 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 48,
+          "title": "형식 항목이 필요한 이유",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 49,
+          "title": "근거 점검의 순서 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 50,
+          "title": "근거 점검의 순서 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 51,
+          "title": "구조 점검을 주기로 나누기",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 52,
+          "title": "형식 보완 후보 기록",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 53,
+          "title": "근거 보완 후보 기록",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 54,
+          "title": "구조 보완 후보 기록",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 55,
+          "title": "정리·감사 검증 질문 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 56,
+          "title": "정리·감사 검증 질문 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 57,
+          "title": "같은 회의록도 질문이 다르다",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 58,
+          "title": "주제 운영 장부의 원전 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 59,
+          "title": "주제 운영 장부의 원전 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 60,
+          "title": "수동·도구형 장부 비교",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 61,
+          "title": "아카이브 후보 선택 기준",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 62,
+          "title": "아카이브 전 확인할 것",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 63,
+          "title": "주제 운영 검증 질문 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 64,
+          "title": "주제 운영 검증 질문 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 65,
+          "title": "매일 넣을 자료의 조건 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 66,
+          "title": "매일 넣을 자료의 조건 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 67,
+          "title": "하루 입력 목록의 원전 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 68,
+          "title": "업무 도구를 연결하는 위치 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 69,
+          "title": "업무 도구를 연결하는 위치 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 70,
+          "title": "확장을 줄여야 할 신호 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 71,
+          "title": "확장을 줄여야 할 신호 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 72,
+          "title": "일상 운영 검증 질문 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 73,
+          "title": "일상 운영 검증 질문 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 74,
+          "title": "원전과 강의 설명 구분하기",
+          "kind": "sources",
+          "issues": [],
+          "images": []
+        }
+      ],
+      "fonts": "loaded",
+      "captionAbsent": true,
+      "documentHorizontalOverflow": false,
+      "served_url": "http://127.0.0.1:8879/15w/slides/llm-wiki-chapter-08-slides.html",
+      "source_sha256": "a5e0962835e754808aa98e696f7b6897925758ab8a42985e12929a7cad0d417e"
+    }
+  ],
+  "opened_answers": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "records": [
+      {
+        "slide": 1,
+        "title": "오래 믿고 쓰는 LLM위키 운영법",
+        "kind": "cover",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 2,
+        "title": "오래 쓸 위키의 운영 기준",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 3,
+        "title": "추가·질문·점검을 반복한다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 4,
+        "title": "8.1 매끄러운 요약을 의심하기",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 5,
+        "title": "짧게 쓰다가 의미가 커진다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 6,
+        "title": "출처·날짜·범위를 함께 보기",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 7,
+        "title": "신뢰 상태를 작게 표시하기",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 8,
+        "title": "마지막에만 확인하지 않는다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 9,
+        "title": "LLM의 탐지와 사람의 판단",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 10,
+        "title": "8.2 점검을 세 갈래로 나누기",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 11,
+        "title": "제목이 있다고 내용도 맞을까?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 12,
+        "title": "주소를 넘어 의미를 대조한다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 13,
+        "title": "원문 일치·근거 없음·충돌",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 14,
+        "title": "비슷한 제목은 중복 후보일 뿐",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 15,
+        "title": "구조 문제와 처리 후보 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 16,
+        "title": "구조 문제와 처리 후보 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 17,
+        "title": "7장 보고서를 다시 점검한다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 18,
+        "title": "점검이 조용해도 오류는 남는다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 19,
+        "title": "발견·제안·승인을 분리한다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 20,
+        "title": "8.3 주제보다 핵심 질문 보기",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 21,
+        "title": "회의록끼리 모두 묶을까?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 22,
+        "title": "큰 위키와 주제 위키의 균형",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 23,
+        "title": "목록에 상태와 다음 행동을",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 24,
+        "title": "주제 운영 장부의 필수 정보 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 25,
+        "title": "주제 운영 장부의 필수 정보 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 26,
+        "title": "오래됐다는 이유로 지우지 않기",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 27,
+        "title": "8.4 작은 루틴에 붙이기",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 28,
+        "title": "자료를 모으기 전 선별한다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 29,
+        "title": "이번 주에 쓴 문서부터",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 30,
+        "title": "주간 30분 점검의 원전 예시 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 31,
+        "title": "주간 30분 점검의 원전 예시 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 32,
+        "title": "이미 쓰는 도구에 위치를 정한다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 33,
+        "title": "아카이브는 사실 판정이 아니다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 34,
+        "title": "근거 칸이 있으면 충분할까?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 35,
+        "title": "팀 위키 운영 상태를 진단한다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 36,
+        "title": "진단부터 다음 점검까지",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 37,
+        "title": "진단·장부·루틴 세 장 제출",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 38,
+        "title": "다음 점검자가 이어갈 수 있게",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 39,
+        "title": "믿음은 점검 가능한 연결에서",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 40,
+        "title": "요약에서 빠진 조건 찾기",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 41,
+        "title": "요약 수정의 원전 예시 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 42,
+        "title": "요약 수정의 원전 예시 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 43,
+        "title": "주장 유형별 점검 방법 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 44,
+        "title": "주장 유형별 점검 방법 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 45,
+        "title": "오래된 주장 수정의 원전 예시 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 46,
+        "title": "오래된 주장 수정의 원전 예시 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 47,
+        "title": "15분 점검의 원전 예시",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 48,
+        "title": "형식 항목이 필요한 이유",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 49,
+        "title": "근거 점검의 순서 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 50,
+        "title": "근거 점검의 순서 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 51,
+        "title": "구조 점검을 주기로 나누기",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 52,
+        "title": "형식 보완 후보 기록",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 53,
+        "title": "근거 보완 후보 기록",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 54,
+        "title": "구조 보완 후보 기록",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 55,
+        "title": "정리·감사 검증 질문 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 56,
+        "title": "정리·감사 검증 질문 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 57,
+        "title": "같은 회의록도 질문이 다르다",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 58,
+        "title": "주제 운영 장부의 원전 예시 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 59,
+        "title": "주제 운영 장부의 원전 예시 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 60,
+        "title": "수동·도구형 장부 비교",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 61,
+        "title": "아카이브 후보 선택 기준",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 62,
+        "title": "아카이브 전 확인할 것",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 63,
+        "title": "주제 운영 검증 질문 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 64,
+        "title": "주제 운영 검증 질문 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 65,
+        "title": "매일 넣을 자료의 조건 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 66,
+        "title": "매일 넣을 자료의 조건 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 67,
+        "title": "하루 입력 목록의 원전 예시",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 68,
+        "title": "업무 도구를 연결하는 위치 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 69,
+        "title": "업무 도구를 연결하는 위치 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 70,
+        "title": "확장을 줄여야 할 신호 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 71,
+        "title": "확장을 줄여야 할 신호 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 72,
+        "title": "일상 운영 검증 질문 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 73,
+        "title": "일상 운영 검증 질문 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 74,
+        "title": "원전과 강의 설명 구분하기",
+        "kind": "sources",
+        "issues": [],
+        "images": []
+      }
+    ],
+    "fonts": "loaded",
+    "captionAbsent": true
+  },
+  "interactions": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "previous_next_jump_help": true,
+      "reading_mode": false,
+      "errors": []
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "previous_next_jump_help": true,
+      "reading_mode": false,
+      "errors": []
+    },
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "previous_next_jump_help": true,
+      "reading_mode": true,
+      "errors": []
+    }
+  ]
+}

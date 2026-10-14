@@ -1,0 +1,54 @@
+[
+  {
+    "page_url": "https://wikidocs.net/353393",
+    "original_url": "https://static.wikidocs.net/images/page/353393/chapter-05.png",
+    "local_path": "assets/353393-chapter.png",
+    "alt": "흩어진 자료가 재사용 가능한 지식으로 정리되는 삽화",
+    "http_status": 200,
+    "content_type": "image/png",
+    "bytes": 2843084,
+    "sha256": "c7d615ef70f7c86f786f4b24bda5f130050365d7f9743d4d41c3a33452416d34",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353394",
+    "original_url": "https://static.wikidocs.net/images/page/353394/5.1-%EC%9E%90%EB%A3%8C%EB%A5%BC-%EB%84%A3%EA%B8%B0-%EC%A0%84%EC%97%90-%EC%A0%95%ED%95%A0-%EA%B8%B0%EC%A4%80.jpg",
+    "local_path": "assets/353394-illustration.jpg",
+    "alt": "5.1 자료를 넣기 전에 정할 기준 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 385747,
+    "sha256": "3dff591aa951876693eaeb577cf7f93c7ea47055018eb02cd58062a2c91e16e3",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353395",
+    "original_url": "https://static.wikidocs.net/images/page/353395/5.2-%EC%9E%90%EB%A3%8C-%EC%88%98%EC%A7%91%ED%95%98%EA%B8%B0.jpg",
+    "local_path": "assets/353395-illustration.jpg",
+    "alt": "5.2 자료 수집하기 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 363547,
+    "sha256": "5b553cfa626f7f38a0dc137c784be31964f820e99595430cf0eac79c5b6a0fe8",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353396",
+    "original_url": "https://static.wikidocs.net/images/page/353396/5.3-%EC%9C%84%ED%82%A4-%EB%AC%B8%EC%84%9C%EB%A1%9C-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0.jpg",
+    "local_path": "assets/353396-illustration.jpg",
+    "alt": "5.3 위키 문서로 정리하기 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 345902,
+    "sha256": "cad23780091fd5427bcadf7d9ab0de6a74dcfd49b1ad8beb076426e8ce7c1d34",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  }
+]

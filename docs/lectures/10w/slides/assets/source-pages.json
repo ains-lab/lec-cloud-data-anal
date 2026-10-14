@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://wikidocs.net/353385",
+    "title": "3장. 내게 맞는 LLM위키 방식 고르기",
+    "local_path": "assets/sources/353385.md",
+    "sha256": "f6b5ea137a707ce802474ec80c4db8bc2fbe64d5ac67bfa8c00598b333b4a811"
+  },
+  {
+    "url": "https://wikidocs.net/353386",
+    "title": "3.1 시작 방식 비교하기",
+    "local_path": "assets/sources/353386.md",
+    "sha256": "680d23b94bfe2b77c11eae7c36f13fafbb110dffbbf5728e3b7c9d22fa41f5e7"
+  },
+  {
+    "url": "https://wikidocs.net/353387",
+    "title": "3.2 도구를 고를 때 확인할 것",
+    "local_path": "assets/sources/353387.md",
+    "sha256": "d0aed5578d5f7ba4bdf479cf0aaef8cb88db87fbad90cb9e14a3e727913383ef"
+  },
+  {
+    "url": "https://wikidocs.net/353388",
+    "title": "3.3 이 책의 실습 환경 정하기",
+    "local_path": "assets/sources/353388.md",
+    "sha256": "cccd668726609c2e1e74773598e4b4cc1b094e4d2fe144302945b37f0fe33f53"
+  }
+]

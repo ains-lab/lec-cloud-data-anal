@@ -1,0 +1,758 @@
+[
+  {
+    "id": "353386-table-1",
+    "page_url": "https://wikidocs.net/353386",
+    "page_title": "3.1 시작 방식 비교하기",
+    "title": "시작 방식 선택 흐름",
+    "headers": [
+      "시작 방식",
+      "잘 맞는 상황",
+      "장점",
+      "부담"
+    ],
+    "rows": [
+      [
+        "수동 Markdown 방식",
+        "자료가 적고 원리를 먼저 익히고 싶을 때",
+        "설치가 거의 없고 파일 구조가 잘 보입니다.",
+        "색인, 로그, 출처를 직접 챙겨야 합니다."
+      ],
+      [
+        "Claude Code와 OpenAI Codex 기반 방식",
+        "이미 에이전트형 LLM 도구를 쓰고 있을 때",
+        "대화 흐름 안에서 수집, 정리, 질문을 이어가기 쉽습니다.",
+        "플러그인 설치, 권한, 버전 확인이 필요합니다."
+      ],
+      [
+        "CLI 방식",
+        "같은 작업을 반복하거나 자동화하고 싶을 때",
+        "명령을 기록하고 재현하기 좋습니다.",
+        "Node.js, Python, API 키, 환경 변수를 다룰 수 있어야 합니다."
+      ],
+      [
+        "데스크톱 도구 방식",
+        "화면에서 문서, 그래프, 점검 결과를 보고 싶을 때",
+        "파일과 연결 상태를 눈으로 확인하기 쉽습니다.",
+        "앱 설치, 모델 설정, 저장 위치 확인이 필요합니다."
+      ]
+    ],
+    "markdown": "| 시작 방식 | 잘 맞는 상황 | 장점 | 부담 |\n| --- | --- | --- | --- |\n| 수동 Markdown 방식 | 자료가 적고 원리를 먼저 익히고 싶을 때 | 설치가 거의 없고 파일 구조가 잘 보입니다. | 색인, 로그, 출처를 직접 챙겨야 합니다. |\n| Claude Code와 OpenAI Codex 기반 방식 | 이미 에이전트형 LLM 도구를 쓰고 있을 때 | 대화 흐름 안에서 수집, 정리, 질문을 이어가기 쉽습니다. | 플러그인 설치, 권한, 버전 확인이 필요합니다. |\n| CLI 방식 | 같은 작업을 반복하거나 자동화하고 싶을 때 | 명령을 기록하고 재현하기 좋습니다. | Node.js, Python, API 키, 환경 변수를 다룰 수 있어야 합니다. |\n| 데스크톱 도구 방식 | 화면에서 문서, 그래프, 점검 결과를 보고 싶을 때 | 파일과 연결 상태를 눈으로 확인하기 쉽습니다. | 앱 설치, 모델 설정, 저장 위치 확인이 필요합니다. |",
+    "source_lines": [
+      44,
+      49
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353386-table-2",
+    "page_url": "https://wikidocs.net/353386",
+    "page_title": "3.1 시작 방식 비교하기",
+    "title": "실습: 회의록 하나로 최소 위키 만들기",
+    "headers": [
+      "확인 항목",
+      "기대 결과"
+    ],
+    "rows": [
+      [
+        "원본 보존",
+        "`raw/meeting-note.md` 내용이 바뀌지 않았습니다."
+      ],
+      [
+        "정리 문서 생성",
+        "`wiki/concepts/repeated-work-automation.md`가 만들어졌습니다."
+      ],
+      [
+        "근거 표시",
+        "정리 문서에 `raw/meeting-note.md`가 근거로 남아 있습니다."
+      ],
+      [
+        "색인 갱신",
+        "`wiki/index.md`에 새 문서 링크가 추가되었습니다."
+      ],
+      [
+        "불확실성 표시",
+        "회의 메모에 없는 내용은 “확인 필요”로 표시되었습니다."
+      ]
+    ],
+    "markdown": "| 확인 항목 | 기대 결과 |\n| --- | --- |\n| 원본 보존 | `raw/meeting-note.md` 내용이 바뀌지 않았습니다. |\n| 정리 문서 생성 | `wiki/concepts/repeated-work-automation.md`가 만들어졌습니다. |\n| 근거 표시 | 정리 문서에 `raw/meeting-note.md`가 근거로 남아 있습니다. |\n| 색인 갱신 | `wiki/index.md`에 새 문서 링크가 추가되었습니다. |\n| 불확실성 표시 | 회의 메모에 없는 내용은 “확인 필요”로 표시되었습니다. |",
+    "source_lines": [
+      172,
+      178
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353386-table-3",
+    "page_url": "https://wikidocs.net/353386",
+    "page_title": "3.1 시작 방식 비교하기",
+    "title": "에이전트 기반 방식의 역할 구분",
+    "headers": [
+      "항목",
+      "Claude Code",
+      "OpenAI Codex"
+    ],
+    "rows": [
+      [
+        "공식 지침 파일",
+        "`CLAUDE.md`",
+        "`AGENTS.md`"
+      ],
+      [
+        "프로젝트 지침 위치",
+        "`./CLAUDE.md` 또는 `./.claude/CLAUDE.md`",
+        "프로젝트 루트부터 현재 디렉터리까지의 `AGENTS.md` 계층"
+      ],
+      [
+        "지침 확인 방법",
+        "`/memory`, `/init`, 현재 지침 요약 요청",
+        "`codex --ask-for-approval never \"Summarize the current instructions.\"`"
+      ],
+      [
+        "LLM위키 구현체 예",
+        "`nvk/llm-wiki` Claude Code 플러그인",
+        "`nvk/llm-wiki` Codex 플러그인"
+      ],
+      [
+        "주의할 점",
+        "`CLAUDE.md`는 지침이지 강제 정책이 아닙니다.",
+        "기본 `project_doc_max_bytes` 제한 때문에 긴 지침은 잘릴 수 있습니다."
+      ]
+    ],
+    "markdown": "| 항목 | Claude Code | OpenAI Codex |\n| --- | --- | --- |\n| 공식 지침 파일 | `CLAUDE.md` | `AGENTS.md` |\n| 프로젝트 지침 위치 | `./CLAUDE.md` 또는 `./.claude/CLAUDE.md` | 프로젝트 루트부터 현재 디렉터리까지의 `AGENTS.md` 계층 |\n| 지침 확인 방법 | `/memory`, `/init`, 현재 지침 요약 요청 | `codex --ask-for-approval never \"Summarize the current instructions.\"` |\n| LLM위키 구현체 예 | `nvk/llm-wiki` Claude Code 플러그인 | `nvk/llm-wiki` Codex 플러그인 |\n| 주의할 점 | `CLAUDE.md`는 지침이지 강제 정책이 아닙니다. | 기본 `project_doc_max_bytes` 제한 때문에 긴 지침은 잘릴 수 있습니다. |",
+    "source_lines": [
+      205,
+      211
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353386-table-4",
+    "page_url": "https://wikidocs.net/353386",
+    "page_title": "3.1 시작 방식 비교하기",
+    "title": "CLI와 데스크톱 도구 비교",
+    "headers": [
+      "구분",
+      "확인된 구현 예",
+      "시작 흐름",
+      "잘 맞는 독자"
+    ],
+    "rows": [
+      [
+        "Node.js CLI",
+        "`atomicstrata/llm-wiki-compiler`",
+        "`llmwiki ingest` → `llmwiki compile` → `llmwiki query`",
+        "명령줄과 환경 변수 설정이 익숙한 독자"
+      ],
+      [
+        "Python CLI",
+        "`VectifyAI/OpenKB`",
+        "`openkb init` → `openkb add` → `openkb query`",
+        "PDF, Word, Markdown 같은 다양한 문서를 CLI로 다루려는 독자"
+      ],
+      [
+        "데스크톱 앱",
+        "`nashsu/llm_wiki`",
+        "앱 실행 → 프로젝트 생성 → 모델 설정 → 문서 가져오기 → 채팅과 그래프 확인",
+        "화면 중심으로 자료와 위키를 살펴보고 싶은 독자"
+      ]
+    ],
+    "markdown": "| 구분 | 확인된 구현 예 | 시작 흐름 | 잘 맞는 독자 |\n| --- | --- | --- | --- |\n| Node.js CLI | `atomicstrata/llm-wiki-compiler` | `llmwiki ingest` → `llmwiki compile` → `llmwiki query` | 명령줄과 환경 변수 설정이 익숙한 독자 |\n| Python CLI | `VectifyAI/OpenKB` | `openkb init` → `openkb add` → `openkb query` | PDF, Word, Markdown 같은 다양한 문서를 CLI로 다루려는 독자 |\n| 데스크톱 앱 | `nashsu/llm_wiki` | 앱 실행 → 프로젝트 생성 → 모델 설정 → 문서 가져오기 → 채팅과 그래프 확인 | 화면 중심으로 자료와 위키를 살펴보고 싶은 독자 |",
+    "source_lines": [
+      314,
+      318
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353386-table-5",
+    "page_url": "https://wikidocs.net/353386",
+    "page_title": "3.1 시작 방식 비교하기",
+    "title": "3.1의 검증 포인트",
+    "headers": [
+      "검증 질문",
+      "확인 방법"
+    ],
+    "rows": [
+      [
+        "내가 고른 이유를 한 문장으로 말할 수 있는가?",
+        "“자료가 적어서 수동 Markdown으로 시작한다”처럼 적어 봅니다."
+      ],
+      [
+        "원천 자료와 위키 문서가 분리되어 있는가?",
+        "`raw/`, `sources/`, `wiki/`가 섞이지 않았는지 확인합니다."
+      ],
+      [
+        "LLM에게 줄 작업 기준이 있는가?",
+        "`AGENTS.md`, `CLAUDE.md`, 설정 파일, 플러그인 규칙 위치를 확인합니다."
+      ],
+      [
+        "예상 결과를 확인했는가?",
+        "새 위키 문서, 색인, 로그, 질의 답변 중 최소 두 가지를 확인합니다."
+      ],
+      [
+        "명령 출처와 버전을 확인했는가?",
+        "공식 문서, GitHub README, Releases, 설치된 도움말을 확인합니다."
+      ],
+      [
+        "민감한 자료를 넣어도 되는가?",
+        "로컬 저장 위치, 웹 접근, LLM API 호출, 조직 보안 기준을 확인합니다."
+      ]
+    ],
+    "markdown": "| 검증 질문 | 확인 방법 |\n| --- | --- |\n| 내가 고른 이유를 한 문장으로 말할 수 있는가? | “자료가 적어서 수동 Markdown으로 시작한다”처럼 적어 봅니다. |\n| 원천 자료와 위키 문서가 분리되어 있는가? | `raw/`, `sources/`, `wiki/`가 섞이지 않았는지 확인합니다. |\n| LLM에게 줄 작업 기준이 있는가? | `AGENTS.md`, `CLAUDE.md`, 설정 파일, 플러그인 규칙 위치를 확인합니다. |\n| 예상 결과를 확인했는가? | 새 위키 문서, 색인, 로그, 질의 답변 중 최소 두 가지를 확인합니다. |\n| 명령 출처와 버전을 확인했는가? | 공식 문서, GitHub README, Releases, 설치된 도움말을 확인합니다. |\n| 민감한 자료를 넣어도 되는가? | 로컬 저장 위치, 웹 접근, LLM API 호출, 조직 보안 기준을 확인합니다. |",
+    "source_lines": [
+      407,
+      414
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353387-table-1",
+    "page_url": "https://wikidocs.net/353387",
+    "page_title": "3.2 도구를 고를 때 확인할 것",
+    "title": "시작 방식별 부담 비교",
+    "headers": [
+      "방식",
+      "시작 부담",
+      "유지보수 부담",
+      "잘 맞는 경우",
+      "먼저 확인할 것"
+    ],
+    "rows": [
+      [
+        "수동 Markdown",
+        "낮음",
+        "낮음",
+        "폴더와 문서를 직접 관리하고 싶은 경우",
+        "원본과 위키 문서를 분리할 수 있는가"
+      ],
+      [
+        "Claude Code/Codex 기반 방식",
+        "중간",
+        "중간",
+        "이미 에이전트 도구를 쓰는 경우",
+        "지침 파일, 플러그인 권한, 저장 위치"
+      ],
+      [
+        "CLI 도구",
+        "중간~높음",
+        "중간~높음",
+        "명령줄과 API 키 관리에 익숙한 경우",
+        "Python/Node.js 버전, API 키, 릴리스 노트"
+      ],
+      [
+        "데스크톱 앱",
+        "낮음~중간",
+        "낮음~중간",
+        "GUI에서 시작하고 싶은 경우",
+        "내보내기, 백업, 원본 보존"
+      ],
+      [
+        "연구·실험 구현체",
+        "높음",
+        "높음",
+        "새 방식을 실험하려는 경우",
+        "문서 최신성, 한계, 변경 이력"
+      ]
+    ],
+    "markdown": "| 방식 | 시작 부담 | 유지보수 부담 | 잘 맞는 경우 | 먼저 확인할 것 |\n| --- | --- | --- | --- | --- |\n| 수동 Markdown | 낮음 | 낮음 | 폴더와 문서를 직접 관리하고 싶은 경우 | 원본과 위키 문서를 분리할 수 있는가 |\n| Claude Code/Codex 기반 방식 | 중간 | 중간 | 이미 에이전트 도구를 쓰는 경우 | 지침 파일, 플러그인 권한, 저장 위치 |\n| CLI 도구 | 중간~높음 | 중간~높음 | 명령줄과 API 키 관리에 익숙한 경우 | Python/Node.js 버전, API 키, 릴리스 노트 |\n| 데스크톱 앱 | 낮음~중간 | 낮음~중간 | GUI에서 시작하고 싶은 경우 | 내보내기, 백업, 원본 보존 |\n| 연구·실험 구현체 | 높음 | 높음 | 새 방식을 실험하려는 경우 | 문서 최신성, 한계, 변경 이력 |",
+    "source_lines": [
+      47,
+      53
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353387-table-2",
+    "page_url": "https://wikidocs.net/353387",
+    "page_title": "3.2 도구를 고를 때 확인할 것",
+    "title": "첫 도구 선택 체크리스트",
+    "headers": [
+      "확인 항목",
+      "예",
+      "아니오"
+    ],
+    "rows": [
+      [
+        "오늘 30분 안에 샘플 자료 하나를 넣어 볼 수 있다",
+        "",
+        ""
+      ],
+      [
+        "원본 자료가 따로 남는다",
+        "",
+        ""
+      ],
+      [
+        "위키 문서가 Markdown처럼 사람이 읽을 수 있는 형식이다",
+        "",
+        ""
+      ],
+      [
+        "저장 위치를 확인할 수 있다",
+        "",
+        ""
+      ],
+      [
+        "공식 README가 있다",
+        "",
+        ""
+      ],
+      [
+        "Releases 또는 Changelog가 있다",
+        "",
+        ""
+      ],
+      [
+        "권한과 네트워크 호출 범위를 설명할 수 있다",
+        "",
+        ""
+      ]
+    ],
+    "markdown": "| 확인 항목 | 예 | 아니오 |\n| --- | --- | --- |\n| 오늘 30분 안에 샘플 자료 하나를 넣어 볼 수 있다 |  |  |\n| 원본 자료가 따로 남는다 |  |  |\n| 위키 문서가 Markdown처럼 사람이 읽을 수 있는 형식이다 |  |  |\n| 저장 위치를 확인할 수 있다 |  |  |\n| 공식 README가 있다 |  |  |\n| Releases 또는 Changelog가 있다 |  |  |\n| 권한과 네트워크 호출 범위를 설명할 수 있다 |  |  |",
+    "source_lines": [
+      69,
+      77
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353387-table-3",
+    "page_url": "https://wikidocs.net/353387",
+    "page_title": "3.2 도구를 고를 때 확인할 것",
+    "title": "지원 범위를 확인하는 질문",
+    "headers": [
+      "질문",
+      "왜 중요한가",
+      "확인 방법"
+    ],
+    "rows": [
+      [
+        "Markdown 파일을 읽고 쓸 수 있는가",
+        "사람이 직접 수정하고 백업하기 쉽다",
+        "README의 저장 구조 확인"
+      ],
+      [
+        "웹 URL을 수집할 수 있는가",
+        "공식 문서와 릴리스 노트를 넣기 쉽다",
+        "`ingest`, `research`, `add URL` 기능 확인"
+      ],
+      [
+        "PDF나 긴 문서를 처리할 수 있는가",
+        "보고서, 논문, 매뉴얼을 다룰 때 필요하다",
+        "지원 형식, 크기 제한, 잘림 표시 확인"
+      ],
+      [
+        "코드 작업 기록을 읽을 수 있는가",
+        "Codex나 Claude Code 사용 이력을 지식으로 바꿀 수 있다",
+        "session ingest 기능 확인"
+      ],
+      [
+        "이미지나 멀티모달 자료를 다루는가",
+        "캡처, 슬라이드, 도해 자료가 많은 업무에 필요하다",
+        "멀티모달 지원과 전제 모델 확인"
+      ],
+      [
+        "출처와 변경 이력을 남기는가",
+        "답변 검증과 감사에 필요하다",
+        "provenance, audit, lint 기능 확인"
+      ]
+    ],
+    "markdown": "| 질문 | 왜 중요한가 | 확인 방법 |\n| --- | --- | --- |\n| Markdown 파일을 읽고 쓸 수 있는가 | 사람이 직접 수정하고 백업하기 쉽다 | README의 저장 구조 확인 |\n| 웹 URL을 수집할 수 있는가 | 공식 문서와 릴리스 노트를 넣기 쉽다 | `ingest`, `research`, `add URL` 기능 확인 |\n| PDF나 긴 문서를 처리할 수 있는가 | 보고서, 논문, 매뉴얼을 다룰 때 필요하다 | 지원 형식, 크기 제한, 잘림 표시 확인 |\n| 코드 작업 기록을 읽을 수 있는가 | Codex나 Claude Code 사용 이력을 지식으로 바꿀 수 있다 | session ingest 기능 확인 |\n| 이미지나 멀티모달 자료를 다루는가 | 캡처, 슬라이드, 도해 자료가 많은 업무에 필요하다 | 멀티모달 지원과 전제 모델 확인 |\n| 출처와 변경 이력을 남기는가 | 답변 검증과 감사에 필요하다 | provenance, audit, lint 기능 확인 |",
+    "source_lines": [
+      150,
+      157
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353387-table-4",
+    "page_url": "https://wikidocs.net/353387",
+    "page_title": "3.2 도구를 고를 때 확인할 것",
+    "title": "내 자료와 도구 기능 맞추기",
+    "headers": [
+      "내 자료",
+      "필요한 기능",
+      "낮은 위험의 시작 방식"
+    ],
+    "rows": [
+      [
+        "짧은 업무 메모",
+        "Markdown 저장, 수동 편집",
+        "수동 Markdown"
+      ],
+      [
+        "회의록 텍스트",
+        "텍스트 수집, 요약, 출처 표시",
+        "수동 Markdown 또는 에이전트 기반 방식"
+      ],
+      [
+        "공개 웹 문서",
+        "URL 수집, 수집 날짜 기록",
+        "에이전트 기반 방식 또는 CLI"
+      ],
+      [
+        "PDF 보고서",
+        "긴 문서 처리, 페이지 근거",
+        "PDF 지원 도구 확인 필요"
+      ],
+      [
+        "코드 작업 기록",
+        "세션 기록 수집",
+        "세션 ingest 지원 도구 확인 필요"
+      ],
+      [
+        "이미지 캡처",
+        "이미지 해석, 설명 생성",
+        "멀티모달 지원 도구 확인 필요"
+      ]
+    ],
+    "markdown": "| 내 자료 | 필요한 기능 | 낮은 위험의 시작 방식 |\n| --- | --- | --- |\n| 짧은 업무 메모 | Markdown 저장, 수동 편집 | 수동 Markdown |\n| 회의록 텍스트 | 텍스트 수집, 요약, 출처 표시 | 수동 Markdown 또는 에이전트 기반 방식 |\n| 공개 웹 문서 | URL 수집, 수집 날짜 기록 | 에이전트 기반 방식 또는 CLI |\n| PDF 보고서 | 긴 문서 처리, 페이지 근거 | PDF 지원 도구 확인 필요 |\n| 코드 작업 기록 | 세션 기록 수집 | 세션 ingest 지원 도구 확인 필요 |\n| 이미지 캡처 | 이미지 해석, 설명 생성 | 멀티모달 지원 도구 확인 필요 |",
+    "source_lines": [
+      169,
+      176
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353387-table-5",
+    "page_url": "https://wikidocs.net/353387",
+    "page_title": "3.2 도구를 고를 때 확인할 것",
+    "title": "공식 문서에서 볼 항목",
+    "headers": [
+      "확인 항목",
+      "볼 내용",
+      "원고와 실습에 반영하는 방법"
+    ],
+    "rows": [
+      [
+        "최신 버전",
+        "Releases의 최신 태그와 날짜",
+        "“확인일 기준”으로만 설명"
+      ],
+      [
+        "설치 방법",
+        "플러그인 설치, 패키지 설치, 앱 다운로드",
+        "내 환경 하나를 기준으로 확인"
+      ],
+      [
+        "실행 전제",
+        "OS, Python, Node.js, API 키, 호스트 앱",
+        "실습 전제에 적기"
+      ],
+      [
+        "저장 위치",
+        "기본 위키 폴더, 설정 파일 위치",
+        "고정 경로처럼 단정하지 않기"
+      ],
+      [
+        "권한",
+        "웹 접근, 로컬 파일 접근, LLM 호출",
+        "민감 자료 입력 전 확인"
+      ],
+      [
+        "명령 목록",
+        "`ingest`, `query`, `compile`, `audit` 등",
+        "문서에 있는 이름만 사용"
+      ],
+      [
+        "변경 이력",
+        "제거된 명령, 바뀐 옵션, 새 기능",
+        "오래된 예제 피하기"
+      ]
+    ],
+    "markdown": "| 확인 항목 | 볼 내용 | 원고와 실습에 반영하는 방법 |\n| --- | --- | --- |\n| 최신 버전 | Releases의 최신 태그와 날짜 | “확인일 기준”으로만 설명 |\n| 설치 방법 | 플러그인 설치, 패키지 설치, 앱 다운로드 | 내 환경 하나를 기준으로 확인 |\n| 실행 전제 | OS, Python, Node.js, API 키, 호스트 앱 | 실습 전제에 적기 |\n| 저장 위치 | 기본 위키 폴더, 설정 파일 위치 | 고정 경로처럼 단정하지 않기 |\n| 권한 | 웹 접근, 로컬 파일 접근, LLM 호출 | 민감 자료 입력 전 확인 |\n| 명령 목록 | `ingest`, `query`, `compile`, `audit` 등 | 문서에 있는 이름만 사용 |\n| 변경 이력 | 제거된 명령, 바뀐 옵션, 새 기능 | 오래된 예제 피하기 |",
+    "source_lines": [
+      206,
+      214
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353387-table-6",
+    "page_url": "https://wikidocs.net/353387",
+    "page_title": "3.2 도구를 고를 때 확인할 것",
+    "title": "지침 파일 확인 예시",
+    "headers": [
+      "도구",
+      "기준 파일",
+      "확인 방법",
+      "주의할 점"
+    ],
+    "rows": [
+      [
+        "Codex",
+        "`AGENTS.md`",
+        "프로젝트 루트에서 현재 지침 요약 요청",
+        "작업 디렉터리와 크기 제한 확인"
+      ],
+      [
+        "Claude Code",
+        "`CLAUDE.md`",
+        "`/memory`로 로드된 파일 확인",
+        "`AGENTS.md`는 직접 읽지 않으므로 import 필요"
+      ],
+      [
+        "일반 에이전트",
+        "도구마다 다름",
+        "문서의 instruction, memory, rules 항목 확인",
+        "파일명과 우선순위를 단정하지 않기"
+      ]
+    ],
+    "markdown": "| 도구 | 기준 파일 | 확인 방법 | 주의할 점 |\n| --- | --- | --- | --- |\n| Codex | `AGENTS.md` | 프로젝트 루트에서 현재 지침 요약 요청 | 작업 디렉터리와 크기 제한 확인 |\n| Claude Code | `CLAUDE.md` | `/memory`로 로드된 파일 확인 | `AGENTS.md`는 직접 읽지 않으므로 import 필요 |\n| 일반 에이전트 | 도구마다 다름 | 문서의 instruction, memory, rules 항목 확인 | 파일명과 우선순위를 단정하지 않기 |",
+    "source_lines": [
+      228,
+      232
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353387-table-7",
+    "page_url": "https://wikidocs.net/353387",
+    "page_title": "3.2 도구를 고를 때 확인할 것",
+    "title": "LLM위키 도구 선택표",
+    "headers": [
+      "기준",
+      "질문",
+      "낮은 위험의 답"
+    ],
+    "rows": [
+      [
+        "설치",
+        "오늘 30분 안에 샘플을 실행할 수 있는가",
+        "예"
+      ],
+      [
+        "유지보수",
+        "업그레이드 방법과 릴리스 노트를 찾을 수 있는가",
+        "예"
+      ],
+      [
+        "저장 구조",
+        "원천 자료와 위키 문서가 분리되는가",
+        "예"
+      ],
+      [
+        "수정 가능성",
+        "생성된 위키를 사람이 직접 고칠 수 있는가",
+        "예"
+      ],
+      [
+        "자료 형식",
+        "내 업무 자료의 대부분을 처리할 수 있는가",
+        "예"
+      ],
+      [
+        "출처",
+        "답변에서 원천 자료로 돌아갈 수 있는가",
+        "예"
+      ],
+      [
+        "권한",
+        "웹 접근, 파일 접근, API 키 사용 범위를 이해했는가",
+        "예"
+      ],
+      [
+        "이동성",
+        "나중에 다른 도구로 옮길 수 있는가",
+        "Markdown 같은 개방 형식"
+      ]
+    ],
+    "markdown": "| 기준 | 질문 | 낮은 위험의 답 |\n| --- | --- | --- |\n| 설치 | 오늘 30분 안에 샘플을 실행할 수 있는가 | 예 |\n| 유지보수 | 업그레이드 방법과 릴리스 노트를 찾을 수 있는가 | 예 |\n| 저장 구조 | 원천 자료와 위키 문서가 분리되는가 | 예 |\n| 수정 가능성 | 생성된 위키를 사람이 직접 고칠 수 있는가 | 예 |\n| 자료 형식 | 내 업무 자료의 대부분을 처리할 수 있는가 | 예 |\n| 출처 | 답변에서 원천 자료로 돌아갈 수 있는가 | 예 |\n| 권한 | 웹 접근, 파일 접근, API 키 사용 범위를 이해했는가 | 예 |\n| 이동성 | 나중에 다른 도구로 옮길 수 있는가 | Markdown 같은 개방 형식 |",
+    "source_lines": [
+      254,
+      263
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353388-table-1",
+    "page_url": "https://wikidocs.net/353388",
+    "page_title": "3.3 이 책의 실습 환경 정하기",
+    "title": "작은 예제로 먼저 검증하기",
+    "headers": [
+      "항목",
+      "기본 선택",
+      "이유"
+    ],
+    "rows": [
+      [
+        "저장 형식",
+        "Markdown 파일",
+        "대부분의 LLM 도구와 편집기에서 읽기 쉽습니다."
+      ],
+      [
+        "기본 구조",
+        "`raw/`, `wiki/`, `output/`, `index.md`, `log.md`",
+        "원본, 정리된 지식, 산출물을 분리합니다."
+      ],
+      [
+        "작업 규칙",
+        "`AGENTS.md`와 선택적 `CLAUDE.md`",
+        "Codex와 Claude Code 모두에 대응하기 쉽습니다."
+      ],
+      [
+        "첫 자료",
+        "가상의 짧은 회의록",
+        "개인정보와 업무 기밀 노출을 피할 수 있습니다."
+      ],
+      [
+        "첫 검증",
+        "파일 구조, 출처, 확인 필요 항목 확인",
+        "도구보다 흐름이 제대로 잡혔는지 봅니다."
+      ]
+    ],
+    "markdown": "| 항목 | 기본 선택 | 이유 |\n| --- | --- | --- |\n| 저장 형식 | Markdown 파일 | 대부분의 LLM 도구와 편집기에서 읽기 쉽습니다. |\n| 기본 구조 | `raw/`, `wiki/`, `output/`, `index.md`, `log.md` | 원본, 정리된 지식, 산출물을 분리합니다. |\n| 작업 규칙 | `AGENTS.md`와 선택적 `CLAUDE.md` | Codex와 Claude Code 모두에 대응하기 쉽습니다. |\n| 첫 자료 | 가상의 짧은 회의록 | 개인정보와 업무 기밀 노출을 피할 수 있습니다. |\n| 첫 검증 | 파일 구조, 출처, 확인 필요 항목 확인 | 도구보다 흐름이 제대로 잡혔는지 봅니다. |",
+    "source_lines": [
+      39,
+      45
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353388-table-2",
+    "page_url": "https://wikidocs.net/353388",
+    "page_title": "3.3 이 책의 실습 환경 정하기",
+    "title": "실습: 같은 흐름을 세 가지 방식으로 말해 보기",
+    "headers": [
+      "흐름",
+      "수동 Markdown",
+      "Codex 사용 시",
+      "Claude Code 사용 시",
+      "`nvk/llm-wiki` 플러그인 사용 시"
+    ],
+    "rows": [
+      [
+        "작업 기준 읽기",
+        "`AGENTS.md`를 직접 확인",
+        "`AGENTS.md` 기준으로 요청",
+        "`CLAUDE.md` 기준으로 요청",
+        "플러그인 지침과 주제 위키 규칙 확인"
+      ],
+      [
+        "자료 넣기",
+        "`raw/`에 파일 저장",
+        "폴더를 열고 자료 처리 요청",
+        "폴더를 열고 자료 처리 요청",
+        "`/wiki:ingest` 계열 명령 사용"
+      ],
+      [
+        "위키 정리",
+        "`wiki/` 문서 직접 작성",
+        "LLM에게 문서 갱신 요청",
+        "LLM에게 문서 갱신 요청",
+        "`/wiki:compile` 또는 관련 흐름 사용"
+      ],
+      [
+        "질문하기",
+        "문서를 읽고 질문 작성",
+        "위키 문서 근거로 답변 요청",
+        "위키 문서 근거로 답변 요청",
+        "`/wiki:query` 계열 명령 사용"
+      ],
+      [
+        "점검하기",
+        "체크리스트로 수동 점검",
+        "출처, 확인 필요, 변경 파일 점검 요청",
+        "출처, 확인 필요, 변경 파일 점검 요청",
+        "`/wiki:lint`, `/wiki:audit` 계열 명령 사용"
+      ],
+      [
+        "산출물 만들기",
+        "`output/`에 결과 저장",
+        "보고서나 계획 초안 요청",
+        "보고서나 계획 초안 요청",
+        "`/wiki:output` 계열 명령 사용"
+      ]
+    ],
+    "markdown": "| 흐름 | 수동 Markdown | Codex 사용 시 | Claude Code 사용 시 | `nvk/llm-wiki` 플러그인 사용 시 |\n| --- | --- | --- | --- | --- |\n| 작업 기준 읽기 | `AGENTS.md`를 직접 확인 | `AGENTS.md` 기준으로 요청 | `CLAUDE.md` 기준으로 요청 | 플러그인 지침과 주제 위키 규칙 확인 |\n| 자료 넣기 | `raw/`에 파일 저장 | 폴더를 열고 자료 처리 요청 | 폴더를 열고 자료 처리 요청 | `/wiki:ingest` 계열 명령 사용 |\n| 위키 정리 | `wiki/` 문서 직접 작성 | LLM에게 문서 갱신 요청 | LLM에게 문서 갱신 요청 | `/wiki:compile` 또는 관련 흐름 사용 |\n| 질문하기 | 문서를 읽고 질문 작성 | 위키 문서 근거로 답변 요청 | 위키 문서 근거로 답변 요청 | `/wiki:query` 계열 명령 사용 |\n| 점검하기 | 체크리스트로 수동 점검 | 출처, 확인 필요, 변경 파일 점검 요청 | 출처, 확인 필요, 변경 파일 점검 요청 | `/wiki:lint`, `/wiki:audit` 계열 명령 사용 |\n| 산출물 만들기 | `output/`에 결과 저장 | 보고서나 계획 초안 요청 | 보고서나 계획 초안 요청 | `/wiki:output` 계열 명령 사용 |",
+    "source_lines": [
+      231,
+      238
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353388-table-3",
+    "page_url": "https://wikidocs.net/353388",
+    "page_title": "3.3 이 책의 실습 환경 정하기",
+    "title": "실습 전 준비 체크리스트",
+    "headers": [
+      "준비 항목",
+      "확인할 내용",
+      "통과 기준"
+    ],
+    "rows": [
+      [
+        "실습 폴더",
+        "책 실습 전용 폴더를 만들었는가",
+        "예제와 실제 업무 자료가 섞이지 않는다"
+      ],
+      [
+        "원천 자료 정책",
+        "어떤 자료를 `raw/`에 넣을지 정했는가",
+        "첫 실습에는 가상 자료나 익명화 자료만 쓴다"
+      ],
+      [
+        "Markdown 편집기",
+        "`.md` 파일을 열고 수정할 수 있는가",
+        "`index.md`, `log.md`를 직접 확인할 수 있다"
+      ],
+      [
+        "LLM 도구",
+        "Codex, Claude Code, 웹 기반 LLM 중 무엇을 쓸지 정했는가",
+        "폴더 접근 가능 여부를 알고 있다"
+      ],
+      [
+        "작업 규칙 파일",
+        "`AGENTS.md` 또는 `CLAUDE.md`를 둘 것인가",
+        "도구에 맞는 규칙 파일을 하나 이상 둔다"
+      ],
+      [
+        "출처 표기 방식",
+        "위키 문서가 원본 경로를 남기는가",
+        "`원천 자료: raw/...` 형식을 쓴다"
+      ],
+      [
+        "확인 필요 표시",
+        "불확실한 내용을 따로 표시하는가",
+        "`확인 필요` 항목을 비워 두지 않는다"
+      ],
+      [
+        "작업 로그",
+        "자료 추가와 문서 변경을 기록하는가",
+        "`log.md`에 날짜와 작업이 남는다"
+      ],
+      [
+        "보안",
+        "고객 정보, 계약 정보, 개인정보를 그대로 넣지 않는가",
+        "실습 자료는 가상화하거나 익명화한다"
+      ],
+      [
+        "버전 확인",
+        "플러그인이나 CLI를 쓴다면 문서를 확인했는가",
+        "README, 릴리스 노트, 설치된 도움말을 대조한다"
+      ]
+    ],
+    "markdown": "| 준비 항목 | 확인할 내용 | 통과 기준 |\n| --- | --- | --- |\n| 실습 폴더 | 책 실습 전용 폴더를 만들었는가 | 예제와 실제 업무 자료가 섞이지 않는다 |\n| 원천 자료 정책 | 어떤 자료를 `raw/`에 넣을지 정했는가 | 첫 실습에는 가상 자료나 익명화 자료만 쓴다 |\n| Markdown 편집기 | `.md` 파일을 열고 수정할 수 있는가 | `index.md`, `log.md`를 직접 확인할 수 있다 |\n| LLM 도구 | Codex, Claude Code, 웹 기반 LLM 중 무엇을 쓸지 정했는가 | 폴더 접근 가능 여부를 알고 있다 |\n| 작업 규칙 파일 | `AGENTS.md` 또는 `CLAUDE.md`를 둘 것인가 | 도구에 맞는 규칙 파일을 하나 이상 둔다 |\n| 출처 표기 방식 | 위키 문서가 원본 경로를 남기는가 | `원천 자료: raw/...` 형식을 쓴다 |\n| 확인 필요 표시 | 불확실한 내용을 따로 표시하는가 | `확인 필요` 항목을 비워 두지 않는다 |\n| 작업 로그 | 자료 추가와 문서 변경을 기록하는가 | `log.md`에 날짜와 작업이 남는다 |\n| 보안 | 고객 정보, 계약 정보, 개인정보를 그대로 넣지 않는가 | 실습 자료는 가상화하거나 익명화한다 |\n| 버전 확인 | 플러그인이나 CLI를 쓴다면 문서를 확인했는가 | README, 릴리스 노트, 설치된 도움말을 대조한다 |",
+    "source_lines": [
+      269,
+      280
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  }
+]

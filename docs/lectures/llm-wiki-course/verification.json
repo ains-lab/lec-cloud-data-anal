@@ -1,0 +1,166 @@
+{
+  "schema_version": "served_surface_verification/v1",
+  "repository": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal",
+  "base_commit": "5a35396f9f23014ea53c3423dad92bd39b14f157",
+  "target": "new 9w–15w chapter decks and course index",
+  "source_pages": 29,
+  "source_images": 29,
+  "source_tables_including_original_document_examples": 124,
+  "total_slides": 364,
+  "chapters": [
+    {
+      "week": 9,
+      "chapter": 2,
+      "title": "LLM 위키의 기본 구조",
+      "output": "llm-wiki-chapter-02-slides.html",
+      "slide_count": 49,
+      "main_slide_count": 42,
+      "original_image_count": 4,
+      "original_table_count": 19,
+      "html_sha256": "d4e993dff26a5ad8ebb98a4dea75226f991c7438f590eac7345b8415cebcd293"
+    },
+    {
+      "week": 10,
+      "chapter": 3,
+      "title": "내게 맞는 LLM위키 방식 고르기",
+      "output": "llm-wiki-chapter-03-slides.html",
+      "slide_count": 55,
+      "main_slide_count": 37,
+      "original_image_count": 4,
+      "original_table_count": 15,
+      "html_sha256": "73ce188c46411967597a4d47fa9523a3dd7f85bbc15c8352f09f2cc502f7c926"
+    },
+    {
+      "week": 11,
+      "chapter": 4,
+      "title": "첫 번째 주제 위키 만들기",
+      "output": "llm-wiki-chapter-04-slides.html",
+      "slide_count": 41,
+      "main_slide_count": 36,
+      "original_image_count": 4,
+      "original_table_count": 10,
+      "html_sha256": "2d6074c3b63ce12f4c13f25bffcd6d6829937547aeae045cfa5ea3fcb87b6983"
+    },
+    {
+      "week": 12,
+      "chapter": 5,
+      "title": "자료를 다시 쓸 지식으로 바꾸기",
+      "output": "llm-wiki-chapter-05-slides.html",
+      "slide_count": 44,
+      "main_slide_count": 25,
+      "original_image_count": 4,
+      "original_table_count": 16,
+      "html_sha256": "e56f089796539af5ea04c6410b6a31616fb66ac6d8b69a2f002c94b3d9a90015"
+    },
+    {
+      "week": 13,
+      "chapter": 6,
+      "title": "위키에 질문하고 답을 검증하기",
+      "output": "llm-wiki-chapter-06-slides.html",
+      "slide_count": 42,
+      "main_slide_count": 27,
+      "original_image_count": 4,
+      "original_table_count": 14,
+      "html_sha256": "76cf3fa3f13af589c5e24a4da1a4f5ce1db5f39214a634bcc923145012ddb6bd"
+    },
+    {
+      "week": 14,
+      "chapter": 7,
+      "title": "위키에서 업무 산출물 만들기",
+      "output": "llm-wiki-chapter-07-slides.html",
+      "slide_count": 59,
+      "main_slide_count": 38,
+      "original_image_count": 4,
+      "original_table_count": 20,
+      "html_sha256": "00360fdbce572ead815557cc7e14af9800c655de52fa2f684aa2b055f8ba46c4"
+    },
+    {
+      "week": 15,
+      "chapter": 8,
+      "title": "오래 믿고 쓰는 LLM위키 운영법",
+      "output": "llm-wiki-chapter-08-slides.html",
+      "slide_count": 74,
+      "main_slide_count": 40,
+      "original_image_count": 5,
+      "original_table_count": 30,
+      "html_sha256": "a5e0962835e754808aa98e696f7b6897925758ab8a42985e12929a7cad0d417e"
+    }
+  ],
+  "unit_tests": {
+    "command": "python3 -m unittest discover -s docs/lectures/llm-wiki-course -p 'test_course.py' -v",
+    "passed": 7,
+    "failed": 0,
+    "scope": "all original table headers/cells/order, image bytes/SHA-256, unique slide IDs, source links, forbidden caption absence, no remote runtime dependencies, HTML provenance hash"
+  },
+  "javascript_syntax": {
+    "tool": "node --check -",
+    "decks_passed": 7
+  },
+  "rendered_browser": {
+    "transport": "owned local HTTP server 127.0.0.1:8879, served responses compared with exact files and browser fetch SHA-256",
+    "viewports": [
+      [
+        1440,
+        900
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        375,
+        812
+      ]
+    ],
+    "deck_viewport_cases": 21,
+    "slide_viewport_layout_checks": 1092,
+    "text_region_overflows_detected_final": 0,
+    "document_horizontal_overflows_detected_final": 0,
+    "original_images_loaded": 29,
+    "font_glyph_range_coverage": "all characters in rendered HTML text covered by embedded subset declarations",
+    "expanded_answers_geometry": "all 7 decks checked at desktop size",
+    "interaction_checks": "previous/next, jump selector, help open/close, reading mode, mobile forced reading; state read back at each viewport",
+    "runtime_errors_recorded_during_interactions": 0,
+    "keyboard": "actual CDP ArrowRight/PageDown/Home/End; Tab reaches visible next button focus outline",
+    "print": "print CSS and beforeprint/afterprint handlers exercised; all slides visible, no text-region overflow; no PDF or physical printing performed",
+    "index": "desktop/mobile horizontal layout checked and all 7 chapter links clicked",
+    "evidence_directory": "qa/"
+  },
+  "captures": {
+    "verified_count": 28,
+    "manifest": "qa/capture-manifest.json",
+    "coverage": "each deck: desktop cover/table and mobile cover/lab; representative states, not screenshots of every slide",
+    "dimension_hash_source_lineage_verified": true,
+    "index_capture": "not_completed: capture timeout"
+  },
+  "resolved_layout_findings": [
+    {
+      "week": 14,
+      "slide": 3,
+      "issue": "explicit two-line content title exceeded initial header region",
+      "fix": "shared tall-title class reserves 246px header for explicit line breaks",
+      "rechecked": "served final revision at all three viewports and print CSS; no remaining measured overflow"
+    }
+  ],
+  "visual_review": {
+    "status": "blocked",
+    "reason": "vision_analyze returned Gemini HTTP403 PERMISSION_DENIED; captured pixels and illustration semantics not independently visually reviewed",
+    "full_visual_qa_pass": false
+  },
+  "excluded_checks": [
+    "full accessibility audit",
+    "cross-browser matrix",
+    "full screen permission flow",
+    "live LLM labs",
+    "actual student learning outcomes",
+    "current external tool versions",
+    "external publication or LMS upload"
+  ],
+  "existing_tracked_files_changed": false,
+  "temporary_local_server": {
+    "bound_origin": "http://127.0.0.1:8879",
+    "status": "stopped_after_verification",
+    "terminal_process_session": "proc_1f9bd71a2d1c",
+    "delivery": "open index.html locally; no server required"
+  }
+}

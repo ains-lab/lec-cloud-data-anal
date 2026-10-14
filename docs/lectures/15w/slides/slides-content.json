@@ -1,0 +1,631 @@
+{
+  "schema_version": "lecture-slides/v1",
+  "title": "오래 믿고 쓰는 LLM위키 운영법",
+  "subtitle": "15주차 · 8장 · 점검 → 상태 관리 → 작은 루틴",
+  "audience": "LLM을 사용해 본 학부 수강생",
+  "source_author": "박승규",
+  "source_book": "LLM위키 완벽 가이드",
+  "source_book_url": "https://wikidocs.net/book/19830",
+  "slides": [
+    {
+      "section": "15주차 · 8장",
+      "kind": "cover",
+      "title": "오래 믿고 쓰는<br>LLM위키 운영법",
+      "subtitle": "더 쌓기보다, 다시 확인하고 고칠 수 있게",
+      "image": "assets/353405-chapter.png",
+      "body": "<p class=\"lead\">근거·날짜·조건 점검<br>문서·주제 상태 관리<br>작은 루틴으로 유지</p><p class=\"subtle\">『LLM위키 완벽 가이드』 8장<br>표지의 주제: 위키를 주기적으로 점검하기</p>",
+      "sources": [
+        "https://wikidocs.net/353405"
+      ]
+    },
+    {
+      "section": "학습 목표",
+      "kind": "content",
+      "title": "오래 쓸 위키의 운영 기준",
+      "body": "<div class=\"two-up\"><article><h3>8.1~8.2 · 점검</h3><p>요약에서 빠진 조건을 찾는다.<br>형식·근거·구조를 나눠 본다.</p></article><article><h3>8.3~8.4 · 유지</h3><p>주제 상태와 다음 행동을 적는다.<br>매일 입력·주간 점검을 설계한다.</p></article></div><p class=\"statement\">점검표 통과가 진실·승인·성과를 보장하지는 않는다.</p>",
+      "sources": [
+        "https://wikidocs.net/353406",
+        "https://wikidocs.net/353407",
+        "https://wikidocs.net/353408",
+        "https://wikidocs.net/353409"
+      ]
+    },
+    {
+      "section": "운영 구조 · 강의용 재구성",
+      "kind": "content",
+      "title": "추가·질문·점검을 반복한다",
+      "body": "<div class=\"rule-bar\"><strong>원본 보호 · 사람의 판단</strong><span>후보 탐지와 수정 승인은 별개</span></div><div class=\"flow\"><article><code>ingest</code><h3>자료 추가</h3><p>출처·날짜·범위</p></article><span class=\"arrow\">→</span><article><code>query</code><h3>질문과 산출물</h3><p>핵심 주장 대조</p></article><span class=\"arrow\">→</span><article><code>lint</code><h3>상태 점검</h3><p>누락·오래됨·충돌</p></article></div><p class=\"subtle\">문제 후보를 기록하고 근거를 확인한 뒤 보완한다. 특정 도구 명령이 아닌 운영 흐름이다.</p>",
+      "sources": [
+        "https://wikidocs.net/353406",
+        "https://wikidocs.net/353407",
+        "https://wikidocs.net/353409"
+      ]
+    },
+    {
+      "section": "8.1 · 원문 삽화 해설",
+      "kind": "image",
+      "title": "8.1 매끄러운 요약을 의심하기",
+      "subtitle": "절의 주제를 읽는 질문 · 강의용 재구성",
+      "image": "assets/353406-illustration.jpg",
+      "body": "<span class=\"label\">그림과 함께 묻기</span><h3>읽기 쉬워졌지만<br>무엇이 빠졌을까?</h3><p>날짜, 대상, 예외,<br>임시 조건과 반대 의견을<br>원문에서 다시 확인한다.</p><p class=\"subtle\">위키에 적혀 있다는 것만으로 사실이 되지 않는다.</p>",
+      "sources": [
+        "https://wikidocs.net/353406"
+      ]
+    },
+    {
+      "section": "8.1 · 요약의 위험",
+      "kind": "content",
+      "title": "짧게 쓰다가 의미가 커진다",
+      "body": "<div class=\"two-up\"><article><span class=\"label\">원문에 있을 수 있는 조건</span><p>이번 학기만 · 공개 자료만<br>검토 중 · 내부 테스트</p></article><article><span class=\"label\">위험한 요약 변화</span><p>언제나 적용 · 모든 자료<br>확정 결정 · 실제 운영</p></article></div><p class=\"statement\">기간·대상·예외·불확실성을 지우지 않는다.</p><p class=\"subtle\">‘확인됨’은 원문과 일치했다는 표시이지 보편적 진실의 인증이 아니다.</p>",
+      "sources": [
+        "https://wikidocs.net/353406"
+      ]
+    },
+    {
+      "section": "8.1 · 출처와 최신성",
+      "kind": "content",
+      "title": "출처·날짜·범위를 함께 보기",
+      "body": "<div class=\"three-up\"><article><h3>출처</h3><p>어느 문장·문서가<br>이 주장을 지지하나?</p></article><article><h3>날짜</h3><p>가격·정책·버전은<br>언제 확인했나?</p></article><article><h3>범위</h3><p>어떤 도구·기간·대상에<br>맞는 설명인가?</p></article></div><p class=\"subtle\">원전의 버전 예시는 원전 확인일 기준이다. 현재 기능으로 단정하지 않는다.</p>",
+      "sources": [
+        "https://wikidocs.net/353406"
+      ]
+    },
+    {
+      "section": "8.1 · 원문 표",
+      "kind": "table",
+      "title": "신뢰 상태를 작게 표시하기",
+      "table": "353406-table-5",
+      "takeaway": "여러 표시를 함께 쓸 수 있다. ‘확인됨’도 원문 일치 범위와 확인 날짜를 밝혀야 한다.",
+      "sources": [
+        "https://wikidocs.net/353406"
+      ]
+    },
+    {
+      "section": "8.1 · 검증 루틴",
+      "kind": "content",
+      "title": "마지막에만 확인하지 않는다",
+      "body": "<div class=\"three-up\"><article><h3>자료를 넣을 때</h3><p>출처·확인일<br>허용 범위 기록</p></article><article><h3>산출물 작성 전</h3><p>핵심 주장·조건<br>원문과 대조</p></article><article><h3>주기 점검</h3><p>오래됨·누락·충돌<br>다음 확인 과제</p></article></div><p class=\"statement\">로그에는 본 범위와 못 본 범위를 함께 남긴다.</p>",
+      "sources": [
+        "https://wikidocs.net/353406"
+      ]
+    },
+    {
+      "section": "8.1 · 원문 표",
+      "kind": "table",
+      "title": "LLM의 탐지와 사람의 판단",
+      "table": "353406-table-7",
+      "takeaway": "LLM은 문제 후보를 제안한다. 원문 일치·최신 결정·제출 가능성은 사람이 확인한다.",
+      "sources": [
+        "https://wikidocs.net/353406"
+      ]
+    },
+    {
+      "section": "8.2 · 원문 삽화 해설",
+      "kind": "image",
+      "title": "8.2 점검을 세 갈래로 나누기",
+      "subtitle": "절의 주제를 읽는 질문 · 강의용 재구성",
+      "image": "assets/353407-illustration.jpg",
+      "body": "<span class=\"label\">그림과 함께 묻기</span><h3>형식이 빠졌나?<br>근거가 약한가?<br>문서가 흩어졌나?</h3><p>문제를 나누면 수정 이유와<br>확인할 자료가 분명해진다.</p><p class=\"subtle\">여기서 감사는 문서 운영 점검이다. 완전한 보안 감사가 아니다.</p>",
+      "sources": [
+        "https://wikidocs.net/353407"
+      ]
+    },
+    {
+      "section": "8.2 · 형식 점검",
+      "kind": "content",
+      "title": "제목이 있다고 내용도 맞을까?",
+      "body": "<ul><li>한 문장 요약: 무엇을 설명하는가?</li><li>근거: 원문과 확인 날짜는?</li><li>확인된 내용: 원문에서 무엇을 봤는가?</li><li>확인 필요: 아직 무엇을 모르는가?</li><li>다시 물을 질문: 다음에 어떻게 쓸까?</li></ul><p class=\"statement\">필수 항목의 존재 ≠ 내용의 사실성</p><p class=\"subtle\">빠진 항목부터 보고하고 원문을 확인한 뒤 보강한다.</p>",
+      "sources": [
+        "https://wikidocs.net/353407"
+      ]
+    },
+    {
+      "section": "8.2 · 근거 점검",
+      "kind": "content",
+      "title": "주소를 넘어 의미를 대조한다",
+      "body": "<div class=\"two-up\"><article><h3>먼저 열어 보기</h3><p>근거 위치가 있는가?<br>원문에 접근할 수 있는가?<br>같은 의미·조건을 말하는가?</p></article><article><h3>판정과 처리</h3><p>일치 → 범위·날짜 유지<br>부분 일치 → 표현을 좁힘<br>충돌 → 기록하고 보류</p></article></div><p class=\"subtle\">근거를 열 수 없으면 깨진 근거로 표시한다. 부족한 내용을 추측해 채우지 않는다.</p>",
+      "sources": [
+        "https://wikidocs.net/353407"
+      ]
+    },
+    {
+      "section": "8.2 · 원문 표",
+      "kind": "table",
+      "title": "원문 일치·근거 없음·충돌",
+      "table": "353407-table-2",
+      "takeaway": "충돌은 임의로 하나를 지우는 이유가 아니다. 날짜·결정 상태·원문을 대조하고 결론을 보류한다.",
+      "sources": [
+        "https://wikidocs.net/353407"
+      ]
+    },
+    {
+      "section": "8.2 · 구조와 중복",
+      "kind": "content",
+      "title": "비슷한 제목은 중복 후보일 뿐",
+      "body": "<div class=\"two-up\"><article><h3>찾을 신호</h3><p>index에서 끊긴 문서<br>비슷한 요약·낡은 결론<br>raw와 wiki의 연결 누락</p></article><article><h3>바로 합치지 않기</h3><p>겹침·차이·적용 조건 비교<br>링크·병합·보류 후보 기록<br>사람이 처리 범위 결정</p></article></div><p class=\"statement\">파일명·공통 단어 검사는 의미상 중복을 놓칠 수도 있다.</p>",
+      "sources": [
+        "https://wikidocs.net/353407"
+      ]
+    },
+    {
+      "section": "8.2 · 원문 표",
+      "kind": "table",
+      "title": "구조 문제와 처리 후보",
+      "table": "353407-table-4",
+      "takeaway": "제목 유사성은 중복 확정이 아니다. 원문·맥락을 비교하고 병합·이동은 승인 후 한다.",
+      "sources": [
+        "https://wikidocs.net/353407"
+      ]
+    },
+    {
+      "section": "8.2 · 수업용 가상 예시",
+      "kind": "content",
+      "title": "7장 보고서를 다시 점검한다",
+      "body": "<blockquote>원문: “다음 회의에서 AI 초안 활용을 검토하자.”<br>초안: “팀은 AI 도입을 결정했다.”</blockquote><div class=\"two-up\"><article><h3>문제</h3><p>검토 제안을 결정으로 바꿨다.<br>승인 기록이 없다.</p></article><article><h3>수정안</h3><p>초안 활용 검토 제안이 있었다.<br>도입 여부는 확인 필요.<br>근거: raw/team-meeting.md</p></article></div><p class=\"subtle\">학생 팀프로젝트 위키의 가상 예시. 실제 모델 점검·승인 결과가 아니다.</p>",
+      "sources": [
+        "https://wikidocs.net/353406",
+        "https://wikidocs.net/353407"
+      ]
+    },
+    {
+      "section": "8.2 · 수업용 가상 반례",
+      "kind": "content",
+      "title": "점검이 조용해도 오류는 남는다",
+      "body": "<div class=\"two-up\"><article><h3>가상의 점검 방식</h3><p>필수 제목 존재 확인<br>‘항상·가장’ 같은 단어 탐지</p></article><article><h3>놓칠 수 있는 문장</h3><p>“팀은 AI 도입을 결정했다.”<br>제목은 있고 강한 단어는 없어도<br>원문보다 결론이 강하다.</p></article></div><p class=\"statement\">경고 없음 ≠ 오류 없음 ≠ 진실 확인</p><p class=\"subtle\">수업용 가상 예시. 스크립트·모델을 실행한 결과가 아니다.</p>",
+      "sources": [
+        "https://wikidocs.net/353407",
+        "https://wikidocs.net/353409"
+      ]
+    },
+    {
+      "section": "운영 안전 · 강의용 재구성",
+      "kind": "content",
+      "title": "발견·제안·승인을 분리한다",
+      "body": "<div class=\"rule-bar\"><strong>자동 수정 전에 사람 승인</strong><span>대상·이유·영향·되돌릴 방법 확인</span></div><ul><li>점검은 후보 보고까지만 맡긴다.</li><li>병합·이동은 원문과 링크 영향을 확인한다.</li><li>백업 생성·복구도 대상과 위치를 승인받는다.</li><li>삭제·권한 변경은 별도 사람 승인 없이는 하지 않는다.</li></ul><p class=\"subtle\">이 수업은 운영 설계만 한다. 실제 파일 이동·삭제·백업·권한 변경은 없다.</p>",
+      "sources": [
+        "https://wikidocs.net/353407",
+        "https://wikidocs.net/353408",
+        "https://wikidocs.net/353409"
+      ]
+    },
+    {
+      "section": "8.3 · 원문 삽화 해설",
+      "kind": "image",
+      "title": "8.3 주제보다 핵심 질문 보기",
+      "subtitle": "절의 주제를 읽는 질문 · 강의용 재구성",
+      "image": "assets/353408-illustration.jpg",
+      "body": "<span class=\"label\">그림과 함께 묻기</span><h3>무엇을 묻기 위한<br>자료 묶음인가?</h3><p>자료 형식이 같아도<br>질문·독자·접근 범위가 다르면<br>다른 주제로 다룰 수 있다.</p><p class=\"subtle\">무조건 잘게 나누면 관리 비용과 중복이 늘어난다.</p>",
+      "sources": [
+        "https://wikidocs.net/353408"
+      ]
+    },
+    {
+      "section": "8.3 · 주제 분리",
+      "kind": "content",
+      "title": "회의록끼리 모두 묶을까?",
+      "body": "<div class=\"two-up\"><article><h3>같이 둘 근거</h3><p>같은 핵심 질문·독자<br>같은 자료·검증 기준<br>자연스러운 index 연결</p></article><article><h3>나눌 후보</h3><p>다른 질문·산출물<br>다른 공유 범위·자료 출처<br>독립적으로 다시 쓸 주제</p></article></div><p class=\"statement\">파일 형식보다 질문과 접근 범위를 기준으로 정한다.</p>",
+      "sources": [
+        "https://wikidocs.net/353408"
+      ]
+    },
+    {
+      "section": "8.3 · 원문 표",
+      "kind": "table",
+      "title": "큰 위키와 주제 위키의 균형",
+      "table": "353408-table-1",
+      "takeaway": "규모 하나로 정답을 고르지 않는다. 질문 맥락과 관리 비용을 함께 본다.",
+      "sources": [
+        "https://wikidocs.net/353408"
+      ]
+    },
+    {
+      "section": "8.3 · 인벤토리",
+      "kind": "content",
+      "title": "목록에 상태와 다음 행동을",
+      "body": "<div class=\"two-up\"><article><h3>전체 현황</h3><p>주제 이름 · 핵심 질문<br>상태 · 마지막 갱신일<br>다음 행동 · 대표 산출물</p></article><article><h3>조회할 범위</h3><p>운영 중: 현재 질문 재료<br>점검 필요: 보완 우선<br>아카이브 후보: 사람 판단 대기</p></article></div><p class=\"subtle\">목록에 없는 주제와 처리 결과를 LLM이 추측해 추가하지 않게 한다.</p>",
+      "sources": [
+        "https://wikidocs.net/353408"
+      ]
+    },
+    {
+      "section": "8.3 · 원문 표",
+      "kind": "table",
+      "title": "주제 운영 장부의 필수 정보",
+      "table": "353408-table-3",
+      "takeaway": "‘상태’와 ‘다음 행동’을 함께 봐야 목록이 실제 운영 과제로 이어진다.",
+      "sources": [
+        "https://wikidocs.net/353408"
+      ]
+    },
+    {
+      "section": "8.3 · 아카이브",
+      "kind": "content",
+      "title": "오래됐다는 이유로 지우지 않기",
+      "body": "<div class=\"two-up\"><article><h3>보존하며 맥락 줄이기</h3><p>아카이브는 삭제가 아니다.<br>날짜·이유·다시 볼 조건<br>원문 위치·복구 방법을 남긴다.</p></article><article><h3>먼저 확인할 것</h3><p>종료·중복·사용 빈도<br>기본 검색에 포함되는가?<br>기존 링크는 유지되는가?</p></article></div><p class=\"subtle\">폴더 이름만으로 자동 제외되지는 않는다. 이동·백업은 범위를 정해 사람 승인 후 수행한다.</p>",
+      "sources": [
+        "https://wikidocs.net/353408"
+      ]
+    },
+    {
+      "section": "8.4 · 원문 삽화 해설",
+      "kind": "image",
+      "title": "8.4 작은 루틴에 붙이기",
+      "subtitle": "절의 주제를 읽는 질문 · 강의용 재구성",
+      "image": "assets/353409-illustration.jpg",
+      "body": "<span class=\"label\">그림과 함께 묻기</span><h3>언제 넣고<br>언제 다시 확인할까?</h3><p>매일 다시 쓸 자료를 고르고,<br>매주 자주 쓴 문서를 점검한다.</p><p class=\"subtle\">도구를 늘리는 것이 아니라 다음 작업을 이어갈 맥락을 남긴다.</p>",
+      "sources": [
+        "https://wikidocs.net/353409"
+      ]
+    },
+    {
+      "section": "8.4 · 매일 입력",
+      "kind": "content",
+      "title": "자료를 모으기 전 선별한다",
+      "body": "<div class=\"two-up\"><article><h3>보관·정리</h3><p>다시 쓸 질문이 있는가?<br>원문·출처를 남길 수 있는가?<br>허용된 자료인가?</p></article><article><h3>보류·입력 제외</h3><p>권한·민감 정보가 불분명 → 보류<br>재사용할 맥락이 없음 → 제외<br>원문 없음 → 확인 필요 메모</p></article></div><p class=\"subtle\">‘버림’은 수집 후보에서 빼는 판단이다. 기존 파일을 삭제하라는 뜻이 아니다.</p>",
+      "sources": [
+        "https://wikidocs.net/353409"
+      ]
+    },
+    {
+      "section": "8.4 · 주간 점검",
+      "kind": "content",
+      "title": "이번 주에 쓴 문서부터",
+      "body": "<div class=\"three-up compact\"><article><h3>원본·근거</h3><p>raw 보존 여부<br>자주 쓴 문서의 출처</p></article><article><h3>오래됨·충돌</h3><p>날짜·정책·버전<br>서로 다른 결론</p></article><article><h3>다음 행동</h3><p>보완 문서 1~3개<br>다음 질문·남은 확인</p></article></div><p class=\"subtle\">‘확인 필요·출처 없음·TODO’ 검색은 후보 수집이다. 표시가 없다고 모든 문장이 검증된 것은 아니다.</p>",
+      "sources": [
+        "https://wikidocs.net/353409"
+      ]
+    },
+    {
+      "section": "8.4 · 원문 표",
+      "kind": "table",
+      "title": "주간 30분 점검의 원전 예시",
+      "table": "353409-table-3",
+      "takeaway": "30분과 1~3개는 작게 유지하기 위한 운영 예시다. 정확도나 지속성을 보장하는 실험 수치가 아니다.",
+      "sources": [
+        "https://wikidocs.net/353409"
+      ]
+    },
+    {
+      "section": "8.4 · 도구 연결과 확장",
+      "kind": "content",
+      "title": "이미 쓰는 도구에 위치를 정한다",
+      "body": "<div class=\"two-up\"><article><h3>연결할 자리</h3><p>회의·노트 → 입력함<br>근거 있는 지식 → wiki<br>보고서·할 일 → output와 링크</p></article><article><h3>멈출 신호</h3><p>입력만 쌓이고 점검은 생략<br>출처 없는 요약 증가<br>운영보다 설정에 시간 소비</p></article></div><p class=\"statement\">복잡해지면 입력 범위와 보완 문서를 줄인다.</p><p class=\"subtle\">지침 파일은 문맥이다. 권한 통제나 행동 보장을 대신하지 않는다.</p>",
+      "sources": [
+        "https://wikidocs.net/353409"
+      ]
+    },
+    {
+      "section": "오해 바로잡기",
+      "kind": "content",
+      "title": "아카이브는 사실 판정이 아니다",
+      "body": "<div class=\"three-up\"><article><h3>확인됨</h3><p>원문 일치 표시<br>현재의 진실 인증 아님</p></article><article><h3>아카이브</h3><p>기본 맥락에서 분리<br>거짓·쓸모없음 판정 아님</p></article><article><h3>감사 통과</h3><p>검토 상태의 확인<br>실행·성과의 증명 아님</p></article></div><p class=\"statement\">지식 상태·문서 상태·승인 상태를 섞지 않는다.</p>",
+      "sources": [
+        "https://wikidocs.net/353406",
+        "https://wikidocs.net/353407",
+        "https://wikidocs.net/353408"
+      ]
+    },
+    {
+      "section": "이해 확인 · 수업용 가상 예시",
+      "kind": "content",
+      "title": "근거 칸이 있으면 충분할까?",
+      "body": "<p>필수 제목이 있고 근거 URL도 적힌 문서다.<br>“AI 도입을 결정했다”는 문장이 있다.</p><div class=\"choices\"><p><strong>A</strong> 형식이 맞으니 결정으로 인정한다.</p><p><strong>B</strong> URL을 열어 원문·결정 상태를 대조한다.</p><p><strong>C</strong> 경고가 없으면 바로 실행한다.</p></div><details class=\"answer\"><summary>정답과 이유 보기</summary><p>B. 제목·URL의 존재는 내용 일치나 승인을 증명하지 않는다. 원문이 검토 제안뿐이면 확인 필요다.</p></details>",
+      "sources": [
+        "https://wikidocs.net/353406",
+        "https://wikidocs.net/353407"
+      ]
+    },
+    {
+      "section": "20분 실습 · 수업용 가상 입력",
+      "kind": "content",
+      "title": "팀 위키 운영 상태를 진단한다",
+      "body": "<div class=\"two-up\"><article><h3>가상 원문</h3><p>회의: AI 초안 활용 검토 제안<br>공개 안내: 출처 표시 후 사용</p></article><article><h3>가상 문제 문서</h3><p>A: “AI 도입 결정” · 승인 근거 없음<br>B: “현재 최신 정책” · 확인일 없음<br>C: A와 비슷한 메모 · index 미연결</p></article></div><p class=\"subtle\">앞 주차 학생 팀프로젝트 위키를 이어 간다. 종이·편집기만 사용한다. 실제 학생 개인정보·비공개 자료는 금지. 실제 모델 출력이나 점검 결과가 아니다.</p>",
+      "sources": [
+        "https://wikidocs.net/353406",
+        "https://wikidocs.net/353407",
+        "https://wikidocs.net/353408",
+        "https://wikidocs.net/353409"
+      ]
+    },
+    {
+      "section": "20분 실습 · 강의용 재구성",
+      "kind": "content",
+      "title": "진단부터 다음 점검까지",
+      "body": "<div class=\"two-up\"><article><h3>0~10분 · 진단</h3><p>0~3분: A·B·C의 질문·형식 확인<br>3~7분: 문장·원문 의미 대조<br>7~10분: 누락·중복 후보 기록</p></article><article><h3>10~20분 · 운영 설계</h3><p>10~14분: 상태·다음 행동 정하기<br>14~17분: 입력·주간 점검 규칙<br>17~20분: 짝 검토·미확인 범위 표시</p></article></div><p class=\"subtle\">C는 비교 후보로만 둔다. 실제 병합·이동·삭제·백업·권한 변경을 실행하지 않는다.</p>",
+      "sources": [
+        "https://wikidocs.net/353406",
+        "https://wikidocs.net/353407",
+        "https://wikidocs.net/353408",
+        "https://wikidocs.net/353409"
+      ]
+    },
+    {
+      "section": "실습 제출물과 기준",
+      "kind": "content",
+      "title": "진단·장부·루틴 세 장 제출",
+      "body": "<div class=\"three-up compact\"><article><h3>진단 메모</h3><p>문제 문장·유형·근거<br>수정안·확인 필요</p></article><article><h3>운영 장부</h3><p>주제·질문·상태<br>다음 행동·갱신일</p></article><article><h3>점검 규칙</h3><p>입력 조건·주기<br>담당 역할·승인 경계</p></article></div><p class=\"statement\">성공 기준: 3개 문제에 이유·조치가 있고, 미확인·충돌·승인 대기가 드러난다.</p><p class=\"subtle\">확인하지 않은 날짜는 꾸며 쓰지 않고 미정으로 둔다.</p>",
+      "sources": [
+        "https://wikidocs.net/353406",
+        "https://wikidocs.net/353407",
+        "https://wikidocs.net/353408",
+        "https://wikidocs.net/353409"
+      ]
+    },
+    {
+      "section": "퇴실 질문",
+      "kind": "content",
+      "title": "다음 점검자가 이어갈 수 있게",
+      "body": "<p>오늘 고칠 후보 하나를 골라<br>“문제 → 확인할 근거 → 다음 행동”으로 쓴다.</p><p>질문: 삭제·백업·권한 변경 후보는 누구에게 무엇을 확인받을까?</p><details class=\"answer\"><summary>예시 답 보기</summary><p>결정 주장 → 가상 회의 원문 → 검토 제안으로 좁히기. 상태 변경은 사람이 대상·영향·되돌릴 방법을 승인한 뒤 수행한다.</p></details><p class=\"subtle\">수업용 가상 예시 답. 실제 수정·승인·실행 기록이 아니다.</p>",
+      "sources": [
+        "https://wikidocs.net/353407",
+        "https://wikidocs.net/353408",
+        "https://wikidocs.net/353409"
+      ]
+    },
+    {
+      "section": "핵심 복습",
+      "kind": "content",
+      "title": "믿음은 점검 가능한 연결에서",
+      "body": "<div class=\"three-up\"><article><h3>문장</h3><p>원문·날짜·조건<br>강한 결론은 대조</p></article><article><h3>문서와 주제</h3><p>형식·근거·구조<br>상태·다음 행동</p></article><article><h3>루틴</h3><p>작게 입력·주기 점검<br>사람 승인 후 변경</p></article></div><blockquote>자료 보관 ≠ 지식 검토 ≠ 보고서 승인<br>계획 작성 ≠ 실제 실행 ≠ 측정 결과</blockquote>",
+      "sources": [
+        "https://wikidocs.net/353406",
+        "https://wikidocs.net/353407",
+        "https://wikidocs.net/353408",
+        "https://wikidocs.net/353409"
+      ]
+    },
+    {
+      "section": "부록 · 8.1 · 원문 표",
+      "kind": "table",
+      "title": "요약에서 빠진 조건 찾기",
+      "table": "353406-table-1",
+      "takeaway": "문장이 자연스럽다는 이유만으로 출처·조건·최신성 점검을 생략하지 않는다.",
+      "sources": [
+        "https://wikidocs.net/353406"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.1 · 원문 표",
+      "kind": "table",
+      "title": "요약 수정의 원전 예시",
+      "table": "353406-table-2",
+      "takeaway": "원전의 가상 고객지원 메모 대조 예시다. 실제 모델 실행이나 수업 점검 결과가 아니다.",
+      "sources": [
+        "https://wikidocs.net/353406"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.1 · 원문 표",
+      "kind": "table",
+      "title": "주장 유형별 점검 방법",
+      "table": "353406-table-3",
+      "takeaway": "원전의 버전·정책 예시는 원전 확인일 기준이다. 현재 기능은 실행 전 공식 자료로 다시 확인한다.",
+      "sources": [
+        "https://wikidocs.net/353406"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.1 · 원문 표",
+      "kind": "table",
+      "title": "오래된 주장 수정의 원전 예시",
+      "table": "353406-table-4",
+      "takeaway": "표의 제품·버전·지침 파일 설명은 원전 범위를 보존했다. 오늘의 기능 지원을 재확인한 결과는 아니다.",
+      "sources": [
+        "https://wikidocs.net/353406"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.1 · 원문 표",
+      "kind": "table",
+      "title": "15분 점검의 원전 예시",
+      "table": "353406-table-6",
+      "takeaway": "시간 배분은 작은 운영 루틴의 예시다. 점검의 완전성이나 진실성을 보장하지 않는다.",
+      "sources": [
+        "https://wikidocs.net/353406"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.2 · 원문 표",
+      "kind": "table",
+      "title": "형식 항목이 필요한 이유",
+      "table": "353407-table-1",
+      "takeaway": "필수 제목의 존재 검사와 내용의 사실성 검증은 서로 다른 검사다.",
+      "sources": [
+        "https://wikidocs.net/353407"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.2 · 원문 표",
+      "kind": "table",
+      "title": "근거 점검의 순서",
+      "table": "353407-table-3",
+      "takeaway": "URL·날짜가 있어도 주장의 의미·조건·최신성을 원문과 대조해야 한다.",
+      "sources": [
+        "https://wikidocs.net/353407"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.2 · 원문 표",
+      "kind": "table",
+      "title": "구조 점검을 주기로 나누기",
+      "table": "353407-table-5",
+      "takeaway": "입력과 점검을 나눠 운영한다. 도구의 현재 명령·동작은 별도 확인 대상이다.",
+      "sources": [
+        "https://wikidocs.net/353407"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.2 · 원문 표",
+      "kind": "table",
+      "title": "형식 보완 후보 기록",
+      "table": "353407-table-6",
+      "takeaway": "원전 템플릿 안의 가상 기록이다. 파일을 실제로 검사·수정한 결과가 아니다.",
+      "sources": [
+        "https://wikidocs.net/353407"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.2 · 원문 표",
+      "kind": "table",
+      "title": "근거 보완 후보 기록",
+      "table": "353407-table-7",
+      "takeaway": "원전의 가상 문장 진단이다. 강한 단어 탐지만으로 모든 오류를 찾을 수는 없다.",
+      "sources": [
+        "https://wikidocs.net/353407"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.2 · 원문 표",
+      "kind": "table",
+      "title": "구조 보완 후보 기록",
+      "table": "353407-table-8",
+      "takeaway": "원전의 가상 문서 비교 후보다. 비교 보고와 승인 전에는 병합을 완료로 쓰지 않는다.",
+      "sources": [
+        "https://wikidocs.net/353407"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.2 · 원문 표",
+      "kind": "table",
+      "title": "정리·감사 검증 질문",
+      "table": "353407-table-9",
+      "takeaway": "통과가 완벽한 위키나 모든 주장의 진실성을 뜻하지는 않는다.",
+      "sources": [
+        "https://wikidocs.net/353407"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.3 · 원문 표",
+      "kind": "table",
+      "title": "같은 회의록도 질문이 다르다",
+      "table": "353408-table-2",
+      "takeaway": "파일 형식 대신 질문·독자·공유 범위를 기준으로 자료 위치를 정한다.",
+      "sources": [
+        "https://wikidocs.net/353408"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.3 · 원문 표",
+      "kind": "table",
+      "title": "주제 운영 장부의 원전 예시",
+      "table": "353408-table-4",
+      "takeaway": "표의 날짜·상태는 원전의 가상 예시다. 실제 운영 현황이나 수업 프로젝트 기록이 아니다.",
+      "sources": [
+        "https://wikidocs.net/353408"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.3 · 원문 표",
+      "kind": "table",
+      "title": "수동·도구형 장부 비교",
+      "table": "353408-table-5",
+      "takeaway": "수동 기록부터 시작할 수 있다. 이 강의에서 플러그인을 설치하거나 기능을 실행하지 않는다.",
+      "sources": [
+        "https://wikidocs.net/353408"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.3 · 원문 표",
+      "kind": "table",
+      "title": "아카이브 후보 선택 기준",
+      "table": "353408-table-6",
+      "takeaway": "오래된 날짜만으로 결정하지 않는다. 실제 이동·백업·접근 범위 변경은 사람이 승인한다.",
+      "sources": [
+        "https://wikidocs.net/353408"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.3 · 원문 표",
+      "kind": "table",
+      "title": "아카이브 전 확인할 것",
+      "table": "353408-table-7",
+      "takeaway": "폴더 위치뿐 아니라 검색 포함·복구·링크 영향을 확인한다. 실제 백업·복구는 범위 승인 후 한다.",
+      "sources": [
+        "https://wikidocs.net/353408"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.3 · 원문 표",
+      "kind": "table",
+      "title": "주제 운영 검증 질문",
+      "table": "353408-table-8",
+      "takeaway": "삭제 대신 보존하며 맥락을 분리하는 원칙이다. 삭제에는 별도 사람 승인이 필요하다.",
+      "sources": [
+        "https://wikidocs.net/353408"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.4 · 원문 표",
+      "kind": "table",
+      "title": "매일 넣을 자료의 조건",
+      "table": "353409-table-1",
+      "takeaway": "자료 수집과 외부 모델 전송은 같은 권한이 아니다. 실습에는 공개 자료·가상 메모만 쓴다.",
+      "sources": [
+        "https://wikidocs.net/353409"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.4 · 원문 표",
+      "kind": "table",
+      "title": "하루 입력 목록의 원전 예시",
+      "table": "353409-table-2",
+      "takeaway": "원전의 가상 기록이다. ‘버림’은 입력 제외 판단이며 기존 파일 자동 삭제 권한이 아니다.",
+      "sources": [
+        "https://wikidocs.net/353409"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.4 · 원문 표",
+      "kind": "table",
+      "title": "업무 도구를 연결하는 위치",
+      "table": "353409-table-4",
+      "takeaway": "연결 설계와 실제 앱 접근·전송·권한 부여는 별개다. 지침 파일은 행동을 보장하지 않는다.",
+      "sources": [
+        "https://wikidocs.net/353409"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.4 · 원문 표",
+      "kind": "table",
+      "title": "확장을 줄여야 할 신호",
+      "table": "353409-table-5",
+      "takeaway": "원전의 시간·문서 수는 운영 예시다. 도구 수나 자료량보다 유지 가능한 점검을 우선한다.",
+      "sources": [
+        "https://wikidocs.net/353409"
+      ],
+      "appendix": true
+    },
+    {
+      "section": "부록 · 8.4 · 원문 표",
+      "kind": "table",
+      "title": "일상 운영 검증 질문",
+      "table": "353409-table-6",
+      "takeaway": "점검 가능한 습관을 확인하는 질문이다. 실제 내용 검증·승인·실행 기록을 대신하지 않는다.",
+      "sources": [
+        "https://wikidocs.net/353409"
+      ],
+      "appendix": true
+    }
+  ]
+}

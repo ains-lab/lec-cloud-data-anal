@@ -1,0 +1,1834 @@
+{
+  "week": 14,
+  "served_url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html",
+  "file": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/14w/slides/llm-wiki-chapter-07-slides.html",
+  "source_sha256": "00360fdbce572ead815557cc7e14af9800c655de52fa2f684aa2b055f8ba46c4",
+  "viewports": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "records": [
+        {
+          "slide": 1,
+          "title": "위키에서 업무 산출물 만들기",
+          "kind": "cover",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "title": "오늘 만들 수 있어야 할 것",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 3,
+          "title": "문서가 생겨도 실행된 것은 아니다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 4,
+          "title": "7.1 목적부터 고르는 이유",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "title": "요약·보고서·계획의 차이",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 6,
+          "title": "독자의 질문으로 형식 고르기",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 7,
+          "title": "독자에게 필요한 순서로",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 8,
+          "title": "독자마다 먼저 볼 것이 다르다 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 9,
+          "title": "독자마다 먼저 볼 것이 다르다 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 10,
+          "title": "산출물은 지식과 분리한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 11,
+          "title": "7.2 글솜씨보다 검토 가능성",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1536,
+              "h": 1024
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "title": "문장마다 돌아갈 주소를",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 13,
+          "title": "주장과 보고서 표현을 연결 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 14,
+          "title": "주장과 보고서 표현을 연결 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 15,
+          "title": "제안을 근거 있는 문장으로",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 16,
+          "title": "제안에서 성과로 뛰어넘지 않기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 17,
+          "title": "자료 순서가 아니라 판단 순서",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 18,
+          "title": "초안에 질문과 한계를 붙인다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 19,
+          "title": "검토본으로 고치는 점검표 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 20,
+          "title": "검토본으로 고치는 점검표 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 21,
+          "title": "7.3 보고서를 다음 행동으로",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "title": "할 일은 끝낼 조건까지 쓴다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 23,
+          "title": "실행·확인·검토 요청을 나누기 · 1/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 24,
+          "title": "실행·확인·검토 요청을 나누기 · 2/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 25,
+          "title": "실행·확인·검토 요청을 나누기 · 3/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 26,
+          "title": "요약보다 결정할 질문을",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 27,
+          "title": "회의 자료의 네 가지 역할",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 28,
+          "title": "결정과 결과를 따로 되돌린다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 29,
+          "title": "산출물에 남길 연결 정보 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 30,
+          "title": "산출물에 남길 연결 정보 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 31,
+          "title": "빈칸이 없으면 실행해도 될까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 32,
+          "title": "근거로 말할 수 있는 것은?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 33,
+          "title": "학생 팀 위키의 보고서 초안",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 34,
+          "title": "목적에서 회의 안건까지",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 35,
+          "title": "세 조각이 서로 이어지는가?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 36,
+          "title": "승인 전 계획을 한 문장으로",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 37,
+          "title": "산출물은 판단과 행동의 다리",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 38,
+          "title": "목적을 한 줄로 적는 원전 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 39,
+          "title": "목적을 한 줄로 적는 원전 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 40,
+          "title": "독자별 문서 틀의 원전 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 41,
+          "title": "output 폴더의 세 역할",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "산출물 목적 점검 질문 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "산출물 목적 점검 질문 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "읽기 흐름을 비교하기",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
+          "title": "보고서 항목에 메모 배치하기 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 46,
+          "title": "보고서 항목에 메모 배치하기 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 47,
+          "title": "보고서·결정·추가 질문의 위치",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 48,
+          "title": "검토용 문서 최종 점검 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 49,
+          "title": "검토용 문서 최종 점검 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 50,
+          "title": "보고서 검증 질문 모음 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 51,
+          "title": "보고서 검증 질문 모음 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 52,
+          "title": "회의의 예상 질문 원전 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 53,
+          "title": "회의 전 발견할 문제",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 54,
+          "title": "다음 행동 연결 점검 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 55,
+          "title": "다음 행동 연결 점검 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 56,
+          "title": "원전이 참고한 추가 자료 · 1/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 57,
+          "title": "원전이 참고한 추가 자료 · 2/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 58,
+          "title": "원전이 참고한 추가 자료 · 3/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 59,
+          "title": "원전과 강의 설명 구분하기",
+          "kind": "sources",
+          "issues": [],
+          "images": []
+        }
+      ],
+      "fonts": "loaded",
+      "captionAbsent": true,
+      "documentHorizontalOverflow": false,
+      "served_url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html",
+      "source_sha256": "00360fdbce572ead815557cc7e14af9800c655de52fa2f684aa2b055f8ba46c4"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "records": [
+        {
+          "slide": 1,
+          "title": "위키에서 업무 산출물 만들기",
+          "kind": "cover",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "title": "오늘 만들 수 있어야 할 것",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 3,
+          "title": "문서가 생겨도 실행된 것은 아니다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 4,
+          "title": "7.1 목적부터 고르는 이유",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "title": "요약·보고서·계획의 차이",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 6,
+          "title": "독자의 질문으로 형식 고르기",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 7,
+          "title": "독자에게 필요한 순서로",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 8,
+          "title": "독자마다 먼저 볼 것이 다르다 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 9,
+          "title": "독자마다 먼저 볼 것이 다르다 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 10,
+          "title": "산출물은 지식과 분리한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 11,
+          "title": "7.2 글솜씨보다 검토 가능성",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1536,
+              "h": 1024
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "title": "문장마다 돌아갈 주소를",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 13,
+          "title": "주장과 보고서 표현을 연결 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 14,
+          "title": "주장과 보고서 표현을 연결 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 15,
+          "title": "제안을 근거 있는 문장으로",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 16,
+          "title": "제안에서 성과로 뛰어넘지 않기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 17,
+          "title": "자료 순서가 아니라 판단 순서",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 18,
+          "title": "초안에 질문과 한계를 붙인다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 19,
+          "title": "검토본으로 고치는 점검표 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 20,
+          "title": "검토본으로 고치는 점검표 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 21,
+          "title": "7.3 보고서를 다음 행동으로",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "title": "할 일은 끝낼 조건까지 쓴다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 23,
+          "title": "실행·확인·검토 요청을 나누기 · 1/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 24,
+          "title": "실행·확인·검토 요청을 나누기 · 2/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 25,
+          "title": "실행·확인·검토 요청을 나누기 · 3/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 26,
+          "title": "요약보다 결정할 질문을",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 27,
+          "title": "회의 자료의 네 가지 역할",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 28,
+          "title": "결정과 결과를 따로 되돌린다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 29,
+          "title": "산출물에 남길 연결 정보 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 30,
+          "title": "산출물에 남길 연결 정보 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 31,
+          "title": "빈칸이 없으면 실행해도 될까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 32,
+          "title": "근거로 말할 수 있는 것은?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 33,
+          "title": "학생 팀 위키의 보고서 초안",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 34,
+          "title": "목적에서 회의 안건까지",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 35,
+          "title": "세 조각이 서로 이어지는가?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 36,
+          "title": "승인 전 계획을 한 문장으로",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 37,
+          "title": "산출물은 판단과 행동의 다리",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 38,
+          "title": "목적을 한 줄로 적는 원전 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 39,
+          "title": "목적을 한 줄로 적는 원전 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 40,
+          "title": "독자별 문서 틀의 원전 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 41,
+          "title": "output 폴더의 세 역할",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "산출물 목적 점검 질문 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "산출물 목적 점검 질문 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "읽기 흐름을 비교하기",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
+          "title": "보고서 항목에 메모 배치하기 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 46,
+          "title": "보고서 항목에 메모 배치하기 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 47,
+          "title": "보고서·결정·추가 질문의 위치",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 48,
+          "title": "검토용 문서 최종 점검 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 49,
+          "title": "검토용 문서 최종 점검 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 50,
+          "title": "보고서 검증 질문 모음 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 51,
+          "title": "보고서 검증 질문 모음 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 52,
+          "title": "회의의 예상 질문 원전 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 53,
+          "title": "회의 전 발견할 문제",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 54,
+          "title": "다음 행동 연결 점검 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 55,
+          "title": "다음 행동 연결 점검 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 56,
+          "title": "원전이 참고한 추가 자료 · 1/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 57,
+          "title": "원전이 참고한 추가 자료 · 2/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 58,
+          "title": "원전이 참고한 추가 자료 · 3/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 59,
+          "title": "원전과 강의 설명 구분하기",
+          "kind": "sources",
+          "issues": [],
+          "images": []
+        }
+      ],
+      "fonts": "loaded",
+      "captionAbsent": true,
+      "documentHorizontalOverflow": false,
+      "served_url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html",
+      "source_sha256": "00360fdbce572ead815557cc7e14af9800c655de52fa2f684aa2b055f8ba46c4"
+    },
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "records": [
+        {
+          "slide": 1,
+          "title": "위키에서 업무 산출물 만들기",
+          "kind": "cover",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "title": "오늘 만들 수 있어야 할 것",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 3,
+          "title": "문서가 생겨도 실행된 것은 아니다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 4,
+          "title": "7.1 목적부터 고르는 이유",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "title": "요약·보고서·계획의 차이",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 6,
+          "title": "독자의 질문으로 형식 고르기",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 7,
+          "title": "독자에게 필요한 순서로",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 8,
+          "title": "독자마다 먼저 볼 것이 다르다 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 9,
+          "title": "독자마다 먼저 볼 것이 다르다 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 10,
+          "title": "산출물은 지식과 분리한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 11,
+          "title": "7.2 글솜씨보다 검토 가능성",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1536,
+              "h": 1024
+            }
+          ]
+        },
+        {
+          "slide": 12,
+          "title": "문장마다 돌아갈 주소를",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 13,
+          "title": "주장과 보고서 표현을 연결 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 14,
+          "title": "주장과 보고서 표현을 연결 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 15,
+          "title": "제안을 근거 있는 문장으로",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 16,
+          "title": "제안에서 성과로 뛰어넘지 않기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 17,
+          "title": "자료 순서가 아니라 판단 순서",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 18,
+          "title": "초안에 질문과 한계를 붙인다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 19,
+          "title": "검토본으로 고치는 점검표 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 20,
+          "title": "검토본으로 고치는 점검표 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 21,
+          "title": "7.3 보고서를 다음 행동으로",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 22,
+          "title": "할 일은 끝낼 조건까지 쓴다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 23,
+          "title": "실행·확인·검토 요청을 나누기 · 1/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 24,
+          "title": "실행·확인·검토 요청을 나누기 · 2/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 25,
+          "title": "실행·확인·검토 요청을 나누기 · 3/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 26,
+          "title": "요약보다 결정할 질문을",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 27,
+          "title": "회의 자료의 네 가지 역할",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 28,
+          "title": "결정과 결과를 따로 되돌린다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 29,
+          "title": "산출물에 남길 연결 정보 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 30,
+          "title": "산출물에 남길 연결 정보 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 31,
+          "title": "빈칸이 없으면 실행해도 될까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 32,
+          "title": "근거로 말할 수 있는 것은?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 33,
+          "title": "학생 팀 위키의 보고서 초안",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 34,
+          "title": "목적에서 회의 안건까지",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 35,
+          "title": "세 조각이 서로 이어지는가?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 36,
+          "title": "승인 전 계획을 한 문장으로",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 37,
+          "title": "산출물은 판단과 행동의 다리",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 38,
+          "title": "목적을 한 줄로 적는 원전 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 39,
+          "title": "목적을 한 줄로 적는 원전 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 40,
+          "title": "독자별 문서 틀의 원전 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 41,
+          "title": "output 폴더의 세 역할",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "산출물 목적 점검 질문 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "산출물 목적 점검 질문 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "읽기 흐름을 비교하기",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
+          "title": "보고서 항목에 메모 배치하기 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 46,
+          "title": "보고서 항목에 메모 배치하기 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 47,
+          "title": "보고서·결정·추가 질문의 위치",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 48,
+          "title": "검토용 문서 최종 점검 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 49,
+          "title": "검토용 문서 최종 점검 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 50,
+          "title": "보고서 검증 질문 모음 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 51,
+          "title": "보고서 검증 질문 모음 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 52,
+          "title": "회의의 예상 질문 원전 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 53,
+          "title": "회의 전 발견할 문제",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 54,
+          "title": "다음 행동 연결 점검 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 55,
+          "title": "다음 행동 연결 점검 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 56,
+          "title": "원전이 참고한 추가 자료 · 1/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 57,
+          "title": "원전이 참고한 추가 자료 · 2/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 58,
+          "title": "원전이 참고한 추가 자료 · 3/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 59,
+          "title": "원전과 강의 설명 구분하기",
+          "kind": "sources",
+          "issues": [],
+          "images": []
+        }
+      ],
+      "fonts": "loaded",
+      "captionAbsent": true,
+      "documentHorizontalOverflow": false,
+      "served_url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html",
+      "source_sha256": "00360fdbce572ead815557cc7e14af9800c655de52fa2f684aa2b055f8ba46c4"
+    }
+  ],
+  "opened_answers": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "records": [
+      {
+        "slide": 1,
+        "title": "위키에서 업무 산출물 만들기",
+        "kind": "cover",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 2,
+        "title": "오늘 만들 수 있어야 할 것",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 3,
+        "title": "문서가 생겨도 실행된 것은 아니다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 4,
+        "title": "7.1 목적부터 고르는 이유",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 5,
+        "title": "요약·보고서·계획의 차이",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 6,
+        "title": "독자의 질문으로 형식 고르기",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 7,
+        "title": "독자에게 필요한 순서로",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 8,
+        "title": "독자마다 먼저 볼 것이 다르다 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 9,
+        "title": "독자마다 먼저 볼 것이 다르다 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 10,
+        "title": "산출물은 지식과 분리한다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 11,
+        "title": "7.2 글솜씨보다 검토 가능성",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1536,
+            "h": 1024
+          }
+        ]
+      },
+      {
+        "slide": 12,
+        "title": "문장마다 돌아갈 주소를",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 13,
+        "title": "주장과 보고서 표현을 연결 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 14,
+        "title": "주장과 보고서 표현을 연결 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 15,
+        "title": "제안을 근거 있는 문장으로",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 16,
+        "title": "제안에서 성과로 뛰어넘지 않기",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 17,
+        "title": "자료 순서가 아니라 판단 순서",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 18,
+        "title": "초안에 질문과 한계를 붙인다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 19,
+        "title": "검토본으로 고치는 점검표 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 20,
+        "title": "검토본으로 고치는 점검표 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 21,
+        "title": "7.3 보고서를 다음 행동으로",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 22,
+        "title": "할 일은 끝낼 조건까지 쓴다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 23,
+        "title": "실행·확인·검토 요청을 나누기 · 1/3",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 24,
+        "title": "실행·확인·검토 요청을 나누기 · 2/3",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 25,
+        "title": "실행·확인·검토 요청을 나누기 · 3/3",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 26,
+        "title": "요약보다 결정할 질문을",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 27,
+        "title": "회의 자료의 네 가지 역할",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 28,
+        "title": "결정과 결과를 따로 되돌린다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 29,
+        "title": "산출물에 남길 연결 정보 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 30,
+        "title": "산출물에 남길 연결 정보 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 31,
+        "title": "빈칸이 없으면 실행해도 될까?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 32,
+        "title": "근거로 말할 수 있는 것은?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 33,
+        "title": "학생 팀 위키의 보고서 초안",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 34,
+        "title": "목적에서 회의 안건까지",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 35,
+        "title": "세 조각이 서로 이어지는가?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 36,
+        "title": "승인 전 계획을 한 문장으로",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 37,
+        "title": "산출물은 판단과 행동의 다리",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 38,
+        "title": "목적을 한 줄로 적는 원전 예시 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 39,
+        "title": "목적을 한 줄로 적는 원전 예시 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 40,
+        "title": "독자별 문서 틀의 원전 예시",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 41,
+        "title": "output 폴더의 세 역할",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 42,
+        "title": "산출물 목적 점검 질문 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 43,
+        "title": "산출물 목적 점검 질문 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 44,
+        "title": "읽기 흐름을 비교하기",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 45,
+        "title": "보고서 항목에 메모 배치하기 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 46,
+        "title": "보고서 항목에 메모 배치하기 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 47,
+        "title": "보고서·결정·추가 질문의 위치",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 48,
+        "title": "검토용 문서 최종 점검 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 49,
+        "title": "검토용 문서 최종 점검 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 50,
+        "title": "보고서 검증 질문 모음 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 51,
+        "title": "보고서 검증 질문 모음 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 52,
+        "title": "회의의 예상 질문 원전 예시",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 53,
+        "title": "회의 전 발견할 문제",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 54,
+        "title": "다음 행동 연결 점검 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 55,
+        "title": "다음 행동 연결 점검 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 56,
+        "title": "원전이 참고한 추가 자료 · 1/3",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 57,
+        "title": "원전이 참고한 추가 자료 · 2/3",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 58,
+        "title": "원전이 참고한 추가 자료 · 3/3",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 59,
+        "title": "원전과 강의 설명 구분하기",
+        "kind": "sources",
+        "issues": [],
+        "images": []
+      }
+    ],
+    "fonts": "loaded",
+    "captionAbsent": true
+  },
+  "interactions": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "previous_next_jump_help": true,
+      "reading_mode": false,
+      "errors": []
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "previous_next_jump_help": true,
+      "reading_mode": false,
+      "errors": []
+    },
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "previous_next_jump_help": true,
+      "reading_mode": true,
+      "errors": []
+    }
+  ]
+}

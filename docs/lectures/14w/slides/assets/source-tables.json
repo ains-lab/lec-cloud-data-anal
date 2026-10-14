@@ -1,0 +1,962 @@
+[
+  {
+    "id": "353402-table-1",
+    "page_url": "https://wikidocs.net/353402",
+    "page_title": "7.1 산출물의 목적 정하기",
+    "title": "산출물 목적 비교표",
+    "headers": [
+      "산출물",
+      "핵심 질문",
+      "읽는 사람의 기대",
+      "위키에서 가져올 내용",
+      "결과물의 좋은 상태"
+    ],
+    "rows": [
+      [
+        "요약",
+        "“무슨 내용인가?”",
+        "빠른 이해",
+        "핵심 개념, 주요 사실, 반복 패턴",
+        "1~2분 안에 전체 흐름을 파악한다"
+      ],
+      [
+        "보고서",
+        "“그래서 어떻게 판단해야 하는가?”",
+        "근거 있는 결론",
+        "주장, 근거, 한계, 선택지",
+        "결론과 근거가 연결되어 있다"
+      ],
+      [
+        "실행 계획",
+        "“이제 무엇을 할 것인가?”",
+        "바로 움직일 수 있는 다음 행동",
+        "결정 사항, 제약, 담당 후보, 일정",
+        "담당자, 기한, 검증 방법이 있다"
+      ]
+    ],
+    "markdown": "| 산출물 | 핵심 질문 | 읽는 사람의 기대 | 위키에서 가져올 내용 | 결과물의 좋은 상태 |\n| --- | --- | --- | --- | --- |\n| 요약 | “무슨 내용인가?” | 빠른 이해 | 핵심 개념, 주요 사실, 반복 패턴 | 1~2분 안에 전체 흐름을 파악한다 |\n| 보고서 | “그래서 어떻게 판단해야 하는가?” | 근거 있는 결론 | 주장, 근거, 한계, 선택지 | 결론과 근거가 연결되어 있다 |\n| 실행 계획 | “이제 무엇을 할 것인가?” | 바로 움직일 수 있는 다음 행동 | 결정 사항, 제약, 담당 후보, 일정 | 담당자, 기한, 검증 방법이 있다 |",
+    "source_lines": [
+      31,
+      35
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353402-table-2",
+    "page_url": "https://wikidocs.net/353402",
+    "page_title": "7.1 산출물의 목적 정하기",
+    "title": "실습: 산출물 목적 한 줄로 정하기",
+    "headers": [
+      "항목",
+      "작성 내용"
+    ],
+    "rows": [
+      [
+        "위키 주제",
+        "고객 문의 분류 자동화"
+      ],
+      [
+        "만들 산출물",
+        "실행 계획"
+      ],
+      [
+        "읽는 사람",
+        "고객지원팀 리더"
+      ],
+      [
+        "읽은 뒤 해야 할 일",
+        "1차 실험 진행 여부를 결정하고 담당자를 지정한다"
+      ],
+      [
+        "포함할 내용",
+        "실험 범위, 필요한 자료, 담당자, 일정, 성공 기준"
+      ],
+      [
+        "제외할 내용",
+        "LLM 일반 설명, 자동화 도구 비교"
+      ]
+    ],
+    "markdown": "| 항목 | 작성 내용 |\n|---|---|\n| 위키 주제 | 고객 문의 분류 자동화 |\n| 만들 산출물 | 실행 계획 |\n| 읽는 사람 | 고객지원팀 리더 |\n| 읽은 뒤 해야 할 일 | 1차 실험 진행 여부를 결정하고 담당자를 지정한다 |\n| 포함할 내용 | 실험 범위, 필요한 자료, 담당자, 일정, 성공 기준 |\n| 제외할 내용 | LLM 일반 설명, 자동화 도구 비교 |",
+    "source_lines": [
+      106,
+      113
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": true
+  },
+  {
+    "id": "353402-table-3",
+    "page_url": "https://wikidocs.net/353402",
+    "page_title": "7.1 산출물의 목적 정하기",
+    "title": "독자별 산출물 형식",
+    "headers": [
+      "읽는 사람",
+      "먼저 보고 싶은 것",
+      "적합한 형식",
+      "피해야 할 것"
+    ],
+    "rows": [
+      [
+        "대표, 임원",
+        "결론, 기대 효과, 리스크",
+        "1쪽 의사결정 보고서",
+        "세부 작업 로그부터 나열하기"
+      ],
+      [
+        "팀장",
+        "우선순위, 일정, 필요한 사람",
+        "실행 계획이 포함된 보고서",
+        "근거 없는 낙관적 일정"
+      ],
+      [
+        "실무자",
+        "작업 순서, 입력 자료, 검증 방법",
+        "체크리스트형 실행 계획",
+        "추상적인 방향성만 제시하기"
+      ],
+      [
+        "동료 리뷰어",
+        "근거, 한계, 빠진 정보",
+        "근거 링크가 있는 검토용 문서",
+        "출처 없는 단정"
+      ],
+      [
+        "외부 협력사",
+        "범위, 책임, 산출물 기준",
+        "작업 요청서 또는 공유용 요약",
+        "내부 약어와 맥락 없는 표현"
+      ]
+    ],
+    "markdown": "| 읽는 사람 | 먼저 보고 싶은 것 | 적합한 형식 | 피해야 할 것 |\n| --- | --- | --- | --- |\n| 대표, 임원 | 결론, 기대 효과, 리스크 | 1쪽 의사결정 보고서 | 세부 작업 로그부터 나열하기 |\n| 팀장 | 우선순위, 일정, 필요한 사람 | 실행 계획이 포함된 보고서 | 근거 없는 낙관적 일정 |\n| 실무자 | 작업 순서, 입력 자료, 검증 방법 | 체크리스트형 실행 계획 | 추상적인 방향성만 제시하기 |\n| 동료 리뷰어 | 근거, 한계, 빠진 정보 | 근거 링크가 있는 검토용 문서 | 출처 없는 단정 |\n| 외부 협력사 | 범위, 책임, 산출물 기준 | 작업 요청서 또는 공유용 요약 | 내부 약어와 맥락 없는 표현 |",
+    "source_lines": [
+      126,
+      132
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353402-table-4",
+    "page_url": "https://wikidocs.net/353402",
+    "page_title": "7.1 산출물의 목적 정하기",
+    "title": "실습: 독자별 산출물 틀 만들기",
+    "headers": [
+      "읽는 사람",
+      "산출물 제목",
+      "포함할 항목",
+      "제외할 항목"
+    ],
+    "rows": [
+      [
+        "고객지원팀 리더",
+        "배송 문의 자동 분류 1차 실험 계획",
+        "목표, 범위, 일정, 담당자, 성공 기준, 리스크",
+        "LLM 기술 일반론"
+      ],
+      [
+        "실무 담당자",
+        "배송 문의 샘플 라벨링 체크리스트",
+        "샘플 기준, 라벨 정의, 예외 처리, 검증 방법",
+        "예산 승인 배경"
+      ],
+      [
+        "임원",
+        "고객 문의 자동화 검토 요약",
+        "기대 효과, 필요한 결정, 리스크, 확인 필요",
+        "세부 파일 경로"
+      ]
+    ],
+    "markdown": "| 읽는 사람 | 산출물 제목 | 포함할 항목 | 제외할 항목 |\n|---|---|---|---|\n| 고객지원팀 리더 | 배송 문의 자동 분류 1차 실험 계획 | 목표, 범위, 일정, 담당자, 성공 기준, 리스크 | LLM 기술 일반론 |\n| 실무 담당자 | 배송 문의 샘플 라벨링 체크리스트 | 샘플 기준, 라벨 정의, 예외 처리, 검증 방법 | 예산 승인 배경 |\n| 임원 | 고객 문의 자동화 검토 요약 | 기대 효과, 필요한 결정, 리스크, 확인 필요 | 세부 파일 경로 |",
+    "source_lines": [
+      190,
+      194
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": true
+  },
+  {
+    "id": "353402-table-5",
+    "page_url": "https://wikidocs.net/353402",
+    "page_title": "7.1 산출물의 목적 정하기",
+    "title": "output 폴더의 세 가지 역할",
+    "headers": [
+      "역할",
+      "설명",
+      "예시"
+    ],
+    "rows": [
+      [
+        "결과물 분리",
+        "위키 문서와 공유 문서를 섞지 않는다",
+        "`wiki/automation-risk.md`와 `output/risk-report.md` 분리"
+      ],
+      [
+        "이력 관리",
+        "언제 어떤 목적으로 만들었는지 남긴다",
+        "`2026-05-16-...` 파일명"
+      ],
+      [
+        "검토 편의",
+        "제출 전 검토할 문서만 모아 본다",
+        "보고서 초안, 회의 자료, 실행 계획"
+      ]
+    ],
+    "markdown": "| 역할 | 설명 | 예시 |\n| --- | --- | --- |\n| 결과물 분리 | 위키 문서와 공유 문서를 섞지 않는다 | `wiki/automation-risk.md`와 `output/risk-report.md` 분리 |\n| 이력 관리 | 언제 어떤 목적으로 만들었는지 남긴다 | `2026-05-16-...` 파일명 |\n| 검토 편의 | 제출 전 검토할 문서만 모아 본다 | 보고서 초안, 회의 자료, 실행 계획 |",
+    "source_lines": [
+      228,
+      232
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353402-table-6",
+    "page_url": "https://wikidocs.net/353402",
+    "page_title": "7.1 산출물의 목적 정하기",
+    "title": "7.1의 검증 포인트",
+    "headers": [
+      "점검 항목",
+      "확인 질문"
+    ],
+    "rows": [
+      [
+        "목적",
+        "이 문서는 요약, 보고서, 실행 계획 중 무엇인가?"
+      ],
+      [
+        "독자",
+        "누가 읽고 어떤 결정을 해야 하는가?"
+      ],
+      [
+        "포함 범위",
+        "독자에게 필요한 내용만 담았는가?"
+      ],
+      [
+        "제외 범위",
+        "배경 설명이나 도구 설명이 과하게 들어가지 않았는가?"
+      ],
+      [
+        "근거",
+        "핵심 주장마다 `raw/` 또는 `wiki/`로 돌아갈 수 있는가?"
+      ],
+      [
+        "위치",
+        "공유하거나 실행할 결과물이 `output/`에 분리되어 있는가?"
+      ],
+      [
+        "확인 필요",
+        "근거가 부족한 내용을 단정하지 않았는가?"
+      ]
+    ],
+    "markdown": "| 점검 항목 | 확인 질문 |\n| --- | --- |\n| 목적 | 이 문서는 요약, 보고서, 실행 계획 중 무엇인가? |\n| 독자 | 누가 읽고 어떤 결정을 해야 하는가? |\n| 포함 범위 | 독자에게 필요한 내용만 담았는가? |\n| 제외 범위 | 배경 설명이나 도구 설명이 과하게 들어가지 않았는가? |\n| 근거 | 핵심 주장마다 `raw/` 또는 `wiki/`로 돌아갈 수 있는가? |\n| 위치 | 공유하거나 실행할 결과물이 `output/`에 분리되어 있는가? |\n| 확인 필요 | 근거가 부족한 내용을 단정하지 않았는가? |",
+    "source_lines": [
+      405,
+      413
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353403-table-1",
+    "page_url": "https://wikidocs.net/353403",
+    "page_title": "7.2 업무 보고서 만들기",
+    "title": "주장-근거 매트릭스",
+    "headers": [
+      "핵심 주장",
+      "근거 위치",
+      "근거 요약",
+      "확신도",
+      "보고서 표현"
+    ],
+    "rows": [
+      [
+        "고객 문의 분류 자동화는 우선 검토할 만하다",
+        "`wiki/customer-inquiry-labeling.md`, `raw/meeting-2026-05-16.md`",
+        "반복 문의가 많고 상담원이 분류에 시간을 쓰고 있음",
+        "높음",
+        "“현재 자료 기준으로 고객 문의 분류 자동화는 우선 검토 대상이다.”"
+      ],
+      [
+        "자동 답변까지 바로 적용하는 것은 이르다",
+        "`wiki/automation-risk.md`",
+        "오답 책임, 검수 기준, 예외 처리 기준이 정리되지 않음",
+        "중간",
+        "“자동 답변 적용은 별도 검수 기준을 마련한 뒤 검토한다.”"
+      ],
+      [
+        "2주 파일럿으로 효과를 확인할 수 있다",
+        "`wiki/pilot-plan.md`",
+        "문의 유형 3개와 검증 지표를 제한하면 작은 실험 가능",
+        "중간",
+        "“2주 파일럿으로 분류 정확도와 처리 시간 변화를 확인한다.”"
+      ],
+      [
+        "월간 비용 절감 효과는 아직 단정하기 어렵다",
+        "근거 부족",
+        "반복 문의 수는 있으나 실제 처리 시간과 인건비 기준이 없음",
+        "낮음",
+        "“비용 절감 효과는 추가 산정이 필요하다.”"
+      ]
+    ],
+    "markdown": "| 핵심 주장 | 근거 위치 | 근거 요약 | 확신도 | 보고서 표현 |\n| --- | --- | --- | --- | --- |\n| 고객 문의 분류 자동화는 우선 검토할 만하다 | `wiki/customer-inquiry-labeling.md`, `raw/meeting-2026-05-16.md` | 반복 문의가 많고 상담원이 분류에 시간을 쓰고 있음 | 높음 | “현재 자료 기준으로 고객 문의 분류 자동화는 우선 검토 대상이다.” |\n| 자동 답변까지 바로 적용하는 것은 이르다 | `wiki/automation-risk.md` | 오답 책임, 검수 기준, 예외 처리 기준이 정리되지 않음 | 중간 | “자동 답변 적용은 별도 검수 기준을 마련한 뒤 검토한다.” |\n| 2주 파일럿으로 효과를 확인할 수 있다 | `wiki/pilot-plan.md` | 문의 유형 3개와 검증 지표를 제한하면 작은 실험 가능 | 중간 | “2주 파일럿으로 분류 정확도와 처리 시간 변화를 확인한다.” |\n| 월간 비용 절감 효과는 아직 단정하기 어렵다 | 근거 부족 | 반복 문의 수는 있으나 실제 처리 시간과 인건비 기준이 없음 | 낮음 | “비용 절감 효과는 추가 산정이 필요하다.” |",
+    "source_lines": [
+      70,
+      75
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353403-table-source-line-101",
+    "page_url": "https://wikidocs.net/353403",
+    "page_title": "7.2 업무 보고서 만들기",
+    "title": "실습: 보고서에 넣을 주장 4개 고르기",
+    "headers": [
+      "핵심 주장",
+      "근거 위치",
+      "확신도",
+      "보고서 표현"
+    ],
+    "rows": [
+      [
+        "고객 문의 분류 자동화는 우선 검토할 만하다",
+        "wiki/customer-inquiry-labeling.md",
+        "높음",
+        "현재 자료 기준으로 고객 문의 분류 자동화는 우선 검토 대상이다."
+      ],
+      [
+        "자동 답변은 아직 이르다",
+        "wiki/automation-risk.md",
+        "중간",
+        "자동 답변 적용은 검수 기준 마련 후 검토한다."
+      ],
+      [
+        "2주 파일럿이 적절하다",
+        "wiki/pilot-plan.md",
+        "중간",
+        "2주 파일럿으로 분류 정확도와 처리 시간 변화를 확인한다."
+      ],
+      [
+        "비용 절감 효과는 추가 확인이 필요하다",
+        "근거 부족",
+        "낮음",
+        "비용 절감 효과는 추가 산정이 필요하다."
+      ]
+    ],
+    "markdown": "Copy| 핵심 주장 | 근거 위치 | 확신도 | 보고서 표현 |\n|---|---|---|---|\n| 고객 문의 분류 자동화는 우선 검토할 만하다 | wiki/customer-inquiry-labeling.md | 높음 | 현재 자료 기준으로 고객 문의 분류 자동화는 우선 검토 대상이다. |\n| 자동 답변은 아직 이르다 | wiki/automation-risk.md | 중간 | 자동 답변 적용은 검수 기준 마련 후 검토한다. |\n| 2주 파일럿이 적절하다 | wiki/pilot-plan.md | 중간 | 2주 파일럿으로 분류 정확도와 처리 시간 변화를 확인한다. |\n| 비용 절감 효과는 추가 확인이 필요하다 | 근거 부족 | 낮음 | 비용 절감 효과는 추가 산정이 필요하다. |",
+    "source_lines": [
+      101,
+      106
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": true,
+    "extraction_note": "Copy clipboard-toolbar label outside the leading delimiter excluded; raw extraction retained in markdown; cells unchanged."
+  },
+  {
+    "id": "353403-table-2",
+    "page_url": "https://wikidocs.net/353403",
+    "page_title": "7.2 업무 보고서 만들기",
+    "title": "좋은 흐름과 나쁜 흐름 비교",
+    "headers": [
+      "구분",
+      "읽기 어려운 흐름",
+      "읽기 쉬운 흐름"
+    ],
+    "rows": [
+      [
+        "시작",
+        "조사한 자료 목록부터 나열한다",
+        "보고 목적과 결론을 먼저 말한다"
+      ],
+      [
+        "근거",
+        "회의록 내용을 시간순으로 붙인다",
+        "결론을 뒷받침하는 근거만 묶는다"
+      ],
+      [
+        "위험",
+        "본문 중간에 흩어 둔다",
+        "쟁점과 위험 항목으로 분리한다"
+      ],
+      [
+        "요청",
+        "마지막에 애매하게 “검토 바랍니다”라고 쓴다",
+        "다음 행동과 결정 요청을 구체적으로 쓴다"
+      ],
+      [
+        "불확실성",
+        "본문 안에 섞어 둔다",
+        "확인 필요 항목으로 따로 둔다"
+      ]
+    ],
+    "markdown": "| 구분 | 읽기 어려운 흐름 | 읽기 쉬운 흐름 |\n| --- | --- | --- |\n| 시작 | 조사한 자료 목록부터 나열한다 | 보고 목적과 결론을 먼저 말한다 |\n| 근거 | 회의록 내용을 시간순으로 붙인다 | 결론을 뒷받침하는 근거만 묶는다 |\n| 위험 | 본문 중간에 흩어 둔다 | 쟁점과 위험 항목으로 분리한다 |\n| 요청 | 마지막에 애매하게 “검토 바랍니다”라고 쓴다 | 다음 행동과 결정 요청을 구체적으로 쓴다 |\n| 불확실성 | 본문 안에 섞어 둔다 | 확인 필요 항목으로 따로 둔다 |",
+    "source_lines": [
+      231,
+      237
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353403-table-3",
+    "page_url": "https://wikidocs.net/353403",
+    "page_title": "7.2 업무 보고서 만들기",
+    "title": "실습: 위키 문서를 보고서 흐름으로 재배치하기",
+    "headers": [
+      "위키에서 뽑은 내용",
+      "보고서 항목"
+    ],
+    "rows": [
+      [
+        "상담팀은 반복 문의가 많다고 말했다",
+        "근거 요약"
+      ],
+      [
+        "자동 답변은 오답이 고객에게 바로 노출될 수 있다",
+        "쟁점과 위험"
+      ],
+      [
+        "문의 유형 분류만 먼저 자동화하는 안이 있다",
+        "핵심 결론"
+      ],
+      [
+        "실제 비용 절감 효과는 아직 계산하지 않았다",
+        "확인 필요"
+      ],
+      [
+        "2주 파일럿을 하면 분류 정확도를 볼 수 있다",
+        "제안하는 다음 행동"
+      ],
+      [
+        "상담원은 현재 문의를 직접 분류해 담당 팀에 넘긴다",
+        "근거 요약"
+      ]
+    ],
+    "markdown": "| 위키에서 뽑은 내용 | 보고서 항목 |\n| --- | --- |\n| 상담팀은 반복 문의가 많다고 말했다 | 근거 요약 |\n| 자동 답변은 오답이 고객에게 바로 노출될 수 있다 | 쟁점과 위험 |\n| 문의 유형 분류만 먼저 자동화하는 안이 있다 | 핵심 결론 |\n| 실제 비용 절감 효과는 아직 계산하지 않았다 | 확인 필요 |\n| 2주 파일럿을 하면 분류 정확도를 볼 수 있다 | 제안하는 다음 행동 |\n| 상담원은 현재 문의를 직접 분류해 담당 팀에 넘긴다 | 근거 요약 |",
+    "source_lines": [
+      264,
+      271
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353403-table-4",
+    "page_url": "https://wikidocs.net/353403",
+    "page_title": "7.2 업무 보고서 만들기",
+    "title": "초안 점검표",
+    "headers": [
+      "점검 항목",
+      "확인 질문",
+      "수정 예"
+    ],
+    "rows": [
+      [
+        "결론",
+        "첫 화면에서 결론이 보이는가",
+        "“검토 결과” 항목을 문서 앞쪽으로 이동"
+      ],
+      [
+        "근거",
+        "핵심 주장마다 근거 위치가 있는가",
+        "문장 끝에 `wiki/...` 또는 `raw/...` 표시"
+      ],
+      [
+        "불확실성",
+        "확인되지 않은 내용이 단정되어 있지 않은가",
+        "“예상된다”를 “확인 필요”로 이동"
+      ],
+      [
+        "요청",
+        "검토자가 무엇을 해야 하는가",
+        "“검토 바랍니다”를 “2주 파일럿 승인 여부를 결정해 주세요”로 수정"
+      ],
+      [
+        "범위",
+        "이번 보고서에서 다루지 않는 내용이 보이는가",
+        "“자동 답변 운영 정책은 이번 범위에서 제외” 추가"
+      ],
+      [
+        "보안",
+        "민감한 고객 정보가 그대로 들어가지 않았는가",
+        "고객명, 연락처, 계약 정보 제거 또는 익명화"
+      ]
+    ],
+    "markdown": "| 점검 항목 | 확인 질문 | 수정 예 |\n| --- | --- | --- |\n| 결론 | 첫 화면에서 결론이 보이는가 | “검토 결과” 항목을 문서 앞쪽으로 이동 |\n| 근거 | 핵심 주장마다 근거 위치가 있는가 | 문장 끝에 `wiki/...` 또는 `raw/...` 표시 |\n| 불확실성 | 확인되지 않은 내용이 단정되어 있지 않은가 | “예상된다”를 “확인 필요”로 이동 |\n| 요청 | 검토자가 무엇을 해야 하는가 | “검토 바랍니다”를 “2주 파일럿 승인 여부를 결정해 주세요”로 수정 |\n| 범위 | 이번 보고서에서 다루지 않는 내용이 보이는가 | “자동 답변 운영 정책은 이번 범위에서 제외” 추가 |\n| 보안 | 민감한 고객 정보가 그대로 들어가지 않았는가 | 고객명, 연락처, 계약 정보 제거 또는 익명화 |",
+    "source_lines": [
+      339,
+      346
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353403-table-5",
+    "page_url": "https://wikidocs.net/353403",
+    "page_title": "7.2 업무 보고서 만들기",
+    "title": "검토 의견을 다시 위키에 남기기",
+    "headers": [
+      "남길 내용",
+      "저장 위치 예",
+      "이유"
+    ],
+    "rows": [
+      [
+        "최종 보고서",
+        "`output/customer-inquiry-pilot-report.md`",
+        "제출한 산출물 보관"
+      ],
+      [
+        "결정 사항",
+        "`wiki/decisions/customer-inquiry-pilot.md`",
+        "다음 질문의 기준"
+      ],
+      [
+        "추가 확인 과제",
+        "`wiki/questions/customer-inquiry-followup.md`",
+        "다음 자료 수집 방향"
+      ]
+    ],
+    "markdown": "| 남길 내용 | 저장 위치 예 | 이유 |\n| --- | --- | --- |\n| 최종 보고서 | `output/customer-inquiry-pilot-report.md` | 제출한 산출물 보관 |\n| 결정 사항 | `wiki/decisions/customer-inquiry-pilot.md` | 다음 질문의 기준 |\n| 추가 확인 과제 | `wiki/questions/customer-inquiry-followup.md` | 다음 자료 수집 방향 |",
+    "source_lines": [
+      423,
+      427
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353403-table-6",
+    "page_url": "https://wikidocs.net/353403",
+    "page_title": "7.2 업무 보고서 만들기",
+    "title": "검토용 문서 최종 점검",
+    "headers": [
+      "항목",
+      "통과 기준"
+    ],
+    "rows": [
+      [
+        "목적",
+        "이 보고서를 왜 읽어야 하는지 첫 부분에 보인다"
+      ],
+      [
+        "결론",
+        "권장 판단이 한 문단 안에 정리되어 있다"
+      ],
+      [
+        "근거",
+        "핵심 주장마다 위키 문서나 원천 자료 위치가 있다"
+      ],
+      [
+        "제한",
+        "확인되지 않은 수치, 효과, 최신 정보가 분리되어 있다"
+      ],
+      [
+        "요청",
+        "승인, 보류, 추가 조사 등 검토자가 할 일이 명확하다"
+      ],
+      [
+        "재사용",
+        "결정 사항을 다시 위키에 반영할 위치가 정해져 있다"
+      ]
+    ],
+    "markdown": "| 항목 | 통과 기준 |\n| --- | --- |\n| 목적 | 이 보고서를 왜 읽어야 하는지 첫 부분에 보인다 |\n| 결론 | 권장 판단이 한 문단 안에 정리되어 있다 |\n| 근거 | 핵심 주장마다 위키 문서나 원천 자료 위치가 있다 |\n| 제한 | 확인되지 않은 수치, 효과, 최신 정보가 분리되어 있다 |\n| 요청 | 승인, 보류, 추가 조사 등 검토자가 할 일이 명확하다 |\n| 재사용 | 결정 사항을 다시 위키에 반영할 위치가 정해져 있다 |",
+    "source_lines": [
+      465,
+      472
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353403-table-7",
+    "page_url": "https://wikidocs.net/353403",
+    "page_title": "7.2 업무 보고서 만들기",
+    "title": "정리와 검증 포인트",
+    "headers": [
+      "질문",
+      "예 / 아니오"
+    ],
+    "rows": [
+      [
+        "보고서의 핵심 결론이 첫 부분에 보이는가",
+        ""
+      ],
+      [
+        "핵심 주장마다 근거 문서가 연결되어 있는가",
+        ""
+      ],
+      [
+        "원천 자료에 없는 수치나 효과를 만들지 않았는가",
+        ""
+      ],
+      [
+        "확인 필요 항목이 본문과 분리되어 있는가",
+        ""
+      ],
+      [
+        "검토자가 해야 할 결정이 명확한가",
+        ""
+      ],
+      [
+        "검토 결과를 다시 위키에 반영할 위치가 있는가",
+        ""
+      ]
+    ],
+    "markdown": "| 질문 | 예 / 아니오 |\n| --- | --- |\n| 보고서의 핵심 결론이 첫 부분에 보이는가 |  |\n| 핵심 주장마다 근거 문서가 연결되어 있는가 |  |\n| 원천 자료에 없는 수치나 효과를 만들지 않았는가 |  |\n| 확인 필요 항목이 본문과 분리되어 있는가 |  |\n| 검토자가 해야 할 결정이 명확한가 |  |\n| 검토 결과를 다시 위키에 반영할 위치가 있는가 |  |",
+    "source_lines": [
+      490,
+      497
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353404-table-1",
+    "page_url": "https://wikidocs.net/353404",
+    "page_title": "7.3 다음 행동으로 연결하기",
+    "title": "실습: 보고서 초안에서 실행 항목 만들기",
+    "headers": [
+      "상태",
+      "실행 항목",
+      "담당자",
+      "기한",
+      "완료 기준",
+      "근거"
+    ],
+    "rows": [
+      [
+        "실행 후보",
+        "배송 상태 확인 문의 자동화 실험 범위를 정한다",
+        "미정",
+        "미정",
+        "실험 대상 문의 유형, 제외 범위, 성공 지표가 정리된다",
+        "`wiki/customer-inquiry-patterns.md`, `wiki/automation-priority.md`"
+      ],
+      [
+        "확인 필요",
+        "환불 절차 문의에 적용할 최신 운영 기준을 확인한다",
+        "미정",
+        "미정",
+        "최신 환불 기준 문서 또는 담당 부서 확인 결과가 남는다",
+        "`raw/meeting-notes/2026-05-10-customer-support.md`"
+      ],
+      [
+        "검토 요청",
+        "세금계산서 재발행 요청 자동화 가능성을 회계팀에 검토 요청한다",
+        "미정",
+        "미정",
+        "회계팀의 가능/불가 판단과 조건이 기록된다",
+        "`wiki/customer-inquiry-patterns.md`"
+      ]
+    ],
+    "markdown": "| 상태 | 실행 항목 | 담당자 | 기한 | 완료 기준 | 근거 |\n| --- | --- | --- | --- | --- | --- |\n| 실행 후보 | 배송 상태 확인 문의 자동화 실험 범위를 정한다 | 미정 | 미정 | 실험 대상 문의 유형, 제외 범위, 성공 지표가 정리된다 | `wiki/customer-inquiry-patterns.md`, `wiki/automation-priority.md` |\n| 확인 필요 | 환불 절차 문의에 적용할 최신 운영 기준을 확인한다 | 미정 | 미정 | 최신 환불 기준 문서 또는 담당 부서 확인 결과가 남는다 | `raw/meeting-notes/2026-05-10-customer-support.md` |\n| 검토 요청 | 세금계산서 재발행 요청 자동화 가능성을 회계팀에 검토 요청한다 | 미정 | 미정 | 회계팀의 가능/불가 판단과 조건이 기록된다 | `wiki/customer-inquiry-patterns.md` |",
+    "source_lines": [
+      134,
+      138
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353404-table-source-line-191",
+    "page_url": "https://wikidocs.net/353404",
+    "page_title": "7.3 다음 행동으로 연결하기",
+    "title": "선택 실습: 할 일 표를 자동 점검하기",
+    "headers": [
+      "상태",
+      "실행 항목",
+      "담당자",
+      "기한",
+      "완료 기준",
+      "근거"
+    ],
+    "rows": [
+      [
+        "실행 후보",
+        "배송 상태 확인 문의 자동화 실험 범위를 정한다",
+        "미정",
+        "미정",
+        "실험 대상 문의 유형, 제외 범위, 성공 지표가 정리된다",
+        "`wiki/customer-inquiry-patterns.md`"
+      ],
+      [
+        "확인 필요",
+        "환불 절차 문의에 적용할 최신 운영 기준을 확인한다",
+        "운영팀",
+        "2026-05-24",
+        "최신 환불 기준 문서가 남는다",
+        "`raw/meeting-notes/2026-05-10-customer-support.md`"
+      ]
+    ],
+    "markdown": "Copy| 상태 | 실행 항목 | 담당자 | 기한 | 완료 기준 | 근거 |\n|---|---|---|---|---|---|\n| 실행 후보 | 배송 상태 확인 문의 자동화 실험 범위를 정한다 | 미정 | 미정 | 실험 대상 문의 유형, 제외 범위, 성공 지표가 정리된다 | `wiki/customer-inquiry-patterns.md` |\n| 확인 필요 | 환불 절차 문의에 적용할 최신 운영 기준을 확인한다 | 운영팀 | 2026-05-24 | 최신 환불 기준 문서가 남는다 | `raw/meeting-notes/2026-05-10-customer-support.md` |",
+    "source_lines": [
+      191,
+      194
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": true,
+    "extraction_note": "Copy clipboard-toolbar label outside the leading delimiter excluded; raw extraction retained in markdown; cells unchanged."
+  },
+  {
+    "id": "353404-table-2",
+    "page_url": "https://wikidocs.net/353404",
+    "page_title": "7.3 다음 행동으로 연결하기",
+    "title": "회의 자료는 결정 중심으로 구성하기",
+    "headers": [
+      "구성 요소",
+      "역할",
+      "예시"
+    ],
+    "rows": [
+      [
+        "회의 목적",
+        "왜 모이는지 정한다",
+        "고객 문의 자동화 실험 범위 결정"
+      ],
+      [
+        "사전 맥락",
+        "참석자가 읽어야 할 배경을 정리한다",
+        "반복 문의 유형 3개, 자동화 후보 기준"
+      ],
+      [
+        "결정할 것",
+        "회의가 끝날 때 확정되어야 할 항목이다",
+        "첫 실험 대상, 담당자, 성공 지표"
+      ],
+      [
+        "확인 필요",
+        "지금 단정할 수 없는 내용을 분리한다",
+        "환불 정책 최신 기준, 회계팀 검토 조건"
+      ]
+    ],
+    "markdown": "| 구성 요소 | 역할 | 예시 |\n| --- | --- | --- |\n| 회의 목적 | 왜 모이는지 정한다 | 고객 문의 자동화 실험 범위 결정 |\n| 사전 맥락 | 참석자가 읽어야 할 배경을 정리한다 | 반복 문의 유형 3개, 자동화 후보 기준 |\n| 결정할 것 | 회의가 끝날 때 확정되어야 할 항목이다 | 첫 실험 대상, 담당자, 성공 지표 |\n| 확인 필요 | 지금 단정할 수 없는 내용을 분리한다 | 환불 정책 최신 기준, 회계팀 검토 조건 |",
+    "source_lines": [
+      223,
+      228
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353404-table-3",
+    "page_url": "https://wikidocs.net/353404",
+    "page_title": "7.3 다음 행동으로 연결하기",
+    "title": "실습: 회의 준비 페이지 만들기",
+    "headers": [
+      "질문",
+      "준비 답변",
+      "근거"
+    ],
+    "rows": [
+      [
+        "왜 배송 상태 확인부터 시작하는가?",
+        "문의 유형이 반복적이고 답변 기준이 비교적 고정되어 있기 때문이다.",
+        "`wiki/customer-inquiry-patterns.md`"
+      ],
+      [
+        "환불 절차 문의는 왜 제외하는가?",
+        "정책 변경 가능성이 있어 최신 기준 확인이 먼저 필요하다.",
+        "`raw/meeting-notes/2026-05-10-customer-support.md`"
+      ],
+      [
+        "성공 기준은 어떻게 잡을 수 있는가?",
+        "반복 문의 처리 시간, 자동 응답 적용률, 상담원 수정 요청 수를 후보로 둘 수 있다.",
+        "확인 필요"
+      ]
+    ],
+    "markdown": "| 질문 | 준비 답변 | 근거 |\n|---|---|---|\n| 왜 배송 상태 확인부터 시작하는가? | 문의 유형이 반복적이고 답변 기준이 비교적 고정되어 있기 때문이다. | `wiki/customer-inquiry-patterns.md` |\n| 환불 절차 문의는 왜 제외하는가? | 정책 변경 가능성이 있어 최신 기준 확인이 먼저 필요하다. | `raw/meeting-notes/2026-05-10-customer-support.md` |\n| 성공 기준은 어떻게 잡을 수 있는가? | 반복 문의 처리 시간, 자동 응답 적용률, 상담원 수정 요청 수를 후보로 둘 수 있다. | 확인 필요 |",
+    "source_lines": [
+      327,
+      331
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": true
+  },
+  {
+    "id": "353404-table-4",
+    "page_url": "https://wikidocs.net/353404",
+    "page_title": "7.3 다음 행동으로 연결하기",
+    "title": "회의 전 점검 질문 만들기",
+    "headers": [
+      "점검 항목",
+      "발견 가능한 문제",
+      "보완 방법"
+    ],
+    "rows": [
+      [
+        "결정 항목 수",
+        "결정할 것이 5개 이상이면 회의가 흐려진다",
+        "이번 회의 결정과 다음 회의 결정으로 나눈다"
+      ],
+      [
+        "사전 자료",
+        "위키 문서만 있고 원천 자료가 없다",
+        "중요한 판단에는 `raw/` 경로를 함께 둔다"
+      ],
+      [
+        "근거",
+        "“성공 가능성이 높다” 같은 문장이 근거 없이 쓰인다",
+        "근거 문서를 연결하거나 확인 필요로 낮춘다"
+      ],
+      [
+        "회의 후 반영",
+        "“위키 업데이트”처럼 넓게 쓰인다",
+        "어느 문서의 어느 항목을 바꿀지 적는다"
+      ]
+    ],
+    "markdown": "| 점검 항목 | 발견 가능한 문제 | 보완 방법 |\n| --- | --- | --- |\n| 결정 항목 수 | 결정할 것이 5개 이상이면 회의가 흐려진다 | 이번 회의 결정과 다음 회의 결정으로 나눈다 |\n| 사전 자료 | 위키 문서만 있고 원천 자료가 없다 | 중요한 판단에는 `raw/` 경로를 함께 둔다 |\n| 근거 | “성공 가능성이 높다” 같은 문장이 근거 없이 쓰인다 | 근거 문서를 연결하거나 확인 필요로 낮춘다 |\n| 회의 후 반영 | “위키 업데이트”처럼 넓게 쓰인다 | 어느 문서의 어느 항목을 바꿀지 적는다 |",
+    "source_lines": [
+      359,
+      364
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353404-table-5",
+    "page_url": "https://wikidocs.net/353404",
+    "page_title": "7.3 다음 행동으로 연결하기",
+    "title": "산출물은 근거로 돌아갈 수 있어야 합니다",
+    "headers": [
+      "항목",
+      "이유",
+      "예시"
+    ],
+    "rows": [
+      [
+        "생성 날짜",
+        "산출물의 기준 시점을 알기 위해",
+        "2026-05-16"
+      ],
+      [
+        "작성 목적",
+        "왜 만든 문서인지 알기 위해",
+        "자동화 실험 범위 결정 회의 준비"
+      ],
+      [
+        "근거 위키",
+        "어떤 정리 문서를 바탕으로 했는지 확인하기 위해",
+        "`wiki/automation-priority.md`"
+      ],
+      [
+        "원천 자료",
+        "위키 요약을 검증하기 위해",
+        "`raw/meeting-notes/2026-05-10-customer-support.md`"
+      ],
+      [
+        "후속 반영",
+        "회의나 실행 결과를 어디에 되돌릴지 정하기 위해",
+        "`wiki/customer-inquiry-patterns.md` 갱신"
+      ]
+    ],
+    "markdown": "| 항목 | 이유 | 예시 |\n| --- | --- | --- |\n| 생성 날짜 | 산출물의 기준 시점을 알기 위해 | 2026-05-16 |\n| 작성 목적 | 왜 만든 문서인지 알기 위해 | 자동화 실험 범위 결정 회의 준비 |\n| 근거 위키 | 어떤 정리 문서를 바탕으로 했는지 확인하기 위해 | `wiki/automation-priority.md` |\n| 원천 자료 | 위키 요약을 검증하기 위해 | `raw/meeting-notes/2026-05-10-customer-support.md` |\n| 후속 반영 | 회의나 실행 결과를 어디에 되돌릴지 정하기 위해 | `wiki/customer-inquiry-patterns.md` 갱신 |",
+    "source_lines": [
+      384,
+      390
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353404-table-6",
+    "page_url": "https://wikidocs.net/353404",
+    "page_title": "7.3 다음 행동으로 연결하기",
+    "title": "7.3의 검증 포인트",
+    "headers": [
+      "점검 질문",
+      "통과 기준"
+    ],
+    "rows": [
+      [
+        "보고서에서 실행 항목을 뽑았는가?",
+        "담당자, 기한, 완료 기준, 근거가 표로 정리되어 있다"
+      ],
+      [
+        "근거가 약한 항목을 분리했는가?",
+        "실행 항목과 확인 필요 항목이 섞이지 않는다"
+      ],
+      [
+        "회의 준비 자료가 결정 중심인가?",
+        "회의에서 결정할 항목이 3개 이하로 좁혀져 있다"
+      ],
+      [
+        "사전 읽기 자료가 연결되어 있는가?",
+        "위키 문서와 원천 자료 경로가 함께 적혀 있다"
+      ],
+      [
+        "산출물이 위키로 돌아가는가?",
+        "회의 후 갱신할 위키 문서가 지정되어 있다"
+      ],
+      [
+        "오래된 산출물을 구분할 수 있는가?",
+        "작성일, 검토일, 최신성 주의가 남아 있다"
+      ]
+    ],
+    "markdown": "| 점검 질문 | 통과 기준 |\n| --- | --- |\n| 보고서에서 실행 항목을 뽑았는가? | 담당자, 기한, 완료 기준, 근거가 표로 정리되어 있다 |\n| 근거가 약한 항목을 분리했는가? | 실행 항목과 확인 필요 항목이 섞이지 않는다 |\n| 회의 준비 자료가 결정 중심인가? | 회의에서 결정할 항목이 3개 이하로 좁혀져 있다 |\n| 사전 읽기 자료가 연결되어 있는가? | 위키 문서와 원천 자료 경로가 함께 적혀 있다 |\n| 산출물이 위키로 돌아가는가? | 회의 후 갱신할 위키 문서가 지정되어 있다 |\n| 오래된 산출물을 구분할 수 있는가? | 작성일, 검토일, 최신성 주의가 남아 있다 |",
+    "source_lines": [
+      505,
+      512
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  },
+  {
+    "id": "353404-table-7",
+    "page_url": "https://wikidocs.net/353404",
+    "page_title": "7.3 다음 행동으로 연결하기",
+    "title": "근거와 추가 확인",
+    "headers": [
+      "자료",
+      "URL",
+      "확인 날짜",
+      "이 절에서 반영한 내용"
+    ],
+    "rows": [
+      [
+        "Andrej Karpathy, LLM Wiki Gist",
+        "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+        "2026-05-16",
+        "`raw sources`, `wiki`, `schema`의 분리와 `ingest → query → lint` 흐름"
+      ],
+      [
+        "`nvk/llm-wiki` README",
+        "https://github.com/nvk/llm-wiki",
+        "2026-05-16",
+        "LLM위키 구현체에서 위키, 원천 자료, 출력물을 나누어 운영하는 방식"
+      ],
+      [
+        "`nvk/llm-wiki` Releases",
+        "https://github.com/nvk/llm-wiki/releases",
+        "2026-05-16",
+        "도구 명령과 기능은 빠르게 바뀌므로 릴리스 노트 확인이 필요하다는 주의"
+      ],
+      [
+        "OpenAI Codex `AGENTS.md` 문서",
+        "https://developers.openai.com/codex/guides/agents-md",
+        "2026-05-16",
+        "Codex에서 작업 기준 파일을 사용하는 방식과 지침 파일의 범위"
+      ],
+      [
+        "Anthropic Claude Code Memory 문서",
+        "https://docs.anthropic.com/en/docs/claude-code/memory",
+        "2026-05-16",
+        "Claude Code에서 `CLAUDE.md`를 프로젝트 메모리로 사용하는 방식"
+      ],
+      [
+        "WiCER 프리프린트",
+        "https://arxiv.org/abs/2605.07068",
+        "2026-05-16",
+        "검증 없는 위키 컴파일이 오류를 퍼뜨릴 수 있다는 제한적 근거"
+      ]
+    ],
+    "markdown": "| 자료 | URL | 확인 날짜 | 이 절에서 반영한 내용 |\n| --- | --- | --- | --- |\n| Andrej Karpathy, LLM Wiki Gist | https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f | 2026-05-16 | `raw sources`, `wiki`, `schema`의 분리와 `ingest → query → lint` 흐름 |\n| `nvk/llm-wiki` README | https://github.com/nvk/llm-wiki | 2026-05-16 | LLM위키 구현체에서 위키, 원천 자료, 출력물을 나누어 운영하는 방식 |\n| `nvk/llm-wiki` Releases | https://github.com/nvk/llm-wiki/releases | 2026-05-16 | 도구 명령과 기능은 빠르게 바뀌므로 릴리스 노트 확인이 필요하다는 주의 |\n| OpenAI Codex `AGENTS.md` 문서 | https://developers.openai.com/codex/guides/agents-md | 2026-05-16 | Codex에서 작업 기준 파일을 사용하는 방식과 지침 파일의 범위 |\n| Anthropic Claude Code Memory 문서 | https://docs.anthropic.com/en/docs/claude-code/memory | 2026-05-16 | Claude Code에서 `CLAUDE.md`를 프로젝트 메모리로 사용하는 방식 |\n| WiCER 프리프린트 | https://arxiv.org/abs/2605.07068 | 2026-05-16 | 검증 없는 위키 컴파일이 오류를 퍼뜨릴 수 있다는 제한적 근거 |",
+    "source_lines": [
+      524,
+      531
+    ],
+    "retrieval_format": "web_extract Markdown; includes original code-fenced table examples",
+    "in_code_example": false
+  }
+]

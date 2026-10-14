@@ -1,0 +1,1722 @@
+{
+  "week": 10,
+  "served_url": "http://127.0.0.1:8879/10w/slides/llm-wiki-chapter-03-slides.html",
+  "file": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/10w/slides/llm-wiki-chapter-03-slides.html",
+  "source_sha256": "73ce188c46411967597a4d47fa9523a3dd7f85bbc15c8352f09f2cc502f7c926",
+  "viewports": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "records": [
+        {
+          "slide": 1,
+          "title": "내게 맞는 LLM위키 방식 고르기",
+          "kind": "cover",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "title": "방식을 고르고, 근거를 말한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 3,
+          "title": "같은 학생팀 위키를 이어 간다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 4,
+          "title": "도구가 달라도 남아야 할 구조",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 5,
+          "title": "첫 선택은 바꿀 수 있다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "title": "네 가지 시작 방식 비교 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 7,
+          "title": "네 가지 시작 방식 비교 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 8,
+          "title": "수동 방식은 역할을 배운다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 9,
+          "title": "지침을 읽는지부터 확인한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 10,
+          "title": "도구마다 지침 읽기가 다르다 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 11,
+          "title": "도구마다 지침 읽기가 다르다 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 12,
+          "title": "명령 중심과 화면 중심의 차이",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 13,
+          "title": "선택은 순위가 아니라 조건이다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 14,
+          "title": "설치 뒤의 관리까지 생각한다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "title": "첫 도구의 최소 조건 세 가지",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 16,
+          "title": "선택 이유를 여덟 기준으로 점검 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 17,
+          "title": "선택 이유를 여덟 기준으로 점검 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 18,
+          "title": "업로드와 근거 연결은 다르다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 19,
+          "title": "내 자료와 필요한 기능 맞추기 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 20,
+          "title": "내 자료와 필요한 기능 맞추기 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 21,
+          "title": "로컬 저장만으로 안전할까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 22,
+          "title": "책의 비교와 현재를 구분한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 23,
+          "title": "작은 자료로 환경을 확인한다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "title": "환경 기록은 다음 수업의 출발점",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 25,
+          "title": "책이 택한 최소 실습 환경 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 26,
+          "title": "책이 택한 최소 실습 환경 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 27,
+          "title": "파일 생성만으로 성공은 아니다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 28,
+          "title": "최소 위키에서 확인할 다섯 가지 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 29,
+          "title": "최소 위키에서 확인할 다섯 가지 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 30,
+          "title": "학생팀의 첫 선택을 설명하면",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 31,
+          "title": "요청에 검증까지 넣는다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 32,
+          "title": "규칙 파일은 잠금장치가 아니다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 33,
+          "title": "이 학생팀의 첫 선택은?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 34,
+          "title": "팀 위키의 환경 카드 만들기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 35,
+          "title": "나가기 전 세 문장",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 36,
+          "title": "도구보다 검증 가능한 한 바퀴",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 37,
+          "title": "CLI와 데스크톱의 구현 예 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 38,
+          "title": "CLI와 데스크톱의 구현 예 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 39,
+          "title": "선택 뒤에 다시 확인할 질문 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 40,
+          "title": "선택 뒤에 다시 확인할 질문 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 41,
+          "title": "시작 부담과 유지보수 부담 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "시작 부담과 유지보수 부담 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "첫 도구 선택 체크리스트 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "첫 도구 선택 체크리스트 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
+          "title": "자료 형식의 지원 범위 묻기 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 46,
+          "title": "자료 형식의 지원 범위 묻기 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 47,
+          "title": "공식 문서에서 볼 항목 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 48,
+          "title": "공식 문서에서 볼 항목 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 49,
+          "title": "지침 파일의 읽힘 확인",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 50,
+          "title": "같은 흐름을 도구별로 번역 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 51,
+          "title": "같은 흐름을 도구별로 번역 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 52,
+          "title": "실습 전 준비 체크리스트 · 1/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 53,
+          "title": "실습 전 준비 체크리스트 · 2/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 54,
+          "title": "실습 전 준비 체크리스트 · 3/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 55,
+          "title": "원전과 강의 설명 구분하기",
+          "kind": "sources",
+          "issues": [],
+          "images": []
+        }
+      ],
+      "fonts": "loaded",
+      "captionAbsent": true,
+      "documentHorizontalOverflow": false,
+      "served_url": "http://127.0.0.1:8879/10w/slides/llm-wiki-chapter-03-slides.html",
+      "source_sha256": "73ce188c46411967597a4d47fa9523a3dd7f85bbc15c8352f09f2cc502f7c926"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "records": [
+        {
+          "slide": 1,
+          "title": "내게 맞는 LLM위키 방식 고르기",
+          "kind": "cover",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "title": "방식을 고르고, 근거를 말한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 3,
+          "title": "같은 학생팀 위키를 이어 간다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 4,
+          "title": "도구가 달라도 남아야 할 구조",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 5,
+          "title": "첫 선택은 바꿀 수 있다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "title": "네 가지 시작 방식 비교 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 7,
+          "title": "네 가지 시작 방식 비교 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 8,
+          "title": "수동 방식은 역할을 배운다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 9,
+          "title": "지침을 읽는지부터 확인한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 10,
+          "title": "도구마다 지침 읽기가 다르다 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 11,
+          "title": "도구마다 지침 읽기가 다르다 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 12,
+          "title": "명령 중심과 화면 중심의 차이",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 13,
+          "title": "선택은 순위가 아니라 조건이다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 14,
+          "title": "설치 뒤의 관리까지 생각한다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "title": "첫 도구의 최소 조건 세 가지",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 16,
+          "title": "선택 이유를 여덟 기준으로 점검 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 17,
+          "title": "선택 이유를 여덟 기준으로 점검 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 18,
+          "title": "업로드와 근거 연결은 다르다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 19,
+          "title": "내 자료와 필요한 기능 맞추기 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 20,
+          "title": "내 자료와 필요한 기능 맞추기 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 21,
+          "title": "로컬 저장만으로 안전할까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 22,
+          "title": "책의 비교와 현재를 구분한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 23,
+          "title": "작은 자료로 환경을 확인한다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "title": "환경 기록은 다음 수업의 출발점",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 25,
+          "title": "책이 택한 최소 실습 환경 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 26,
+          "title": "책이 택한 최소 실습 환경 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 27,
+          "title": "파일 생성만으로 성공은 아니다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 28,
+          "title": "최소 위키에서 확인할 다섯 가지 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 29,
+          "title": "최소 위키에서 확인할 다섯 가지 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 30,
+          "title": "학생팀의 첫 선택을 설명하면",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 31,
+          "title": "요청에 검증까지 넣는다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 32,
+          "title": "규칙 파일은 잠금장치가 아니다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 33,
+          "title": "이 학생팀의 첫 선택은?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 34,
+          "title": "팀 위키의 환경 카드 만들기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 35,
+          "title": "나가기 전 세 문장",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 36,
+          "title": "도구보다 검증 가능한 한 바퀴",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 37,
+          "title": "CLI와 데스크톱의 구현 예 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 38,
+          "title": "CLI와 데스크톱의 구현 예 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 39,
+          "title": "선택 뒤에 다시 확인할 질문 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 40,
+          "title": "선택 뒤에 다시 확인할 질문 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 41,
+          "title": "시작 부담과 유지보수 부담 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "시작 부담과 유지보수 부담 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "첫 도구 선택 체크리스트 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "첫 도구 선택 체크리스트 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
+          "title": "자료 형식의 지원 범위 묻기 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 46,
+          "title": "자료 형식의 지원 범위 묻기 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 47,
+          "title": "공식 문서에서 볼 항목 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 48,
+          "title": "공식 문서에서 볼 항목 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 49,
+          "title": "지침 파일의 읽힘 확인",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 50,
+          "title": "같은 흐름을 도구별로 번역 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 51,
+          "title": "같은 흐름을 도구별로 번역 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 52,
+          "title": "실습 전 준비 체크리스트 · 1/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 53,
+          "title": "실습 전 준비 체크리스트 · 2/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 54,
+          "title": "실습 전 준비 체크리스트 · 3/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 55,
+          "title": "원전과 강의 설명 구분하기",
+          "kind": "sources",
+          "issues": [],
+          "images": []
+        }
+      ],
+      "fonts": "loaded",
+      "captionAbsent": true,
+      "documentHorizontalOverflow": false,
+      "served_url": "http://127.0.0.1:8879/10w/slides/llm-wiki-chapter-03-slides.html",
+      "source_sha256": "73ce188c46411967597a4d47fa9523a3dd7f85bbc15c8352f09f2cc502f7c926"
+    },
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "records": [
+        {
+          "slide": 1,
+          "title": "내게 맞는 LLM위키 방식 고르기",
+          "kind": "cover",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "title": "방식을 고르고, 근거를 말한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 3,
+          "title": "같은 학생팀 위키를 이어 간다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 4,
+          "title": "도구가 달라도 남아야 할 구조",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 5,
+          "title": "첫 선택은 바꿀 수 있다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "title": "네 가지 시작 방식 비교 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 7,
+          "title": "네 가지 시작 방식 비교 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 8,
+          "title": "수동 방식은 역할을 배운다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 9,
+          "title": "지침을 읽는지부터 확인한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 10,
+          "title": "도구마다 지침 읽기가 다르다 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 11,
+          "title": "도구마다 지침 읽기가 다르다 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 12,
+          "title": "명령 중심과 화면 중심의 차이",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 13,
+          "title": "선택은 순위가 아니라 조건이다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 14,
+          "title": "설치 뒤의 관리까지 생각한다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 15,
+          "title": "첫 도구의 최소 조건 세 가지",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 16,
+          "title": "선택 이유를 여덟 기준으로 점검 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 17,
+          "title": "선택 이유를 여덟 기준으로 점검 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 18,
+          "title": "업로드와 근거 연결은 다르다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 19,
+          "title": "내 자료와 필요한 기능 맞추기 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 20,
+          "title": "내 자료와 필요한 기능 맞추기 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 21,
+          "title": "로컬 저장만으로 안전할까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 22,
+          "title": "책의 비교와 현재를 구분한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 23,
+          "title": "작은 자료로 환경을 확인한다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 24,
+          "title": "환경 기록은 다음 수업의 출발점",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 25,
+          "title": "책이 택한 최소 실습 환경 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 26,
+          "title": "책이 택한 최소 실습 환경 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 27,
+          "title": "파일 생성만으로 성공은 아니다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 28,
+          "title": "최소 위키에서 확인할 다섯 가지 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 29,
+          "title": "최소 위키에서 확인할 다섯 가지 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 30,
+          "title": "학생팀의 첫 선택을 설명하면",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 31,
+          "title": "요청에 검증까지 넣는다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 32,
+          "title": "규칙 파일은 잠금장치가 아니다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 33,
+          "title": "이 학생팀의 첫 선택은?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 34,
+          "title": "팀 위키의 환경 카드 만들기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 35,
+          "title": "나가기 전 세 문장",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 36,
+          "title": "도구보다 검증 가능한 한 바퀴",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 37,
+          "title": "CLI와 데스크톱의 구현 예 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 38,
+          "title": "CLI와 데스크톱의 구현 예 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 39,
+          "title": "선택 뒤에 다시 확인할 질문 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 40,
+          "title": "선택 뒤에 다시 확인할 질문 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 41,
+          "title": "시작 부담과 유지보수 부담 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "시작 부담과 유지보수 부담 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "첫 도구 선택 체크리스트 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "첫 도구 선택 체크리스트 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
+          "title": "자료 형식의 지원 범위 묻기 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 46,
+          "title": "자료 형식의 지원 범위 묻기 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 47,
+          "title": "공식 문서에서 볼 항목 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 48,
+          "title": "공식 문서에서 볼 항목 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 49,
+          "title": "지침 파일의 읽힘 확인",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 50,
+          "title": "같은 흐름을 도구별로 번역 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 51,
+          "title": "같은 흐름을 도구별로 번역 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 52,
+          "title": "실습 전 준비 체크리스트 · 1/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 53,
+          "title": "실습 전 준비 체크리스트 · 2/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 54,
+          "title": "실습 전 준비 체크리스트 · 3/3",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 55,
+          "title": "원전과 강의 설명 구분하기",
+          "kind": "sources",
+          "issues": [],
+          "images": []
+        }
+      ],
+      "fonts": "loaded",
+      "captionAbsent": true,
+      "documentHorizontalOverflow": false,
+      "served_url": "http://127.0.0.1:8879/10w/slides/llm-wiki-chapter-03-slides.html",
+      "source_sha256": "73ce188c46411967597a4d47fa9523a3dd7f85bbc15c8352f09f2cc502f7c926"
+    }
+  ],
+  "opened_answers": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "records": [
+      {
+        "slide": 1,
+        "title": "내게 맞는 LLM위키 방식 고르기",
+        "kind": "cover",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 2,
+        "title": "방식을 고르고, 근거를 말한다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 3,
+        "title": "같은 학생팀 위키를 이어 간다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 4,
+        "title": "도구가 달라도 남아야 할 구조",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 5,
+        "title": "첫 선택은 바꿀 수 있다",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 6,
+        "title": "네 가지 시작 방식 비교 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 7,
+        "title": "네 가지 시작 방식 비교 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 8,
+        "title": "수동 방식은 역할을 배운다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 9,
+        "title": "지침을 읽는지부터 확인한다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 10,
+        "title": "도구마다 지침 읽기가 다르다 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 11,
+        "title": "도구마다 지침 읽기가 다르다 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 12,
+        "title": "명령 중심과 화면 중심의 차이",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 13,
+        "title": "선택은 순위가 아니라 조건이다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 14,
+        "title": "설치 뒤의 관리까지 생각한다",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 15,
+        "title": "첫 도구의 최소 조건 세 가지",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 16,
+        "title": "선택 이유를 여덟 기준으로 점검 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 17,
+        "title": "선택 이유를 여덟 기준으로 점검 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 18,
+        "title": "업로드와 근거 연결은 다르다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 19,
+        "title": "내 자료와 필요한 기능 맞추기 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 20,
+        "title": "내 자료와 필요한 기능 맞추기 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 21,
+        "title": "로컬 저장만으로 안전할까?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 22,
+        "title": "책의 비교와 현재를 구분한다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 23,
+        "title": "작은 자료로 환경을 확인한다",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 24,
+        "title": "환경 기록은 다음 수업의 출발점",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 25,
+        "title": "책이 택한 최소 실습 환경 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 26,
+        "title": "책이 택한 최소 실습 환경 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 27,
+        "title": "파일 생성만으로 성공은 아니다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 28,
+        "title": "최소 위키에서 확인할 다섯 가지 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 29,
+        "title": "최소 위키에서 확인할 다섯 가지 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 30,
+        "title": "학생팀의 첫 선택을 설명하면",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 31,
+        "title": "요청에 검증까지 넣는다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 32,
+        "title": "규칙 파일은 잠금장치가 아니다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 33,
+        "title": "이 학생팀의 첫 선택은?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 34,
+        "title": "팀 위키의 환경 카드 만들기",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 35,
+        "title": "나가기 전 세 문장",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 36,
+        "title": "도구보다 검증 가능한 한 바퀴",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 37,
+        "title": "CLI와 데스크톱의 구현 예 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 38,
+        "title": "CLI와 데스크톱의 구현 예 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 39,
+        "title": "선택 뒤에 다시 확인할 질문 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 40,
+        "title": "선택 뒤에 다시 확인할 질문 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 41,
+        "title": "시작 부담과 유지보수 부담 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 42,
+        "title": "시작 부담과 유지보수 부담 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 43,
+        "title": "첫 도구 선택 체크리스트 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 44,
+        "title": "첫 도구 선택 체크리스트 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 45,
+        "title": "자료 형식의 지원 범위 묻기 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 46,
+        "title": "자료 형식의 지원 범위 묻기 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 47,
+        "title": "공식 문서에서 볼 항목 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 48,
+        "title": "공식 문서에서 볼 항목 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 49,
+        "title": "지침 파일의 읽힘 확인",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 50,
+        "title": "같은 흐름을 도구별로 번역 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 51,
+        "title": "같은 흐름을 도구별로 번역 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 52,
+        "title": "실습 전 준비 체크리스트 · 1/3",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 53,
+        "title": "실습 전 준비 체크리스트 · 2/3",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 54,
+        "title": "실습 전 준비 체크리스트 · 3/3",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 55,
+        "title": "원전과 강의 설명 구분하기",
+        "kind": "sources",
+        "issues": [],
+        "images": []
+      }
+    ],
+    "fonts": "loaded",
+    "captionAbsent": true
+  },
+  "interactions": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "previous_next_jump_help": true,
+      "reading_mode": false,
+      "errors": []
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "previous_next_jump_help": true,
+      "reading_mode": false,
+      "errors": []
+    },
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "previous_next_jump_help": true,
+      "reading_mode": true,
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "schema_version": "lecture-slides/v1",
+  "title": "내게 맞는 LLM위키 방식 고르기",
+  "subtitle": "시작 방식 · 선택 기준 · 작은 검증 환경",
+  "audience": "LLM을 사용해 본 학부 수강생",
+  "source_author": "박승규",
+  "source_book": "LLM위키 완벽 가이드",
+  "source_book_url": "https://wikidocs.net/book/19830",
+  "slides": [
+    {
+      "section": "10주차 · 3장",
+      "kind": "cover",
+      "title": "내게 맞는<br>LLM위키 방식 고르기",
+      "subtitle": "가장 많은 기능보다, 확인할 수 있는 첫 한 바퀴",
+      "image": "assets/353385-chapter.png",
+      "body": "<p class=\"lead\">시작 방식을 비교하고<br>내 조건으로 선택하고<br>작게 검증한다.</p><p class=\"subtle\">원전의 도구 비교 기준일: 2026-05-16 KST<br>현재 기능·명령의 보증이 아니다.</p>",
+      "sources": ["https://wikidocs.net/353385", "https://wikidocs.net/353386", "https://wikidocs.net/book/19830"]
+    },
+    {
+      "section": "학습 목표",
+      "kind": "content",
+      "title": "방식을 고르고, 근거를 말한다",
+      "body": "<div class=\"three-up\"><article><span class=\"number\">3.1</span><h3>비교</h3><p>수동·에이전트·CLI·화면 중심 방식의 차이를 설명한다.</p></article><article><span class=\"number\">3.2</span><h3>선택</h3><p>자료 형식·관리 부담·권한으로 선택 이유를 쓴다.</p></article><article><span class=\"number\">3.3</span><h3>검증</h3><p>원본·출처·불확실성을 확인할 환경을 설계한다.</p></article></div>",
+      "sources": ["https://wikidocs.net/353386", "https://wikidocs.net/353387", "https://wikidocs.net/353388"]
+    },
+    {
+      "section": "학기 프로젝트 · 수업용 가상 예시",
+      "kind": "content",
+      "title": "같은 학생팀 위키를 이어 간다",
+      "body": "<p class=\"lead\">학생팀의 회의록과 공개 자료를<br>다음 회의 준비에 다시 쓴다.</p><div class=\"three-up\"><article><h3>9주차</h3><p>원본·정리본·규칙의 역할 구분</p></article><article><h3>10주차</h3><p>그 구조를 관리할 방식 선택</p></article><article><h3>11주차</h3><p>작은 주제와 첫 질문 설계</p></article></div><p class=\"subtle\">수업용 가상 예시이며 실제 팀 운영·도구 실행 결과가 아니다.</p>",
+      "sources": ["https://wikidocs.net/353388"]
+    },
+    {
+      "section": "전체 흐름 · 강의용 재구성",
+      "kind": "content",
+      "title": "도구가 달라도 남아야 할 구조",
+      "body": "<div class=\"rule-bar\"><strong>작업 기준</strong><span>원본 보호 · 출처 · 확인 필요</span></div><div class=\"flow\"><article><code>raw/</code><h3>원본</h3><p>근거를 보관</p></article><span class=\"arrow\" aria-hidden=\"true\">→</span><article><code>wiki/</code><h3>정리</h3><p>근거와 연결</p></article><span class=\"arrow\" aria-hidden=\"true\">→</span><article><code>output/</code><h3>활용</h3><p>회의 준비 초안</p></article></div><p>찾을 길은 <code>index.md</code>, 바꾼 이력은 <code>log.md</code>에 남긴다.</p><p class=\"subtle\">규칙은 행동 지침이며 강제 장치가 아니다.</p>",
+      "sources": ["https://wikidocs.net/353388"]
+    },
+    {
+      "section": "3.1 · 원문 삽화",
+      "kind": "image",
+      "title": "첫 선택은 바꿀 수 있다",
+      "image": "assets/353386-illustration.jpg",
+      "body": "<span class=\"label\">강의용 설명</span><h3>처음부터<br>자동화할 필요는 없다.</h3><p>자료 하나를 넣고,<br>정리 문서 하나를 만들고,<br>질문 하나를 확인한다.</p><p>방식은 달라도 원본과 정리본은 나눈다.</p>",
+      "sources": ["https://wikidocs.net/353386"]
+    },
+    {
+      "section": "3.1 · 원문 비교표",
+      "kind": "table",
+      "title": "네 가지 시작 방식 비교",
+      "table": "353386-table-1",
+      "takeaway": "책의 2026-05-16 비교다. 순위가 아니라, 내 자료와 익숙한 작업 방식에 맞춰 읽는다.",
+      "sources": ["https://wikidocs.net/353386"]
+    },
+    {
+      "section": "3.1 · 수동 Markdown",
+      "kind": "content",
+      "title": "수동 방식은 역할을 배운다",
+      "body": "<div class=\"two-up\"><article><h3>직접 해 볼 일</h3><p>원본 저장 → 정리 문서 작성 → 근거 연결</p><p>폴더와 파일만으로 구조를 볼 수 있다.</p></article><article><h3>직접 챙길 일</h3><p>색인·로그·링크를 갱신한다.</p><p>자료가 늘면 반복 관리 부담도 살펴본다.</p></article></div><p class=\"statement\">처음의 목표는 자동화가 아니라 역할 구분이다.</p>",
+      "sources": ["https://wikidocs.net/353386"]
+    },
+    {
+      "section": "3.1 · 에이전트 기반 방식",
+      "kind": "content",
+      "title": "지침을 읽는지부터 확인한다",
+      "subtitle": "책의 2026-05-16 설명 기준",
+      "body": "<div class=\"two-up\"><article><h3>도구별 기준</h3><p>Codex: <code>AGENTS.md</code><br>Claude Code: <code>CLAUDE.md</code></p></article><article><h3>확인할 행동</h3><p>어떤 지침을 읽었는지 묻고,<br>실제 변경 파일을 대조한다.</p></article></div><p>플러그인 호출과 호스트 도구의 내장 기능은 구분한다.</p><p class=\"subtle\">지침 요약 성공이 원본 보존까지 증명하지는 않는다.</p>",
+      "sources": ["https://wikidocs.net/353386", "https://wikidocs.net/353387"]
+    },
+    {
+      "section": "3.1 · 원문 비교표",
+      "kind": "table",
+      "title": "도구마다 지침 읽기가 다르다",
+      "table": "353386-table-3",
+      "takeaway": "책의 확인일 기준 비교다. 표 속 명령은 읽기 자료이며, 승인 설정 변경을 권하는 실습 지시가 아니다.",
+      "sources": ["https://wikidocs.net/353386"]
+    },
+    {
+      "section": "3.1 · 확장 선택지",
+      "kind": "content",
+      "title": "명령 중심과 화면 중심의 차이",
+      "body": "<div class=\"two-up\"><article><h3>CLI</h3><p>반복할 작업을 명령으로 기록한다.</p><p>실행 환경·인증·버전 관리가 필요하다.</p></article><article><h3>데스크톱</h3><p>문서와 연결 상태를 화면에서 살핀다.</p><p>저장 위치·내보내기·모델 설정을 확인한다.</p></article></div><p class=\"statement\">편한 인터페이스와 근거 있는 답변은 별개의 조건이다.</p>",
+      "sources": ["https://wikidocs.net/353386", "https://wikidocs.net/353387"]
+    },
+    {
+      "section": "3.1 · 선택 원칙",
+      "kind": "content",
+      "title": "선택은 순위가 아니라 조건이다",
+      "body": "<ul><li>자료가 적고 구조를 배우려면 수동 방식부터 검토한다.</li><li>이미 쓰는 에이전트가 있다면 그 흐름에 연결할 수 있다.</li><li>반복 관리나 화면 탐색이 필요해질 때 확장을 검토한다.</li></ul><blockquote>“어떤 도구가 최고인가?”보다<br>“이번 주에 무엇을 확인할 수 있는가?”</blockquote>",
+      "sources": ["https://wikidocs.net/353386"]
+    },
+    {
+      "section": "3.2 · 원문 삽화",
+      "kind": "image",
+      "title": "설치 뒤의 관리까지 생각한다",
+      "image": "assets/353387-illustration.jpg",
+      "body": "<span class=\"label\">강의용 설명</span><h3>설치 성공만으로<br>선택이 끝나지 않는다.</h3><p>파일을 직접 열 수 있는가?<br>잘못된 정리를 고칠 수 있는가?<br>다른 도구로 옮길 수 있는가?</p><p>기능 수보다 계속 관리할 조건을 본다.</p>",
+      "sources": ["https://wikidocs.net/353387"]
+    },
+    {
+      "section": "3.2 · 최소 조건",
+      "kind": "content",
+      "title": "첫 도구의 최소 조건 세 가지",
+      "body": "<div class=\"three-up\"><article><span class=\"number\">01</span><h3>분리</h3><p>원본과 정리 문서를 따로 저장한다.</p></article><article><span class=\"number\">02</span><h3>수정</h3><p>사람이 문서를 열고 오류를 고친다.</p></article><article><span class=\"number\">03</span><h3>확인</h3><p>공식 문서와 변경 이력을 찾는다.</p></article></div><p class=\"statement\">이 조건이 약하면 도입을 미루어도 된다.</p>",
+      "sources": ["https://wikidocs.net/353387"]
+    },
+    {
+      "section": "3.2 · 원문 선택표",
+      "kind": "table",
+      "title": "선택 이유를 여덟 기준으로 점검",
+      "table": "353387-table-7",
+      "takeaway": "‘예’의 개수는 성능 점수가 아니다. 부족한 조건을 찾고, 작게 시작하기 위한 질문이다.",
+      "sources": ["https://wikidocs.net/353387"]
+    },
+    {
+      "section": "3.2 · 자료 지원",
+      "kind": "content",
+      "title": "업로드와 근거 연결은 다르다",
+      "body": "<div class=\"two-up\"><article><h3>입력 확인</h3><p>파일이 열리는가?<br>긴 문서가 잘리지 않았는가?</p></article><article><h3>근거 확인</h3><p>출처·날짜·위치가 남는가?<br>답변에서 원본으로 돌아가는가?</p></article></div><p>내 자료가 PDF나 이미지라면 해당 형식을 공개 샘플로 먼저 확인한다.</p><p class=\"statement\">형식 지원이 내용의 정확성까지 보장하지는 않는다.</p>",
+      "sources": ["https://wikidocs.net/353387"]
+    },
+    {
+      "section": "3.2 · 원문 대응표",
+      "kind": "table",
+      "title": "내 자료와 필요한 기능 맞추기",
+      "table": "353387-table-4",
+      "takeaway": "책의 확인일 기준 안내다. ‘확인 필요’인 형식은 실제 민감 자료 대신 공개·가상 샘플로 시험한다.",
+      "sources": ["https://wikidocs.net/353387"]
+    },
+    {
+      "section": "3.2 · 권한과 보안",
+      "kind": "content",
+      "title": "로컬 저장만으로 안전할까?",
+      "body": "<p class=\"lead\">파일 저장 위치와 데이터 전송 범위는 다르다.</p><ul><li>웹 수집은 어디에 접속하는가?</li><li>LLM 호출에 어떤 내용이 전달되는가?</li><li>파일 접근·백업·삭제 범위를 설명할 수 있는가?</li></ul><p class=\"statement\">학생 개인정보나 비공개 팀 자료는 허용 범위를 확인하기 전 넣지 않는다.</p>",
+      "sources": ["https://wikidocs.net/353386", "https://wikidocs.net/353387"]
+    },
+    {
+      "section": "3.2 · 버전 확인",
+      "kind": "content",
+      "title": "책의 비교와 현재를 구분한다",
+      "body": "<p>원전의 도구·명령 설명은 <strong>2026-05-16 KST</strong> 확인 기준이다.</p><div class=\"flow\"><article><h3>README</h3><p>전제·저장 위치</p></article><span class=\"arrow\" aria-hidden=\"true\">→</span><article><h3>변경 이력</h3><p>바뀐 기능·옵션</p></article><span class=\"arrow\" aria-hidden=\"true\">→</span><article><h3>설치된 도움말</h3><p>내 환경과 대조</p></article></div><p class=\"subtle\">강의용 재구성. 원문 명령은 실행 권한이나 최신 설치 안내가 아니다.</p>",
+      "sources": ["https://wikidocs.net/353387"]
+    },
+    {
+      "section": "3.3 · 원문 삽화",
+      "kind": "image",
+      "title": "작은 자료로 환경을 확인한다",
+      "image": "assets/353388-illustration.jpg",
+      "body": "<span class=\"label\">강의용 설명</span><h3>한꺼번에 많이 넣으면<br>실패 이유를 찾기 어렵다.</h3><p>자료 문제인가?<br>질문 문제인가?<br>도구 설정 문제인가?</p><p>작은 예제로 원본·출처·이력을 먼저 확인한다.</p>",
+      "sources": ["https://wikidocs.net/353388"]
+    },
+    {
+      "section": "3.3 · 환경 기록",
+      "kind": "content",
+      "title": "환경 기록은 다음 수업의 출발점",
+      "body": "<ul><li>실습 폴더와 Markdown 편집기</li><li>선택한 방식과 폴더 접근 가능 여부</li><li>규칙 파일과 원본 보관 위치</li><li>입력 허용 자료와 아직 모르는 설정</li></ul><p>도구를 바꿔도 같은 기준으로 다시 점검한다.</p><p class=\"subtle\">설치를 마치지 않았다면 ‘미확인’으로 적는다. 준비 계획과 실제 실행을 구분한다.</p>",
+      "sources": ["https://wikidocs.net/353388"]
+    },
+    {
+      "section": "3.3 · 원문 기본 환경표",
+      "kind": "table",
+      "title": "책이 택한 최소 실습 환경",
+      "table": "353388-table-1",
+      "takeaway": "책의 기본 선택이다. 특정 제품 사용을 강제하지 않고, 검증 가능한 파일 구조부터 익힌다.",
+      "sources": ["https://wikidocs.net/353388"]
+    },
+    {
+      "section": "3.3 · 결과 확인",
+      "kind": "content",
+      "title": "파일 생성만으로 성공은 아니다",
+      "body": "<div class=\"two-up\"><article><h3>존재 확인</h3><p>정리 문서가 생겼다.<br>색인에 링크가 있다.</p></article><article><h3>내용 확인</h3><p>원본이 바뀌지 않았다.<br>주장이 근거와 맞는다.<br>모르는 내용이 표시됐다.</p></article></div><p class=\"statement\">자료 넣기 → 질문하기 → 점검하기를 한 번 이어 본다.</p>",
+      "sources": ["https://wikidocs.net/353386", "https://wikidocs.net/353388"]
+    },
+    {
+      "section": "3.1 · 원문 결과 점검표",
+      "kind": "table",
+      "title": "최소 위키에서 확인할 다섯 가지",
+      "table": "353386-table-2",
+      "takeaway": "표의 ‘기대 결과’는 원전 실습의 목표이며, 이번 강의에서 실제 도구를 실행한 관측 결과가 아니다.",
+      "sources": ["https://wikidocs.net/353386"]
+    },
+    {
+      "section": "선택 연습 · 수업용 가상 예시",
+      "kind": "content",
+      "title": "학생팀의 첫 선택을 설명하면",
+      "body": "<blockquote>가상 회의록 2개와 공개 자료 안내문 1개로<br>다음 회의의 확인 항목을 정리하고 싶다.</blockquote><p><strong>첫 선택:</strong> 수동 Markdown. 자료가 작고 팀원이 정리 문서를 직접 고쳐야 하기 때문이다.</p><p><strong>보류:</strong> 반복 관리가 늘면 다른 방식을 검토한다.</p><p><strong>확인:</strong> 원본 보존·출처 연결·확인 필요 표시.</p><p class=\"subtle\">수업용 가상 예시. 도구 성능 평가나 실제 운영 결과가 아니다.</p>",
+      "sources": ["https://wikidocs.net/353386", "https://wikidocs.net/353387"]
+    },
+    {
+      "section": "요청 설계 · 수업용 가상 예시",
+      "kind": "content",
+      "title": "요청에 검증까지 넣는다",
+      "body": "<blockquote>규칙을 읽고 raw/의 회의록을 기준으로<br>wiki/에 확인 항목 초안을 써 주세요.<br>각 항목에 원본 경로를 남기고,<br>없는 기한은 ‘확인 필요’로 표시하세요.<br>색인과 변경 이력도 남겨 주세요.</blockquote><p>검토자는 원본·정리본·변경 파일을 다시 대조한다.</p><p class=\"subtle\">수업용 가상 예시의 요청문이다. 실제 모델 답변이 아니다.</p>",
+      "sources": ["https://wikidocs.net/353386", "https://wikidocs.net/353388"]
+    },
+    {
+      "section": "오개념 점검",
+      "kind": "content",
+      "title": "규칙 파일은 잠금장치가 아니다",
+      "body": "<div class=\"two-up\"><article><h3>흔한 오해</h3><p>규칙을 쓰면 반드시 지킨다.<br>그래프가 있으면 내용도 정확하다.</p></article><article><h3>바로잡기</h3><p>규칙은 행동을 유도한다.<br>출처와 변경 결과는 따로 검증한다.</p></article></div><p class=\"statement\">확인일의 비교표도 모든 환경에서 같은 동작을 보장하지 않는다.</p>",
+      "sources": ["https://wikidocs.net/353386", "https://wikidocs.net/353388"]
+    },
+    {
+      "section": "확인 질문 · 수업용 가상 예시",
+      "kind": "content",
+      "title": "이 학생팀의 첫 선택은?",
+      "body": "<p>자료가 적고, 설치 경험이 없으며, 구조부터 배우려 한다.</p><div class=\"choices\"><p><strong>A</strong> 기능이 가장 많은 도구를 무조건 설치</p><p><strong>B</strong> 수동 Markdown으로 작은 흐름 확인</p><p><strong>C</strong> 실제 팀 개인정보로 먼저 시험</p></div><details class=\"answer\"><summary>예시 답과 이유</summary><p>B. 이 조건에서는 시작 부담을 줄여 역할을 확인할 수 있다. 모든 팀의 정답이라는 뜻은 아니다.</p></details>",
+      "sources": ["https://wikidocs.net/353386", "https://wikidocs.net/353387"]
+    },
+    {
+      "section": "20분 실습 · 수업용 가상 예시",
+      "kind": "content",
+      "title": "팀 위키의 환경 카드 만들기",
+      "subtitle": "편집기나 종이로 진행 · 설치와 API 키 불필요",
+      "body": "<div class=\"two-up\"><article><h3>진행</h3><ul><li>0–4분: 회의록·공개 자료의 입력 범위 정하기</li><li>4–11분: 시작 방식과 선택 이유 쓰기</li><li>11–16분: 원본→정리→검증 흐름 그리기</li><li>16–20분: 짝과 권한·출처 점검</li></ul></article><article><h3>제출물</h3><p>환경 카드 1장: 방식·저장 위치·규칙·입력 범위·미확인 설정.</p><h3>통과 기준</h3><p>선택 이유 1문장, 원본/정리 분리, 근거 연결, 확인 필요 표시가 있다.</p></article></div><p class=\"subtle\">수업용 가상 예시를 설계한다. 실행하지 않은 검증을 완료로 쓰지 않는다.</p>",
+      "sources": ["https://wikidocs.net/353387", "https://wikidocs.net/353388"]
+    },
+    {
+      "section": "Exit ticket",
+      "kind": "content",
+      "title": "나가기 전 세 문장",
+      "body": "<ul><li>나는 ___ 방식으로 시작한다. 이유는 ___이다.</li><li>도구를 바꿔도 ___은/는 유지한다.</li><li>실제 자료를 넣기 전에 ___을/를 확인해야 한다.</li></ul><p class=\"subtle\">도구 이름보다 선택 조건과 검증 행동이 드러나는지 확인한다.</p>",
+      "sources": []
+    },
+    {
+      "section": "핵심 정리 · 다음 주 연결",
+      "kind": "content",
+      "title": "도구보다 검증 가능한 한 바퀴",
+      "body": "<div class=\"three-up\"><article><h3>작게 시작</h3><p>자료·질문·결과를 좁힌다.</p></article><article><h3>조건으로 선택</h3><p>관리 부담·자료 형식·권한을 본다.</p></article><article><h3>결과 대조</h3><p>원본·출처·확인 필요를 본다.</p></article></div><p class=\"statement\">다음 주: 같은 학생팀 위키의 주제를 정하고 첫 질문을 만든다.</p>",
+      "sources": ["https://wikidocs.net/353386", "https://wikidocs.net/353387", "https://wikidocs.net/353388"]
+    },
+    {
+      "section": "부록 · 3.1 원문 구현 예",
+      "appendix": true,
+      "kind": "table",
+      "title": "CLI와 데스크톱의 구현 예",
+      "table": "353386-table-4",
+      "takeaway": "책이 2026-05-16에 확인한 예다. 명령 이름은 작업 흐름을 읽는 자료이며 현재 설치 안내가 아니다.",
+      "sources": ["https://wikidocs.net/353386"]
+    },
+    {
+      "section": "부록 · 3.1 원문 검증표",
+      "appendix": true,
+      "kind": "table",
+      "title": "선택 뒤에 다시 확인할 질문",
+      "table": "353386-table-5",
+      "takeaway": "체크리스트 작성과 실제 결과 확인을 구분한다. 저장 위치와 네트워크 범위도 함께 살핀다.",
+      "sources": ["https://wikidocs.net/353386"]
+    },
+    {
+      "section": "부록 · 3.2 원문 부담 비교",
+      "appendix": true,
+      "kind": "table",
+      "title": "시작 부담과 유지보수 부담",
+      "table": "353387-table-1",
+      "takeaway": "책의 정성적 비교다. ‘낮음·높음’은 내 환경의 설치 시간이나 성능을 측정한 값이 아니다.",
+      "sources": ["https://wikidocs.net/353387"]
+    },
+    {
+      "section": "부록 · 3.2 원문 선택 점검표",
+      "appendix": true,
+      "kind": "table",
+      "title": "첫 도구 선택 체크리스트",
+      "table": "353387-table-2",
+      "takeaway": "30분과 응답 개수는 책의 시작 권장 기준이다. 보안·정확성의 합격 보증 수치가 아니다.",
+      "sources": ["https://wikidocs.net/353387"]
+    },
+    {
+      "section": "부록 · 3.2 원문 형식 점검표",
+      "appendix": true,
+      "kind": "table",
+      "title": "자료 형식의 지원 범위 묻기",
+      "table": "353387-table-3",
+      "takeaway": "문서의 지원 설명과 실제 샘플 처리를 구분한다. 잘림과 출처 연결도 따로 확인한다.",
+      "sources": ["https://wikidocs.net/353387"]
+    },
+    {
+      "section": "부록 · 3.2 원문 문서 확인표",
+      "appendix": true,
+      "kind": "table",
+      "title": "공식 문서에서 볼 항목",
+      "table": "353387-table-5",
+      "takeaway": "현재 사용하려는 버전의 전제·권한·명령을 확인한다. 이 표 자체가 최신 도구 상태의 증거는 아니다.",
+      "sources": ["https://wikidocs.net/353387"]
+    },
+    {
+      "section": "부록 · 3.2 원문 지침 확인표",
+      "appendix": true,
+      "kind": "table",
+      "title": "지침 파일의 읽힘 확인",
+      "table": "353387-table-6",
+      "takeaway": "책의 2026-05-16 설명이다. 도구별 파일명·로드 범위를 현재 공식 문서와 대조한다.",
+      "sources": ["https://wikidocs.net/353387"]
+    },
+    {
+      "section": "부록 · 3.3 원문 흐름 대응표",
+      "appendix": true,
+      "kind": "table",
+      "title": "같은 흐름을 도구별로 번역",
+      "table": "353388-table-2",
+      "takeaway": "책의 확인일 기준 대응표다. 명령 표기를 외우기보다 자료 넣기·질문·점검의 역할을 읽는다.",
+      "sources": ["https://wikidocs.net/353388"]
+    },
+    {
+      "section": "부록 · 3.3 원문 준비 점검표",
+      "appendix": true,
+      "kind": "table",
+      "title": "실습 전 준비 체크리스트",
+      "table": "353388-table-3",
+      "takeaway": "준비 여부를 기록하는 도구다. 실제로 읽지 않은 파일이나 실행하지 않은 작업을 확인 완료로 쓰지 않는다.",
+      "sources": ["https://wikidocs.net/353388"]
+    }
+  ]
+}

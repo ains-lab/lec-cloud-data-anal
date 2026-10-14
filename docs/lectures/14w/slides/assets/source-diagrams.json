@@ -1,0 +1,20 @@
+[
+  {
+    "id": "353402-diagram-1",
+    "page_url": "https://wikidocs.net/353402",
+    "mermaid": "flowchart TD\n    A[위키에 쌓인 자료] --> B{독자가 원하는 것은?}\n    B -->|빠른 이해| C[요약]\n    B -->|판단과 승인| D[보고서]\n    B -->|다음 행동| E[실행 계획]\n    C --> F[핵심 내용과 빠진 정보 표시]\n    D --> G[주장, 근거, 한계 연결]\n    E --> H[담당자, 기한, 검증 방법 정리]",
+    "status": "original code preserved; diagrams in lecture prose are labeled reconstructions"
+  },
+  {
+    "id": "353402-diagram-2",
+    "page_url": "https://wikidocs.net/353402",
+    "mermaid": "flowchart LR\n    A[읽는 사람] --> B[읽은 뒤 할 일]\n    B --> C[산출물 형식]\n    C --> D[포함할 항목]\n    D --> E[검증 기준]\n\n    A1[임원] --> B1[승인/보류 결정]\n    B1 --> C1[의사결정 보고서]\n\n    A2[팀장] --> B2[우선순위 조정]\n    B2 --> C2[요약+실행 계획]\n\n    A3[실무자] --> B3[작업 수행]\n    B3 --> C3[체크리스트]",
+    "status": "original code preserved; diagrams in lecture prose are labeled reconstructions"
+  },
+  {
+    "id": "353402-diagram-3",
+    "page_url": "https://wikidocs.net/353402",
+    "mermaid": "flowchart TD\n    A[raw 원천 자료] --> B[wiki 정리 문서]\n    B --> C{산출물 목적}\n    C -->|빠른 이해| D[output 요약]\n    C -->|판단| E[output 보고서]\n    C -->|실행| F[output 실행 계획]\n    D --> G[검토]\n    E --> G\n    F --> G\n    G --> H{새 결정이 생겼는가?}\n    H -->|예| I[wiki에 결정 사항 반영]\n    H -->|아니오| J[output에 보관]",
+    "status": "original code preserved; diagrams in lecture prose are labeled reconstructions"
+  }
+]

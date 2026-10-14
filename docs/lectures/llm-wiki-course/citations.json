@@ -1,0 +1,185 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://wikidocs.net/book/19830",
+      "title": "LLM위키 완벽 가이드 · 박승규",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "url": "https://wikidocs.net/353381",
+      "title": "2장. LLM위키의 기본 구조",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "url": "https://wikidocs.net/353382",
+      "title": "2.1 지식이 쌓이는 세 층",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "url": "https://wikidocs.net/353383",
+      "title": "2.2 좋은 폴더 구조 이해하기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "url": "https://wikidocs.net/353384",
+      "title": "2.3 좋은 위키 문서의 조건",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "url": "https://wikidocs.net/353385",
+      "title": "3장. 내게 맞는 LLM위키 방식 고르기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "url": "https://wikidocs.net/353386",
+      "title": "3.1 시작 방식 비교하기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "url": "https://wikidocs.net/353387",
+      "title": "3.2 도구를 고를 때 확인할 것",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "url": "https://wikidocs.net/353388",
+      "title": "3.3 이 책의 실습 환경 정하기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "url": "https://wikidocs.net/353389",
+      "title": "4장. 첫 번째 주제 위키 만들기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "url": "https://wikidocs.net/353390",
+      "title": "4.1 업무 주제 정하기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "url": "https://wikidocs.net/353391",
+      "title": "4.2 위키 초기화하기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "url": "https://wikidocs.net/353392",
+      "title": "4.3 첫 질문으로 방향 잡기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 14,
+      "url": "https://wikidocs.net/353393",
+      "title": "5장. 자료를 넣고 다시 쓰기 좋은 지식으로 바꾸기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 15,
+      "url": "https://wikidocs.net/353394",
+      "title": "5.1 자료를 넣기 전에 정할 기준",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 16,
+      "url": "https://wikidocs.net/353395",
+      "title": "5.2 자료 수집하기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 17,
+      "url": "https://wikidocs.net/353396",
+      "title": "5.3 위키 문서로 정리하기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 18,
+      "url": "https://wikidocs.net/353397",
+      "title": "6장. 위키에 질문하고 답을 검증하기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 19,
+      "url": "https://wikidocs.net/353398",
+      "title": "6.1 좋은 질문 만들기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 20,
+      "url": "https://wikidocs.net/353399",
+      "title": "6.2 답변의 근거 확인하기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 21,
+      "url": "https://wikidocs.net/353400",
+      "title": "6.3 답변을 다시 위키에 반영하기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 22,
+      "url": "https://wikidocs.net/353401",
+      "title": "7장. 위키에서 업무 산출물 만들기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 23,
+      "url": "https://wikidocs.net/353402",
+      "title": "7.1 산출물의 목적 정하기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 24,
+      "url": "https://wikidocs.net/353403",
+      "title": "7.2 업무 보고서 만들기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 25,
+      "url": "https://wikidocs.net/353404",
+      "title": "7.3 다음 행동으로 연결하기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 26,
+      "url": "https://wikidocs.net/353405",
+      "title": "8장. 오래 믿고 쓰는 LLM위키 운영법",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 27,
+      "url": "https://wikidocs.net/353406",
+      "title": "8.1 위키에도 점검이 필요한 이유",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 28,
+      "url": "https://wikidocs.net/353407",
+      "title": "8.2 정리와 감사 흐름 만들기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 29,
+      "url": "https://wikidocs.net/353408",
+      "title": "8.3 주제가 늘어날 때 관리하기",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": 30,
+      "url": "https://wikidocs.net/353409",
+      "title": "8.4 내 업무 루틴에 붙이기",
+      "accessed": "2026-10-14"
+    }
+  ]
+}

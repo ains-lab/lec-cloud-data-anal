@@ -1,0 +1,1554 @@
+{
+  "week": 9,
+  "served_url": "http://127.0.0.1:8879/9w/slides/llm-wiki-chapter-02-slides.html",
+  "file": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/9w/slides/llm-wiki-chapter-02-slides.html",
+  "source_sha256": "d4e993dff26a5ad8ebb98a4dea75226f991c7438f590eac7345b8415cebcd293",
+  "viewports": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "records": [
+        {
+          "slide": 1,
+          "title": "LLM 위키의 기본 구조",
+          "kind": "cover",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "title": "오늘 답할 질문은 세 가지",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 3,
+          "title": "보관함, 노트, 약속이 있는 책상",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 4,
+          "title": "지식이 쌓이는 세 층",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "title": "섞인 구조와 세 층 구조의 차이",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 6,
+          "title": "raw는 근거, wiki는 해석",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 7,
+          "title": "raw에 넣을 것과 조심할 것 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 8,
+          "title": "raw에 넣을 것과 조심할 것 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 9,
+          "title": "raw와 wiki의 역할 비교 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 10,
+          "title": "raw와 wiki의 역할 비교 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 11,
+          "title": "“검토하자”가 “결정했다”가 되면?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 12,
+          "title": "작업 규칙은 구체적으로 쓴다 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 13,
+          "title": "작업 규칙은 구체적으로 쓴다 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 14,
+          "title": "정리 노트만 있으면 충분할까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 15,
+          "title": "좋은 폴더 구조 이해하기",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "title": "같은 질문에 함께 쓸 자료인가? · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 17,
+          "title": "같은 질문에 함께 쓸 자료인가? · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 18,
+          "title": "좋은 주제 폴더의 조건",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 19,
+          "title": "작은 위키의 자리를 눈으로 보기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 20,
+          "title": "기본 파일과 폴더의 역할 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 21,
+          "title": "기본 파일과 폴더의 역할 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 22,
+          "title": "안내판과 작업 일지는 다르다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 23,
+          "title": "log에는 판단의 흔적을 남긴다",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 24,
+          "title": "만들 때는 앞으로, 확인할 때는 뒤로",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 25,
+          "title": "좋은 위키 문서의 조건",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 26,
+          "title": "좋은 문서의 세 가지 질문",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 27,
+          "title": "나중에 곤란한 문서와 좋은 문서 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 28,
+          "title": "나중에 곤란한 문서와 좋은 문서 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 29,
+          "title": "출처 블록에 무엇을 남길까?",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 30,
+          "title": "문서의 각 칸이 다음 질문을 만든다 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 31,
+          "title": "문서의 각 칸이 다음 질문을 만든다 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 32,
+          "title": "제목만 봐도 다루는 질문을 알게",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 33,
+          "title": "링크는 다음에 확인할 길이다",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 34,
+          "title": "사실, 제안, 모르는 것을 나누자",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 35,
+          "title": "좋은 위키 문서 점검표 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 36,
+          "title": "좋은 위키 문서 점검표 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 37,
+          "title": "이 문서의 집은 어디일까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 38,
+          "title": "원문으로 뒷받침되는 문장은?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 39,
+          "title": "팀 프로젝트 위키 설계하기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 40,
+          "title": "한 문장으로 설명하고 나가기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 41,
+          "title": "원본을 지키고, 근거를 붙여 다시 쓴다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "세 층의 검증 포인트 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "세 층의 검증 포인트 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "원본과 요약을 나누는 기준",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
+          "title": "폴더 구조가 잡혔는지 확인하기 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 46,
+          "title": "폴더 구조가 잡혔는지 확인하기 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 47,
+          "title": "문서 예시의 자동화 판단 기준",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 48,
+          "title": "문서 예시의 자동화 후보 비교",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 49,
+          "title": "원전과 강의 설명 구분하기",
+          "kind": "sources",
+          "issues": [],
+          "images": []
+        }
+      ],
+      "fonts": "loaded",
+      "captionAbsent": true,
+      "documentHorizontalOverflow": false,
+      "served_url": "http://127.0.0.1:8879/9w/slides/llm-wiki-chapter-02-slides.html",
+      "source_sha256": "d4e993dff26a5ad8ebb98a4dea75226f991c7438f590eac7345b8415cebcd293"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "records": [
+        {
+          "slide": 1,
+          "title": "LLM 위키의 기본 구조",
+          "kind": "cover",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "title": "오늘 답할 질문은 세 가지",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 3,
+          "title": "보관함, 노트, 약속이 있는 책상",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 4,
+          "title": "지식이 쌓이는 세 층",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "title": "섞인 구조와 세 층 구조의 차이",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 6,
+          "title": "raw는 근거, wiki는 해석",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 7,
+          "title": "raw에 넣을 것과 조심할 것 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 8,
+          "title": "raw에 넣을 것과 조심할 것 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 9,
+          "title": "raw와 wiki의 역할 비교 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 10,
+          "title": "raw와 wiki의 역할 비교 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 11,
+          "title": "“검토하자”가 “결정했다”가 되면?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 12,
+          "title": "작업 규칙은 구체적으로 쓴다 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 13,
+          "title": "작업 규칙은 구체적으로 쓴다 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 14,
+          "title": "정리 노트만 있으면 충분할까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 15,
+          "title": "좋은 폴더 구조 이해하기",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "title": "같은 질문에 함께 쓸 자료인가? · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 17,
+          "title": "같은 질문에 함께 쓸 자료인가? · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 18,
+          "title": "좋은 주제 폴더의 조건",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 19,
+          "title": "작은 위키의 자리를 눈으로 보기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 20,
+          "title": "기본 파일과 폴더의 역할 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 21,
+          "title": "기본 파일과 폴더의 역할 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 22,
+          "title": "안내판과 작업 일지는 다르다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 23,
+          "title": "log에는 판단의 흔적을 남긴다",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 24,
+          "title": "만들 때는 앞으로, 확인할 때는 뒤로",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 25,
+          "title": "좋은 위키 문서의 조건",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 26,
+          "title": "좋은 문서의 세 가지 질문",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 27,
+          "title": "나중에 곤란한 문서와 좋은 문서 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 28,
+          "title": "나중에 곤란한 문서와 좋은 문서 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 29,
+          "title": "출처 블록에 무엇을 남길까?",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 30,
+          "title": "문서의 각 칸이 다음 질문을 만든다 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 31,
+          "title": "문서의 각 칸이 다음 질문을 만든다 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 32,
+          "title": "제목만 봐도 다루는 질문을 알게",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 33,
+          "title": "링크는 다음에 확인할 길이다",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 34,
+          "title": "사실, 제안, 모르는 것을 나누자",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 35,
+          "title": "좋은 위키 문서 점검표 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 36,
+          "title": "좋은 위키 문서 점검표 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 37,
+          "title": "이 문서의 집은 어디일까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 38,
+          "title": "원문으로 뒷받침되는 문장은?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 39,
+          "title": "팀 프로젝트 위키 설계하기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 40,
+          "title": "한 문장으로 설명하고 나가기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 41,
+          "title": "원본을 지키고, 근거를 붙여 다시 쓴다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "세 층의 검증 포인트 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "세 층의 검증 포인트 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "원본과 요약을 나누는 기준",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
+          "title": "폴더 구조가 잡혔는지 확인하기 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 46,
+          "title": "폴더 구조가 잡혔는지 확인하기 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 47,
+          "title": "문서 예시의 자동화 판단 기준",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 48,
+          "title": "문서 예시의 자동화 후보 비교",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 49,
+          "title": "원전과 강의 설명 구분하기",
+          "kind": "sources",
+          "issues": [],
+          "images": []
+        }
+      ],
+      "fonts": "loaded",
+      "captionAbsent": true,
+      "documentHorizontalOverflow": false,
+      "served_url": "http://127.0.0.1:8879/9w/slides/llm-wiki-chapter-02-slides.html",
+      "source_sha256": "d4e993dff26a5ad8ebb98a4dea75226f991c7438f590eac7345b8415cebcd293"
+    },
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "records": [
+        {
+          "slide": 1,
+          "title": "LLM 위키의 기본 구조",
+          "kind": "cover",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "title": "오늘 답할 질문은 세 가지",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 3,
+          "title": "보관함, 노트, 약속이 있는 책상",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 4,
+          "title": "지식이 쌓이는 세 층",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "title": "섞인 구조와 세 층 구조의 차이",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 6,
+          "title": "raw는 근거, wiki는 해석",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 7,
+          "title": "raw에 넣을 것과 조심할 것 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 8,
+          "title": "raw에 넣을 것과 조심할 것 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 9,
+          "title": "raw와 wiki의 역할 비교 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 10,
+          "title": "raw와 wiki의 역할 비교 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 11,
+          "title": "“검토하자”가 “결정했다”가 되면?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 12,
+          "title": "작업 규칙은 구체적으로 쓴다 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 13,
+          "title": "작업 규칙은 구체적으로 쓴다 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 14,
+          "title": "정리 노트만 있으면 충분할까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 15,
+          "title": "좋은 폴더 구조 이해하기",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "title": "같은 질문에 함께 쓸 자료인가? · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 17,
+          "title": "같은 질문에 함께 쓸 자료인가? · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 18,
+          "title": "좋은 주제 폴더의 조건",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 19,
+          "title": "작은 위키의 자리를 눈으로 보기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 20,
+          "title": "기본 파일과 폴더의 역할 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 21,
+          "title": "기본 파일과 폴더의 역할 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 22,
+          "title": "안내판과 작업 일지는 다르다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 23,
+          "title": "log에는 판단의 흔적을 남긴다",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 24,
+          "title": "만들 때는 앞으로, 확인할 때는 뒤로",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 25,
+          "title": "좋은 위키 문서의 조건",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 26,
+          "title": "좋은 문서의 세 가지 질문",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 27,
+          "title": "나중에 곤란한 문서와 좋은 문서 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 28,
+          "title": "나중에 곤란한 문서와 좋은 문서 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 29,
+          "title": "출처 블록에 무엇을 남길까?",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 30,
+          "title": "문서의 각 칸이 다음 질문을 만든다 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 31,
+          "title": "문서의 각 칸이 다음 질문을 만든다 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 32,
+          "title": "제목만 봐도 다루는 질문을 알게",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 33,
+          "title": "링크는 다음에 확인할 길이다",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 34,
+          "title": "사실, 제안, 모르는 것을 나누자",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 35,
+          "title": "좋은 위키 문서 점검표 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 36,
+          "title": "좋은 위키 문서 점검표 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 37,
+          "title": "이 문서의 집은 어디일까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 38,
+          "title": "원문으로 뒷받침되는 문장은?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 39,
+          "title": "팀 프로젝트 위키 설계하기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 40,
+          "title": "한 문장으로 설명하고 나가기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 41,
+          "title": "원본을 지키고, 근거를 붙여 다시 쓴다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "세 층의 검증 포인트 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "세 층의 검증 포인트 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "원본과 요약을 나누는 기준",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
+          "title": "폴더 구조가 잡혔는지 확인하기 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 46,
+          "title": "폴더 구조가 잡혔는지 확인하기 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 47,
+          "title": "문서 예시의 자동화 판단 기준",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 48,
+          "title": "문서 예시의 자동화 후보 비교",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 49,
+          "title": "원전과 강의 설명 구분하기",
+          "kind": "sources",
+          "issues": [],
+          "images": []
+        }
+      ],
+      "fonts": "loaded",
+      "captionAbsent": true,
+      "documentHorizontalOverflow": false,
+      "served_url": "http://127.0.0.1:8879/9w/slides/llm-wiki-chapter-02-slides.html",
+      "source_sha256": "d4e993dff26a5ad8ebb98a4dea75226f991c7438f590eac7345b8415cebcd293"
+    }
+  ],
+  "opened_answers": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "records": [
+      {
+        "slide": 1,
+        "title": "LLM 위키의 기본 구조",
+        "kind": "cover",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 2,
+        "title": "오늘 답할 질문은 세 가지",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 3,
+        "title": "보관함, 노트, 약속이 있는 책상",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 4,
+        "title": "지식이 쌓이는 세 층",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 5,
+        "title": "섞인 구조와 세 층 구조의 차이",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 6,
+        "title": "raw는 근거, wiki는 해석",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 7,
+        "title": "raw에 넣을 것과 조심할 것 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 8,
+        "title": "raw에 넣을 것과 조심할 것 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 9,
+        "title": "raw와 wiki의 역할 비교 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 10,
+        "title": "raw와 wiki의 역할 비교 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 11,
+        "title": "“검토하자”가 “결정했다”가 되면?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 12,
+        "title": "작업 규칙은 구체적으로 쓴다 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 13,
+        "title": "작업 규칙은 구체적으로 쓴다 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 14,
+        "title": "정리 노트만 있으면 충분할까?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 15,
+        "title": "좋은 폴더 구조 이해하기",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 16,
+        "title": "같은 질문에 함께 쓸 자료인가? · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 17,
+        "title": "같은 질문에 함께 쓸 자료인가? · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 18,
+        "title": "좋은 주제 폴더의 조건",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 19,
+        "title": "작은 위키의 자리를 눈으로 보기",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 20,
+        "title": "기본 파일과 폴더의 역할 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 21,
+        "title": "기본 파일과 폴더의 역할 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 22,
+        "title": "안내판과 작업 일지는 다르다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 23,
+        "title": "log에는 판단의 흔적을 남긴다",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 24,
+        "title": "만들 때는 앞으로, 확인할 때는 뒤로",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 25,
+        "title": "좋은 위키 문서의 조건",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 26,
+        "title": "좋은 문서의 세 가지 질문",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 27,
+        "title": "나중에 곤란한 문서와 좋은 문서 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 28,
+        "title": "나중에 곤란한 문서와 좋은 문서 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 29,
+        "title": "출처 블록에 무엇을 남길까?",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 30,
+        "title": "문서의 각 칸이 다음 질문을 만든다 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 31,
+        "title": "문서의 각 칸이 다음 질문을 만든다 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 32,
+        "title": "제목만 봐도 다루는 질문을 알게",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 33,
+        "title": "링크는 다음에 확인할 길이다",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 34,
+        "title": "사실, 제안, 모르는 것을 나누자",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 35,
+        "title": "좋은 위키 문서 점검표 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 36,
+        "title": "좋은 위키 문서 점검표 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 37,
+        "title": "이 문서의 집은 어디일까?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 38,
+        "title": "원문으로 뒷받침되는 문장은?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 39,
+        "title": "팀 프로젝트 위키 설계하기",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 40,
+        "title": "한 문장으로 설명하고 나가기",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 41,
+        "title": "원본을 지키고, 근거를 붙여 다시 쓴다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 42,
+        "title": "세 층의 검증 포인트 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 43,
+        "title": "세 층의 검증 포인트 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 44,
+        "title": "원본과 요약을 나누는 기준",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 45,
+        "title": "폴더 구조가 잡혔는지 확인하기 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 46,
+        "title": "폴더 구조가 잡혔는지 확인하기 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 47,
+        "title": "문서 예시의 자동화 판단 기준",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 48,
+        "title": "문서 예시의 자동화 후보 비교",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 49,
+        "title": "원전과 강의 설명 구분하기",
+        "kind": "sources",
+        "issues": [],
+        "images": []
+      }
+    ],
+    "fonts": "loaded",
+    "captionAbsent": true
+  },
+  "interactions": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "previous_next_jump_help": true,
+      "reading_mode": false,
+      "errors": []
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "previous_next_jump_help": true,
+      "reading_mode": false,
+      "errors": []
+    },
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "previous_next_jump_help": true,
+      "reading_mode": true,
+      "errors": []
+    }
+  ]
+}

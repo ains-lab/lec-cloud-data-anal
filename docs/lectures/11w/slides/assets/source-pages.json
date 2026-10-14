@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://wikidocs.net/353389",
+    "title": "4장. 첫 번째 주제 위키 만들기",
+    "local_path": "assets/sources/353389.md",
+    "sha256": "5bcbc0421fd23182ea78c1d7e2c9f30afde769ae10a0ee0a3e4e6fa79b26de07"
+  },
+  {
+    "url": "https://wikidocs.net/353390",
+    "title": "4.1 업무 주제 정하기",
+    "local_path": "assets/sources/353390.md",
+    "sha256": "ec1d726ebae86e00d19e5998c5f747546f4d6b8ceb34c0c5d51838778684120a"
+  },
+  {
+    "url": "https://wikidocs.net/353391",
+    "title": "4.2 위키 초기화하기",
+    "local_path": "assets/sources/353391.md",
+    "sha256": "e49789237d33ec14a46a4ed600a00826527c265f5898a533e4eb8a7360760e83"
+  },
+  {
+    "url": "https://wikidocs.net/353392",
+    "title": "4.3 첫 질문으로 방향 잡기",
+    "local_path": "assets/sources/353392.md",
+    "sha256": "f4033219fff804cdcc2d5c1aa5270826dab31eb31d1712449f54266732d55ba4"
+  }
+]

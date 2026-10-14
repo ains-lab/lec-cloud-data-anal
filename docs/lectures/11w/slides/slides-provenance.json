@@ -1,0 +1,569 @@
+{
+  "schema_version": "material_artifact/v1",
+  "status": "generated",
+  "week": 11,
+  "chapter": 4,
+  "title": "첫 번째 주제 위키 만들기",
+  "format": "offline self-contained HTML deck",
+  "output": "llm-wiki-chapter-04-slides.html",
+  "source_author": "박승규",
+  "source_book_url": "https://wikidocs.net/book/19830",
+  "html_sha256": "2d6074c3b63ce12f4c13f25bffcd6d6829937547aeae045cfa5ea3fcb87b6983",
+  "slide_count": 41,
+  "main_slide_count": 36,
+  "original_image_count": 4,
+  "original_table_count": 10,
+  "source_page_count": 4,
+  "image_transformation": "none; original bytes embedded as base64",
+  "table_transformation": "original headers/cells/order preserved; long tables paginated with repeated headers",
+  "source_retrieval": "WikiDocs primary pages via web_extract; direct site/browser blocked by Cloudflare",
+  "font_license": "SIL Open Font License 1.1; embedded in HTML and shared assets/OFL.txt",
+  "source_last_edited": "2026-05-16 as displayed by retrieved pages",
+  "visual_review": "not_performed by builder; see separately recorded browser verification",
+  "slides": [
+    {
+      "id": "slide-01",
+      "title": "첫 번째 주제 위키 만들기",
+      "section": "11주차 · 4장",
+      "kind": "cover",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353389",
+        "https://wikidocs.net/book/19830"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": "assets/353389-chapter.png"
+    },
+    {
+      "id": "slide-02",
+      "title": "주제·구조·질문을 연결한다",
+      "section": "학습 목표",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353390",
+        "https://wikidocs.net/353391",
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-03",
+      "title": "환경 선택에서 첫 질문으로",
+      "section": "학기 프로젝트 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353390"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-04",
+      "title": "관심 영역보다 작은 업무 질문",
+      "section": "4.1 · 원문 삽화",
+      "kind": "image",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353390"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": "assets/353390-illustration.jpg"
+    },
+    {
+      "id": "slide-05",
+      "title": "넓은 관심을 한 번의 질문으로",
+      "section": "4.1 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353390"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-06",
+      "title": "큰 주제를 작게 바꾸는 방법",
+      "section": "4.1 · 원문 주제 비교표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353390"
+      ],
+      "source_table": "353390-table-1",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-07",
+      "title": "주제를 줄이는 세 가지 질문",
+      "section": "4.1 · 범위 설정",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353390"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-08",
+      "title": "자료 세 개를 고르는 이유",
+      "section": "4.1 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353390"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-09",
+      "title": "첫 자료의 적합성과 처리 방법 · 1/2",
+      "section": "4.1 · 원문 자료 선택표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353390"
+      ],
+      "source_table": "353390-table-2",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-10",
+      "title": "첫 자료의 적합성과 처리 방법 · 2/2",
+      "section": "4.1 · 원문 자료 선택표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353390"
+      ],
+      "source_table": "353390-table-2",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-11",
+      "title": "원본과 실습용 사본을 구분한다",
+      "section": "4.1 · 원본과 사본",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353390"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-12",
+      "title": "좋은 성공 기준은 관찰된다",
+      "section": "4.1 · 성공 기준",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353390"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-13",
+      "title": "성공 기준을 행동으로 바꾸기",
+      "section": "4.1 · 원문 성공 기준표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353390"
+      ],
+      "source_table": "353390-table-4",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-14",
+      "title": "초기화는 운영 기준을 만드는 일",
+      "section": "4.2 · 원문 삽화",
+      "kind": "image",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353391"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": "assets/353391-illustration.jpg"
+    },
+    {
+      "id": "slide-15",
+      "title": "초기화는 빈칸과 기준을 만든다",
+      "section": "4.2 · 초기화",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353391"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-16",
+      "title": "세 공간에 같은 기준을 적용한다",
+      "section": "4.2 · 강의용 재구성",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353391"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-17",
+      "title": "폴더와 기본 파일의 역할 · 1/2",
+      "section": "4.2 · 원문 위치 안내표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353391"
+      ],
+      "source_table": "353391-table-1",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-18",
+      "title": "폴더와 기본 파일의 역할 · 2/2",
+      "section": "4.2 · 원문 위치 안내표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353391"
+      ],
+      "source_table": "353391-table-1",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-19",
+      "title": "안내판과 이력을 따로 남긴다",
+      "section": "4.2 · 탐색과 이력",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353391",
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-20",
+      "title": "짧은 규칙 세 줄부터 시작한다",
+      "section": "4.2 · 작업 지침",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353391"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-21",
+      "title": "존재 확인과 내용 확인은 다르다",
+      "section": "4.2 · 초기화 점검",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353391"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-22",
+      "title": "첫 질문은 위키의 나침반",
+      "section": "4.3 · 원문 삽화",
+      "kind": "image",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": "assets/353392-illustration.jpg"
+    },
+    {
+      "id": "slide-23",
+      "title": "질문에는 네 가지를 붙인다",
+      "section": "4.3 · 질문 설계",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-24",
+      "title": "첫 질문을 실제 문장으로 쓰면",
+      "section": "4.3 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-25",
+      "title": "초기 답변을 세 부분으로 받기",
+      "section": "4.3 · 원문 답변 구조표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": "353392-table-1",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-26",
+      "title": "원문보다 강하게 말하지 않는다",
+      "section": "4.3 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353390",
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-27",
+      "title": "빈틈을 다음 자료로 바꾼다",
+      "section": "4.3 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-28",
+      "title": "약한 주장에 필요한 자료 찾기 · 1/2",
+      "section": "4.3 · 원문 자료 보강표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": "353392-table-2",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-29",
+      "title": "약한 주장에 필요한 자료 찾기 · 2/2",
+      "section": "4.3 · 원문 자료 보강표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": "353392-table-2",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-30",
+      "title": "표가 꽉 차도 근거는 비어 있다",
+      "section": "오개념 점검",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353390",
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-31",
+      "title": "“기한은 다음 회의에서 정한다”",
+      "section": "확인 질문 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353390",
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-32",
+      "title": "첫 주제 위키의 설계 묶음 만들기",
+      "section": "20분 실습 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353390",
+        "https://wikidocs.net/353391",
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-33",
+      "title": "짝 검토의 통과 기준",
+      "section": "20분 실습 · 마지막 4분",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353390",
+        "https://wikidocs.net/353391",
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-34",
+      "title": "오늘의 위키를 세 문장으로",
+      "section": "Exit ticket",
+      "kind": "content",
+      "appendix": false,
+      "sources": [],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-35",
+      "title": "작은 질문이 위키를 자라게 한다",
+      "section": "핵심 정리 · 다음 주 연결",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353390",
+        "https://wikidocs.net/353391",
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-36",
+      "title": "자료 후보의 날짜와 사용 이유",
+      "section": "부록 · 4.1 원문 자료 묶음 예시",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353390"
+      ],
+      "source_table": "353390-table-3",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-37",
+      "title": "도구에 맞는 규칙 파일 확인",
+      "section": "부록 · 4.2 원문 도구별 지침표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353391"
+      ],
+      "source_table": "353391-table-2",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-38",
+      "title": "최소 구조가 준비됐는지 점검 · 1/2",
+      "section": "부록 · 4.2 원문 초기화 점검표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353391"
+      ],
+      "source_table": "353391-table-3",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-39",
+      "title": "최소 구조가 준비됐는지 점검 · 2/2",
+      "section": "부록 · 4.2 원문 초기화 점검표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353391"
+      ],
+      "source_table": "353391-table-3",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-40",
+      "title": "첫 질문의 다섯 점검 항목",
+      "section": "부록 · 4.3 원문 질문 점검표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": "353392-table-3",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-41",
+      "title": "원전과 강의 설명 구분하기",
+      "section": "출처와 사용 안내",
+      "kind": "sources",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/book/19830"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    }
+  ]
+}

@@ -1,0 +1,1414 @@
+{
+  "week": 12,
+  "served_url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html",
+  "file": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/12w/slides/llm-wiki-chapter-05-slides.html",
+  "source_sha256": "e56f089796539af5ea04c6410b6a31616fb66ac6d8b69a2f002c94b3d9a90015",
+  "viewports": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "records": [
+        {
+          "slide": 1,
+          "title": "흩어진 자료를 다시 쓸 지식으로",
+          "kind": "cover",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "title": "오늘 만들 수 있어야 할 것",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 3,
+          "title": "수집, 정리, 검증은 다르다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 4,
+          "title": "넣기 전에 경계를 정한다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "title": "구름팀의 수집 기준 카드",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 6,
+          "title": "요약문에 남길 정보 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 7,
+          "title": "요약문에 남길 정보 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 8,
+          "title": "자료마다 답할 수 있는 게 다르다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 9,
+          "title": "공식 자료도 낡을 수 있다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 10,
+          "title": "원천, 정리본, 이력을 연결한다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "title": "웹 자료는 주소만 남기지 않는다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 12,
+          "title": "메모·회의록의 보관과 정리",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 13,
+          "title": "한 회의록에서 다섯 상태 읽기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 14,
+          "title": "원문보다 강해진 문장은?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 15,
+          "title": "파일별 요약에서 질문별 지식으로",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "title": "회의록 하나, 세 가지 질문",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 17,
+          "title": "중복·모순·단정 정리",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 18,
+          "title": "새 메모가 옛 결정을 바꿀까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 19,
+          "title": "링크를 많이 붙이면 좋은 위키?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 20,
+          "title": "경로가 있으면 검증도 끝났을까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 21,
+          "title": "구름팀 위키 초안 만들기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 22,
+          "title": "많은 파일보다 추적 가능한 연결",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 23,
+          "title": "세 문장으로 점검하기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 24,
+          "title": "지식은 저장량이 아니라 연결이다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 25,
+          "title": "자료 유형별 신뢰도 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 26,
+          "title": "자료 유형별 신뢰도 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 27,
+          "title": "신뢰도 등급과 표현",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 28,
+          "title": "포함·제외 범위 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 29,
+          "title": "포함·제외 범위 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 30,
+          "title": "수집·보류 판단 질문",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 31,
+          "title": "웹 문서 수집 정보",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 32,
+          "title": "처리 이력 필수 항목 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 33,
+          "title": "처리 이력 필수 항목 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 34,
+          "title": "자료 수집 완료 점검 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 35,
+          "title": "자료 수집 완료 점검 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 36,
+          "title": "자료 조각을 주제 문서로",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 37,
+          "title": "인덱스와 이력의 역할",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 38,
+          "title": "질문별 문서 안내 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 39,
+          "title": "회의록 정리 이력 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 40,
+          "title": "회의록 정리 이력 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 41,
+          "title": "링크 유형별 판단",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "위키 문서 정리 점검 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "위키 문서 정리 점검 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "원전과 강의 설명 구분하기",
+          "kind": "sources",
+          "issues": [],
+          "images": []
+        }
+      ],
+      "fonts": "loaded",
+      "captionAbsent": true,
+      "documentHorizontalOverflow": false,
+      "served_url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html",
+      "source_sha256": "e56f089796539af5ea04c6410b6a31616fb66ac6d8b69a2f002c94b3d9a90015"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "records": [
+        {
+          "slide": 1,
+          "title": "흩어진 자료를 다시 쓸 지식으로",
+          "kind": "cover",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "title": "오늘 만들 수 있어야 할 것",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 3,
+          "title": "수집, 정리, 검증은 다르다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 4,
+          "title": "넣기 전에 경계를 정한다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "title": "구름팀의 수집 기준 카드",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 6,
+          "title": "요약문에 남길 정보 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 7,
+          "title": "요약문에 남길 정보 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 8,
+          "title": "자료마다 답할 수 있는 게 다르다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 9,
+          "title": "공식 자료도 낡을 수 있다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 10,
+          "title": "원천, 정리본, 이력을 연결한다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "title": "웹 자료는 주소만 남기지 않는다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 12,
+          "title": "메모·회의록의 보관과 정리",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 13,
+          "title": "한 회의록에서 다섯 상태 읽기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 14,
+          "title": "원문보다 강해진 문장은?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 15,
+          "title": "파일별 요약에서 질문별 지식으로",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "title": "회의록 하나, 세 가지 질문",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 17,
+          "title": "중복·모순·단정 정리",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 18,
+          "title": "새 메모가 옛 결정을 바꿀까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 19,
+          "title": "링크를 많이 붙이면 좋은 위키?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 20,
+          "title": "경로가 있으면 검증도 끝났을까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 21,
+          "title": "구름팀 위키 초안 만들기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 22,
+          "title": "많은 파일보다 추적 가능한 연결",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 23,
+          "title": "세 문장으로 점검하기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 24,
+          "title": "지식은 저장량이 아니라 연결이다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 25,
+          "title": "자료 유형별 신뢰도 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 26,
+          "title": "자료 유형별 신뢰도 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 27,
+          "title": "신뢰도 등급과 표현",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 28,
+          "title": "포함·제외 범위 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 29,
+          "title": "포함·제외 범위 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 30,
+          "title": "수집·보류 판단 질문",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 31,
+          "title": "웹 문서 수집 정보",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 32,
+          "title": "처리 이력 필수 항목 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 33,
+          "title": "처리 이력 필수 항목 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 34,
+          "title": "자료 수집 완료 점검 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 35,
+          "title": "자료 수집 완료 점검 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 36,
+          "title": "자료 조각을 주제 문서로",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 37,
+          "title": "인덱스와 이력의 역할",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 38,
+          "title": "질문별 문서 안내 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 39,
+          "title": "회의록 정리 이력 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 40,
+          "title": "회의록 정리 이력 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 41,
+          "title": "링크 유형별 판단",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "위키 문서 정리 점검 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "위키 문서 정리 점검 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "원전과 강의 설명 구분하기",
+          "kind": "sources",
+          "issues": [],
+          "images": []
+        }
+      ],
+      "fonts": "loaded",
+      "captionAbsent": true,
+      "documentHorizontalOverflow": false,
+      "served_url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html",
+      "source_sha256": "e56f089796539af5ea04c6410b6a31616fb66ac6d8b69a2f002c94b3d9a90015"
+    },
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "records": [
+        {
+          "slide": 1,
+          "title": "흩어진 자료를 다시 쓸 지식으로",
+          "kind": "cover",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "title": "오늘 만들 수 있어야 할 것",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 3,
+          "title": "수집, 정리, 검증은 다르다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 4,
+          "title": "넣기 전에 경계를 정한다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "title": "구름팀의 수집 기준 카드",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 6,
+          "title": "요약문에 남길 정보 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 7,
+          "title": "요약문에 남길 정보 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 8,
+          "title": "자료마다 답할 수 있는 게 다르다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 9,
+          "title": "공식 자료도 낡을 수 있다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 10,
+          "title": "원천, 정리본, 이력을 연결한다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "title": "웹 자료는 주소만 남기지 않는다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 12,
+          "title": "메모·회의록의 보관과 정리",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 13,
+          "title": "한 회의록에서 다섯 상태 읽기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 14,
+          "title": "원문보다 강해진 문장은?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 15,
+          "title": "파일별 요약에서 질문별 지식으로",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 16,
+          "title": "회의록 하나, 세 가지 질문",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 17,
+          "title": "중복·모순·단정 정리",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 18,
+          "title": "새 메모가 옛 결정을 바꿀까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 19,
+          "title": "링크를 많이 붙이면 좋은 위키?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 20,
+          "title": "경로가 있으면 검증도 끝났을까?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 21,
+          "title": "구름팀 위키 초안 만들기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 22,
+          "title": "많은 파일보다 추적 가능한 연결",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 23,
+          "title": "세 문장으로 점검하기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 24,
+          "title": "지식은 저장량이 아니라 연결이다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 25,
+          "title": "자료 유형별 신뢰도 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 26,
+          "title": "자료 유형별 신뢰도 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 27,
+          "title": "신뢰도 등급과 표현",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 28,
+          "title": "포함·제외 범위 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 29,
+          "title": "포함·제외 범위 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 30,
+          "title": "수집·보류 판단 질문",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 31,
+          "title": "웹 문서 수집 정보",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 32,
+          "title": "처리 이력 필수 항목 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 33,
+          "title": "처리 이력 필수 항목 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 34,
+          "title": "자료 수집 완료 점검 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 35,
+          "title": "자료 수집 완료 점검 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 36,
+          "title": "자료 조각을 주제 문서로",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 37,
+          "title": "인덱스와 이력의 역할",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 38,
+          "title": "질문별 문서 안내 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 39,
+          "title": "회의록 정리 이력 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 40,
+          "title": "회의록 정리 이력 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 41,
+          "title": "링크 유형별 판단",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "위키 문서 정리 점검 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "위키 문서 정리 점검 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "원전과 강의 설명 구분하기",
+          "kind": "sources",
+          "issues": [],
+          "images": []
+        }
+      ],
+      "fonts": "loaded",
+      "captionAbsent": true,
+      "documentHorizontalOverflow": false,
+      "served_url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html",
+      "source_sha256": "e56f089796539af5ea04c6410b6a31616fb66ac6d8b69a2f002c94b3d9a90015"
+    }
+  ],
+  "opened_answers": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "records": [
+      {
+        "slide": 1,
+        "title": "흩어진 자료를 다시 쓸 지식으로",
+        "kind": "cover",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 2,
+        "title": "오늘 만들 수 있어야 할 것",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 3,
+        "title": "수집, 정리, 검증은 다르다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 4,
+        "title": "넣기 전에 경계를 정한다",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 5,
+        "title": "구름팀의 수집 기준 카드",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 6,
+        "title": "요약문에 남길 정보 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 7,
+        "title": "요약문에 남길 정보 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 8,
+        "title": "자료마다 답할 수 있는 게 다르다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 9,
+        "title": "공식 자료도 낡을 수 있다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 10,
+        "title": "원천, 정리본, 이력을 연결한다",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 11,
+        "title": "웹 자료는 주소만 남기지 않는다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 12,
+        "title": "메모·회의록의 보관과 정리",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 13,
+        "title": "한 회의록에서 다섯 상태 읽기",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 14,
+        "title": "원문보다 강해진 문장은?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 15,
+        "title": "파일별 요약에서 질문별 지식으로",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 16,
+        "title": "회의록 하나, 세 가지 질문",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 17,
+        "title": "중복·모순·단정 정리",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 18,
+        "title": "새 메모가 옛 결정을 바꿀까?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 19,
+        "title": "링크를 많이 붙이면 좋은 위키?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 20,
+        "title": "경로가 있으면 검증도 끝났을까?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 21,
+        "title": "구름팀 위키 초안 만들기",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 22,
+        "title": "많은 파일보다 추적 가능한 연결",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 23,
+        "title": "세 문장으로 점검하기",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 24,
+        "title": "지식은 저장량이 아니라 연결이다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 25,
+        "title": "자료 유형별 신뢰도 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 26,
+        "title": "자료 유형별 신뢰도 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 27,
+        "title": "신뢰도 등급과 표현",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 28,
+        "title": "포함·제외 범위 예시 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 29,
+        "title": "포함·제외 범위 예시 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 30,
+        "title": "수집·보류 판단 질문",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 31,
+        "title": "웹 문서 수집 정보",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 32,
+        "title": "처리 이력 필수 항목 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 33,
+        "title": "처리 이력 필수 항목 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 34,
+        "title": "자료 수집 완료 점검 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 35,
+        "title": "자료 수집 완료 점검 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 36,
+        "title": "자료 조각을 주제 문서로",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 37,
+        "title": "인덱스와 이력의 역할",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 38,
+        "title": "질문별 문서 안내 예시",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 39,
+        "title": "회의록 정리 이력 예시 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 40,
+        "title": "회의록 정리 이력 예시 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 41,
+        "title": "링크 유형별 판단",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 42,
+        "title": "위키 문서 정리 점검 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 43,
+        "title": "위키 문서 정리 점검 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 44,
+        "title": "원전과 강의 설명 구분하기",
+        "kind": "sources",
+        "issues": [],
+        "images": []
+      }
+    ],
+    "fonts": "loaded",
+    "captionAbsent": true
+  },
+  "interactions": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "previous_next_jump_help": true,
+      "reading_mode": false,
+      "errors": []
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "previous_next_jump_help": true,
+      "reading_mode": false,
+      "errors": []
+    },
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "previous_next_jump_help": true,
+      "reading_mode": true,
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "page_url": "https://wikidocs.net/353397",
+    "original_url": "https://static.wikidocs.net/images/page/353397/chapter-06.png",
+    "local_path": "assets/353397-chapter.png",
+    "alt": "위키 답변의 근거를 확인하는 삽화",
+    "http_status": 200,
+    "content_type": "image/png",
+    "bytes": 2781319,
+    "sha256": "3162865e5ed9d5c7063e76d0c7e1f7adfa9e6d05a221f6ec9db60e844c1ff933",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353398",
+    "original_url": "https://static.wikidocs.net/images/page/353398/6.1-%EC%A2%8B%EC%9D%80-%EC%A7%88%EB%AC%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0.jpg",
+    "local_path": "assets/353398-illustration.jpg",
+    "alt": "6.1 좋은 질문 만들기 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 324039,
+    "sha256": "ab5028e52370bf7376a2cd87bee6fa4c3caa18d0ccce5f8ceb01a551d9874001",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353399",
+    "original_url": "https://static.wikidocs.net/images/page/353399/6.2-%EB%8B%B5%EB%B3%80%EC%9D%98-%EA%B7%BC%EA%B1%B0-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0.jpg",
+    "local_path": "assets/353399-illustration.jpg",
+    "alt": "6.2 답변의 근거 확인하기 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 379442,
+    "sha256": "ce62d7dfcfc6c43e1fa8300402f1fcb34c2e51dbcde6847d9a24a81be26f2956",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353400",
+    "original_url": "https://static.wikidocs.net/images/page/353400/6.3-%EB%8B%B5%EB%B3%80%EC%9D%84-%EB%8B%A4%EC%8B%9C-%EC%9C%84%ED%82%A4%EC%97%90-%EB%B0%98%EC%98%81%ED%95%98%EA%B8%B0.jpg",
+    "local_path": "assets/353400-illustration.jpg",
+    "alt": "6.3 답변을 다시 위키에 반영하기 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 321748,
+    "sha256": "95608bcf6e54721d017041d7b2b4ffb3e5f23843a3791e1232999314c5b17560",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  }
+]

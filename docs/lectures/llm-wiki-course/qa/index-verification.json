@@ -1,0 +1,146 @@
+{
+  "viewports": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "horizontalOverflow": false,
+      "links": [
+        {
+          "text": "2장. LLM위키의 기본 구조",
+          "url": "http://127.0.0.1:8879/9w/slides/llm-wiki-chapter-02-slides.html"
+        },
+        {
+          "text": "3장. 내게 맞는 LLM위키 방식 고르기",
+          "url": "http://127.0.0.1:8879/10w/slides/llm-wiki-chapter-03-slides.html"
+        },
+        {
+          "text": "4장. 첫 번째 주제 위키 만들기",
+          "url": "http://127.0.0.1:8879/11w/slides/llm-wiki-chapter-04-slides.html"
+        },
+        {
+          "text": "5장. 자료를 넣고 다시 쓰기 좋은 지식으로 바꾸기",
+          "url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html"
+        },
+        {
+          "text": "6장. 위키에 질문하고 답을 검증하기",
+          "url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html"
+        },
+        {
+          "text": "7장. 위키에서 업무 산출물 만들기",
+          "url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html"
+        },
+        {
+          "text": "8장. 오래 믿고 쓰는 LLM위키 운영법",
+          "url": "http://127.0.0.1:8879/15w/slides/llm-wiki-chapter-08-slides.html"
+        }
+      ],
+      "title": "LLM위키를 만들고,\n다시 쓰고, 검증하기"
+    },
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "horizontalOverflow": false,
+      "links": [
+        {
+          "text": "2장. LLM위키의 기본 구조",
+          "url": "http://127.0.0.1:8879/9w/slides/llm-wiki-chapter-02-slides.html"
+        },
+        {
+          "text": "3장. 내게 맞는 LLM위키 방식 고르기",
+          "url": "http://127.0.0.1:8879/10w/slides/llm-wiki-chapter-03-slides.html"
+        },
+        {
+          "text": "4장. 첫 번째 주제 위키 만들기",
+          "url": "http://127.0.0.1:8879/11w/slides/llm-wiki-chapter-04-slides.html"
+        },
+        {
+          "text": "5장. 자료를 넣고 다시 쓰기 좋은 지식으로 바꾸기",
+          "url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html"
+        },
+        {
+          "text": "6장. 위키에 질문하고 답을 검증하기",
+          "url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html"
+        },
+        {
+          "text": "7장. 위키에서 업무 산출물 만들기",
+          "url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html"
+        },
+        {
+          "text": "8장. 오래 믿고 쓰는 LLM위키 운영법",
+          "url": "http://127.0.0.1:8879/15w/slides/llm-wiki-chapter-08-slides.html"
+        }
+      ],
+      "title": "LLM위키를 만들고,\n다시 쓰고, 검증하기"
+    }
+  ],
+  "links_clicked": [
+    {
+      "url": "http://127.0.0.1:8879/9w/slides/llm-wiki-chapter-02-slides.html#slide-49",
+      "state": {
+        "slide": 49,
+        "total": 49,
+        "reading": true,
+        "storageAvailable": true
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8879/10w/slides/llm-wiki-chapter-03-slides.html#slide-55",
+      "state": {
+        "slide": 55,
+        "total": 55,
+        "reading": true,
+        "storageAvailable": true
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8879/11w/slides/llm-wiki-chapter-04-slides.html#slide-41",
+      "state": {
+        "slide": 41,
+        "total": 41,
+        "reading": true,
+        "storageAvailable": true
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html#slide-44",
+      "state": {
+        "slide": 44,
+        "total": 44,
+        "reading": true,
+        "storageAvailable": true
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html#slide-42",
+      "state": {
+        "slide": 42,
+        "total": 42,
+        "reading": true,
+        "storageAvailable": true
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html#slide-59",
+      "state": {
+        "slide": 59,
+        "total": 59,
+        "reading": true,
+        "storageAvailable": true
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8879/15w/slides/llm-wiki-chapter-08-slides.html#slide-74",
+      "state": {
+        "slide": 74,
+        "total": 74,
+        "reading": true,
+        "storageAvailable": true
+      }
+    }
+  ],
+  "index_capture": "not_completed: screenshot capture timeout"
+}

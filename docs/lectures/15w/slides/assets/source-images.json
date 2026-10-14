@@ -1,0 +1,67 @@
+[
+  {
+    "page_url": "https://wikidocs.net/353405",
+    "original_url": "https://static.wikidocs.net/images/page/353405/chapter-08.png",
+    "local_path": "assets/353405-chapter.png",
+    "alt": "오래 쓰는 위키를 주기적으로 점검하는 삽화",
+    "http_status": 200,
+    "content_type": "image/png",
+    "bytes": 3031917,
+    "sha256": "145ed2031a445c279fb32ec7badf15f36d80968d63b2b0721cb16886c0d62c37",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353406",
+    "original_url": "https://static.wikidocs.net/images/page/353406/8.1-%EC%9C%84%ED%82%A4%EC%97%90%EB%8F%84-%EC%A0%90%EA%B2%80%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%9C-%EC%9D%B4%EC%9C%A0.jpg",
+    "local_path": "assets/353406-illustration.jpg",
+    "alt": "8.1 위키에도 점검이 필요한 이유 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 427090,
+    "sha256": "e4cfaeadf696124306638ba477b3dbfe92e514aae680d953478bb081679d902b",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353407",
+    "original_url": "https://static.wikidocs.net/images/page/353407/8.2-%EC%A0%95%EB%A6%AC%EC%99%80-%EA%B0%90%EC%82%AC-%ED%9D%90%EB%A6%84-%EB%A7%8C%EB%93%A4%EA%B8%B0.jpg",
+    "local_path": "assets/353407-illustration.jpg",
+    "alt": "8.2 정리와 감사 흐름 만들기 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 351693,
+    "sha256": "6fa73d6a747c05c41161c20828be8438dc0bbfb303edafce84d106673179b825",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353408",
+    "original_url": "https://static.wikidocs.net/images/page/353408/8.3-%EC%A3%BC%EC%A0%9C%EA%B0%80-%EB%8A%98%EC%96%B4%EB%82%A0-%EB%95%8C-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0.jpg",
+    "local_path": "assets/353408-illustration.jpg",
+    "alt": "8.3 주제가 늘어날 때 관리하기 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 361816,
+    "sha256": "774177af06eea03a5d7c5e1ab7404d216d1379a05be891f40689affcdbde4e87",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353409",
+    "original_url": "https://static.wikidocs.net/images/page/353409/8.4-%EB%82%B4-%EC%97%85%EB%AC%B4-%EB%A3%A8%ED%8B%B4%EC%97%90-%EB%B6%99%EC%9D%B4%EA%B8%B0.jpg",
+    "local_path": "assets/353409-illustration.jpg",
+    "alt": "8.4 내 업무 루틴에 붙이기 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 360694,
+    "sha256": "2b24f5994fb5a77a0d19bc8d3d1b4570f6e181ea1b5857a6648b57eb1df66661",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  }
+]

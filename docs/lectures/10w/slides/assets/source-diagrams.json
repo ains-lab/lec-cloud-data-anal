@@ -1,0 +1,20 @@
+[
+  {
+    "id": "353386-diagram-1",
+    "page_url": "https://wikidocs.net/353386",
+    "mermaid": "flowchart TD\n    A[LLM위키를 처음 시작한다] --> B{자료가 적고 구조를 먼저 배우고 싶은가?}\n    B -- 예 --> C[수동 Markdown 방식]\n    B -- 아니오 --> D{Claude Code나 Codex를 이미 쓰는가?}\n    D -- 예 --> E[Claude Code와 OpenAI Codex 기반 방식]\n    D -- 아니오 --> F{명령줄과 API 키 설정이 익숙한가?}\n    F -- 예 --> G[CLI 방식]\n    F -- 아니오 --> H{화면에서 문서와 그래프를 보고 싶은가?}\n    H -- 예 --> I[데스크톱 도구 방식]\n    H -- 아니오 --> C",
+    "status": "original code preserved; diagrams in lecture prose are labeled reconstructions"
+  },
+  {
+    "id": "353386-diagram-2",
+    "page_url": "https://wikidocs.net/353386",
+    "mermaid": "flowchart LR\n    U[사용자 자료와 질문] --> A{에이전트 도구}\n    A --> C[Claude Code<br/>CLAUDE.md]\n    A --> D[OpenAI Codex<br/>AGENTS.md]\n    C --> R[운영 규칙]\n    D --> R\n    R --> Raw[raw 원천 자료]\n    R --> Wiki[wiki 정리 문서]\n    R --> Log[log 처리 기록]\n    R --> Out[output 산출물]",
+    "status": "original code preserved; diagrams in lecture prose are labeled reconstructions"
+  },
+  {
+    "id": "353386-diagram-3",
+    "page_url": "https://wikidocs.net/353386",
+    "mermaid": "flowchart TD\n    A[데스크톱 앱 실행] --> B[새 프로젝트 생성]\n    B --> C[LLM 제공자와 모델 설정]\n    C --> D[문서 가져오기]\n    D --> E[처리 상태 확인]\n    E --> F[생성된 위키 문서 미리보기]\n    F --> G[채팅으로 질문]\n    G --> H[그래프와 점검 화면으로 확인]",
+    "status": "original code preserved; diagrams in lecture prose are labeled reconstructions"
+  }
+]

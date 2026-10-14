@@ -1,0 +1,1358 @@
+{
+  "week": 13,
+  "served_url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html",
+  "file": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/13w/slides/llm-wiki-chapter-06-slides.html",
+  "source_sha256": "76cf3fa3f13af589c5e24a4da1a4f5ce1db5f39214a634bcc923145012ddb6bd",
+  "viewports": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "records": [
+        {
+          "slide": 1,
+          "title": "위키에 질문하고 답을 검증하기",
+          "kind": "cover",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "title": "질문부터 다음 질문까지",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 3,
+          "title": "답변은 지식의 입구일 뿐이다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 4,
+          "title": "검색어를 작업 요청으로 바꾼다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "title": "“회의록 정리해 줘”를 고치면",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 6,
+          "title": "실행 가능한 질문의 요소 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 7,
+          "title": "실행 가능한 질문의 요소 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 8,
+          "title": "범위가 보이는 요청문",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 9,
+          "title": "답이 그럴듯해도 문장을 나눈다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 10,
+          "title": "출처, 확실성, 시점을 확인한다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "title": "문장에서 원천까지 되짚는다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 12,
+          "title": "확실성 등급과 표현 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 13,
+          "title": "확실성 등급과 표현 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 14,
+          "title": "진짜 링크라도 틀린 근거일 수 있다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 15,
+          "title": "‘확인됨’은 언제나 참이라는 뜻?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 16,
+          "title": "가상 답변 네 문장을 판정하면",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 17,
+          "title": "답변 전체를 위키로 복사하지 않는다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "title": "답변의 세 갈래 목적지",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 19,
+          "title": "결정 기록에 남길 항목 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 20,
+          "title": "결정 기록에 남길 항목 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 21,
+          "title": "구름팀 위키에 선별해 반영하기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 22,
+          "title": "바꿀 자리와 지킬 기준을 나눈다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 23,
+          "title": "질문·검증·반영을 한 번 연결하기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 24,
+          "title": "검토자가 다시 확인할 수 있나?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 25,
+          "title": "세 경계를 말할 수 있는가?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 26,
+          "title": "답을 저장하지 말고 근거를 연결한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 27,
+          "title": "검색 질문과 업무 질문 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 28,
+          "title": "검색 질문과 업무 질문 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 29,
+          "title": "흐린 표현을 구체화하기",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 30,
+          "title": "질문 작성 점검표 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 31,
+          "title": "질문 작성 점검표 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 32,
+          "title": "답변 문장의 근거 상태",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 33,
+          "title": "주장 유형별 최신성 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 34,
+          "title": "주장 유형별 최신성 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 35,
+          "title": "근거·최신성 라벨",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 36,
+          "title": "답변 검증 점검표",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 37,
+          "title": "새 지식 추가 방식 비교",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 38,
+          "title": "반영 후 갱신할 위치",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 39,
+          "title": "회의록 점검용 빈 양식",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 40,
+          "title": "위키 반영 완료 점검 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 41,
+          "title": "위키 반영 완료 점검 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "원전과 강의 설명 구분하기",
+          "kind": "sources",
+          "issues": [],
+          "images": []
+        }
+      ],
+      "fonts": "loaded",
+      "captionAbsent": true,
+      "documentHorizontalOverflow": false,
+      "served_url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html",
+      "source_sha256": "76cf3fa3f13af589c5e24a4da1a4f5ce1db5f39214a634bcc923145012ddb6bd"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "records": [
+        {
+          "slide": 1,
+          "title": "위키에 질문하고 답을 검증하기",
+          "kind": "cover",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "title": "질문부터 다음 질문까지",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 3,
+          "title": "답변은 지식의 입구일 뿐이다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 4,
+          "title": "검색어를 작업 요청으로 바꾼다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "title": "“회의록 정리해 줘”를 고치면",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 6,
+          "title": "실행 가능한 질문의 요소 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 7,
+          "title": "실행 가능한 질문의 요소 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 8,
+          "title": "범위가 보이는 요청문",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 9,
+          "title": "답이 그럴듯해도 문장을 나눈다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 10,
+          "title": "출처, 확실성, 시점을 확인한다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "title": "문장에서 원천까지 되짚는다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 12,
+          "title": "확실성 등급과 표현 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 13,
+          "title": "확실성 등급과 표현 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 14,
+          "title": "진짜 링크라도 틀린 근거일 수 있다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 15,
+          "title": "‘확인됨’은 언제나 참이라는 뜻?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 16,
+          "title": "가상 답변 네 문장을 판정하면",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 17,
+          "title": "답변 전체를 위키로 복사하지 않는다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "title": "답변의 세 갈래 목적지",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 19,
+          "title": "결정 기록에 남길 항목 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 20,
+          "title": "결정 기록에 남길 항목 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 21,
+          "title": "구름팀 위키에 선별해 반영하기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 22,
+          "title": "바꿀 자리와 지킬 기준을 나눈다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 23,
+          "title": "질문·검증·반영을 한 번 연결하기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 24,
+          "title": "검토자가 다시 확인할 수 있나?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 25,
+          "title": "세 경계를 말할 수 있는가?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 26,
+          "title": "답을 저장하지 말고 근거를 연결한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 27,
+          "title": "검색 질문과 업무 질문 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 28,
+          "title": "검색 질문과 업무 질문 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 29,
+          "title": "흐린 표현을 구체화하기",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 30,
+          "title": "질문 작성 점검표 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 31,
+          "title": "질문 작성 점검표 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 32,
+          "title": "답변 문장의 근거 상태",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 33,
+          "title": "주장 유형별 최신성 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 34,
+          "title": "주장 유형별 최신성 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 35,
+          "title": "근거·최신성 라벨",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 36,
+          "title": "답변 검증 점검표",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 37,
+          "title": "새 지식 추가 방식 비교",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 38,
+          "title": "반영 후 갱신할 위치",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 39,
+          "title": "회의록 점검용 빈 양식",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 40,
+          "title": "위키 반영 완료 점검 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 41,
+          "title": "위키 반영 완료 점검 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "원전과 강의 설명 구분하기",
+          "kind": "sources",
+          "issues": [],
+          "images": []
+        }
+      ],
+      "fonts": "loaded",
+      "captionAbsent": true,
+      "documentHorizontalOverflow": false,
+      "served_url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html",
+      "source_sha256": "76cf3fa3f13af589c5e24a4da1a4f5ce1db5f39214a634bcc923145012ddb6bd"
+    },
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "records": [
+        {
+          "slide": 1,
+          "title": "위키에 질문하고 답을 검증하기",
+          "kind": "cover",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "title": "질문부터 다음 질문까지",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 3,
+          "title": "답변은 지식의 입구일 뿐이다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 4,
+          "title": "검색어를 작업 요청으로 바꾼다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "title": "“회의록 정리해 줘”를 고치면",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 6,
+          "title": "실행 가능한 질문의 요소 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 7,
+          "title": "실행 가능한 질문의 요소 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 8,
+          "title": "범위가 보이는 요청문",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 9,
+          "title": "답이 그럴듯해도 문장을 나눈다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 10,
+          "title": "출처, 확실성, 시점을 확인한다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 11,
+          "title": "문장에서 원천까지 되짚는다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 12,
+          "title": "확실성 등급과 표현 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 13,
+          "title": "확실성 등급과 표현 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 14,
+          "title": "진짜 링크라도 틀린 근거일 수 있다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 15,
+          "title": "‘확인됨’은 언제나 참이라는 뜻?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 16,
+          "title": "가상 답변 네 문장을 판정하면",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 17,
+          "title": "답변 전체를 위키로 복사하지 않는다",
+          "kind": "image",
+          "issues": [],
+          "images": [
+            {
+              "complete": true,
+              "w": 1448,
+              "h": 1086
+            }
+          ]
+        },
+        {
+          "slide": 18,
+          "title": "답변의 세 갈래 목적지",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 19,
+          "title": "결정 기록에 남길 항목 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 20,
+          "title": "결정 기록에 남길 항목 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 21,
+          "title": "구름팀 위키에 선별해 반영하기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 22,
+          "title": "바꿀 자리와 지킬 기준을 나눈다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 23,
+          "title": "질문·검증·반영을 한 번 연결하기",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 24,
+          "title": "검토자가 다시 확인할 수 있나?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 25,
+          "title": "세 경계를 말할 수 있는가?",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 26,
+          "title": "답을 저장하지 말고 근거를 연결한다",
+          "kind": "content",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 27,
+          "title": "검색 질문과 업무 질문 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 28,
+          "title": "검색 질문과 업무 질문 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 29,
+          "title": "흐린 표현을 구체화하기",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 30,
+          "title": "질문 작성 점검표 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 31,
+          "title": "질문 작성 점검표 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 32,
+          "title": "답변 문장의 근거 상태",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 33,
+          "title": "주장 유형별 최신성 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 34,
+          "title": "주장 유형별 최신성 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 35,
+          "title": "근거·최신성 라벨",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 36,
+          "title": "답변 검증 점검표",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 37,
+          "title": "새 지식 추가 방식 비교",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 38,
+          "title": "반영 후 갱신할 위치",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 39,
+          "title": "회의록 점검용 빈 양식",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 40,
+          "title": "위키 반영 완료 점검 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 41,
+          "title": "위키 반영 완료 점검 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "원전과 강의 설명 구분하기",
+          "kind": "sources",
+          "issues": [],
+          "images": []
+        }
+      ],
+      "fonts": "loaded",
+      "captionAbsent": true,
+      "documentHorizontalOverflow": false,
+      "served_url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html",
+      "source_sha256": "76cf3fa3f13af589c5e24a4da1a4f5ce1db5f39214a634bcc923145012ddb6bd"
+    }
+  ],
+  "opened_answers": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "records": [
+      {
+        "slide": 1,
+        "title": "위키에 질문하고 답을 검증하기",
+        "kind": "cover",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 2,
+        "title": "질문부터 다음 질문까지",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 3,
+        "title": "답변은 지식의 입구일 뿐이다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 4,
+        "title": "검색어를 작업 요청으로 바꾼다",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 5,
+        "title": "“회의록 정리해 줘”를 고치면",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 6,
+        "title": "실행 가능한 질문의 요소 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 7,
+        "title": "실행 가능한 질문의 요소 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 8,
+        "title": "범위가 보이는 요청문",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 9,
+        "title": "답이 그럴듯해도 문장을 나눈다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 10,
+        "title": "출처, 확실성, 시점을 확인한다",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 11,
+        "title": "문장에서 원천까지 되짚는다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 12,
+        "title": "확실성 등급과 표현 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 13,
+        "title": "확실성 등급과 표현 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 14,
+        "title": "진짜 링크라도 틀린 근거일 수 있다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 15,
+        "title": "‘확인됨’은 언제나 참이라는 뜻?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 16,
+        "title": "가상 답변 네 문장을 판정하면",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 17,
+        "title": "답변 전체를 위키로 복사하지 않는다",
+        "kind": "image",
+        "issues": [],
+        "images": [
+          {
+            "complete": true,
+            "w": 1448,
+            "h": 1086
+          }
+        ]
+      },
+      {
+        "slide": 18,
+        "title": "답변의 세 갈래 목적지",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 19,
+        "title": "결정 기록에 남길 항목 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 20,
+        "title": "결정 기록에 남길 항목 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 21,
+        "title": "구름팀 위키에 선별해 반영하기",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 22,
+        "title": "바꿀 자리와 지킬 기준을 나눈다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 23,
+        "title": "질문·검증·반영을 한 번 연결하기",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 24,
+        "title": "검토자가 다시 확인할 수 있나?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 25,
+        "title": "세 경계를 말할 수 있는가?",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 26,
+        "title": "답을 저장하지 말고 근거를 연결한다",
+        "kind": "content",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 27,
+        "title": "검색 질문과 업무 질문 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 28,
+        "title": "검색 질문과 업무 질문 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 29,
+        "title": "흐린 표현을 구체화하기",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 30,
+        "title": "질문 작성 점검표 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 31,
+        "title": "질문 작성 점검표 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 32,
+        "title": "답변 문장의 근거 상태",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 33,
+        "title": "주장 유형별 최신성 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 34,
+        "title": "주장 유형별 최신성 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 35,
+        "title": "근거·최신성 라벨",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 36,
+        "title": "답변 검증 점검표",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 37,
+        "title": "새 지식 추가 방식 비교",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 38,
+        "title": "반영 후 갱신할 위치",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 39,
+        "title": "회의록 점검용 빈 양식",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 40,
+        "title": "위키 반영 완료 점검 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 41,
+        "title": "위키 반영 완료 점검 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 42,
+        "title": "원전과 강의 설명 구분하기",
+        "kind": "sources",
+        "issues": [],
+        "images": []
+      }
+    ],
+    "fonts": "loaded",
+    "captionAbsent": true
+  },
+  "interactions": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "previous_next_jump_help": true,
+      "reading_mode": false,
+      "errors": []
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "previous_next_jump_help": true,
+      "reading_mode": false,
+      "errors": []
+    },
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "previous_next_jump_help": true,
+      "reading_mode": true,
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "week": 9,
+    "keyboard": [
+      {
+        "key": "ArrowRight",
+        "slide": 2
+      },
+      {
+        "key": "PageDown",
+        "slide": 3
+      },
+      {
+        "key": "Home",
+        "slide": 1
+      },
+      {
+        "key": "End",
+        "slide": 49
+      }
+    ],
+    "tab_focus": {
+      "id": "next",
+      "tag": "BUTTON",
+      "outline": "solid",
+      "text": "다음 →"
+    },
+    "print_css_visible_slides": 49,
+    "print_geometry_issues": [],
+    "print_pdf_generated": false
+  },
+  {
+    "week": 10,
+    "keyboard": [
+      {
+        "key": "ArrowRight",
+        "slide": 2
+      },
+      {
+        "key": "PageDown",
+        "slide": 3
+      },
+      {
+        "key": "Home",
+        "slide": 1
+      },
+      {
+        "key": "End",
+        "slide": 55
+      }
+    ],
+    "tab_focus": {
+      "id": "next",
+      "tag": "BUTTON",
+      "outline": "solid",
+      "text": "다음 →"
+    },
+    "print_css_visible_slides": 55,
+    "print_geometry_issues": [],
+    "print_pdf_generated": false
+  },
+  {
+    "week": 11,
+    "keyboard": [
+      {
+        "key": "ArrowRight",
+        "slide": 2
+      },
+      {
+        "key": "PageDown",
+        "slide": 3
+      },
+      {
+        "key": "Home",
+        "slide": 1
+      },
+      {
+        "key": "End",
+        "slide": 41
+      }
+    ],
+    "tab_focus": {
+      "id": "next",
+      "tag": "BUTTON",
+      "outline": "solid",
+      "text": "다음 →"
+    },
+    "print_css_visible_slides": 41,
+    "print_geometry_issues": [],
+    "print_pdf_generated": false
+  },
+  {
+    "week": 12,
+    "keyboard": [
+      {
+        "key": "ArrowRight",
+        "slide": 2
+      },
+      {
+        "key": "PageDown",
+        "slide": 3
+      },
+      {
+        "key": "Home",
+        "slide": 1
+      },
+      {
+        "key": "End",
+        "slide": 44
+      }
+    ],
+    "tab_focus": {
+      "id": "next",
+      "tag": "BUTTON",
+      "outline": "solid",
+      "text": "다음 →"
+    },
+    "print_css_visible_slides": 44,
+    "print_geometry_issues": [],
+    "print_pdf_generated": false
+  },
+  {
+    "week": 13,
+    "keyboard": [
+      {
+        "key": "ArrowRight",
+        "slide": 2
+      },
+      {
+        "key": "PageDown",
+        "slide": 3
+      },
+      {
+        "key": "Home",
+        "slide": 1
+      },
+      {
+        "key": "End",
+        "slide": 42
+      }
+    ],
+    "tab_focus": {
+      "id": "next",
+      "tag": "BUTTON",
+      "outline": "solid",
+      "text": "다음 →"
+    },
+    "print_css_visible_slides": 42,
+    "print_geometry_issues": [],
+    "print_pdf_generated": false
+  },
+  {
+    "week": 14,
+    "keyboard": [
+      {
+        "key": "ArrowRight",
+        "slide": 2
+      },
+      {
+        "key": "PageDown",
+        "slide": 3
+      },
+      {
+        "key": "Home",
+        "slide": 1
+      },
+      {
+        "key": "End",
+        "slide": 59
+      }
+    ],
+    "tab_focus": {
+      "id": "next",
+      "tag": "BUTTON",
+      "outline": "solid",
+      "text": "다음 →"
+    },
+    "print_css_visible_slides": 59,
+    "print_geometry_issues": [],
+    "print_pdf_generated": false
+  },
+  {
+    "week": 15,
+    "keyboard": [
+      {
+        "key": "ArrowRight",
+        "slide": 2
+      },
+      {
+        "key": "PageDown",
+        "slide": 3
+      },
+      {
+        "key": "Home",
+        "slide": 1
+      },
+      {
+        "key": "End",
+        "slide": 74
+      }
+    ],
+    "tab_focus": {
+      "id": "next",
+      "tag": "BUTTON",
+      "outline": "solid",
+      "text": "다음 →"
+    },
+    "print_css_visible_slides": 74,
+    "print_geometry_issues": [],
+    "print_pdf_generated": false
+  }
+]

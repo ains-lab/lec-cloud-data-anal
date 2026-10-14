@@ -1,0 +1,585 @@
+{
+  "schema_version": "material_artifact/v1",
+  "status": "generated",
+  "week": 13,
+  "chapter": 6,
+  "title": "위키에 질문하고 답을 검증하기",
+  "format": "offline self-contained HTML deck",
+  "output": "llm-wiki-chapter-06-slides.html",
+  "source_author": "박승규",
+  "source_book_url": "https://wikidocs.net/book/19830",
+  "html_sha256": "76cf3fa3f13af589c5e24a4da1a4f5ce1db5f39214a634bcc923145012ddb6bd",
+  "slide_count": 42,
+  "main_slide_count": 27,
+  "original_image_count": 4,
+  "original_table_count": 14,
+  "source_page_count": 4,
+  "image_transformation": "none; original bytes embedded as base64",
+  "table_transformation": "original headers/cells/order preserved; long tables paginated with repeated headers",
+  "source_retrieval": "WikiDocs primary pages via web_extract; direct site/browser blocked by Cloudflare",
+  "font_license": "SIL Open Font License 1.1; embedded in HTML and shared assets/OFL.txt",
+  "source_last_edited": "2026-05-16 as displayed by retrieved pages",
+  "visual_review": "not_performed by builder; see separately recorded browser verification",
+  "slides": [
+    {
+      "id": "slide-01",
+      "title": "위키에 질문하고 답을 검증하기",
+      "section": "13주차 · 6장",
+      "kind": "cover",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353397",
+        "https://wikidocs.net/book/19830"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": "assets/353397-chapter.png"
+    },
+    {
+      "id": "slide-02",
+      "title": "질문부터 다음 질문까지",
+      "section": "학습 목표",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353398",
+        "https://wikidocs.net/353399",
+        "https://wikidocs.net/353400"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-03",
+      "title": "답변은 지식의 입구일 뿐이다",
+      "section": "전체 흐름 · 강의용 재구성",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353398",
+        "https://wikidocs.net/353399",
+        "https://wikidocs.net/353400"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-04",
+      "title": "검색어를 작업 요청으로 바꾼다",
+      "section": "6.1 · 원문 삽화",
+      "kind": "image",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353398"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": "assets/353398-illustration.jpg"
+    },
+    {
+      "id": "slide-05",
+      "title": "“회의록 정리해 줘”를 고치면",
+      "section": "6.1 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353398"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-06",
+      "title": "실행 가능한 질문의 요소 · 1/2",
+      "section": "6.1 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353398"
+      ],
+      "source_table": "353398-table-3",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-07",
+      "title": "실행 가능한 질문의 요소 · 2/2",
+      "section": "6.1 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353398"
+      ],
+      "source_table": "353398-table-3",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-08",
+      "title": "범위가 보이는 요청문",
+      "section": "6.1 · 질문 카드 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353398"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-09",
+      "title": "답이 그럴듯해도 문장을 나눈다",
+      "section": "6.1 → 6.2 · 풀이 사례",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353398",
+        "https://wikidocs.net/353399"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-10",
+      "title": "출처, 확실성, 시점을 확인한다",
+      "section": "6.2 · 원문 삽화",
+      "kind": "image",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353399"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": "assets/353399-illustration.jpg"
+    },
+    {
+      "id": "slide-11",
+      "title": "문장에서 원천까지 되짚는다",
+      "section": "6.2 · 검증 흐름 · 강의용 재구성",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353399"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-12",
+      "title": "확실성 등급과 표현 · 1/2",
+      "section": "6.2 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353399"
+      ],
+      "source_table": "353399-table-2",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-13",
+      "title": "확실성 등급과 표현 · 2/2",
+      "section": "6.2 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353399"
+      ],
+      "source_table": "353399-table-2",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-14",
+      "title": "진짜 링크라도 틀린 근거일 수 있다",
+      "section": "6.2 · 반례 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353399"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-15",
+      "title": "‘확인됨’은 언제나 참이라는 뜻?",
+      "section": "6.2 · 흔한 오해",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353399"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-16",
+      "title": "가상 답변 네 문장을 판정하면",
+      "section": "6.2 · 이해 확인",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353399",
+        "https://wikidocs.net/353400"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-17",
+      "title": "답변 전체를 위키로 복사하지 않는다",
+      "section": "6.3 · 원문 삽화",
+      "kind": "image",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353400"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": "assets/353400-illustration.jpg"
+    },
+    {
+      "id": "slide-18",
+      "title": "답변의 세 갈래 목적지",
+      "section": "6.3 · 반영 구조 · 강의용 재구성",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353400"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-19",
+      "title": "결정 기록에 남길 항목 · 1/2",
+      "section": "6.3 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353400"
+      ],
+      "source_table": "353400-table-1",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-20",
+      "title": "결정 기록에 남길 항목 · 2/2",
+      "section": "6.3 · 원문 표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353400"
+      ],
+      "source_table": "353400-table-1",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-21",
+      "title": "구름팀 위키에 선별해 반영하기",
+      "section": "6.3 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353400"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-22",
+      "title": "바꿀 자리와 지킬 기준을 나눈다",
+      "section": "6.3 · 반복 질문 템플릿",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353400"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-23",
+      "title": "질문·검증·반영을 한 번 연결하기",
+      "section": "20분 실습 · 강의용 재구성",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353398",
+        "https://wikidocs.net/353399",
+        "https://wikidocs.net/353400"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-24",
+      "title": "검토자가 다시 확인할 수 있나?",
+      "section": "실습 · 제출물과 통과 기준",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353398",
+        "https://wikidocs.net/353399",
+        "https://wikidocs.net/353400"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-25",
+      "title": "세 경계를 말할 수 있는가?",
+      "section": "퇴실 전 · Exit ticket",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353399",
+        "https://wikidocs.net/353400"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-26",
+      "title": "답을 저장하지 말고 근거를 연결한다",
+      "section": "핵심 정리",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353398",
+        "https://wikidocs.net/353399",
+        "https://wikidocs.net/353400"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-27",
+      "title": "검색 질문과 업무 질문 · 1/2",
+      "section": "부록 · 6.1 원문 표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353398"
+      ],
+      "source_table": "353398-table-1",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-28",
+      "title": "검색 질문과 업무 질문 · 2/2",
+      "section": "부록 · 6.1 원문 표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353398"
+      ],
+      "source_table": "353398-table-1",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-29",
+      "title": "흐린 표현을 구체화하기",
+      "section": "부록 · 6.1 원문 표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353398"
+      ],
+      "source_table": "353398-table-2",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-30",
+      "title": "질문 작성 점검표 · 1/2",
+      "section": "부록 · 6.1 원문 표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353398"
+      ],
+      "source_table": "353398-table-4",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-31",
+      "title": "질문 작성 점검표 · 2/2",
+      "section": "부록 · 6.1 원문 표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353398"
+      ],
+      "source_table": "353398-table-4",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-32",
+      "title": "답변 문장의 근거 상태",
+      "section": "부록 · 6.2 원문 표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353399"
+      ],
+      "source_table": "353399-table-1",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-33",
+      "title": "주장 유형별 최신성 · 1/2",
+      "section": "부록 · 6.2 원문 표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353399"
+      ],
+      "source_table": "353399-table-3",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-34",
+      "title": "주장 유형별 최신성 · 2/2",
+      "section": "부록 · 6.2 원문 표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353399"
+      ],
+      "source_table": "353399-table-3",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-35",
+      "title": "근거·최신성 라벨",
+      "section": "부록 · 6.2 원문 표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353399"
+      ],
+      "source_table": "353399-table-4",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-36",
+      "title": "답변 검증 점검표",
+      "section": "부록 · 6.2 원문 표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353399"
+      ],
+      "source_table": "353399-table-5",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-37",
+      "title": "새 지식 추가 방식 비교",
+      "section": "부록 · 6.3 원문 표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353400"
+      ],
+      "source_table": "353400-table-2",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-38",
+      "title": "반영 후 갱신할 위치",
+      "section": "부록 · 6.3 원문 표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353400"
+      ],
+      "source_table": "353400-table-3",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-39",
+      "title": "회의록 점검용 빈 양식",
+      "section": "부록 · 6.3 원문 문서 예시의 표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353400"
+      ],
+      "source_table": "353400-table-4",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-40",
+      "title": "위키 반영 완료 점검 · 1/2",
+      "section": "부록 · 6.3 원문 표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353400"
+      ],
+      "source_table": "353400-table-5",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-41",
+      "title": "위키 반영 완료 점검 · 2/2",
+      "section": "부록 · 6.3 원문 표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353400"
+      ],
+      "source_table": "353400-table-5",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-42",
+      "title": "원전과 강의 설명 구분하기",
+      "section": "출처와 사용 안내",
+      "kind": "sources",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/book/19830"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    }
+  ]
+}

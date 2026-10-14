@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://wikidocs.net/353393",
+    "title": "5장. 자료를 넣고 다시 쓰기 좋은 지식으로 바꾸기",
+    "local_path": "assets/sources/353393.md",
+    "sha256": "d84ef2b5b1919f40f36a2f0e4752217b0d0a82ef328ff0060f0440c37a1d4866"
+  },
+  {
+    "url": "https://wikidocs.net/353394",
+    "title": "5.1 자료를 넣기 전에 정할 기준",
+    "local_path": "assets/sources/353394.md",
+    "sha256": "c20cee0cd61c776f2d54c351659c54f960e56a08a9781a49a7d3f9dc64b32fc3"
+  },
+  {
+    "url": "https://wikidocs.net/353395",
+    "title": "5.2 자료 수집하기",
+    "local_path": "assets/sources/353395.md",
+    "sha256": "81e62b9757c64deb65fe90c8b7e0de7309fbe83b237eacd179248eca4c1c78fa"
+  },
+  {
+    "url": "https://wikidocs.net/353396",
+    "title": "5.3 위키 문서로 정리하기",
+    "local_path": "assets/sources/353396.md",
+    "sha256": "15f59d14520d4602d0c313f4c4bdb19a56bf366ad4f9e01465ddcc5043f8b363"
+  }
+]

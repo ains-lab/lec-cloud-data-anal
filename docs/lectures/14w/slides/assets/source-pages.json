@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://wikidocs.net/353401",
+    "title": "7장. 위키에서 업무 산출물 만들기",
+    "local_path": "assets/sources/353401.md",
+    "sha256": "85a16eabf683bc763e456cde63cf84b0c59938b04f16a749606901a21316098d"
+  },
+  {
+    "url": "https://wikidocs.net/353402",
+    "title": "7.1 산출물의 목적 정하기",
+    "local_path": "assets/sources/353402.md",
+    "sha256": "fe9ae6006267a98122365fac7e56850bc4b735650c3fdf403e7c41edaafa69ce"
+  },
+  {
+    "url": "https://wikidocs.net/353403",
+    "title": "7.2 업무 보고서 만들기",
+    "local_path": "assets/sources/353403.md",
+    "sha256": "c87c01e698abb445a80a00f5370fe9d3835fa7e1faf8de9ae510e7cf885e7630"
+  },
+  {
+    "url": "https://wikidocs.net/353404",
+    "title": "7.3 다음 행동으로 연결하기",
+    "local_path": "assets/sources/353404.md",
+    "sha256": "742dc3087b70c8495a9dbfeae7ea98aa295ead03940c28dc58dd3c85c5c965ca"
+  }
+]

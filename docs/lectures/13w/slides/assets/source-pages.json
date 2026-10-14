@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://wikidocs.net/353397",
+    "title": "6장. 위키에 질문하고 답을 검증하기",
+    "local_path": "assets/sources/353397.md",
+    "sha256": "d190cbd99a77f1132e26b0e07dcb276a506a2ad474583475bc5d794fe715b8a8"
+  },
+  {
+    "url": "https://wikidocs.net/353398",
+    "title": "6.1 좋은 질문 만들기",
+    "local_path": "assets/sources/353398.md",
+    "sha256": "c6a1900bfb0327662179174d4f093ae25bdf791f2990446187780c20b1933f66"
+  },
+  {
+    "url": "https://wikidocs.net/353399",
+    "title": "6.2 답변의 근거 확인하기",
+    "local_path": "assets/sources/353399.md",
+    "sha256": "57334b509ee8dc8794a547cd8688480fe04faec0617f0419267590eb23c9bad2"
+  },
+  {
+    "url": "https://wikidocs.net/353400",
+    "title": "6.3 답변을 다시 위키에 반영하기",
+    "local_path": "assets/sources/353400.md",
+    "sha256": "44c0f8dec0455a7d1f3103ca75fc0f4057140d1e6990335af1605a695726db69"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://wikidocs.net/353405",
+    "title": "8장. 오래 믿고 쓰는 LLM위키 운영법",
+    "local_path": "assets/sources/353405.md",
+    "sha256": "761b349093232bfd5a84224d36ca12c6e20bcbff96af9bf02045f3685aaf6c76"
+  },
+  {
+    "url": "https://wikidocs.net/353406",
+    "title": "8.1 위키에도 점검이 필요한 이유",
+    "local_path": "assets/sources/353406.md",
+    "sha256": "5c027037d91be5121781971cbe1e7e3636f81eb26617b771590e0a8d29d808f4"
+  },
+  {
+    "url": "https://wikidocs.net/353407",
+    "title": "8.2 정리와 감사 흐름 만들기",
+    "local_path": "assets/sources/353407.md",
+    "sha256": "c3124b7b961f642bd678b4a4a27c57a724f10cd31e56098a82d809bee983aa49"
+  },
+  {
+    "url": "https://wikidocs.net/353408",
+    "title": "8.3 주제가 늘어날 때 관리하기",
+    "local_path": "assets/sources/353408.md",
+    "sha256": "22c4c7e105b5efc0a2d70e98a0cfe175162cc86ac6c6666e2474e59a8fd744d3"
+  },
+  {
+    "url": "https://wikidocs.net/353409",
+    "title": "8.4 내 업무 루틴에 붙이기",
+    "local_path": "assets/sources/353409.md",
+    "sha256": "de3d16a8b246b0561c196c0edd20a487d32900b940675084f31b3774dfc626b6"
+  }
+]

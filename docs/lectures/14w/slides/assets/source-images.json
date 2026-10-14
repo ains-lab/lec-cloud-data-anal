@@ -1,0 +1,54 @@
+[
+  {
+    "page_url": "https://wikidocs.net/353401",
+    "original_url": "https://static.wikidocs.net/images/page/353401/chapter-07.png",
+    "local_path": "assets/353401-chapter.png",
+    "alt": "위키 문서가 보고서와 실행 계획으로 바뀌는 삽화",
+    "http_status": 200,
+    "content_type": "image/png",
+    "bytes": 2680937,
+    "sha256": "e00878fe6a6f8994cd1a2c9da4f9932d34a9d73c932697f632f7e5f40fb03ef3",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353402",
+    "original_url": "https://static.wikidocs.net/images/page/353402/7.1-%EC%82%B0%EC%B6%9C%EB%AC%BC%EC%9D%98-%EB%AA%A9%EC%A0%81-%EC%A0%95%ED%95%98%EA%B8%B0.jpg",
+    "local_path": "assets/353402-illustration.jpg",
+    "alt": "7.1 산출물의 목적 정하기 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 312256,
+    "sha256": "dec2b062f3e7875e1532b207d71aabb13fe2eb616df82abdb7506728db1fda7e",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353403",
+    "original_url": "https://static.wikidocs.net/images/page/353403/7.2-%EC%97%85%EB%AC%B4-%EB%B3%B4%EA%B3%A0%EC%84%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0.jpg",
+    "local_path": "assets/353403-illustration.jpg",
+    "alt": "7.2 업무 보고서 만들기 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 378791,
+    "sha256": "0aa0bd34c07920bc3a4238f5bd0842c0660df54ec4eaac4b654e3b3606689f2b",
+    "width": 1536,
+    "height": 1024,
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353404",
+    "original_url": "https://static.wikidocs.net/images/page/353404/7.3-%EB%8B%A4%EC%9D%8C-%ED%96%89%EB%8F%99%EC%9C%BC%EB%A1%9C-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0.jpg",
+    "local_path": "assets/353404-illustration.jpg",
+    "alt": "7.3 다음 행동으로 연결하기 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 352423,
+    "sha256": "1025893c617a7231c377a88f0df049525893c18ba3c7cedae6b19de8d2fa9085",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  }
+]

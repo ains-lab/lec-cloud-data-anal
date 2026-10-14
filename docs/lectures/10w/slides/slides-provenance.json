@@ -1,0 +1,753 @@
+{
+  "schema_version": "material_artifact/v1",
+  "status": "generated",
+  "week": 10,
+  "chapter": 3,
+  "title": "내게 맞는 LLM위키 방식 고르기",
+  "format": "offline self-contained HTML deck",
+  "output": "llm-wiki-chapter-03-slides.html",
+  "source_author": "박승규",
+  "source_book_url": "https://wikidocs.net/book/19830",
+  "html_sha256": "73ce188c46411967597a4d47fa9523a3dd7f85bbc15c8352f09f2cc502f7c926",
+  "slide_count": 55,
+  "main_slide_count": 37,
+  "original_image_count": 4,
+  "original_table_count": 15,
+  "source_page_count": 4,
+  "image_transformation": "none; original bytes embedded as base64",
+  "table_transformation": "original headers/cells/order preserved; long tables paginated with repeated headers",
+  "source_retrieval": "WikiDocs primary pages via web_extract; direct site/browser blocked by Cloudflare",
+  "font_license": "SIL Open Font License 1.1; embedded in HTML and shared assets/OFL.txt",
+  "source_last_edited": "2026-05-16 as displayed by retrieved pages",
+  "visual_review": "not_performed by builder; see separately recorded browser verification",
+  "slides": [
+    {
+      "id": "slide-01",
+      "title": "내게 맞는 LLM위키 방식 고르기",
+      "section": "10주차 · 3장",
+      "kind": "cover",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353385",
+        "https://wikidocs.net/353386",
+        "https://wikidocs.net/book/19830"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": "assets/353385-chapter.png"
+    },
+    {
+      "id": "slide-02",
+      "title": "방식을 고르고, 근거를 말한다",
+      "section": "학습 목표",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386",
+        "https://wikidocs.net/353387",
+        "https://wikidocs.net/353388"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-03",
+      "title": "같은 학생팀 위키를 이어 간다",
+      "section": "학기 프로젝트 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353388"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-04",
+      "title": "도구가 달라도 남아야 할 구조",
+      "section": "전체 흐름 · 강의용 재구성",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353388"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-05",
+      "title": "첫 선택은 바꿀 수 있다",
+      "section": "3.1 · 원문 삽화",
+      "kind": "image",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": "assets/353386-illustration.jpg"
+    },
+    {
+      "id": "slide-06",
+      "title": "네 가지 시작 방식 비교 · 1/2",
+      "section": "3.1 · 원문 비교표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386"
+      ],
+      "source_table": "353386-table-1",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-07",
+      "title": "네 가지 시작 방식 비교 · 2/2",
+      "section": "3.1 · 원문 비교표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386"
+      ],
+      "source_table": "353386-table-1",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-08",
+      "title": "수동 방식은 역할을 배운다",
+      "section": "3.1 · 수동 Markdown",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-09",
+      "title": "지침을 읽는지부터 확인한다",
+      "section": "3.1 · 에이전트 기반 방식",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386",
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-10",
+      "title": "도구마다 지침 읽기가 다르다 · 1/2",
+      "section": "3.1 · 원문 비교표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386"
+      ],
+      "source_table": "353386-table-3",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-11",
+      "title": "도구마다 지침 읽기가 다르다 · 2/2",
+      "section": "3.1 · 원문 비교표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386"
+      ],
+      "source_table": "353386-table-3",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-12",
+      "title": "명령 중심과 화면 중심의 차이",
+      "section": "3.1 · 확장 선택지",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386",
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-13",
+      "title": "선택은 순위가 아니라 조건이다",
+      "section": "3.1 · 선택 원칙",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-14",
+      "title": "설치 뒤의 관리까지 생각한다",
+      "section": "3.2 · 원문 삽화",
+      "kind": "image",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": "assets/353387-illustration.jpg"
+    },
+    {
+      "id": "slide-15",
+      "title": "첫 도구의 최소 조건 세 가지",
+      "section": "3.2 · 최소 조건",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-16",
+      "title": "선택 이유를 여덟 기준으로 점검 · 1/2",
+      "section": "3.2 · 원문 선택표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": "353387-table-7",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-17",
+      "title": "선택 이유를 여덟 기준으로 점검 · 2/2",
+      "section": "3.2 · 원문 선택표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": "353387-table-7",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-18",
+      "title": "업로드와 근거 연결은 다르다",
+      "section": "3.2 · 자료 지원",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-19",
+      "title": "내 자료와 필요한 기능 맞추기 · 1/2",
+      "section": "3.2 · 원문 대응표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": "353387-table-4",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-20",
+      "title": "내 자료와 필요한 기능 맞추기 · 2/2",
+      "section": "3.2 · 원문 대응표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": "353387-table-4",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-21",
+      "title": "로컬 저장만으로 안전할까?",
+      "section": "3.2 · 권한과 보안",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386",
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-22",
+      "title": "책의 비교와 현재를 구분한다",
+      "section": "3.2 · 버전 확인",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-23",
+      "title": "작은 자료로 환경을 확인한다",
+      "section": "3.3 · 원문 삽화",
+      "kind": "image",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353388"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": "assets/353388-illustration.jpg"
+    },
+    {
+      "id": "slide-24",
+      "title": "환경 기록은 다음 수업의 출발점",
+      "section": "3.3 · 환경 기록",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353388"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-25",
+      "title": "책이 택한 최소 실습 환경 · 1/2",
+      "section": "3.3 · 원문 기본 환경표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353388"
+      ],
+      "source_table": "353388-table-1",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-26",
+      "title": "책이 택한 최소 실습 환경 · 2/2",
+      "section": "3.3 · 원문 기본 환경표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353388"
+      ],
+      "source_table": "353388-table-1",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-27",
+      "title": "파일 생성만으로 성공은 아니다",
+      "section": "3.3 · 결과 확인",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386",
+        "https://wikidocs.net/353388"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-28",
+      "title": "최소 위키에서 확인할 다섯 가지 · 1/2",
+      "section": "3.1 · 원문 결과 점검표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386"
+      ],
+      "source_table": "353386-table-2",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-29",
+      "title": "최소 위키에서 확인할 다섯 가지 · 2/2",
+      "section": "3.1 · 원문 결과 점검표",
+      "kind": "table",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386"
+      ],
+      "source_table": "353386-table-2",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-30",
+      "title": "학생팀의 첫 선택을 설명하면",
+      "section": "선택 연습 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386",
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-31",
+      "title": "요청에 검증까지 넣는다",
+      "section": "요청 설계 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386",
+        "https://wikidocs.net/353388"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-32",
+      "title": "규칙 파일은 잠금장치가 아니다",
+      "section": "오개념 점검",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386",
+        "https://wikidocs.net/353388"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-33",
+      "title": "이 학생팀의 첫 선택은?",
+      "section": "확인 질문 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386",
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-34",
+      "title": "팀 위키의 환경 카드 만들기",
+      "section": "20분 실습 · 수업용 가상 예시",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353387",
+        "https://wikidocs.net/353388"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-35",
+      "title": "나가기 전 세 문장",
+      "section": "Exit ticket",
+      "kind": "content",
+      "appendix": false,
+      "sources": [],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-36",
+      "title": "도구보다 검증 가능한 한 바퀴",
+      "section": "핵심 정리 · 다음 주 연결",
+      "kind": "content",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/353386",
+        "https://wikidocs.net/353387",
+        "https://wikidocs.net/353388"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    },
+    {
+      "id": "slide-37",
+      "title": "CLI와 데스크톱의 구현 예 · 1/2",
+      "section": "부록 · 3.1 원문 구현 예",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353386"
+      ],
+      "source_table": "353386-table-4",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-38",
+      "title": "CLI와 데스크톱의 구현 예 · 2/2",
+      "section": "부록 · 3.1 원문 구현 예",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353386"
+      ],
+      "source_table": "353386-table-4",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-39",
+      "title": "선택 뒤에 다시 확인할 질문 · 1/2",
+      "section": "부록 · 3.1 원문 검증표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353386"
+      ],
+      "source_table": "353386-table-5",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-40",
+      "title": "선택 뒤에 다시 확인할 질문 · 2/2",
+      "section": "부록 · 3.1 원문 검증표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353386"
+      ],
+      "source_table": "353386-table-5",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-41",
+      "title": "시작 부담과 유지보수 부담 · 1/2",
+      "section": "부록 · 3.2 원문 부담 비교",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": "353387-table-1",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-42",
+      "title": "시작 부담과 유지보수 부담 · 2/2",
+      "section": "부록 · 3.2 원문 부담 비교",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": "353387-table-1",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-43",
+      "title": "첫 도구 선택 체크리스트 · 1/2",
+      "section": "부록 · 3.2 원문 선택 점검표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": "353387-table-2",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-44",
+      "title": "첫 도구 선택 체크리스트 · 2/2",
+      "section": "부록 · 3.2 원문 선택 점검표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": "353387-table-2",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-45",
+      "title": "자료 형식의 지원 범위 묻기 · 1/2",
+      "section": "부록 · 3.2 원문 형식 점검표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": "353387-table-3",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-46",
+      "title": "자료 형식의 지원 범위 묻기 · 2/2",
+      "section": "부록 · 3.2 원문 형식 점검표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": "353387-table-3",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-47",
+      "title": "공식 문서에서 볼 항목 · 1/2",
+      "section": "부록 · 3.2 원문 문서 확인표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": "353387-table-5",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-48",
+      "title": "공식 문서에서 볼 항목 · 2/2",
+      "section": "부록 · 3.2 원문 문서 확인표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": "353387-table-5",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-49",
+      "title": "지침 파일의 읽힘 확인",
+      "section": "부록 · 3.2 원문 지침 확인표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353387"
+      ],
+      "source_table": "353387-table-6",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-50",
+      "title": "같은 흐름을 도구별로 번역 · 1/2",
+      "section": "부록 · 3.3 원문 흐름 대응표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353388"
+      ],
+      "source_table": "353388-table-2",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-51",
+      "title": "같은 흐름을 도구별로 번역 · 2/2",
+      "section": "부록 · 3.3 원문 흐름 대응표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353388"
+      ],
+      "source_table": "353388-table-2",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-52",
+      "title": "실습 전 준비 체크리스트 · 1/3",
+      "section": "부록 · 3.3 원문 준비 점검표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353388"
+      ],
+      "source_table": "353388-table-3",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-53",
+      "title": "실습 전 준비 체크리스트 · 2/3",
+      "section": "부록 · 3.3 원문 준비 점검표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353388"
+      ],
+      "source_table": "353388-table-3",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-54",
+      "title": "실습 전 준비 체크리스트 · 3/3",
+      "section": "부록 · 3.3 원문 준비 점검표",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353388"
+      ],
+      "source_table": "353388-table-3",
+      "table_part": 3,
+      "source_image": null
+    },
+    {
+      "id": "slide-55",
+      "title": "원전과 강의 설명 구분하기",
+      "section": "출처와 사용 안내",
+      "kind": "sources",
+      "appendix": false,
+      "sources": [
+        "https://wikidocs.net/book/19830"
+      ],
+      "source_table": null,
+      "table_part": null,
+      "source_image": null
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "page_url": "https://wikidocs.net/353389",
+    "original_url": "https://static.wikidocs.net/images/page/353389/chapter-04.png",
+    "local_path": "assets/353389-chapter.png",
+    "alt": "첫 번째 업무 주제를 골라 위키로 정리하는 삽화",
+    "http_status": 200,
+    "content_type": "image/png",
+    "bytes": 2808762,
+    "sha256": "b2f42f3bb4d6f3e196f1add2b6c80c60135e3b60dda3fc541e9d0b4cb0185efd",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353390",
+    "original_url": "https://static.wikidocs.net/images/page/353390/4.1-%EC%97%85%EB%AC%B4-%EC%A3%BC%EC%A0%9C-%EC%A0%95%ED%95%98%EA%B8%B0.jpg",
+    "local_path": "assets/353390-illustration.jpg",
+    "alt": "4.1 업무 주제 정하기 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 365411,
+    "sha256": "9d22805a205c0b569f273dff41e92a037e6869a549a21ee161d09ef8ff86ec23",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353391",
+    "original_url": "https://static.wikidocs.net/images/page/353391/4.2-%EC%9C%84%ED%82%A4-%EC%B4%88%EA%B8%B0%ED%99%94%ED%95%98%EA%B8%B0.jpg",
+    "local_path": "assets/353391-illustration.jpg",
+    "alt": "4.2 위키 초기화하기 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 372432,
+    "sha256": "1743b2895ece09955013a93512bd3e6fb3ed43a9d30addf3412285dfd96a5797",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  },
+  {
+    "page_url": "https://wikidocs.net/353392",
+    "original_url": "https://static.wikidocs.net/images/page/353392/4.3-%EC%B2%AB-%EC%A7%88%EB%AC%B8%EC%9C%BC%EB%A1%9C-%EB%B0%A9%ED%96%A5-%EC%9E%A1%EA%B8%B0.jpg",
+    "local_path": "assets/353392-illustration.jpg",
+    "alt": "4.3 첫 질문으로 방향 잡기 삽화",
+    "http_status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 385095,
+    "sha256": "1f40a23ea6fc20da4d9801f605087ced8b672244dd524fe811af6936f40932b0",
+    "width": 1448,
+    "height": 1086,
+    "modified": false
+  }
+]
