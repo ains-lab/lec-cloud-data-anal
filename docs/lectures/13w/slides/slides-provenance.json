@@ -8,11 +8,11 @@
   "output": "llm-wiki-chapter-06-slides.html",
   "source_author": "박승규",
   "source_book_url": "https://wikidocs.net/book/19830",
-  "html_sha256": "76cf3fa3f13af589c5e24a4da1a4f5ce1db5f39214a634bcc923145012ddb6bd",
-  "slide_count": 42,
+  "html_sha256": "e6845bfcf63f00453083caa9e67fb139c2959d5d0ab523236e8b1579c947912d",
+  "slide_count": 45,
   "main_slide_count": 27,
   "original_image_count": 4,
-  "original_table_count": 14,
+  "original_table_count": 16,
   "source_page_count": 4,
   "image_transformation": "none; original bytes embedded as base64",
   "table_transformation": "original headers/cells/order preserved; long tables paginated with repeated headers",
@@ -570,6 +570,45 @@
     },
     {
       "id": "slide-42",
+      "title": "주장에 라벨 붙이는 예시 · 1/2",
+      "section": "부록 · 원문 문서 예시",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353399"
+      ],
+      "source_table": "353399-table-source-line-73",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-43",
+      "title": "주장에 라벨 붙이는 예시 · 2/2",
+      "section": "부록 · 원문 문서 예시",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353399"
+      ],
+      "source_table": "353399-table-source-line-73",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-44",
+      "title": "재확인 자료를 정하는 예시",
+      "section": "부록 · 원문 문서 예시",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353399"
+      ],
+      "source_table": "353399-table-source-line-305",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-45",
       "title": "원전과 강의 설명 구분하기",
       "section": "출처와 사용 안내",
       "kind": "sources",

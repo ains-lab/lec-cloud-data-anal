@@ -279,6 +279,9 @@
       "table": "353392-table-3",
       "takeaway": "자료·목적·형식·근거·다음 행동을 확인한다. 점검표 통과와 실제 LLM 답변 검증은 구분한다.",
       "sources": ["https://wikidocs.net/353392"]
-    }
+    },
+    {"section":"부록 · 원문 문서 예시","appendix":true,"kind":"table","title":"민감 정보의 실습용 표현","table":"353390-table-source-line-133","takeaway":"실습용 사본의 표현 예시다. 익명화만으로 외부 전송이 허용되는 것은 아니다."},
+    {"section":"부록 · 원문 문서 예시","appendix":true,"kind":"table","title":"첫 질문의 구성 예시","table":"353392-table-source-line-92","takeaway":"자료·목적·형식·검증 요청을 함께 적는다. 예상 효과는 실제 측정 성과가 아니다."},
+    {"section":"부록 · 원문 문서 예시","appendix":true,"kind":"table","title":"자료 보강 목록 예시","table":"353392-table-source-line-246","takeaway":"미확인 내용을 다음 자료와 저장 위치에 연결한 계획이다. 수집 완료나 측정 결과가 아니다."}
   ]
 }

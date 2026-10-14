@@ -14,7 +14,7 @@
 
 ## 자료와 출처
 
-- 원문 삽화 4개, 원문 표·문서 예시 표 14개.
+- 원문 삽화 4개, 원문 표·문서 예시 표 16개.
 - `assets/source-images.json`: URL, 무변경 파일 경로, SHA-256, 이미지 크기.
 - `assets/source-tables.json`: 원문 머리글·셀 문구·행 순서와 추출된 표 원문.
 - `assets/source-pages.json`, `assets/sources/`: 실제 조회한 WikiDocs 본문과 해시. 웹 추출본이며 원본 HTML 캡처라고 주장하지 않는다.

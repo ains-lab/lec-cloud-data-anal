@@ -8,11 +8,11 @@
   "output": "llm-wiki-chapter-04-slides.html",
   "source_author": "박승규",
   "source_book_url": "https://wikidocs.net/book/19830",
-  "html_sha256": "2d6074c3b63ce12f4c13f25bffcd6d6829937547aeae045cfa5ea3fcb87b6983",
-  "slide_count": 41,
+  "html_sha256": "5488e61187b66113578bbc1334b05b127b908903b81d06b2413ff7caa1c62f78",
+  "slide_count": 45,
   "main_slide_count": 36,
   "original_image_count": 4,
-  "original_table_count": 10,
+  "original_table_count": 13,
   "source_page_count": 4,
   "image_transformation": "none; original bytes embedded as base64",
   "table_transformation": "original headers/cells/order preserved; long tables paginated with repeated headers",
@@ -554,6 +554,58 @@
     },
     {
       "id": "slide-41",
+      "title": "민감 정보의 실습용 표현",
+      "section": "부록 · 원문 문서 예시",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353390"
+      ],
+      "source_table": "353390-table-source-line-133",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-42",
+      "title": "첫 질문의 구성 예시",
+      "section": "부록 · 원문 문서 예시",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": "353392-table-source-line-92",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-43",
+      "title": "자료 보강 목록 예시 · 1/2",
+      "section": "부록 · 원문 문서 예시",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": "353392-table-source-line-246",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-44",
+      "title": "자료 보강 목록 예시 · 2/2",
+      "section": "부록 · 원문 문서 예시",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353392"
+      ],
+      "source_table": "353392-table-source-line-246",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-45",
       "title": "원전과 강의 설명 구분하기",
       "section": "출처와 사용 안내",
       "kind": "sources",

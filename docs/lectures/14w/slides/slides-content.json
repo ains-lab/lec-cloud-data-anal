@@ -459,6 +459,8 @@
         "https://wikidocs.net/353404"
       ],
       "appendix": true
-    }
+    },
+    {"section":"부록 · 원문 문서 예시","appendix":true,"kind":"table","title":"핵심 주장 검토 예시","table":"353403-table-source-line-101","takeaway":"주장·근거·확신도·표현을 연결한 원문 예시다. 확신도는 측정된 정답 확률이 아니다."},
+    {"section":"부록 · 원문 문서 예시","appendix":true,"kind":"table","title":"실행 항목 기록 양식","table":"353404-table-source-line-191","takeaway":"상태·담당·기한·완료 기준·근거를 기록하는 예시다. 항목의 존재는 승인이나 완료를 뜻하지 않는다."}
   ]
 }

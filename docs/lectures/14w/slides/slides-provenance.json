@@ -8,11 +8,11 @@
   "output": "llm-wiki-chapter-07-slides.html",
   "source_author": "박승규",
   "source_book_url": "https://wikidocs.net/book/19830",
-  "html_sha256": "00360fdbce572ead815557cc7e14af9800c655de52fa2f684aa2b055f8ba46c4",
-  "slide_count": 59,
+  "html_sha256": "6b747754c6ddd912b2693b5acd88c32ba46c50a968a63a177ad7d19478d2a07a",
+  "slide_count": 63,
   "main_slide_count": 38,
   "original_image_count": 4,
-  "original_table_count": 20,
+  "original_table_count": 22,
   "source_page_count": 4,
   "image_transformation": "none; original bytes embedded as base64",
   "table_transformation": "original headers/cells/order preserved; long tables paginated with repeated headers",
@@ -793,6 +793,58 @@
     },
     {
       "id": "slide-59",
+      "title": "핵심 주장 검토 예시 · 1/2",
+      "section": "부록 · 원문 문서 예시",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353403"
+      ],
+      "source_table": "353403-table-source-line-101",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-60",
+      "title": "핵심 주장 검토 예시 · 2/2",
+      "section": "부록 · 원문 문서 예시",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353403"
+      ],
+      "source_table": "353403-table-source-line-101",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-61",
+      "title": "실행 항목 기록 양식 · 1/2",
+      "section": "부록 · 원문 문서 예시",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353404"
+      ],
+      "source_table": "353404-table-source-line-191",
+      "table_part": 1,
+      "source_image": null
+    },
+    {
+      "id": "slide-62",
+      "title": "실행 항목 기록 양식 · 2/2",
+      "section": "부록 · 원문 문서 예시",
+      "kind": "table",
+      "appendix": true,
+      "sources": [
+        "https://wikidocs.net/353404"
+      ],
+      "source_table": "353404-table-source-line-191",
+      "table_part": 2,
+      "source_image": null
+    },
+    {
+      "id": "slide-63",
       "title": "원전과 강의 설명 구분하기",
       "section": "출처와 사용 안내",
       "kind": "sources",
