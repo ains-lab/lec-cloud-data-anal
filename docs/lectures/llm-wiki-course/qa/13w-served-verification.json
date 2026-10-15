@@ -1,8 +1,8 @@
 {
   "week": 13,
-  "served_url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html",
+  "served_url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html?qa=e6845bfcf63f",
   "file": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/13w/slides/llm-wiki-chapter-06-slides.html",
-  "source_sha256": "76cf3fa3f13af589c5e24a4da1a4f5ce1db5f39214a634bcc923145012ddb6bd",
+  "source_sha256": "e6845bfcf63f00453083caa9e67fb139c2959d5d0ab523236e8b1579c947912d",
   "viewports": [
     {
       "viewport": [
@@ -323,6 +323,27 @@
         },
         {
           "slide": 42,
+          "title": "주장에 라벨 붙이는 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "주장에 라벨 붙이는 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "재확인 자료를 정하는 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
           "title": "원전과 강의 설명 구분하기",
           "kind": "sources",
           "issues": [],
@@ -332,8 +353,8 @@
       "fonts": "loaded",
       "captionAbsent": true,
       "documentHorizontalOverflow": false,
-      "served_url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html",
-      "source_sha256": "76cf3fa3f13af589c5e24a4da1a4f5ce1db5f39214a634bcc923145012ddb6bd"
+      "served_url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html?qa=e6845bfcf63f",
+      "source_sha256": "e6845bfcf63f00453083caa9e67fb139c2959d5d0ab523236e8b1579c947912d"
     },
     {
       "viewport": [
@@ -654,6 +675,27 @@
         },
         {
           "slide": 42,
+          "title": "주장에 라벨 붙이는 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "주장에 라벨 붙이는 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "재확인 자료를 정하는 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
           "title": "원전과 강의 설명 구분하기",
           "kind": "sources",
           "issues": [],
@@ -663,8 +705,8 @@
       "fonts": "loaded",
       "captionAbsent": true,
       "documentHorizontalOverflow": false,
-      "served_url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html",
-      "source_sha256": "76cf3fa3f13af589c5e24a4da1a4f5ce1db5f39214a634bcc923145012ddb6bd"
+      "served_url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html?qa=e6845bfcf63f",
+      "source_sha256": "e6845bfcf63f00453083caa9e67fb139c2959d5d0ab523236e8b1579c947912d"
     },
     {
       "viewport": [
@@ -985,6 +1027,27 @@
         },
         {
           "slide": 42,
+          "title": "주장에 라벨 붙이는 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "주장에 라벨 붙이는 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "재확인 자료를 정하는 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
           "title": "원전과 강의 설명 구분하기",
           "kind": "sources",
           "issues": [],
@@ -994,8 +1057,8 @@
       "fonts": "loaded",
       "captionAbsent": true,
       "documentHorizontalOverflow": false,
-      "served_url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html",
-      "source_sha256": "76cf3fa3f13af589c5e24a4da1a4f5ce1db5f39214a634bcc923145012ddb6bd"
+      "served_url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html?qa=e6845bfcf63f",
+      "source_sha256": "e6845bfcf63f00453083caa9e67fb139c2959d5d0ab523236e8b1579c947912d"
     }
   ],
   "opened_answers": {
@@ -1317,6 +1380,27 @@
       },
       {
         "slide": 42,
+        "title": "주장에 라벨 붙이는 예시 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 43,
+        "title": "주장에 라벨 붙이는 예시 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 44,
+        "title": "재확인 자료를 정하는 예시",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 45,
         "title": "원전과 강의 설명 구분하기",
         "kind": "sources",
         "issues": [],

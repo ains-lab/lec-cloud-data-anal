@@ -1,8 +1,8 @@
 {
   "week": 11,
-  "served_url": "http://127.0.0.1:8879/11w/slides/llm-wiki-chapter-04-slides.html",
+  "served_url": "http://127.0.0.1:8879/11w/slides/llm-wiki-chapter-04-slides.html?qa=5488e61187b6",
   "file": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/11w/slides/llm-wiki-chapter-04-slides.html",
-  "source_sha256": "2d6074c3b63ce12f4c13f25bffcd6d6829937547aeae045cfa5ea3fcb87b6983",
+  "source_sha256": "5488e61187b66113578bbc1334b05b127b908903b81d06b2413ff7caa1c62f78",
   "viewports": [
     {
       "viewport": [
@@ -316,6 +316,34 @@
         },
         {
           "slide": 41,
+          "title": "민감 정보의 실습용 표현",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "첫 질문의 구성 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "자료 보강 목록 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "자료 보강 목록 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
           "title": "원전과 강의 설명 구분하기",
           "kind": "sources",
           "issues": [],
@@ -325,8 +353,8 @@
       "fonts": "loaded",
       "captionAbsent": true,
       "documentHorizontalOverflow": false,
-      "served_url": "http://127.0.0.1:8879/11w/slides/llm-wiki-chapter-04-slides.html",
-      "source_sha256": "2d6074c3b63ce12f4c13f25bffcd6d6829937547aeae045cfa5ea3fcb87b6983"
+      "served_url": "http://127.0.0.1:8879/11w/slides/llm-wiki-chapter-04-slides.html?qa=5488e61187b6",
+      "source_sha256": "5488e61187b66113578bbc1334b05b127b908903b81d06b2413ff7caa1c62f78"
     },
     {
       "viewport": [
@@ -640,6 +668,34 @@
         },
         {
           "slide": 41,
+          "title": "민감 정보의 실습용 표현",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "첫 질문의 구성 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "자료 보강 목록 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "자료 보강 목록 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
           "title": "원전과 강의 설명 구분하기",
           "kind": "sources",
           "issues": [],
@@ -649,8 +705,8 @@
       "fonts": "loaded",
       "captionAbsent": true,
       "documentHorizontalOverflow": false,
-      "served_url": "http://127.0.0.1:8879/11w/slides/llm-wiki-chapter-04-slides.html",
-      "source_sha256": "2d6074c3b63ce12f4c13f25bffcd6d6829937547aeae045cfa5ea3fcb87b6983"
+      "served_url": "http://127.0.0.1:8879/11w/slides/llm-wiki-chapter-04-slides.html?qa=5488e61187b6",
+      "source_sha256": "5488e61187b66113578bbc1334b05b127b908903b81d06b2413ff7caa1c62f78"
     },
     {
       "viewport": [
@@ -964,6 +1020,34 @@
         },
         {
           "slide": 41,
+          "title": "민감 정보의 실습용 표현",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 42,
+          "title": "첫 질문의 구성 예시",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 43,
+          "title": "자료 보강 목록 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 44,
+          "title": "자료 보강 목록 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
           "title": "원전과 강의 설명 구분하기",
           "kind": "sources",
           "issues": [],
@@ -973,8 +1057,8 @@
       "fonts": "loaded",
       "captionAbsent": true,
       "documentHorizontalOverflow": false,
-      "served_url": "http://127.0.0.1:8879/11w/slides/llm-wiki-chapter-04-slides.html",
-      "source_sha256": "2d6074c3b63ce12f4c13f25bffcd6d6829937547aeae045cfa5ea3fcb87b6983"
+      "served_url": "http://127.0.0.1:8879/11w/slides/llm-wiki-chapter-04-slides.html?qa=5488e61187b6",
+      "source_sha256": "5488e61187b66113578bbc1334b05b127b908903b81d06b2413ff7caa1c62f78"
     }
   ],
   "opened_answers": {
@@ -1289,6 +1373,34 @@
       },
       {
         "slide": 41,
+        "title": "민감 정보의 실습용 표현",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 42,
+        "title": "첫 질문의 구성 예시",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 43,
+        "title": "자료 보강 목록 예시 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 44,
+        "title": "자료 보강 목록 예시 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 45,
         "title": "원전과 강의 설명 구분하기",
         "kind": "sources",
         "issues": [],

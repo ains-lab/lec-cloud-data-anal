@@ -5,8 +5,8 @@
   "target": "new 9w–15w chapter decks and course index",
   "source_pages": 29,
   "source_images": 29,
-  "source_tables_including_original_document_examples": 124,
-  "total_slides": 364,
+  "source_tables_including_original_document_examples": 132,
+  "total_slides": 377,
   "chapters": [
     {
       "week": 9,
@@ -35,44 +35,44 @@
       "chapter": 4,
       "title": "첫 번째 주제 위키 만들기",
       "output": "llm-wiki-chapter-04-slides.html",
-      "slide_count": 41,
+      "slide_count": 45,
       "main_slide_count": 36,
       "original_image_count": 4,
-      "original_table_count": 10,
-      "html_sha256": "2d6074c3b63ce12f4c13f25bffcd6d6829937547aeae045cfa5ea3fcb87b6983"
+      "original_table_count": 13,
+      "html_sha256": "5488e61187b66113578bbc1334b05b127b908903b81d06b2413ff7caa1c62f78"
     },
     {
       "week": 12,
       "chapter": 5,
       "title": "자료를 다시 쓸 지식으로 바꾸기",
       "output": "llm-wiki-chapter-05-slides.html",
-      "slide_count": 44,
+      "slide_count": 46,
       "main_slide_count": 25,
       "original_image_count": 4,
-      "original_table_count": 16,
-      "html_sha256": "e56f089796539af5ea04c6410b6a31616fb66ac6d8b69a2f002c94b3d9a90015"
+      "original_table_count": 17,
+      "html_sha256": "37dbebf4ea415e3cf4949b677e316d908a0a675eb38de837e9ea1b23375c20de"
     },
     {
       "week": 13,
       "chapter": 6,
       "title": "위키에 질문하고 답을 검증하기",
       "output": "llm-wiki-chapter-06-slides.html",
-      "slide_count": 42,
+      "slide_count": 45,
       "main_slide_count": 27,
       "original_image_count": 4,
-      "original_table_count": 14,
-      "html_sha256": "76cf3fa3f13af589c5e24a4da1a4f5ce1db5f39214a634bcc923145012ddb6bd"
+      "original_table_count": 16,
+      "html_sha256": "e6845bfcf63f00453083caa9e67fb139c2959d5d0ab523236e8b1579c947912d"
     },
     {
       "week": 14,
       "chapter": 7,
       "title": "위키에서 업무 산출물 만들기",
       "output": "llm-wiki-chapter-07-slides.html",
-      "slide_count": 59,
+      "slide_count": 63,
       "main_slide_count": 38,
       "original_image_count": 4,
-      "original_table_count": 20,
-      "html_sha256": "00360fdbce572ead815557cc7e14af9800c655de52fa2f684aa2b055f8ba46c4"
+      "original_table_count": 22,
+      "html_sha256": "6b747754c6ddd912b2693b5acd88c32ba46c50a968a63a177ad7d19478d2a07a"
     },
     {
       "week": 15,
@@ -88,9 +88,9 @@
   ],
   "unit_tests": {
     "command": "python3 -m unittest discover -s docs/lectures/llm-wiki-course -p 'test_course.py' -v",
-    "passed": 7,
+    "passed": 8,
     "failed": 0,
-    "scope": "all original table headers/cells/order, image bytes/SHA-256, unique slide IDs, source links, forbidden caption absence, no remote runtime dependencies, HTML provenance hash"
+    "scope": "all original table headers/cells/order, image bytes/SHA-256, unique slide IDs, source links, forbidden caption absence, no remote runtime dependencies, HTML provenance hash; direct captured-source-to-manifest comparison includes Copy-prefixed code-example table headers"
   },
   "javascript_syntax": {
     "tool": "node --check -",
@@ -113,7 +113,7 @@
       ]
     ],
     "deck_viewport_cases": 21,
-    "slide_viewport_layout_checks": 1092,
+    "slide_viewport_layout_checks": 1131,
     "text_region_overflows_detected_final": 0,
     "document_horizontal_overflows_detected_final": 0,
     "original_images_loaded": 29,
@@ -127,9 +127,9 @@
     "evidence_directory": "qa/"
   },
   "captures": {
-    "verified_count": 28,
+    "verified_count": 32,
     "manifest": "qa/capture-manifest.json",
-    "coverage": "each deck: desktop cover/table and mobile cover/lab; representative states, not screenshots of every slide",
+    "coverage": "each deck desktop cover/table and mobile cover/lab; four additional repaired source-example captures; unchanged revisions retained only with matching exact hashes",
     "dimension_hash_source_lineage_verified": true,
     "index_capture": "not_completed: capture timeout"
   },
@@ -156,11 +156,27 @@
     "current external tool versions",
     "external publication or LMS upload"
   ],
-  "existing_tracked_files_changed": false,
+  "legacy_7w_and_syllabus_changed": false,
   "temporary_local_server": {
     "bound_origin": "http://127.0.0.1:8879",
     "status": "stopped_after_verification",
-    "terminal_process_session": "proc_1f9bd71a2d1c",
+    "terminal_process_session": "proc_3a45bb3a69a7",
     "delivery": "open index.html locally; no server required"
-  }
+  },
+  "resolved_source_findings": [
+    {
+      "issue": "8 code-example table headers in retrieved text were prefixed by a clipboard Copy label outside the table delimiter and omitted from the initial manifests",
+      "affected_weeks": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "fix": "retain raw extracted text; capture table cells after the leading delimiter; preserve existing IDs and append source-line IDs; reference every added table in appendix",
+      "added_tables": 8,
+      "regression": "new captured-source manifest-completeness test failed before repair and passed after; all 8 tests pass",
+      "evidence": "qa/source-table-additions.json",
+      "revalidation": "changed HTMLs rerendered at all three viewports, interactions and print rechecked; captures bound to repaired file hashes"
+    }
+  ]
 }

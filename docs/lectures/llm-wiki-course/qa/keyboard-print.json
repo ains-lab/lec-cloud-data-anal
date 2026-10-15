@@ -76,7 +76,7 @@
       },
       {
         "key": "End",
-        "slide": 41
+        "slide": 45
       }
     ],
     "tab_focus": {
@@ -85,9 +85,10 @@
       "outline": "solid",
       "text": "다음 →"
     },
-    "print_css_visible_slides": 41,
+    "print_css_visible_slides": 45,
     "print_geometry_issues": [],
-    "print_pdf_generated": false
+    "print_pdf_generated": false,
+    "source_sha256": "5488e61187b66113578bbc1334b05b127b908903b81d06b2413ff7caa1c62f78"
   },
   {
     "week": 12,
@@ -106,7 +107,7 @@
       },
       {
         "key": "End",
-        "slide": 44
+        "slide": 46
       }
     ],
     "tab_focus": {
@@ -115,9 +116,10 @@
       "outline": "solid",
       "text": "다음 →"
     },
-    "print_css_visible_slides": 44,
+    "print_css_visible_slides": 46,
     "print_geometry_issues": [],
-    "print_pdf_generated": false
+    "print_pdf_generated": false,
+    "source_sha256": "37dbebf4ea415e3cf4949b677e316d908a0a675eb38de837e9ea1b23375c20de"
   },
   {
     "week": 13,
@@ -136,7 +138,7 @@
       },
       {
         "key": "End",
-        "slide": 42
+        "slide": 45
       }
     ],
     "tab_focus": {
@@ -145,9 +147,10 @@
       "outline": "solid",
       "text": "다음 →"
     },
-    "print_css_visible_slides": 42,
+    "print_css_visible_slides": 45,
     "print_geometry_issues": [],
-    "print_pdf_generated": false
+    "print_pdf_generated": false,
+    "source_sha256": "e6845bfcf63f00453083caa9e67fb139c2959d5d0ab523236e8b1579c947912d"
   },
   {
     "week": 14,
@@ -166,7 +169,7 @@
       },
       {
         "key": "End",
-        "slide": 59
+        "slide": 63
       }
     ],
     "tab_focus": {
@@ -175,9 +178,10 @@
       "outline": "solid",
       "text": "다음 →"
     },
-    "print_css_visible_slides": 59,
+    "print_css_visible_slides": 63,
     "print_geometry_issues": [],
-    "print_pdf_generated": false
+    "print_pdf_generated": false,
+    "source_sha256": "6b747754c6ddd912b2693b5acd88c32ba46c50a968a63a177ad7d19478d2a07a"
   },
   {
     "week": 15,

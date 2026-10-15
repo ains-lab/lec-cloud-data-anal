@@ -1,0 +1,278 @@
+{
+  "transport": "fresh local HTTP browser run",
+  "records": [
+    {
+      "week": 9,
+      "served_url": "http://127.0.0.1:8879/9w/slides/llm-wiki-chapter-02-slides.html?gate=d4e993dff26a",
+      "source_sha256": "d4e993dff26a5ad8ebb98a4dea75226f991c7438f590eac7345b8415cebcd293",
+      "served_hash_matches": true,
+      "cases": [
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "slides_measured": 49,
+          "text_region_overflow": 0,
+          "document_horizontal_overflow": false,
+          "fonts": "loaded",
+          "caption_absent": true,
+          "images_loaded": 4,
+          "previous_next_jump_help": true,
+          "reading_mode_verified": true,
+          "runtime_errors": []
+        },
+        {
+          "viewport": [
+            375,
+            812
+          ],
+          "slides_measured": 49,
+          "text_region_overflow": 0,
+          "document_horizontal_overflow": false,
+          "fonts": "loaded",
+          "caption_absent": true,
+          "images_loaded": 4,
+          "previous_next_jump_help": true,
+          "reading_mode_verified": true,
+          "runtime_errors": []
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "served_url": "http://127.0.0.1:8879/10w/slides/llm-wiki-chapter-03-slides.html?gate=73ce188c4641",
+      "source_sha256": "73ce188c46411967597a4d47fa9523a3dd7f85bbc15c8352f09f2cc502f7c926",
+      "served_hash_matches": true,
+      "cases": [
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "slides_measured": 55,
+          "text_region_overflow": 0,
+          "document_horizontal_overflow": false,
+          "fonts": "loaded",
+          "caption_absent": true,
+          "images_loaded": 4,
+          "previous_next_jump_help": true,
+          "reading_mode_verified": true,
+          "runtime_errors": []
+        },
+        {
+          "viewport": [
+            375,
+            812
+          ],
+          "slides_measured": 55,
+          "text_region_overflow": 0,
+          "document_horizontal_overflow": false,
+          "fonts": "loaded",
+          "caption_absent": true,
+          "images_loaded": 4,
+          "previous_next_jump_help": true,
+          "reading_mode_verified": true,
+          "runtime_errors": []
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "served_url": "http://127.0.0.1:8879/11w/slides/llm-wiki-chapter-04-slides.html?gate=5488e61187b6",
+      "source_sha256": "5488e61187b66113578bbc1334b05b127b908903b81d06b2413ff7caa1c62f78",
+      "served_hash_matches": true,
+      "cases": [
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "slides_measured": 45,
+          "text_region_overflow": 0,
+          "document_horizontal_overflow": false,
+          "fonts": "loaded",
+          "caption_absent": true,
+          "images_loaded": 4,
+          "previous_next_jump_help": true,
+          "reading_mode_verified": true,
+          "runtime_errors": []
+        },
+        {
+          "viewport": [
+            375,
+            812
+          ],
+          "slides_measured": 45,
+          "text_region_overflow": 0,
+          "document_horizontal_overflow": false,
+          "fonts": "loaded",
+          "caption_absent": true,
+          "images_loaded": 4,
+          "previous_next_jump_help": true,
+          "reading_mode_verified": true,
+          "runtime_errors": []
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "served_url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html?gate=37dbebf4ea41",
+      "source_sha256": "37dbebf4ea415e3cf4949b677e316d908a0a675eb38de837e9ea1b23375c20de",
+      "served_hash_matches": true,
+      "cases": [
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "slides_measured": 46,
+          "text_region_overflow": 0,
+          "document_horizontal_overflow": false,
+          "fonts": "loaded",
+          "caption_absent": true,
+          "images_loaded": 4,
+          "previous_next_jump_help": true,
+          "reading_mode_verified": true,
+          "runtime_errors": []
+        },
+        {
+          "viewport": [
+            375,
+            812
+          ],
+          "slides_measured": 46,
+          "text_region_overflow": 0,
+          "document_horizontal_overflow": false,
+          "fonts": "loaded",
+          "caption_absent": true,
+          "images_loaded": 4,
+          "previous_next_jump_help": true,
+          "reading_mode_verified": true,
+          "runtime_errors": []
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "served_url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html?gate=e6845bfcf63f",
+      "source_sha256": "e6845bfcf63f00453083caa9e67fb139c2959d5d0ab523236e8b1579c947912d",
+      "served_hash_matches": true,
+      "cases": [
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "slides_measured": 45,
+          "text_region_overflow": 0,
+          "document_horizontal_overflow": false,
+          "fonts": "loaded",
+          "caption_absent": true,
+          "images_loaded": 4,
+          "previous_next_jump_help": true,
+          "reading_mode_verified": true,
+          "runtime_errors": []
+        },
+        {
+          "viewport": [
+            375,
+            812
+          ],
+          "slides_measured": 45,
+          "text_region_overflow": 0,
+          "document_horizontal_overflow": false,
+          "fonts": "loaded",
+          "caption_absent": true,
+          "images_loaded": 4,
+          "previous_next_jump_help": true,
+          "reading_mode_verified": true,
+          "runtime_errors": []
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "served_url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html?gate=6b747754c6dd",
+      "source_sha256": "6b747754c6ddd912b2693b5acd88c32ba46c50a968a63a177ad7d19478d2a07a",
+      "served_hash_matches": true,
+      "cases": [
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "slides_measured": 63,
+          "text_region_overflow": 0,
+          "document_horizontal_overflow": false,
+          "fonts": "loaded",
+          "caption_absent": true,
+          "images_loaded": 4,
+          "previous_next_jump_help": true,
+          "reading_mode_verified": true,
+          "runtime_errors": []
+        },
+        {
+          "viewport": [
+            375,
+            812
+          ],
+          "slides_measured": 63,
+          "text_region_overflow": 0,
+          "document_horizontal_overflow": false,
+          "fonts": "loaded",
+          "caption_absent": true,
+          "images_loaded": 4,
+          "previous_next_jump_help": true,
+          "reading_mode_verified": true,
+          "runtime_errors": []
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "served_url": "http://127.0.0.1:8879/15w/slides/llm-wiki-chapter-08-slides.html?gate=a5e0962835e7",
+      "source_sha256": "a5e0962835e754808aa98e696f7b6897925758ab8a42985e12929a7cad0d417e",
+      "served_hash_matches": true,
+      "cases": [
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "slides_measured": 74,
+          "text_region_overflow": 0,
+          "document_horizontal_overflow": false,
+          "fonts": "loaded",
+          "caption_absent": true,
+          "images_loaded": 5,
+          "previous_next_jump_help": true,
+          "reading_mode_verified": true,
+          "runtime_errors": []
+        },
+        {
+          "viewport": [
+            375,
+            812
+          ],
+          "slides_measured": 74,
+          "text_region_overflow": 0,
+          "document_horizontal_overflow": false,
+          "fonts": "loaded",
+          "caption_absent": true,
+          "images_loaded": 5,
+          "previous_next_jump_help": true,
+          "reading_mode_verified": true,
+          "runtime_errors": []
+        }
+      ]
+    }
+  ],
+  "visual_pixel_review": "not performed; prior provider HTTP403 remains a separate limitation",
+  "network_observation": {
+    "deck_responses": "all seven deck requests returned HTTP200; browser-fetched SHA-256 matches exact local HTML",
+    "noncritical_failure": "browser automatic /favicon.ico request returned HTTP404; not a slide asset or required dependency",
+    "error_observer_scope": "window error and unhandledrejection during interactions, not a full console/network audit"
+  },
+  "temporary_server": "stopped after verification; HTML opens offline without a server"
+}

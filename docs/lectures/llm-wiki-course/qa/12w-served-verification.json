@@ -1,8 +1,8 @@
 {
   "week": 12,
-  "served_url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html",
+  "served_url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html?qa=37dbebf4ea41",
   "file": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/12w/slides/llm-wiki-chapter-05-slides.html",
-  "source_sha256": "e56f089796539af5ea04c6410b6a31616fb66ac6d8b69a2f002c94b3d9a90015",
+  "source_sha256": "37dbebf4ea415e3cf4949b677e316d908a0a675eb38de837e9ea1b23375c20de",
   "viewports": [
     {
       "viewport": [
@@ -337,6 +337,20 @@
         },
         {
           "slide": 44,
+          "title": "자료 유형 평가 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
+          "title": "자료 유형 평가 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 46,
           "title": "원전과 강의 설명 구분하기",
           "kind": "sources",
           "issues": [],
@@ -346,8 +360,8 @@
       "fonts": "loaded",
       "captionAbsent": true,
       "documentHorizontalOverflow": false,
-      "served_url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html",
-      "source_sha256": "e56f089796539af5ea04c6410b6a31616fb66ac6d8b69a2f002c94b3d9a90015"
+      "served_url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html?qa=37dbebf4ea41",
+      "source_sha256": "37dbebf4ea415e3cf4949b677e316d908a0a675eb38de837e9ea1b23375c20de"
     },
     {
       "viewport": [
@@ -682,6 +696,20 @@
         },
         {
           "slide": 44,
+          "title": "자료 유형 평가 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
+          "title": "자료 유형 평가 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 46,
           "title": "원전과 강의 설명 구분하기",
           "kind": "sources",
           "issues": [],
@@ -691,8 +719,8 @@
       "fonts": "loaded",
       "captionAbsent": true,
       "documentHorizontalOverflow": false,
-      "served_url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html",
-      "source_sha256": "e56f089796539af5ea04c6410b6a31616fb66ac6d8b69a2f002c94b3d9a90015"
+      "served_url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html?qa=37dbebf4ea41",
+      "source_sha256": "37dbebf4ea415e3cf4949b677e316d908a0a675eb38de837e9ea1b23375c20de"
     },
     {
       "viewport": [
@@ -1027,6 +1055,20 @@
         },
         {
           "slide": 44,
+          "title": "자료 유형 평가 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 45,
+          "title": "자료 유형 평가 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 46,
           "title": "원전과 강의 설명 구분하기",
           "kind": "sources",
           "issues": [],
@@ -1036,8 +1078,8 @@
       "fonts": "loaded",
       "captionAbsent": true,
       "documentHorizontalOverflow": false,
-      "served_url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html",
-      "source_sha256": "e56f089796539af5ea04c6410b6a31616fb66ac6d8b69a2f002c94b3d9a90015"
+      "served_url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html?qa=37dbebf4ea41",
+      "source_sha256": "37dbebf4ea415e3cf4949b677e316d908a0a675eb38de837e9ea1b23375c20de"
     }
   ],
   "opened_answers": {
@@ -1373,6 +1415,20 @@
       },
       {
         "slide": 44,
+        "title": "자료 유형 평가 예시 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 45,
+        "title": "자료 유형 평가 예시 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 46,
         "title": "원전과 강의 설명 구분하기",
         "kind": "sources",
         "issues": [],

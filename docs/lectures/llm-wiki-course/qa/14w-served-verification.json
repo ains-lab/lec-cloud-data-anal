@@ -1,8 +1,8 @@
 {
   "week": 14,
-  "served_url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html",
+  "served_url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html?qa=6b747754c6dd",
   "file": "/home/ainsdev/workspaces/lectures/hoseo/lec-cloud-data-anal/docs/lectures/14w/slides/llm-wiki-chapter-07-slides.html",
-  "source_sha256": "00360fdbce572ead815557cc7e14af9800c655de52fa2f684aa2b055f8ba46c4",
+  "source_sha256": "6b747754c6ddd912b2693b5acd88c32ba46c50a968a63a177ad7d19478d2a07a",
   "viewports": [
     {
       "viewport": [
@@ -442,6 +442,34 @@
         },
         {
           "slide": 59,
+          "title": "핵심 주장 검토 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 60,
+          "title": "핵심 주장 검토 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 61,
+          "title": "실행 항목 기록 양식 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 62,
+          "title": "실행 항목 기록 양식 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 63,
           "title": "원전과 강의 설명 구분하기",
           "kind": "sources",
           "issues": [],
@@ -451,8 +479,8 @@
       "fonts": "loaded",
       "captionAbsent": true,
       "documentHorizontalOverflow": false,
-      "served_url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html",
-      "source_sha256": "00360fdbce572ead815557cc7e14af9800c655de52fa2f684aa2b055f8ba46c4"
+      "served_url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html?qa=6b747754c6dd",
+      "source_sha256": "6b747754c6ddd912b2693b5acd88c32ba46c50a968a63a177ad7d19478d2a07a"
     },
     {
       "viewport": [
@@ -892,6 +920,34 @@
         },
         {
           "slide": 59,
+          "title": "핵심 주장 검토 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 60,
+          "title": "핵심 주장 검토 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 61,
+          "title": "실행 항목 기록 양식 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 62,
+          "title": "실행 항목 기록 양식 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 63,
           "title": "원전과 강의 설명 구분하기",
           "kind": "sources",
           "issues": [],
@@ -901,8 +957,8 @@
       "fonts": "loaded",
       "captionAbsent": true,
       "documentHorizontalOverflow": false,
-      "served_url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html",
-      "source_sha256": "00360fdbce572ead815557cc7e14af9800c655de52fa2f684aa2b055f8ba46c4"
+      "served_url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html?qa=6b747754c6dd",
+      "source_sha256": "6b747754c6ddd912b2693b5acd88c32ba46c50a968a63a177ad7d19478d2a07a"
     },
     {
       "viewport": [
@@ -1342,6 +1398,34 @@
         },
         {
           "slide": 59,
+          "title": "핵심 주장 검토 예시 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 60,
+          "title": "핵심 주장 검토 예시 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 61,
+          "title": "실행 항목 기록 양식 · 1/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 62,
+          "title": "실행 항목 기록 양식 · 2/2",
+          "kind": "table",
+          "issues": [],
+          "images": []
+        },
+        {
+          "slide": 63,
           "title": "원전과 강의 설명 구분하기",
           "kind": "sources",
           "issues": [],
@@ -1351,8 +1435,8 @@
       "fonts": "loaded",
       "captionAbsent": true,
       "documentHorizontalOverflow": false,
-      "served_url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html",
-      "source_sha256": "00360fdbce572ead815557cc7e14af9800c655de52fa2f684aa2b055f8ba46c4"
+      "served_url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html?qa=6b747754c6dd",
+      "source_sha256": "6b747754c6ddd912b2693b5acd88c32ba46c50a968a63a177ad7d19478d2a07a"
     }
   ],
   "opened_answers": {
@@ -1793,6 +1877,34 @@
       },
       {
         "slide": 59,
+        "title": "핵심 주장 검토 예시 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 60,
+        "title": "핵심 주장 검토 예시 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 61,
+        "title": "실행 항목 기록 양식 · 1/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 62,
+        "title": "실행 항목 기록 양식 · 2/2",
+        "kind": "table",
+        "issues": [],
+        "images": []
+      },
+      {
+        "slide": 63,
         "title": "원전과 강의 설명 구분하기",
         "kind": "sources",
         "issues": [],

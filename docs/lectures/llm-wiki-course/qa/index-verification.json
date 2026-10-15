@@ -1,4 +1,5 @@
 {
+  "source_sha256": "e58de54651d960969bc41893e0727ac7cb84491549d553701a65ac97b13e1af0",
   "viewports": [
     {
       "viewport": [
@@ -6,6 +7,15 @@
         900
       ],
       "horizontalOverflow": false,
+      "rows": [
+        "9주차\t2장. LLM위키의 기본 구조\t원문 삽화 4개 / 표 19개",
+        "10주차\t3장. 내게 맞는 LLM위키 방식 고르기\t원문 삽화 4개 / 표 15개",
+        "11주차\t4장. 첫 번째 주제 위키 만들기\t원문 삽화 4개 / 표 13개",
+        "12주차\t5장. 자료를 넣고 다시 쓰기 좋은 지식으로 바꾸기\t원문 삽화 4개 / 표 17개",
+        "13주차\t6장. 위키에 질문하고 답을 검증하기\t원문 삽화 4개 / 표 16개",
+        "14주차\t7장. 위키에서 업무 산출물 만들기\t원문 삽화 4개 / 표 22개",
+        "15주차\t8장. 오래 믿고 쓰는 LLM위키 운영법\t원문 삽화 5개 / 표 30개"
+      ],
       "links": [
         {
           "text": "2장. LLM위키의 기본 구조",
@@ -35,8 +45,7 @@
           "text": "8장. 오래 믿고 쓰는 LLM위키 운영법",
           "url": "http://127.0.0.1:8879/15w/slides/llm-wiki-chapter-08-slides.html"
         }
-      ],
-      "title": "LLM위키를 만들고,\n다시 쓰고, 검증하기"
+      ]
     },
     {
       "viewport": [
@@ -44,6 +53,15 @@
         812
       ],
       "horizontalOverflow": false,
+      "rows": [
+        "9주차\n2장. LLM위키의 기본 구조\n원문 삽화 4개 / 표 19개",
+        "10주차\n3장. 내게 맞는 LLM위키 방식 고르기\n원문 삽화 4개 / 표 15개",
+        "11주차\n4장. 첫 번째 주제 위키 만들기\n원문 삽화 4개 / 표 13개",
+        "12주차\n5장. 자료를 넣고 다시 쓰기 좋은 지식으로 바꾸기\n원문 삽화 4개 / 표 17개",
+        "13주차\n6장. 위키에 질문하고 답을 검증하기\n원문 삽화 4개 / 표 16개",
+        "14주차\n7장. 위키에서 업무 산출물 만들기\n원문 삽화 4개 / 표 22개",
+        "15주차\n8장. 오래 믿고 쓰는 LLM위키 운영법\n원문 삽화 5개 / 표 30개"
+      ],
       "links": [
         {
           "text": "2장. LLM위키의 기본 구조",
@@ -73,74 +91,73 @@
           "text": "8장. 오래 믿고 쓰는 LLM위키 운영법",
           "url": "http://127.0.0.1:8879/15w/slides/llm-wiki-chapter-08-slides.html"
         }
-      ],
-      "title": "LLM위키를 만들고,\n다시 쓰고, 검증하기"
+      ]
     }
   ],
   "links_clicked": [
     {
-      "url": "http://127.0.0.1:8879/9w/slides/llm-wiki-chapter-02-slides.html#slide-49",
+      "url": "http://127.0.0.1:8879/9w/slides/llm-wiki-chapter-02-slides.html#slide-01",
       "state": {
-        "slide": 49,
+        "slide": 1,
         "total": 49,
         "reading": true,
         "storageAvailable": true
       }
     },
     {
-      "url": "http://127.0.0.1:8879/10w/slides/llm-wiki-chapter-03-slides.html#slide-55",
+      "url": "http://127.0.0.1:8879/10w/slides/llm-wiki-chapter-03-slides.html#slide-01",
       "state": {
-        "slide": 55,
+        "slide": 1,
         "total": 55,
         "reading": true,
         "storageAvailable": true
       }
     },
     {
-      "url": "http://127.0.0.1:8879/11w/slides/llm-wiki-chapter-04-slides.html#slide-41",
+      "url": "http://127.0.0.1:8879/11w/slides/llm-wiki-chapter-04-slides.html#slide-45",
       "state": {
-        "slide": 41,
-        "total": 41,
+        "slide": 45,
+        "total": 45,
         "reading": true,
         "storageAvailable": true
       }
     },
     {
-      "url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html#slide-44",
+      "url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html#slide-46",
       "state": {
-        "slide": 44,
-        "total": 44,
+        "slide": 46,
+        "total": 46,
         "reading": true,
         "storageAvailable": true
       }
     },
     {
-      "url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html#slide-42",
+      "url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html#slide-45",
       "state": {
-        "slide": 42,
-        "total": 42,
+        "slide": 45,
+        "total": 45,
         "reading": true,
         "storageAvailable": true
       }
     },
     {
-      "url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html#slide-59",
+      "url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html#slide-63",
       "state": {
-        "slide": 59,
-        "total": 59,
+        "slide": 63,
+        "total": 63,
         "reading": true,
         "storageAvailable": true
       }
     },
     {
-      "url": "http://127.0.0.1:8879/15w/slides/llm-wiki-chapter-08-slides.html#slide-74",
+      "url": "http://127.0.0.1:8879/15w/slides/llm-wiki-chapter-08-slides.html#slide-01",
       "state": {
-        "slide": 74,
+        "slide": 1,
         "total": 74,
         "reading": true,
         "storageAvailable": true
       }
     }
   ],
-  "index_capture": "not_completed: screenshot capture timeout"
+  "index_capture": "not_completed: prior capture timeout"
 }

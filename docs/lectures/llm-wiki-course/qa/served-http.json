@@ -2,7 +2,7 @@
   {
     "url": "http://127.0.0.1:8879/llm-wiki-course/index.html",
     "status": 200,
-    "sha256": "d150e18c39b5f966df20c1cdf0374a46da8350613a36d9b9ceff0ec6c4520440",
+    "sha256": "e58de54651d960969bc41893e0727ac7cb84491549d553701a65ac97b13e1af0",
     "bytes": 4368,
     "matches_exact_file": true
   },
@@ -23,29 +23,29 @@
   {
     "url": "http://127.0.0.1:8879/11w/slides/llm-wiki-chapter-04-slides.html",
     "status": 200,
-    "sha256": "2d6074c3b63ce12f4c13f25bffcd6d6829937547aeae045cfa5ea3fcb87b6983",
-    "bytes": 5662545,
+    "sha256": "5488e61187b66113578bbc1334b05b127b908903b81d06b2413ff7caa1c62f78",
+    "bytes": 5669445,
     "matches_exact_file": true
   },
   {
     "url": "http://127.0.0.1:8879/12w/slides/llm-wiki-chapter-05-slides.html",
     "status": 200,
-    "sha256": "e56f089796539af5ea04c6410b6a31616fb66ac6d8b69a2f002c94b3d9a90015",
-    "bytes": 5681661,
+    "sha256": "37dbebf4ea415e3cf4949b677e316d908a0a675eb38de837e9ea1b23375c20de",
+    "bytes": 5685327,
     "matches_exact_file": true
   },
   {
     "url": "http://127.0.0.1:8879/13w/slides/llm-wiki-chapter-06-slides.html",
     "status": 200,
-    "sha256": "76cf3fa3f13af589c5e24a4da1a4f5ce1db5f39214a634bcc923145012ddb6bd",
-    "bytes": 5502575,
+    "sha256": "e6845bfcf63f00453083caa9e67fb139c2959d5d0ab523236e8b1579c947912d",
+    "bytes": 5508230,
     "matches_exact_file": true
   },
   {
     "url": "http://127.0.0.1:8879/14w/slides/llm-wiki-chapter-07-slides.html",
     "status": 200,
-    "sha256": "00360fdbce572ead815557cc7e14af9800c655de52fa2f684aa2b055f8ba46c4",
-    "bytes": 5418589,
+    "sha256": "6b747754c6ddd912b2693b5acd88c32ba46c50a968a63a177ad7d19478d2a07a",
+    "bytes": 5425669,
     "matches_exact_file": true
   },
   {

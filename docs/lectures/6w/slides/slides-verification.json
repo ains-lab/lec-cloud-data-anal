@@ -1,0 +1,801 @@
+{
+  "scope": "6w core-summary HTML deck only",
+  "html": "agent-reach-hermes-cron-slides.html",
+  "html_sha256": "dc81854f2457b5741dba26b76f84f13253f0545daf124b7afc717d72d4791af8",
+  "slide_count": 20,
+  "source_documents": 10,
+  "source_files_unchanged": true,
+  "static_checks": {
+    "unique_slide_ids": 20,
+    "local_source_links_resolved": 47,
+    "external_runtime_dependencies": 0,
+    "no_unresolved_template_placeholders": true,
+    "javascript_node_syntax_check": "passed",
+    "embedded_font_declared_ranges_cover_all_visible_characters": true
+  },
+  "rendered_browser": {
+    "origin": "http://127.0.0.1:8896",
+    "served_file_hash_matches": true,
+    "viewports": [
+      [
+        1440,
+        900
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        375,
+        812
+      ]
+    ],
+    "slide_viewport_layout_checks": 60,
+    "final_text_region_overflow": 0,
+    "final_document_horizontal_overflow": 0,
+    "fonts": "all eight declared font faces loaded before final measurements",
+    "interactions": "previous/next, selector, help open/close, desktop reading-mode toggle, forced mobile reading verified by state reads",
+    "keyboard": "actual CDP ArrowRight/PageDown/Home/End and Tab-visible outline",
+    "expanded_answer_layout": "desktop checked; no measured overflow",
+    "print_css": "20 slides visible and no measured text-region overflow; no PDF or physical print",
+    "runtime_errors_recorded_during_interactions": 0,
+    "noncritical_network_failure": "automatic /favicon.ico HTTP404; not a required asset",
+    "initial_font_measurement": "first desktop pass saw loading status; force-loaded all declared faces and repeated all viewport measurements before accepting final checks",
+    "details": {
+      "served_url": "http://127.0.0.1:8896/slides/agent-reach-hermes-cron-slides.html?qa=dc81854f2457",
+      "source_sha256": "dc81854f2457b5741dba26b76f84f13253f0545daf124b7afc717d72d4791af8",
+      "served_sha256": "dc81854f2457b5741dba26b76f84f13253f0545daf124b7afc717d72d4791af8",
+      "viewports": [
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "records": [
+            {
+              "slide": 1,
+              "title": "SNS 수집을 검증 가능한 자동화로",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 2,
+              "title": "도구 상자, 알람, 장부",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 3,
+              "title": "승인에서 결과 확인까지",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 4,
+              "title": "먼저 작고 명확하게 정한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 5,
+              "title": "설치와 접근 권한은 별개다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 6,
+              "title": "검색·계정 글·대화를 구분한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 7,
+              "title": "followers와 following의 방향",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 8,
+              "title": "정책 허가와 수집 단위를 확인한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 9,
+              "title": "영상 목록은 영상 내용이 아니다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 10,
+              "title": "모든 JSON의 모양이 같지는 않다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 11,
+              "title": "같은 자료는 ID로 구분한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 12,
+              "title": "시간을 겹쳐 읽고, ID를 대조한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 13,
+              "title": "파일을 검증한 뒤 장부를 갱신한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 14,
+              "title": "0건과 실패는 같은 결과가 아니다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 15,
+              "title": "실행 모드와 새 세션을 이해한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 16,
+              "title": "검증한 작업만 예약한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 17,
+              "title": "예약 시각과 알림을 따로 확인한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 18,
+              "title": "중단할 조건을 미리 정한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 19,
+              "title": "자동화의 성공을 증거로 설명한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 20,
+              "title": "세부 절차는 원문 자료로 돌아가기",
+              "kind": "sources",
+              "issues": [],
+              "images": []
+            }
+          ],
+          "fonts": "loaded",
+          "captionAbsent": true,
+          "documentHorizontalOverflow": false
+        },
+        {
+          "viewport": [
+            768,
+            1024
+          ],
+          "records": [
+            {
+              "slide": 1,
+              "title": "SNS 수집을 검증 가능한 자동화로",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 2,
+              "title": "도구 상자, 알람, 장부",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 3,
+              "title": "승인에서 결과 확인까지",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 4,
+              "title": "먼저 작고 명확하게 정한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 5,
+              "title": "설치와 접근 권한은 별개다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 6,
+              "title": "검색·계정 글·대화를 구분한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 7,
+              "title": "followers와 following의 방향",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 8,
+              "title": "정책 허가와 수집 단위를 확인한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 9,
+              "title": "영상 목록은 영상 내용이 아니다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 10,
+              "title": "모든 JSON의 모양이 같지는 않다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 11,
+              "title": "같은 자료는 ID로 구분한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 12,
+              "title": "시간을 겹쳐 읽고, ID를 대조한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 13,
+              "title": "파일을 검증한 뒤 장부를 갱신한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 14,
+              "title": "0건과 실패는 같은 결과가 아니다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 15,
+              "title": "실행 모드와 새 세션을 이해한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 16,
+              "title": "검증한 작업만 예약한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 17,
+              "title": "예약 시각과 알림을 따로 확인한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 18,
+              "title": "중단할 조건을 미리 정한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 19,
+              "title": "자동화의 성공을 증거로 설명한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 20,
+              "title": "세부 절차는 원문 자료로 돌아가기",
+              "kind": "sources",
+              "issues": [],
+              "images": []
+            }
+          ],
+          "fonts": "loaded",
+          "captionAbsent": true,
+          "documentHorizontalOverflow": false
+        },
+        {
+          "viewport": [
+            375,
+            812
+          ],
+          "records": [
+            {
+              "slide": 1,
+              "title": "SNS 수집을 검증 가능한 자동화로",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 2,
+              "title": "도구 상자, 알람, 장부",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 3,
+              "title": "승인에서 결과 확인까지",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 4,
+              "title": "먼저 작고 명확하게 정한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 5,
+              "title": "설치와 접근 권한은 별개다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 6,
+              "title": "검색·계정 글·대화를 구분한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 7,
+              "title": "followers와 following의 방향",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 8,
+              "title": "정책 허가와 수집 단위를 확인한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 9,
+              "title": "영상 목록은 영상 내용이 아니다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 10,
+              "title": "모든 JSON의 모양이 같지는 않다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 11,
+              "title": "같은 자료는 ID로 구분한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 12,
+              "title": "시간을 겹쳐 읽고, ID를 대조한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 13,
+              "title": "파일을 검증한 뒤 장부를 갱신한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 14,
+              "title": "0건과 실패는 같은 결과가 아니다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 15,
+              "title": "실행 모드와 새 세션을 이해한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 16,
+              "title": "검증한 작업만 예약한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 17,
+              "title": "예약 시각과 알림을 따로 확인한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 18,
+              "title": "중단할 조건을 미리 정한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 19,
+              "title": "자동화의 성공을 증거로 설명한다",
+              "kind": "content",
+              "issues": [],
+              "images": []
+            },
+            {
+              "slide": 20,
+              "title": "세부 절차는 원문 자료로 돌아가기",
+              "kind": "sources",
+              "issues": [],
+              "images": []
+            }
+          ],
+          "fonts": "loaded",
+          "captionAbsent": true,
+          "documentHorizontalOverflow": false
+        }
+      ],
+      "interactions": [
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "previous_next_jump_help": true,
+          "reading_mode_verified": true,
+          "runtime_errors": []
+        },
+        {
+          "viewport": [
+            768,
+            1024
+          ],
+          "previous_next_jump_help": true,
+          "reading_mode_verified": true,
+          "runtime_errors": []
+        },
+        {
+          "viewport": [
+            375,
+            812
+          ],
+          "previous_next_jump_help": true,
+          "reading_mode_verified": true,
+          "runtime_errors": []
+        }
+      ],
+      "expanded_answers": {
+        "viewport": [
+          1440,
+          900
+        ],
+        "records": [
+          {
+            "slide": 1,
+            "title": "SNS 수집을 검증 가능한 자동화로",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 2,
+            "title": "도구 상자, 알람, 장부",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 3,
+            "title": "승인에서 결과 확인까지",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 4,
+            "title": "먼저 작고 명확하게 정한다",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 5,
+            "title": "설치와 접근 권한은 별개다",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 6,
+            "title": "검색·계정 글·대화를 구분한다",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 7,
+            "title": "followers와 following의 방향",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 8,
+            "title": "정책 허가와 수집 단위를 확인한다",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 9,
+            "title": "영상 목록은 영상 내용이 아니다",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 10,
+            "title": "모든 JSON의 모양이 같지는 않다",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 11,
+            "title": "같은 자료는 ID로 구분한다",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 12,
+            "title": "시간을 겹쳐 읽고, ID를 대조한다",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 13,
+            "title": "파일을 검증한 뒤 장부를 갱신한다",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 14,
+            "title": "0건과 실패는 같은 결과가 아니다",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 15,
+            "title": "실행 모드와 새 세션을 이해한다",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 16,
+            "title": "검증한 작업만 예약한다",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 17,
+            "title": "예약 시각과 알림을 따로 확인한다",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 18,
+            "title": "중단할 조건을 미리 정한다",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 19,
+            "title": "자동화의 성공을 증거로 설명한다",
+            "kind": "content",
+            "issues": [],
+            "images": []
+          },
+          {
+            "slide": 20,
+            "title": "세부 절차는 원문 자료로 돌아가기",
+            "kind": "sources",
+            "issues": [],
+            "images": []
+          }
+        ],
+        "fonts": "loaded",
+        "captionAbsent": true
+      },
+      "keyboard": [
+        {
+          "key": "ArrowRight",
+          "slide": 2
+        },
+        {
+          "key": "PageDown",
+          "slide": 3
+        },
+        {
+          "key": "Home",
+          "slide": 1
+        },
+        {
+          "key": "End",
+          "slide": 20
+        }
+      ],
+      "tab_focus": {
+        "id": "next",
+        "outline": "solid"
+      },
+      "print_css": {
+        "visible_slides": 20,
+        "text_overflow": 0,
+        "pdf_or_physical_print": "not_performed"
+      },
+      "source_hash_matches": true
+    }
+  },
+  "captures": {
+    "count": 4,
+    "dimension_hash_and_revision_verified": true,
+    "records": [
+      {
+        "path": "qa/desktop-cover.png",
+        "viewport": [
+          1440,
+          900
+        ],
+        "state": {
+          "slide": 1,
+          "total": 20,
+          "reading": false,
+          "storageAvailable": true,
+          "scrollY": 0
+        },
+        "capture_sha256": "619d37c31476e79eaf40e094c6b3276fcf7604d0897c978f9304049500a00e71",
+        "html_sha256": "dc81854f2457b5741dba26b76f84f13253f0545daf124b7afc717d72d4791af8",
+        "served_url": "http://127.0.0.1:8896/slides/agent-reach-hermes-cron-slides.html?qa=dc81854f2457#slide-01"
+      },
+      {
+        "path": "qa/desktop-status-table.png",
+        "viewport": [
+          1440,
+          900
+        ],
+        "state": {
+          "slide": 14,
+          "total": 20,
+          "reading": false,
+          "storageAvailable": true,
+          "scrollY": 0
+        },
+        "capture_sha256": "14e27bc20b2edc2f4dec58804ea9dde5f540968a8918b8100901ed422e735f19",
+        "html_sha256": "dc81854f2457b5741dba26b76f84f13253f0545daf124b7afc717d72d4791af8",
+        "served_url": "http://127.0.0.1:8896/slides/agent-reach-hermes-cron-slides.html?qa=dc81854f2457#slide-14"
+      },
+      {
+        "path": "qa/mobile-scope.png",
+        "viewport": [
+          375,
+          812
+        ],
+        "state": {
+          "slide": 4,
+          "total": 20,
+          "reading": true,
+          "storageAvailable": true,
+          "scrollY": 3746
+        },
+        "capture_sha256": "715160db8514870fbce389c88df17a7f75488e5b69a1fe0f247de81f7a705e0b",
+        "html_sha256": "dc81854f2457b5741dba26b76f84f13253f0545daf124b7afc717d72d4791af8",
+        "served_url": "http://127.0.0.1:8896/slides/agent-reach-hermes-cron-slides.html?qa=dc81854f2457#slide-04"
+      },
+      {
+        "path": "qa/mobile-check.png",
+        "viewport": [
+          375,
+          812
+        ],
+        "state": {
+          "slide": 19,
+          "total": 20,
+          "reading": true,
+          "storageAvailable": true,
+          "scrollY": 24244
+        },
+        "capture_sha256": "32942da027419ebfe0a72bc799c45ef21c4ac4642d333967661a2bda3f09d21c",
+        "html_sha256": "dc81854f2457b5741dba26b76f84f13253f0545daf124b7afc717d72d4791af8",
+        "served_url": "http://127.0.0.1:8896/slides/agent-reach-hermes-cron-slides.html?qa=dc81854f2457#slide-19"
+      }
+    ]
+  },
+  "visual_review": {
+    "status": "blocked",
+    "reason": "vision_analyze returned Gemini HTTP403 PERMISSION_DENIED",
+    "full_visual_qa_pass": false
+  },
+  "not_performed": [
+    "SNS login or collection",
+    "Cron create or execution",
+    "external notification",
+    "full accessibility audit",
+    "cross-browser matrix",
+    "fullscreen permission test",
+    "current platform-policy revalidation"
+  ],
+  "temporary_server": "terminated after verification; not required for offline use"
+}
